@@ -1,0 +1,152 @@
+[
+  {
+    "attempt": 1,
+    "requested_model": "qwen/qwen3.8-27b",
+    "model": null,
+    "usage": {},
+    "raw_response": null,
+    "status": "error",
+    "error_type": "RateLimitError",
+    "http_status": 429,
+    "retry_reason": "minute_window_cooldown",
+    "retry_delay_s": 60,
+    "elapsed_s": 0.1841,
+    "request_sha256": "1e556c2e2b2fbb8fc267570aa7f813af086a62b43da847d17045b412529032aa"
+  },
+  {
+    "attempt": 2,
+    "requested_model": "qwen/qwen3.8-27b",
+    "model": "qwen/qwen3.8-27b",
+    "usage": {
+      "completion_tokens": 897,
+      "prompt_tokens": 3809,
+      "total_tokens": 4706,
+      "completion_tokens_details": null,
+      "prompt_tokens_details": null,
+      "queue_time": 0.064969305,
+      "prompt_time": 0.26198772,
+      "completion_time": 1.783660044,
+      "total_time": 2.045647764
+    },
+    "raw_response": {
+      "id": "chatcmpl-f0ba1166-108b-4e31-b422-71eaa1c11789",
+      "choices": [
+        {
+          "finish_reason": "stop",
+          "index": 0,
+          "logprobs": null,
+          "message": {
+            "content": "{\"bear\": [{\"cites\": [\"S3.u04\"], \"kind\": \"reported_fact\", \"text\": \"Consolidated EBITDA margin for Q1 FY27 was 11.2%, down 170 basis points from 12.9% in Q1 FY26.\"}, {\"cites\": [\"S5.u11\", \"S5.u12\"], \"kind\": \"reported_fact\", \"text\": \"The CFO stated that receivable days increased from 78 to 96 over the last year, mainly due to slower payments from two large state utility customers.\"}, {\"cites\": [\"S8.u01\"], \"kind\": \"reported_fact\", \"text\": \"The company disclosed on 2 September 2026 that it received a GST demand order for ₹46.3 crore, including interest and penalty, relating to input tax credit claims for FY2020-21 and FY2021-22.\"}], \"bull\": [{\"cites\": [\"S3.u02\"], \"kind\": \"reported_fact\", \"text\": \"Consolidated revenue from operations for Q1 FY27 was ₹1,248 crore, an 18.0% increase year-on-year.\"}, {\"cites\": [\"S3.u06\"], \"kind\": \"reported_fact\", \"text\": \"The order book stood at ₹3,900 crore as of 30 June 2026, up from ₹3,150 crore a year earlier.\"}, {\"cites\": [\"S3.u08\"], \"kind\": \"management_view_or_forecast\", \"text\": \"Management states that the new Bharuch plant, which adds about 30% to cable capacity, is on track to begin commercial production in Q3 FY27.\"}, {\"cites\": [\"S5.u03\"], \"kind\": \"management_view_or_forecast\", \"text\": \"The Managing Director noted that data-centre cables are about 9% of domestic revenue and expects this share to double in two years.\"}], \"open_questions\": [{\"cites\": [\"S3.u02\", \"S4.u02\"], \"kind\": \"reported_fact\", \"text\": \"The company's press release reports Q1 FY27 revenue of ₹1,248 crore, while a news article reports ₹1,428 crore. What explains this discrepancy in the reported revenue figures?\"}, {\"cites\": [\"S8.u02\", \"S8.u03\"], \"kind\": \"management_view_or_forecast\", \"text\": \"The company intends to appeal the ₹46.3 crore GST demand and states it does not expect a material impact on its financial position. What is the current status of this appeal and the final outcome?\"}, {\"cites\": [\"S5.u07\", \"S5.u10\"], \"kind\": \"management_view_or_forecast\", \"text\": \"Management attributes the margin decline mostly to copper prices and notes that price-variation clauses reset with a lag of one to two quarters. How much of the margin contraction is specifically due to competitive pricing versus raw material costs?\"}], \"snapshot\": [{\"cites\": [\"S3.u01\"], \"kind\": \"reported_fact\", \"text\": \"Sarvottam Cables Ltd is a manufacturer of power cables, wires and conductors listed on the NSE.\"}, {\"cites\": [\"S3.u05\"], \"kind\": \"reported_fact\", \"text\": \"Consolidated profit after tax for Q1 FY27 was ₹82 crore, a 5.9% increase from ₹77 crore in Q1 FY26.\"}, {\"cites\": [\"S2.u01\"], \"kind\": \"reported_fact\", \"text\": \"As of 30 June 2026, promoters and the promoter group held 58.2% of the company's shares.\"}, {\"cites\": [\"S2.u02\"], \"kind\": \"reported_fact\", \"text\": \"The share of promoter holdings pledged with lenders was 4.1% as of 30 June 2026, down from 11.5% a year earlier.\"}]}",
+            "refusal": null,
+            "role": "assistant",
+            "annotations": null,
+            "audio": null,
+            "function_call": null,
+            "tool_calls": null
+          }
+        }
+      ],
+      "created": 1791220029,
+      "model": "qwen/qwen3.8-27b",
+      "object": "chat.completion",
+      "metadata": null,
+      "moderation": null,
+      "service_tier": "on_demand",
+      "system_fingerprint": "fp_21e59ac2de",
+      "usage": {
+        "completion_tokens": 897,
+        "prompt_tokens": 3809,
+        "total_tokens": 4706,
+        "completion_tokens_details": null,
+        "prompt_tokens_details": null,
+        "queue_time": 0.064969305,
+        "prompt_time": 0.26198772,
+        "completion_time": 1.783660044,
+        "total_time": 2.045647764
+      },
+      "usage_breakdown": null,
+      "x_groq": {
+        "id": "req_01m46gh3gfex68kkhdv178dm09",
+        "seed": 1486112249
+      }
+    },
+    "status": "ok",
+    "elapsed_s": 2.2524,
+    "request_sha256": "1e556c2e2b2fbb8fc267570aa7f813af086a62b43da847d17045b412529032aa"
+  },
+  {
+    "attempt": 1,
+    "requested_model": "qwen/qwen3.8-27b",
+    "model": null,
+    "usage": {},
+    "raw_response": null,
+    "status": "error",
+    "error_type": "RateLimitError",
+    "http_status": 429,
+    "retry_reason": "minute_window_cooldown",
+    "retry_delay_s": 60,
+    "elapsed_s": 0.0719,
+    "request_sha256": "c703f5f610907a6c20636d1697e15d230cb6ec9a5daf62a4d8ef36e85afaab5b"
+  },
+  {
+    "attempt": 2,
+    "requested_model": "qwen/qwen3.8-27b",
+    "model": "qwen/qwen3.8-27b",
+    "usage": {
+      "completion_tokens": 893,
+      "prompt_tokens": 5370,
+      "total_tokens": 6263,
+      "completion_tokens_details": null,
+      "prompt_tokens_details": null,
+      "queue_time": 0.070656263,
+      "prompt_time": 0.370108398,
+      "completion_time": 1.757426572,
+      "total_time": 2.12753497
+    },
+    "raw_response": {
+      "id": "chatcmpl-de36f849-c0a0-40cf-9707-163bcb121611",
+      "choices": [
+        {
+          "finish_reason": "stop",
+          "index": 0,
+          "logprobs": null,
+          "message": {
+            "content": "{\"bear\": [{\"cites\": [\"S3.u04\"], \"kind\": \"reported_fact\", \"text\": \"Consolidated EBITDA margin for Q1 FY27 was 11.2%, down 170 basis points from 12.9% in Q1 FY26.\"}, {\"cites\": [\"S5.u11\", \"S5.u12\"], \"kind\": \"reported_fact\", \"text\": \"The CFO stated that receivable days increased from 78 to 96 over the last year, mainly due to slower payments from two large state utility customers.\"}, {\"cites\": [\"S8.u01\"], \"kind\": \"reported_fact\", \"text\": \"The company disclosed that it received a GST demand order for ₹46.3 crore, including interest and penalty, relating to input tax credit claims for FY2020-21 and FY2021-22.\"}], \"bull\": [{\"cites\": [\"S3.u02\"], \"kind\": \"reported_fact\", \"text\": \"Consolidated revenue from operations for Q1 FY27 was ₹1,248 crore, an 18.0% increase year-on-year.\"}, {\"cites\": [\"S3.u06\"], \"kind\": \"reported_fact\", \"text\": \"The order book stood at ₹3,900 crore as of 30 June 2026, up from ₹3,150 crore a year earlier.\"}, {\"cites\": [\"S3.u08\"], \"kind\": \"management_view_or_forecast\", \"text\": \"Management states that the new Bharuch plant, which adds about 30% to cable capacity, is on track to begin commercial production in Q3 FY27.\"}, {\"cites\": [\"S5.u03\"], \"kind\": \"management_view_or_forecast\", \"text\": \"The Managing Director noted that data-centre cables are about 9% of domestic revenue and expects this share to double in two years.\"}], \"open_questions\": [{\"cites\": [\"S3.u02\", \"S4.u02\"], \"kind\": \"reported_fact\", \"text\": \"The company's press release reports Q1 FY27 revenue of ₹1,248 crore, while a news article reports ₹1,428 crore. What explains this discrepancy in the reported revenue figures?\"}, {\"cites\": [\"S8.u01\", \"S8.u02\", \"S8.u03\"], \"kind\": \"management_view_or_forecast\", \"text\": \"The company disclosed a ₹46.3 crore GST demand, intends to appeal it, and states it does not expect a material impact on its financial position. What is the current status of this appeal and the final outcome?\"}, {\"cites\": [\"S5.u07\", \"S5.u10\"], \"kind\": \"management_view_or_forecast\", \"text\": \"Management attributes the margin decline mostly to copper prices and notes that price-variation clauses reset with a lag of one to two quarters. How much of the margin contraction is specifically due to competitive pricing versus raw material costs?\"}], \"snapshot\": [{\"cites\": [\"S3.u01\"], \"kind\": \"reported_fact\", \"text\": \"Sarvottam Cables Ltd is a manufacturer of power cables, wires and conductors listed on the NSE.\"}, {\"cites\": [\"S3.u05\"], \"kind\": \"reported_fact\", \"text\": \"Consolidated profit after tax for Q1 FY27 was ₹82 crore, a 5.9% increase from ₹77 crore in Q1 FY26.\"}, {\"cites\": [\"S2.u01\"], \"kind\": \"reported_fact\", \"text\": \"As of June 2026, promoters and the promoter group held 58.2% of the company's shares.\"}, {\"cites\": [\"S2.u02\"], \"kind\": \"reported_fact\", \"text\": \"The share of promoter holdings pledged with lenders was 4.1% as of June 2026, down from 11.5% a year earlier.\"}]}",
+            "refusal": null,
+            "role": "assistant",
+            "annotations": null,
+            "audio": null,
+            "function_call": null,
+            "tool_calls": null
+          }
+        }
+      ],
+      "created": 1791220091,
+      "model": "qwen/qwen3.8-27b",
+      "object": "chat.completion",
+      "metadata": null,
+      "moderation": null,
+      "service_tier": "on_demand",
+      "system_fingerprint": "fp_a1293f40b5",
+      "usage": {
+        "completion_tokens": 893,
+        "prompt_tokens": 5370,
+        "total_tokens": 6263,
+        "completion_tokens_details": null,
+        "prompt_tokens_details": null,
+        "queue_time": 0.070656263,
+        "prompt_time": 0.370108398,
+        "completion_time": 1.757426572,
+        "total_time": 2.12753497
+      },
+      "usage_breakdown": null,
+      "x_groq": {
+        "id": "req_01m46gk0c7eaway99g06b9h7rj",
+        "seed": 1416298178
+      }
+    },
+    "status": "ok",
+    "elapsed_s": 2.3265,
+    "request_sha256": "c703f5f610907a6c20636d1697e15d230cb6ec9a5daf62a4d8ef36e85afaab5b"
+  }
+]

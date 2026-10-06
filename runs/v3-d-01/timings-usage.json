@@ -1,0 +1,205 @@
+{
+  "elapsed_s": 93.695,
+  "writer_attempts": 3,
+  "jev_attempts": 24,
+  "usage": [
+    {
+      "provider": "writer",
+      "usage": {
+        "completion_tokens": 684,
+        "prompt_tokens": 3356,
+        "total_tokens": 4040,
+        "completion_tokens_details": null,
+        "prompt_tokens_details": null,
+        "queue_time": 0.061751036,
+        "prompt_time": 0.238138307,
+        "completion_time": 1.344576462,
+        "total_time": 1.5827147689999999
+      }
+    },
+    {
+      "provider": "writer",
+      "usage": {
+        "completion_tokens": 667,
+        "prompt_tokens": 4588,
+        "total_tokens": 5255,
+        "completion_tokens_details": null,
+        "prompt_tokens_details": null,
+        "queue_time": 0.064273367,
+        "prompt_time": 0.315984246,
+        "completion_time": 1.314324644,
+        "total_time": 1.63030889
+      }
+    },
+    {
+      "provider": "jev",
+      "usage": {
+        "input_tokens": 591,
+        "output_tokens": 75
+      }
+    },
+    {
+      "provider": "jev",
+      "usage": {
+        "input_tokens": 573,
+        "output_tokens": 42
+      }
+    },
+    {
+      "provider": "jev",
+      "usage": {
+        "input_tokens": 761,
+        "output_tokens": 42
+      }
+    },
+    {
+      "provider": "jev",
+      "usage": {
+        "input_tokens": 696,
+        "output_tokens": 75
+      }
+    },
+    {
+      "provider": "jev",
+      "usage": {
+        "input_tokens": 697,
+        "output_tokens": 42
+      }
+    },
+    {
+      "provider": "jev",
+      "usage": {
+        "input_tokens": 500,
+        "output_tokens": 42
+      }
+    },
+    {
+      "provider": "jev",
+      "usage": {
+        "input_tokens": 530,
+        "output_tokens": 22
+      }
+    },
+    {
+      "provider": "jev",
+      "usage": {
+        "input_tokens": 612,
+        "output_tokens": 75
+      }
+    },
+    {
+      "provider": "jev",
+      "usage": {
+        "input_tokens": 506,
+        "output_tokens": 42
+      }
+    },
+    {
+      "provider": "jev",
+      "usage": {
+        "input_tokens": 1071,
+        "output_tokens": 88
+      }
+    },
+    {
+      "provider": "jev",
+      "usage": {
+        "input_tokens": 1038,
+        "output_tokens": 88
+      }
+    },
+    {
+      "provider": "jev",
+      "usage": {
+        "input_tokens": 1106,
+        "output_tokens": 88
+      }
+    },
+    {
+      "provider": "jev",
+      "usage": {
+        "input_tokens": 1059,
+        "output_tokens": 92
+      }
+    },
+    {
+      "provider": "jev",
+      "usage": {
+        "input_tokens": 1052,
+        "output_tokens": 88
+      }
+    },
+    {
+      "provider": "jev",
+      "usage": {
+        "input_tokens": 997,
+        "output_tokens": 88
+      }
+    },
+    {
+      "provider": "jev",
+      "usage": {
+        "input_tokens": 1506,
+        "output_tokens": 88
+      }
+    },
+    {
+      "provider": "jev",
+      "usage": {
+        "input_tokens": 1491,
+        "output_tokens": 88
+      }
+    },
+    {
+      "provider": "jev",
+      "usage": {
+        "input_tokens": 1023,
+        "output_tokens": 88
+      }
+    },
+    {
+      "provider": "jev",
+      "usage": {
+        "input_tokens": 1042,
+        "output_tokens": 88
+      }
+    },
+    {
+      "provider": "jev",
+      "usage": {
+        "input_tokens": 837,
+        "output_tokens": 48
+      }
+    },
+    {
+      "provider": "jev",
+      "usage": {
+        "input_tokens": 1030,
+        "output_tokens": 46
+      }
+    },
+    {
+      "provider": "jev",
+      "usage": {
+        "input_tokens": 968,
+        "output_tokens": 48
+      }
+    },
+    {
+      "provider": "jev",
+      "usage": {
+        "input_tokens": 767,
+        "output_tokens": 48
+      }
+    },
+    {
+      "provider": "jev",
+      "usage": {
+        "input_tokens": 1044,
+        "output_tokens": 88
+      }
+    }
+  ],
+  "billed_cost_usd": null,
+  "cost_note": "Provider billing not returned. Free routes selected by default; no paid fallback was invoked."
+}

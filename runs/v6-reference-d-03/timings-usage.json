@@ -1,0 +1,268 @@
+{
+  "elapsed_s": 145.081,
+  "writer_attempts": 4,
+  "jev_attempts": 33,
+  "usage": [
+    {
+      "provider": "writer",
+      "usage": {
+        "completion_tokens": 966,
+        "prompt_tokens": 3513,
+        "total_tokens": 4479,
+        "completion_tokens_details": null,
+        "prompt_tokens_details": null,
+        "queue_time": 0.112358804,
+        "prompt_time": 0.254491594,
+        "completion_time": 2.024113954,
+        "total_time": 2.278605548
+      }
+    },
+    {
+      "provider": "writer",
+      "usage": {
+        "completion_tokens": 968,
+        "prompt_tokens": 5076,
+        "total_tokens": 6044,
+        "completion_tokens_details": null,
+        "prompt_tokens_details": null,
+        "queue_time": 0.062570363,
+        "prompt_time": 0.373162258,
+        "completion_time": 1.953559654,
+        "total_time": 2.326721912
+      }
+    },
+    {
+      "provider": "jev",
+      "usage": {
+        "input_tokens": 591,
+        "output_tokens": 75
+      }
+    },
+    {
+      "provider": "jev",
+      "usage": {
+        "input_tokens": 573,
+        "output_tokens": 42
+      }
+    },
+    {
+      "provider": "jev",
+      "usage": {
+        "input_tokens": 761,
+        "output_tokens": 42
+      }
+    },
+    {
+      "provider": "jev",
+      "usage": {
+        "input_tokens": 696,
+        "output_tokens": 75
+      }
+    },
+    {
+      "provider": "jev",
+      "usage": {
+        "input_tokens": 697,
+        "output_tokens": 42
+      }
+    },
+    {
+      "provider": "jev",
+      "usage": {
+        "input_tokens": 500,
+        "output_tokens": 42
+      }
+    },
+    {
+      "provider": "jev",
+      "usage": {
+        "input_tokens": 530,
+        "output_tokens": 22
+      }
+    },
+    {
+      "provider": "jev",
+      "usage": {
+        "input_tokens": 612,
+        "output_tokens": 75
+      }
+    },
+    {
+      "provider": "jev",
+      "usage": {
+        "input_tokens": 506,
+        "output_tokens": 42
+      }
+    },
+    {
+      "provider": "jev",
+      "usage": {
+        "input_tokens": 1071,
+        "output_tokens": 88
+      }
+    },
+    {
+      "provider": "jev",
+      "usage": {
+        "input_tokens": 1033,
+        "output_tokens": 88
+      }
+    },
+    {
+      "provider": "jev",
+      "usage": {
+        "input_tokens": 1018,
+        "output_tokens": 88
+      }
+    },
+    {
+      "provider": "jev",
+      "usage": {
+        "input_tokens": 1013,
+        "output_tokens": 88
+      }
+    },
+    {
+      "provider": "jev",
+      "usage": {
+        "input_tokens": 1102,
+        "output_tokens": 88
+      }
+    },
+    {
+      "provider": "jev",
+      "usage": {
+        "input_tokens": 1050,
+        "output_tokens": 88
+      }
+    },
+    {
+      "provider": "jev",
+      "usage": {
+        "input_tokens": 1053,
+        "output_tokens": 92
+      }
+    },
+    {
+      "provider": "jev",
+      "usage": {
+        "input_tokens": 1014,
+        "output_tokens": 92
+      }
+    },
+    {
+      "provider": "jev",
+      "usage": {
+        "input_tokens": 1110,
+        "output_tokens": 88
+      }
+    },
+    {
+      "provider": "jev",
+      "usage": {
+        "input_tokens": 1147,
+        "output_tokens": 88
+      }
+    },
+    {
+      "provider": "jev",
+      "usage": {
+        "input_tokens": 1206,
+        "output_tokens": 88
+      }
+    },
+    {
+      "provider": "jev",
+      "usage": {
+        "input_tokens": 1002,
+        "output_tokens": 88
+      }
+    },
+    {
+      "provider": "jev",
+      "usage": {
+        "input_tokens": 1506,
+        "output_tokens": 88
+      }
+    },
+    {
+      "provider": "jev",
+      "usage": {
+        "input_tokens": 1306,
+        "output_tokens": 88
+      }
+    },
+    {
+      "provider": "jev",
+      "usage": {
+        "input_tokens": 960,
+        "output_tokens": 47
+      }
+    },
+    {
+      "provider": "jev",
+      "usage": {
+        "input_tokens": 1031,
+        "output_tokens": 88
+      }
+    },
+    {
+      "provider": "jev",
+      "usage": {
+        "input_tokens": 1016,
+        "output_tokens": 88
+      }
+    },
+    {
+      "provider": "jev",
+      "usage": {
+        "input_tokens": 1098,
+        "output_tokens": 88
+      }
+    },
+    {
+      "provider": "jev",
+      "usage": {
+        "input_tokens": 1108,
+        "output_tokens": 88
+      }
+    },
+    {
+      "provider": "jev",
+      "usage": {
+        "input_tokens": 1502,
+        "output_tokens": 88
+      }
+    },
+    {
+      "provider": "jev",
+      "usage": {
+        "input_tokens": 1682,
+        "output_tokens": 92
+      }
+    },
+    {
+      "provider": "jev",
+      "usage": {
+        "input_tokens": 1336,
+        "output_tokens": 51
+      }
+    },
+    {
+      "provider": "jev",
+      "usage": {
+        "input_tokens": 1588,
+        "output_tokens": 88
+      }
+    },
+    {
+      "provider": "jev",
+      "usage": {
+        "input_tokens": 1242,
+        "output_tokens": 47
+      }
+    }
+  ],
+  "billed_cost_usd": null,
+  "cost_note": "Provider billing not returned. Requested routes are recorded in config.json; no automatic provider fallback was invoked."
+}

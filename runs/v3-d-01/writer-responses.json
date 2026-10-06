@@ -1,0 +1,138 @@
+[
+  {
+    "attempt": 1,
+    "requested_model": "qwen/qwen3.8-27b",
+    "model": "qwen/qwen3.8-27b",
+    "usage": {
+      "completion_tokens": 684,
+      "prompt_tokens": 3356,
+      "total_tokens": 4040,
+      "completion_tokens_details": null,
+      "prompt_tokens_details": null,
+      "queue_time": 0.061751036,
+      "prompt_time": 0.238138307,
+      "completion_time": 1.344576462,
+      "total_time": 1.5827147689999999
+    },
+    "raw_response": {
+      "id": "chatcmpl-b3dd26af-319c-43c7-8443-93798ee21707",
+      "choices": [
+        {
+          "finish_reason": "stop",
+          "index": 0,
+          "logprobs": null,
+          "message": {
+            "content": "{\"bear\": [{\"cites\": [\"S4.u02\"], \"kind\": \"reported_fact\", \"text\": \"A news report dated 9 August 2026 states that revenue from operations rose to ₹1,428 crore, a 35% increase from the year-ago period.\"}, {\"cites\": [\"S3.u04\"], \"kind\": \"reported_fact\", \"text\": \"The company reported that EBITDA margin for Q1 FY27 was 11.2%, a decrease of 170 basis points from 12.9% in Q1 FY26.\"}, {\"cites\": [\"S5.u11\"], \"kind\": \"reported_fact\", \"text\": \"The CFO stated on the earnings call that receivable days increased from 78 to 96 over the last year.\"}], \"bull\": [{\"cites\": [\"S3.u06\"], \"kind\": \"reported_fact\", \"text\": \"The company reported that its order book stood at ₹3,900 crore as of 30 June 2026, up from ₹3,150 crore a year ago.\"}, {\"cites\": [\"S3.u08\"], \"kind\": \"management_view_or_forecast\", \"text\": \"Management states that the new Bharuch plant, which adds about 30% to cable capacity, is on track to begin commercial production in Q3 FY27.\"}, {\"cites\": [\"S3.u07\"], \"kind\": \"reported_fact\", \"text\": \"Exports contributed 21% of revenue in Q1 FY27, an increase from 16% in Q1 FY26.\"}], \"open_questions\": [{\"cites\": [\"S3.u02\", \"S4.u02\"], \"kind\": \"reported_fact\", \"text\": \"The company's press release reports Q1 FY27 revenue of ₹1,248 crore, while a news article reports ₹1,428 crore. What explains this discrepancy between the company's filing and the secondary report?\"}, {\"cites\": [\"S1.u01\", \"S2.u02\"], \"kind\": \"reported_fact\", \"text\": \"A March 2024 news article reported promoter pledging at 35%, while the June 2026 exchange filing shows pledging at 4.1% of promoter holding. What explains the difference between these two reported figures?\"}], \"snapshot\": [{\"cites\": [\"S3.u01\"], \"kind\": \"reported_fact\", \"text\": \"Sarvottam Cables Ltd is a manufacturer of power cables, wires and conductors.\"}, {\"cites\": [\"S3.u05\"], \"kind\": \"reported_fact\", \"text\": \"The company reported profit after tax of ₹82 crore for Q1 FY27, a 5.9% increase from ₹77 crore in Q1 FY26.\"}, {\"cites\": [\"S2.u01\"], \"kind\": \"reported_fact\", \"text\": \"As of 30 June 2026, promoters and the promoter group held 58.2% of the company's shares.\"}]}",
+            "refusal": null,
+            "role": "assistant",
+            "annotations": null,
+            "audio": null,
+            "function_call": null,
+            "tool_calls": null
+          }
+        }
+      ],
+      "created": 1791219884,
+      "model": "qwen/qwen3.8-27b",
+      "object": "chat.completion",
+      "metadata": null,
+      "moderation": null,
+      "service_tier": "on_demand",
+      "system_fingerprint": "fp_424cb89518",
+      "usage": {
+        "completion_tokens": 684,
+        "prompt_tokens": 3356,
+        "total_tokens": 4040,
+        "completion_tokens_details": null,
+        "prompt_tokens_details": null,
+        "queue_time": 0.061751036,
+        "prompt_time": 0.238138307,
+        "completion_time": 1.344576462,
+        "total_time": 1.5827147689999999
+      },
+      "usage_breakdown": null,
+      "x_groq": {
+        "id": "req_01m46gcptfebh8njrj8dbtvxqy",
+        "seed": 180966866
+      }
+    },
+    "status": "ok",
+    "elapsed_s": 1.879,
+    "request_sha256": "d060b7303c5fe57ac5a1816fe3fb2c9ae39d3dd4e2f2f35a11153bd2ba4f38d6"
+  },
+  {
+    "attempt": 1,
+    "requested_model": "qwen/qwen3.8-27b",
+    "model": null,
+    "usage": {},
+    "raw_response": null,
+    "status": "error",
+    "error_type": "RateLimitError",
+    "http_status": 429,
+    "retry_reason": "minute_window_cooldown",
+    "retry_delay_s": 60,
+    "elapsed_s": 0.1301,
+    "request_sha256": "ecf68d2966d72e29a59ffa743d9ce0a3420e103ebec9569d085cfbbbafe588f2"
+  },
+  {
+    "attempt": 2,
+    "requested_model": "qwen/qwen3.8-27b",
+    "model": "qwen/qwen3.8-27b",
+    "usage": {
+      "completion_tokens": 667,
+      "prompt_tokens": 4588,
+      "total_tokens": 5255,
+      "completion_tokens_details": null,
+      "prompt_tokens_details": null,
+      "queue_time": 0.064273367,
+      "prompt_time": 0.315984246,
+      "completion_time": 1.314324644,
+      "total_time": 1.63030889
+    },
+    "raw_response": {
+      "id": "chatcmpl-ef531120-0bc1-471d-8fea-31bf0efa7aba",
+      "choices": [
+        {
+          "finish_reason": "stop",
+          "index": 0,
+          "logprobs": null,
+          "message": {
+            "content": "{\"bear\": [{\"cites\": [\"S4.u02\"], \"kind\": \"reported_fact\", \"text\": \"A news report states that revenue from operations rose to ₹1,428 crore, a 35% increase from the year-ago period.\"}, {\"cites\": [\"S3.u04\"], \"kind\": \"reported_fact\", \"text\": \"The company reported that EBITDA margin for Q1 FY27 was 11.2%, compared to 12.9% in Q1 FY26.\"}, {\"cites\": [\"S5.u11\"], \"kind\": \"reported_fact\", \"text\": \"The CFO stated on the earnings call that receivable days increased from 78 to 96 over the last year.\"}], \"bull\": [{\"cites\": [\"S3.u06\"], \"kind\": \"reported_fact\", \"text\": \"The company reported that its order book stood at ₹3,900 crore as of 30 June 2026, up from ₹3,150 crore a year ago.\"}, {\"cites\": [\"S3.u08\"], \"kind\": \"management_view_or_forecast\", \"text\": \"Management states that the new Bharuch plant, which adds about 30% to cable capacity, is on track to begin commercial production in Q3 FY27.\"}, {\"cites\": [\"S3.u07\"], \"kind\": \"reported_fact\", \"text\": \"Exports contributed 21% of revenue in Q1 FY27, an increase from 16% in Q1 FY26.\"}], \"open_questions\": [{\"cites\": [\"S3.u02\", \"S4.u02\"], \"kind\": \"reported_fact\", \"text\": \"The company's press release reports Q1 FY27 revenue of ₹1,248 crore, while a news article reports ₹1,428 crore. What explains this discrepancy between the company's filing and the secondary report?\"}, {\"cites\": [\"S1.u01\", \"S2.u02\"], \"kind\": \"reported_fact\", \"text\": \"A March 2024 news article reported promoter pledging at 35%, while the June 2026 exchange filing shows pledging at 4.1% of promoter holding. What explains the difference between these two reported figures?\"}], \"snapshot\": [{\"cites\": [\"S3.u01\"], \"kind\": \"reported_fact\", \"text\": \"Sarvottam Cables Ltd is a manufacturer of power cables, wires and conductors.\"}, {\"cites\": [\"S3.u05\"], \"kind\": \"reported_fact\", \"text\": \"The company reported profit after tax of ₹82 crore for Q1 FY27, a 5.9% increase from ₹77 crore in Q1 FY26.\"}, {\"cites\": [\"S2.u01\"], \"kind\": \"reported_fact\", \"text\": \"The exchange filing shows that promoters and the promoter group held 58.2% of the company's shares in June 2026.\"}]}",
+            "refusal": null,
+            "role": "assistant",
+            "annotations": null,
+            "audio": null,
+            "function_call": null,
+            "tool_calls": null
+          }
+        }
+      ],
+      "created": 1791219955,
+      "model": "qwen/qwen3.8-27b",
+      "object": "chat.completion",
+      "metadata": null,
+      "moderation": null,
+      "service_tier": "on_demand",
+      "system_fingerprint": "fp_a1293f40b5",
+      "usage": {
+        "completion_tokens": 667,
+        "prompt_tokens": 4588,
+        "total_tokens": 5255,
+        "completion_tokens_details": null,
+        "prompt_tokens_details": null,
+        "queue_time": 0.064273367,
+        "prompt_time": 0.315984246,
+        "completion_time": 1.314324644,
+        "total_time": 1.63030889
+      },
+      "usage_breakdown": null,
+      "x_groq": {
+        "id": "req_01m46gewa8erhvw1hr26brz9h6",
+        "seed": 191041204
+      }
+    },
+    "status": "ok",
+    "elapsed_s": 1.8341,
+    "request_sha256": "ecf68d2966d72e29a59ffa743d9ce0a3420e103ebec9569d085cfbbbafe588f2"
+  }
+]

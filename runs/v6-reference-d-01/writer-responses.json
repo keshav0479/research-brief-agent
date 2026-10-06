@@ -1,0 +1,63 @@
+[
+  {
+    "attempt": 1,
+    "requested_model": "qwen/qwen3.8-27b",
+    "model": "qwen/qwen3.8-27b",
+    "usage": {
+      "completion_tokens": 867,
+      "prompt_tokens": 3513,
+      "total_tokens": 4380,
+      "completion_tokens_details": null,
+      "prompt_tokens_details": null,
+      "queue_time": 0.066428046,
+      "prompt_time": 0.260516427,
+      "completion_time": 1.71073696,
+      "total_time": 1.971253387
+    },
+    "raw_response": {
+      "id": "chatcmpl-f2658b55-50fd-43a3-9c1d-434d787d2fa6",
+      "choices": [
+        {
+          "finish_reason": "stop",
+          "index": 0,
+          "logprobs": null,
+          "message": {
+            "content": "{\"bear\": [{\"cites\": [\"S8.u01\"], \"kind\": \"reported_fact\", \"text\": \"The company disclosed on 2 September 2026 that it received a GST demand order for \\u001546.3 crore, including interest and penalty, for FY2020-21 and FY2021-22.\"}, {\"cites\": [\"S5.u11\", \"S5.u12\"], \"kind\": \"reported_fact\", \"text\": \"Receivable days increased from 78 to 96 over the last year, which the CFO attributed mainly to slower payments from two large state utility customers.\"}, {\"cites\": [\"S3.u04\", \"S5.u06\"], \"kind\": \"reported_fact\", \"text\": \"EBITDA margin contracted by 170 basis points to 11.2% in Q1 FY27, which the Managing Director stated was mostly due to copper price increases.\"}], \"bull\": [{\"cites\": [\"S3.u06\"], \"kind\": \"reported_fact\", \"text\": \"The order book stood at \\u00153,900 crore as of 30 June 2026, up from \\u00153,150 crore a year ago.\"}, {\"cites\": [\"S3.u08\", \"S5.u02\"], \"kind\": \"management_view_or_forecast\", \"text\": \"Management said the new Bharuch plant, adding about 30% to cable capacity, is on track to begin commercial production in Q3 FY27 and will contribute from the second half.\"}, {\"cites\": [\"S3.u07\"], \"kind\": \"reported_fact\", \"text\": \"Exports contributed 21% of revenue in Q1 FY27, up from 16% in Q1 FY26.\"}, {\"cites\": [\"S5.u03\"], \"kind\": \"management_view_or_forecast\", \"text\": \"The Managing Director said data-centre cables are about 9% of domestic revenue and thinks that can double in two years.\"}], \"open_questions\": [{\"cites\": [\"S4.u02\", \"S3.u02\"], \"kind\": \"reported_fact\", \"text\": \"A news article reports Q1 FY27 revenue of \\u00151,428 crore, while the company's press release reports \\u00151,248 crore. What explains this discrepancy?\"}, {\"cites\": [\"S5.u07\"], \"kind\": \"management_view_or_forecast\", \"text\": \"The Managing Director stated that about two-thirds of contracts have price-variation clauses that reset with a lag of one to two quarters. How will this lag affect margins in the next two quarters?\"}, {\"cites\": [\"S8.u02\"], \"kind\": \"management_view_or_forecast\", \"text\": \"The company intends to file an appeal against the GST demand order. What is the expected timeline and outcome of this appeal?\"}], \"snapshot\": [{\"cites\": [\"S3.u01\"], \"kind\": \"reported_fact\", \"text\": \"Sarvottam Cables Ltd is a manufacturer of power cables, wires and conductors.\"}, {\"cites\": [\"S3.u02\"], \"kind\": \"reported_fact\", \"text\": \"Revenue from operations was \\u00151,248 crore in Q1 FY27, up 18.0% year-on-year.\"}, {\"cites\": [\"S3.u05\"], \"kind\": \"reported_fact\", \"text\": \"Profit after tax was \\u001582 crore in Q1 FY27, up 5.9% year-on-year.\"}, {\"cites\": [\"S2.u01\"], \"kind\": \"reported_fact\", \"text\": \"Promoters and the promoter group held 58.2% of the company as of 30 June 2026.\"}]}",
+            "refusal": null,
+            "role": "assistant",
+            "annotations": null,
+            "audio": null,
+            "function_call": null,
+            "tool_calls": null
+          }
+        }
+      ],
+      "created": 1791226935,
+      "model": "qwen/qwen3.8-27b",
+      "object": "chat.completion",
+      "metadata": null,
+      "moderation": null,
+      "service_tier": "on_demand",
+      "system_fingerprint": "fp_a1293f40b5",
+      "usage": {
+        "completion_tokens": 867,
+        "prompt_tokens": 3513,
+        "total_tokens": 4380,
+        "completion_tokens_details": null,
+        "prompt_tokens_details": null,
+        "queue_time": 0.066428046,
+        "prompt_time": 0.260516427,
+        "completion_time": 1.71073696,
+        "total_time": 1.971253387
+      },
+      "usage_breakdown": null,
+      "x_groq": {
+        "id": "req_01m46q3wjrenar1xmkp8pn0ve8",
+        "seed": 1405657377
+      }
+    },
+    "status": "ok",
+    "elapsed_s": 3.4244,
+    "request_sha256": "82e9bbbffad3642954790c79c526e653a541d24be2d5a124297db33aaa0be159"
+  }
+]

@@ -1,0 +1,156 @@
+[
+  {
+    "attempt": 1,
+    "requested_model": "qwen/qwen3.8-27b",
+    "model": null,
+    "usage": {},
+    "raw_response": null,
+    "status": "error",
+    "error_type": "RateLimitError",
+    "http_status": 429,
+    "provider_error_code": "rate_limit_exceeded",
+    "provider_requested_wait_s": 22.0,
+    "retry_reason": "minute_window_cooldown",
+    "retry_delay_s": 60,
+    "elapsed_s": 1.1276,
+    "request_sha256": "82e9bbbffad3642954790c79c526e653a541d24be2d5a124297db33aaa0be159"
+  },
+  {
+    "attempt": 2,
+    "requested_model": "qwen/qwen3.8-27b",
+    "model": "qwen/qwen3.8-27b",
+    "usage": {
+      "completion_tokens": 808,
+      "prompt_tokens": 3513,
+      "total_tokens": 4321,
+      "completion_tokens_details": null,
+      "prompt_tokens_details": null,
+      "queue_time": 0.067096515,
+      "prompt_time": 0.26706112,
+      "completion_time": 1.733713014,
+      "total_time": 2.000774134
+    },
+    "raw_response": {
+      "id": "chatcmpl-6317fd0c-75cd-4b11-a296-e73c278072cd",
+      "choices": [
+        {
+          "finish_reason": "stop",
+          "index": 0,
+          "logprobs": null,
+          "message": {
+            "content": "{\"bear\": [{\"cites\": [\"S8.u01\"], \"kind\": \"reported_fact\", \"text\": \"The company disclosed on 2 September 2026 that it received a GST demand order for ₹46.3 crore, including interest and penalty, related to input tax credits claimed for FY2020-21 and FY2021-22.\"}, {\"cites\": [\"S5.u11\", \"S5.u12\"], \"kind\": \"reported_fact\", \"text\": \"Receivable days increased from 78 to 96 over the last year, a change the CFO attributed mainly to slower payments from two large state utility customers.\"}, {\"cites\": [\"S3.u04\", \"S5.u06\"], \"kind\": \"reported_fact\", \"text\": \"EBITDA margin contracted by 170 basis points to 11.2% in Q1 FY27, which the Managing Director stated was mostly due to copper price increases.\"}], \"bull\": [{\"cites\": [\"S3.u06\"], \"kind\": \"reported_fact\", \"text\": \"The order book stood at ₹3,900 crore as of 30 June 2026, up from ₹3,150 crore a year ago.\"}, {\"cites\": [\"S3.u07\"], \"kind\": \"reported_fact\", \"text\": \"Exports contributed 21% of revenue in Q1 FY27, an increase from 16% in the same quarter of the previous year.\"}, {\"cites\": [\"S3.u08\", \"S5.u02\"], \"kind\": \"management_view_or_forecast\", \"text\": \"The company says the new Bharuch plant, which adds about 30% to cable capacity, is on track to begin commercial production in Q3 FY27 and will contribute from the second half.\"}, {\"cites\": [\"S5.u03\"], \"kind\": \"management_view_or_forecast\", \"text\": \"Management said data-centre cables are about 9 percent of domestic revenue and thinks that share can double in two years.\"}], \"open_questions\": [{\"cites\": [\"S3.u02\", \"S4.u02\"], \"kind\": \"reported_fact\", \"text\": \"The company's press release reports Q1 FY27 revenue from operations of ₹1,248 crore, while a news article reports ₹1,428 crore. What explains this discrepancy in the reported revenue figures?\"}, {\"cites\": [\"S8.u02\", \"S8.u03\"], \"kind\": \"management_view_or_forecast\", \"text\": \"The company intends to appeal the ₹46.3 crore GST demand and does not expect a material impact on its financial position. What is the current status of this appeal and the potential financial exposure if the demand is upheld?\"}], \"snapshot\": [{\"cites\": [\"S3.u01\"], \"kind\": \"reported_fact\", \"text\": \"Sarvottam Cables Ltd is a manufacturer of power cables, wires and conductors.\"}, {\"cites\": [\"S3.u02\", \"S3.u05\"], \"kind\": \"reported_fact\", \"text\": \"For the quarter ended 30 June 2026, the company reported revenue from operations of ₹1,248 crore and profit after tax of ₹82 crore.\"}, {\"cites\": [\"S2.u01\", \"S2.u02\"], \"kind\": \"reported_fact\", \"text\": \"As of 30 June 2026, promoters held 58.2% of the company, with 4.1% of that holding pledged, down from 11.5% a year earlier.\"}]}",
+            "refusal": null,
+            "role": "assistant",
+            "annotations": null,
+            "audio": null,
+            "function_call": null,
+            "tool_calls": null
+          }
+        }
+      ],
+      "created": 1791227019,
+      "model": "qwen/qwen3.8-27b",
+      "object": "chat.completion",
+      "metadata": null,
+      "moderation": null,
+      "service_tier": "on_demand",
+      "system_fingerprint": "fp_21e59ac2de",
+      "usage": {
+        "completion_tokens": 808,
+        "prompt_tokens": 3513,
+        "total_tokens": 4321,
+        "completion_tokens_details": null,
+        "prompt_tokens_details": null,
+        "queue_time": 0.067096515,
+        "prompt_time": 0.26706112,
+        "completion_time": 1.733713014,
+        "total_time": 2.000774134
+      },
+      "usage_breakdown": null,
+      "x_groq": {
+        "id": "req_01m46q6dvxes09e0akn59pfzkt",
+        "seed": 2137630203
+      }
+    },
+    "status": "ok",
+    "elapsed_s": 2.7997,
+    "request_sha256": "82e9bbbffad3642954790c79c526e653a541d24be2d5a124297db33aaa0be159"
+  },
+  {
+    "attempt": 1,
+    "requested_model": "qwen/qwen3.8-27b",
+    "model": null,
+    "usage": {},
+    "raw_response": null,
+    "status": "error",
+    "error_type": "RateLimitError",
+    "http_status": 429,
+    "provider_error_code": "rate_limit_exceeded",
+    "provider_requested_wait_s": 30.0,
+    "retry_reason": "minute_window_cooldown",
+    "retry_delay_s": 60,
+    "elapsed_s": 0.5535,
+    "request_sha256": "6520d6b56e392370bdb36e70d54495feac8ea6ee9016347bc449cbe8dc484fdd"
+  },
+  {
+    "attempt": 2,
+    "requested_model": "qwen/qwen3.8-27b",
+    "model": "qwen/qwen3.8-27b",
+    "usage": {
+      "completion_tokens": 826,
+      "prompt_tokens": 4961,
+      "total_tokens": 5787,
+      "completion_tokens_details": null,
+      "prompt_tokens_details": null,
+      "queue_time": 0.060159058,
+      "prompt_time": 0.352178695,
+      "completion_time": 1.717276924,
+      "total_time": 2.069455619
+    },
+    "raw_response": {
+      "id": "chatcmpl-035aaa38-1ec8-4d0b-b011-2f188f3f4c7f",
+      "choices": [
+        {
+          "finish_reason": "stop",
+          "index": 0,
+          "logprobs": null,
+          "message": {
+            "content": "{\"bear\": [{\"cites\": [\"S8.u01\"], \"kind\": \"reported_fact\", \"text\": \"The company disclosed on 2 September 2026 that it received a GST demand order for ₹46.3 crore, including interest and penalty, related to input tax credits claimed for FY2020-21 and FY2021-22.\"}, {\"cites\": [\"S5.u11\", \"S5.u12\"], \"kind\": \"reported_fact\", \"text\": \"Receivable days increased from 78 to 96 over the last year, a change the CFO attributed mainly to slower payments from two large state utility customers.\"}, {\"cites\": [\"S3.u04\", \"S5.u06\"], \"kind\": \"reported_fact\", \"text\": \"EBITDA margin contracted by 170 basis points to 11.2% in Q1 FY27, which the Managing Director stated was mostly due to copper price increases.\"}], \"bull\": [{\"cites\": [\"S3.u06\"], \"kind\": \"reported_fact\", \"text\": \"The order book stood at ₹3,900 crore as of 30 June 2026, up from ₹3,150 crore a year ago.\"}, {\"cites\": [\"S3.u07\"], \"kind\": \"reported_fact\", \"text\": \"Exports contributed 21% of revenue in Q1 FY27, an increase from 16% in the same quarter of the previous year.\"}, {\"cites\": [\"S3.u08\", \"S5.u02\"], \"kind\": \"management_view_or_forecast\", \"text\": \"The company says the new Bharuch plant, which adds about 30% to cable capacity, is on track to begin commercial production in Q3 FY27 and will contribute from the second half.\"}, {\"cites\": [\"S5.u03\"], \"kind\": \"management_view_or_forecast\", \"text\": \"Management said data-centre cables are about 9 percent of domestic revenue and thinks that share can double in two years.\"}], \"open_questions\": [{\"cites\": [\"S3.u02\", \"S4.u02\"], \"kind\": \"reported_fact\", \"text\": \"The company's press release reports Q1 FY27 revenue from operations of ₹1,248 crore, while a news article reports ₹1,428 crore. What explains this discrepancy in the reported revenue figures?\"}, {\"cites\": [\"S8.u01\", \"S8.u02\", \"S8.u03\"], \"kind\": \"management_view_or_forecast\", \"text\": \"The company disclosed a ₹46.3 crore GST demand and stated it intends to appeal, while not expecting a material impact on its financial position. What is the current status of this appeal and the potential financial exposure if the demand is upheld?\"}], \"snapshot\": [{\"cites\": [\"S3.u01\"], \"kind\": \"reported_fact\", \"text\": \"Sarvottam Cables Ltd is a manufacturer of power cables, wires and conductors.\"}, {\"cites\": [\"S3.u01\", \"S3.u02\", \"S3.u05\"], \"kind\": \"reported_fact\", \"text\": \"For the quarter ended 30 June 2026, the company reported revenue from operations of ₹1,248 crore and profit after tax of ₹82 crore.\"}, {\"cites\": [\"S2.u01\", \"S2.u02\"], \"kind\": \"reported_fact\", \"text\": \"As of 30 June 2026, promoters held 58.2% of the company, with 4.1% of that holding pledged, down from 11.5% a year earlier.\"}]}",
+            "refusal": null,
+            "role": "assistant",
+            "annotations": null,
+            "audio": null,
+            "function_call": null,
+            "tool_calls": null
+          }
+        }
+      ],
+      "created": 1791227090,
+      "model": "qwen/qwen3.8-27b",
+      "object": "chat.completion",
+      "metadata": null,
+      "moderation": null,
+      "service_tier": "on_demand",
+      "system_fingerprint": "fp_a1293f40b5",
+      "usage": {
+        "completion_tokens": 826,
+        "prompt_tokens": 4961,
+        "total_tokens": 5787,
+        "completion_tokens_details": null,
+        "prompt_tokens_details": null,
+        "queue_time": 0.060159058,
+        "prompt_time": 0.352178695,
+        "completion_time": 1.717276924,
+        "total_time": 2.069455619
+      },
+      "usage_breakdown": null,
+      "x_groq": {
+        "id": "req_01m46q8kvfe058nb0egyzqyeje",
+        "seed": 640608783
+      }
+    },
+    "status": "ok",
+    "elapsed_s": 2.5141,
+    "request_sha256": "6520d6b56e392370bdb36e70d54495feac8ea6ee9016347bc449cbe8dc484fdd"
+  }
+]

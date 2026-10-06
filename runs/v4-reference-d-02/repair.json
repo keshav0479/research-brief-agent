@@ -1,0 +1,135 @@
+{
+  "bear": [
+    {
+      "cites": [
+        "S4.u02"
+      ],
+      "kind": "reported_fact",
+      "text": "A news report states that revenue from operations rose to 1,428 crore rupees, a 35% increase from the year-ago period."
+    },
+    {
+      "cites": [
+        "S3.u02"
+      ],
+      "kind": "reported_fact",
+      "text": "The company's official press release reports revenue from operations of 1,248 crore rupees, an 18.0% increase year-over-year."
+    },
+    {
+      "cites": [
+        "S3.u04"
+      ],
+      "kind": "reported_fact",
+      "text": "The company's press release reports that the EBITDA margin was 11.2% in Q1 FY27, down 170 basis points from 12.9% in Q1 FY26."
+    },
+    {
+      "cites": [
+        "S5.u11",
+        "S5.u12"
+      ],
+      "kind": "management_view_or_forecast",
+      "text": "The CFO stated that receivable days increased from 78 to 96 over the last year, mainly due to slower payments from two large state utility customers."
+    },
+    {
+      "cites": [
+        "S8.u01"
+      ],
+      "kind": "reported_fact",
+      "text": "The company disclosed that it received a GST demand order for 46.3 crore rupees relating to input tax credits claimed for FY2020-21 and FY2021-22."
+    }
+  ],
+  "bull": [
+    {
+      "cites": [
+        "S3.u06"
+      ],
+      "kind": "reported_fact",
+      "text": "The order book stood at 3,900 crore rupees as of 30 June 2026, up from 3,150 crore rupees a year ago."
+    },
+    {
+      "cites": [
+        "S3.u07"
+      ],
+      "kind": "reported_fact",
+      "text": "Exports contributed 21% of revenue in Q1 FY27, up from 16% in Q1 FY26."
+    },
+    {
+      "cites": [
+        "S5.u01"
+      ],
+      "kind": "management_view_or_forecast",
+      "text": "Management maintains a full-year FY27 revenue growth guidance of 15 to 17 percent."
+    },
+    {
+      "cites": [
+        "S5.u17"
+      ],
+      "kind": "reported_fact",
+      "text": "The CFO reported that net debt to equity is 0.35 times."
+    },
+    {
+      "cites": [
+        "S3.u08"
+      ],
+      "kind": "management_view_or_forecast",
+      "text": "The company says the new Bharuch plant, adding about 30% to cable capacity, is on track to begin commercial production in Q3 FY27."
+    }
+  ],
+  "open_questions": [
+    {
+      "cites": [
+        "S3.u02",
+        "S4.u02"
+      ],
+      "kind": "reported_fact",
+      "text": "The company release reports Q1 FY27 revenue of 1,248 crore rupees, while a news report cites 1,428 crore rupees. What explains this discrepancy in the reported revenue figures?"
+    },
+    {
+      "cites": [
+        "S1.u01",
+        "S2.u02"
+      ],
+      "kind": "reported_fact",
+      "text": "A March 2024 news article reported promoter pledging at 35%, while the June 2026 exchange filing shows pledging at 4.1% of promoter holding. What explains the difference between these reported pledge levels?"
+    },
+    {
+      "cites": [
+        "S8.u01",
+        "S8.u02",
+        "S8.u03"
+      ],
+      "kind": "management_view_or_forecast",
+      "text": "The company disclosed a 46.3 crore rupee GST demand and stated it intends to appeal and does not expect a material impact. What is the outcome of the intended appeal?"
+    }
+  ],
+  "snapshot": [
+    {
+      "cites": [
+        "S3.u01"
+      ],
+      "kind": "reported_fact",
+      "text": "Sarvottam Cables Ltd is a manufacturer of power cables, wires and conductors."
+    },
+    {
+      "cites": [
+        "S3.u02",
+        "S3.u05"
+      ],
+      "kind": "reported_fact",
+      "text": "For the quarter ended 30 June 2026, the company reported revenue from operations of 1,248 crore rupees and profit after tax of 82 crore rupees."
+    },
+    {
+      "cites": [
+        "S2.u01"
+      ],
+      "kind": "reported_fact",
+      "text": "As of 30 June 2026, promoters and the promoter group held 58.2% of the company's shares."
+    },
+    {
+      "cites": [
+        "S3.u04"
+      ],
+      "kind": "reported_fact",
+      "text": "The EBITDA margin for Q1 FY27 was 11.2%, down 170 basis points from 12.9% in the same quarter last year."
+    }
+  ]
+}

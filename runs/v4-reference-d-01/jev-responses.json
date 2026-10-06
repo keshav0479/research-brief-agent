@@ -1,0 +1,316 @@
+[
+  {
+    "attempt": 1,
+    "requested_model": "jev-1.13.0",
+    "model": "jev-1.13.0",
+    "usage": {
+      "input_tokens": 591,
+      "output_tokens": 75
+    },
+    "raw_response": {
+      "model": "jev-1.13.0",
+      "answers": {
+        "promotional_stock_tip": {
+          "type": "noul",
+          "noul": 0.04
+        },
+        "addresses_ai_tools": {
+          "type": "noul",
+          "noul": 0.01
+        },
+        "same_company": {
+          "type": "score",
+          "score": 2.0,
+          "confidence": 1.0,
+          "legend": {
+            "0": "A different company or business: a different legal name, line of business, city or people.",
+            "1": "Unclear: a similar name, or too little detail to tell whether it is the same company.",
+            "2": "The same company as `target_company`."
+          },
+          "probabilities": {
+            "0": 0.0,
+            "1": 0.0,
+            "2": 1.0
+          }
+        },
+        "same_line_of_business": {
+          "type": "noul",
+          "noul": 0.9
+        }
+      },
+      "usage": {
+        "input_tokens": 591,
+        "output_tokens": 75
+      }
+    },
+    "status": "ok",
+    "elapsed_s": 0.5525,
+    "request_sha256": "5b81942a1895ab40978943c6ebc0b3dfb8211b71d67d10180a981f5c124da5f2"
+  },
+  {
+    "attempt": 1,
+    "requested_model": "jev-1.13.0",
+    "model": "jev-1.13.0",
+    "usage": {
+      "input_tokens": 573,
+      "output_tokens": 42
+    },
+    "raw_response": {
+      "model": "jev-1.13.0",
+      "answers": {
+        "promotional_stock_tip": {
+          "type": "noul",
+          "noul": 0.03
+        },
+        "addresses_ai_tools": {
+          "type": "noul",
+          "noul": 0.01
+        }
+      },
+      "usage": {
+        "input_tokens": 573,
+        "output_tokens": 42
+      }
+    },
+    "status": "ok",
+    "elapsed_s": 0.419,
+    "request_sha256": "91954c95692995cb474103ce240197b563deb055f43a907cb932b1693a302ca6"
+  },
+  {
+    "attempt": 1,
+    "requested_model": "jev-1.13.0",
+    "model": "jev-1.13.0",
+    "usage": {
+      "input_tokens": 761,
+      "output_tokens": 42
+    },
+    "raw_response": {
+      "model": "jev-1.13.0",
+      "answers": {
+        "promotional_stock_tip": {
+          "type": "noul",
+          "noul": 0.02
+        },
+        "addresses_ai_tools": {
+          "type": "noul",
+          "noul": 0.01
+        }
+      },
+      "usage": {
+        "input_tokens": 761,
+        "output_tokens": 42
+      }
+    },
+    "status": "ok",
+    "elapsed_s": 0.4054,
+    "request_sha256": "c729897b0a38e5f9af08573fdf524017b0ddf37bb7a273764dcfe28d9044a5d6"
+  },
+  {
+    "attempt": 1,
+    "requested_model": "jev-1.13.0",
+    "model": "jev-1.13.0",
+    "usage": {
+      "input_tokens": 696,
+      "output_tokens": 75
+    },
+    "raw_response": {
+      "model": "jev-1.13.0",
+      "answers": {
+        "promotional_stock_tip": {
+          "type": "noul",
+          "noul": 0.03
+        },
+        "addresses_ai_tools": {
+          "type": "noul",
+          "noul": 0.01
+        },
+        "same_company": {
+          "type": "score",
+          "score": 2.0,
+          "confidence": 1.0,
+          "legend": {
+            "0": "A different company or business: a different legal name, line of business, city or people.",
+            "1": "Unclear: a similar name, or too little detail to tell whether it is the same company.",
+            "2": "The same company as `target_company`."
+          },
+          "probabilities": {
+            "0": 0.0,
+            "1": 0.0,
+            "2": 1.0
+          }
+        },
+        "same_line_of_business": {
+          "type": "noul",
+          "noul": 0.99
+        }
+      },
+      "usage": {
+        "input_tokens": 696,
+        "output_tokens": 75
+      }
+    },
+    "status": "ok",
+    "elapsed_s": 0.4463,
+    "request_sha256": "8a17a804f5fb1eadb8e443cfaaf137db1d9dfd18809f021a3f34c028120c242f"
+  },
+  {
+    "attempt": 1,
+    "requested_model": "jev-1.13.0",
+    "model": "jev-1.13.0",
+    "usage": {
+      "input_tokens": 697,
+      "output_tokens": 42
+    },
+    "raw_response": {
+      "model": "jev-1.13.0",
+      "answers": {
+        "promotional_stock_tip": {
+          "type": "noul",
+          "noul": 0.02
+        },
+        "addresses_ai_tools": {
+          "type": "noul",
+          "noul": 0.01
+        }
+      },
+      "usage": {
+        "input_tokens": 697,
+        "output_tokens": 42
+      }
+    },
+    "status": "ok",
+    "elapsed_s": 0.4197,
+    "request_sha256": "48286bd9440ae4df131486e63d91289a49e49500ae45baa995c9292ddfc4d130"
+  },
+  {
+    "attempt": 1,
+    "requested_model": "jev-1.13.0",
+    "model": "jev-1.13.0",
+    "usage": {
+      "input_tokens": 500,
+      "output_tokens": 42
+    },
+    "raw_response": {
+      "model": "jev-1.13.0",
+      "answers": {
+        "promotional_stock_tip": {
+          "type": "noul",
+          "noul": 0.99
+        },
+        "addresses_ai_tools": {
+          "type": "noul",
+          "noul": 0.02
+        }
+      },
+      "usage": {
+        "input_tokens": 500,
+        "output_tokens": 42
+      }
+    },
+    "status": "ok",
+    "elapsed_s": 0.411,
+    "request_sha256": "a8fcbbe1952a59fbd179acc5655225d234e256907b241d91f0959279d71b2a1f"
+  },
+  {
+    "attempt": 1,
+    "requested_model": "jev-1.13.0",
+    "model": "jev-1.13.0",
+    "usage": {
+      "input_tokens": 530,
+      "output_tokens": 22
+    },
+    "raw_response": {
+      "model": "jev-1.13.0",
+      "answers": {
+        "addresses_ai_tools": {
+          "type": "noul",
+          "noul": 0.99
+        }
+      },
+      "usage": {
+        "input_tokens": 530,
+        "output_tokens": 22
+      }
+    },
+    "status": "ok",
+    "elapsed_s": 0.4233,
+    "request_sha256": "3c1e9cd47f84cd7ccf2543d9915766930012e9da508834b4317c4d324b8d0f3d"
+  },
+  {
+    "attempt": 1,
+    "requested_model": "jev-1.13.0",
+    "model": "jev-1.13.0",
+    "usage": {
+      "input_tokens": 612,
+      "output_tokens": 75
+    },
+    "raw_response": {
+      "model": "jev-1.13.0",
+      "answers": {
+        "promotional_stock_tip": {
+          "type": "noul",
+          "noul": 0.02
+        },
+        "addresses_ai_tools": {
+          "type": "noul",
+          "noul": 0.01
+        },
+        "same_company": {
+          "type": "score",
+          "score": 0.22,
+          "confidence": 0.67,
+          "legend": {
+            "0": "A different company or business: a different legal name, line of business, city or people.",
+            "1": "Unclear: a similar name, or too little detail to tell whether it is the same company.",
+            "2": "The same company as `target_company`."
+          },
+          "probabilities": {
+            "0": 0.79,
+            "1": 0.21,
+            "2": 0.0
+          }
+        },
+        "same_line_of_business": {
+          "type": "noul",
+          "noul": 0.12
+        }
+      },
+      "usage": {
+        "input_tokens": 612,
+        "output_tokens": 75
+      }
+    },
+    "status": "ok",
+    "elapsed_s": 0.4426,
+    "request_sha256": "49032da8a85e5ff090a21191131ede1025f9d6af137d7b93c27688b317ccfbc4"
+  },
+  {
+    "attempt": 1,
+    "requested_model": "jev-1.13.0",
+    "model": "jev-1.13.0",
+    "usage": {
+      "input_tokens": 506,
+      "output_tokens": 42
+    },
+    "raw_response": {
+      "model": "jev-1.13.0",
+      "answers": {
+        "promotional_stock_tip": {
+          "type": "noul",
+          "noul": 0.01
+        },
+        "addresses_ai_tools": {
+          "type": "noul",
+          "noul": 0.01
+        }
+      },
+      "usage": {
+        "input_tokens": 506,
+        "output_tokens": 42
+      }
+    },
+    "status": "ok",
+    "elapsed_s": 0.4205,
+    "request_sha256": "f9a8447b24293a5886aa34215941f0e00b7a45222773e0f5d8ffeb41179806ea"
+  }
+]

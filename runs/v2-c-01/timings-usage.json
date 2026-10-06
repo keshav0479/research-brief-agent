@@ -1,0 +1,121 @@
+{
+  "elapsed_s": 68.667,
+  "writer_attempts": 22,
+  "jev_attempts": 0,
+  "usage": [
+    {
+      "provider": "writer",
+      "usage": {
+        "completion_tokens": 89,
+        "prompt_tokens": 444,
+        "total_tokens": 533,
+        "completion_tokens_details": null,
+        "prompt_tokens_details": null,
+        "queue_time": 0.065226981,
+        "prompt_time": 0.037049252,
+        "completion_time": 0.179940773,
+        "total_time": 0.216990025
+      }
+    },
+    {
+      "provider": "writer",
+      "usage": {
+        "completion_tokens": 45,
+        "prompt_tokens": 424,
+        "total_tokens": 469,
+        "completion_tokens_details": null,
+        "prompt_tokens_details": null,
+        "queue_time": 0.051420745,
+        "prompt_time": 0.035193334,
+        "completion_time": 0.091050358,
+        "total_time": 0.126243692
+      }
+    },
+    {
+      "provider": "writer",
+      "usage": {
+        "completion_tokens": 45,
+        "prompt_tokens": 613,
+        "total_tokens": 658,
+        "completion_tokens_details": null,
+        "prompt_tokens_details": null,
+        "queue_time": 0.055152789,
+        "prompt_time": 0.041873332,
+        "completion_time": 0.08813513,
+        "total_time": 0.130008462
+      }
+    },
+    {
+      "provider": "writer",
+      "usage": {
+        "completion_tokens": 89,
+        "prompt_tokens": 553,
+        "total_tokens": 642,
+        "completion_tokens_details": null,
+        "prompt_tokens_details": null,
+        "queue_time": 0.053475026,
+        "prompt_time": 0.041707564,
+        "completion_time": 0.175012251,
+        "total_time": 0.216719815
+      }
+    },
+    {
+      "provider": "writer",
+      "usage": {
+        "completion_tokens": 45,
+        "prompt_tokens": 538,
+        "total_tokens": 583,
+        "completion_tokens_details": null,
+        "prompt_tokens_details": null,
+        "queue_time": 0.050763137,
+        "prompt_time": 0.041217183,
+        "completion_time": 0.088740209,
+        "total_time": 0.129957392
+      }
+    },
+    {
+      "provider": "writer",
+      "usage": {
+        "completion_tokens": 45,
+        "prompt_tokens": 350,
+        "total_tokens": 395,
+        "completion_tokens_details": null,
+        "prompt_tokens_details": null,
+        "queue_time": 0.052372748,
+        "prompt_time": 0.026530767,
+        "completion_time": 0.088469947,
+        "total_time": 0.115000714
+      }
+    },
+    {
+      "provider": "writer",
+      "usage": {
+        "completion_tokens": 25,
+        "prompt_tokens": 368,
+        "total_tokens": 393,
+        "completion_tokens_details": null,
+        "prompt_tokens_details": null,
+        "queue_time": 0.0518412,
+        "prompt_time": 0.026647965,
+        "completion_time": 0.04940531,
+        "total_time": 0.076053275
+      }
+    },
+    {
+      "provider": "writer",
+      "usage": {
+        "completion_tokens": 89,
+        "prompt_tokens": 464,
+        "total_tokens": 553,
+        "completion_tokens_details": null,
+        "prompt_tokens_details": null,
+        "queue_time": 0.053158553,
+        "prompt_time": 0.032691765,
+        "completion_time": 0.17409021,
+        "total_time": 0.206781975
+      }
+    }
+  ],
+  "billed_cost_usd": null,
+  "cost_note": "Provider billing not returned. Free routes selected by default; no paid fallback was invoked."
+}

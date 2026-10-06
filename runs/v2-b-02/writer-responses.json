@@ -1,0 +1,133 @@
+[
+  {
+    "attempt": 1,
+    "requested_model": "qwen/qwen3.8-27b",
+    "model": null,
+    "usage": {},
+    "raw_response": null,
+    "status": "error",
+    "error_type": "RateLimitError",
+    "http_status": 429,
+    "retry_reason": "token_reset",
+    "retry_delay_s": 21.915,
+    "elapsed_s": 0.1739,
+    "request_sha256": "1e556c2e2b2fbb8fc267570aa7f813af086a62b43da847d17045b412529032aa"
+  },
+  {
+    "attempt": 2,
+    "requested_model": "qwen/qwen3.8-27b",
+    "model": null,
+    "usage": {},
+    "raw_response": null,
+    "status": "error",
+    "error_type": "RateLimitError",
+    "http_status": 429,
+    "retry_reason": "token_reset",
+    "retry_delay_s": 36.78,
+    "elapsed_s": 0.1104,
+    "request_sha256": "1e556c2e2b2fbb8fc267570aa7f813af086a62b43da847d17045b412529032aa"
+  },
+  {
+    "attempt": 3,
+    "requested_model": "qwen/qwen3.8-27b",
+    "model": "qwen/qwen3.8-27b",
+    "usage": {
+      "completion_tokens": 818,
+      "prompt_tokens": 3809,
+      "total_tokens": 4627,
+      "completion_tokens_details": null,
+      "prompt_tokens_details": null,
+      "queue_time": 0.059956866,
+      "prompt_time": 0.261756187,
+      "completion_time": 1.677287923,
+      "total_time": 1.93904411
+    },
+    "raw_response": {
+      "id": "chatcmpl-45a53c03-552e-4c39-9b4b-970aa29987de",
+      "choices": [
+        {
+          "finish_reason": "stop",
+          "index": 0,
+          "logprobs": null,
+          "message": {
+            "content": "{\"bear\": [{\"cites\": [\"S3.u04\", \"S4.u04\"], \"kind\": \"reported_fact\", \"text\": \"EBITDA margin contracted by 170 basis points to 11.2% in Q1 FY27, down from 12.9% in the prior year period.\"}, {\"cites\": [\"S5.u11\", \"S5.u12\"], \"kind\": \"management_view_or_forecast\", \"text\": \"Management attributes the increase in receivable days from 78 to 96 over the last year mainly to slower payments from two large state utility customers.\"}, {\"cites\": [\"S8.u01\"], \"kind\": \"reported_fact\", \"text\": \"The company received a GST demand order for ₹46.3 crore, including interest and penalty, relating to input tax credits claimed for FY2020-21 and FY2021-22.\"}], \"bull\": [{\"cites\": [\"S3.u02\"], \"kind\": \"reported_fact\", \"text\": \"Revenue from operations increased 18.0% year-on-year to ₹1,248 crore in Q1 FY27.\"}, {\"cites\": [\"S3.u06\"], \"kind\": \"reported_fact\", \"text\": \"The order book stood at ₹3,900 crore as of 30 June 2026, up from ₹3,150 crore a year earlier.\"}, {\"cites\": [\"S3.u08\"], \"kind\": \"management_view_or_forecast\", \"text\": \"Management states the new Bharuch plant, which adds about 30% to cable capacity, is on track to begin commercial production in Q3 FY27.\"}, {\"cites\": [\"S3.u07\"], \"kind\": \"reported_fact\", \"text\": \"Exports contributed 21% of revenue in Q1 FY27, an increase from 16% in the same quarter of the previous year.\"}], \"open_questions\": [{\"cites\": [\"S3.u02\", \"S4.u02\"], \"kind\": \"reported_fact\", \"text\": \"The company's press release reports Q1 FY27 revenue of ₹1,248 crore, while a news article reports ₹1,428 crore. What explains this discrepancy between the official filing and the secondary report?\"}, {\"cites\": [\"S8.u02\", \"S8.u03\"], \"kind\": \"management_view_or_forecast\", \"text\": \"Management intends to appeal the ₹46.3 crore GST demand and states it does not expect a material impact on financial position. What is the current status of this appeal?\"}], \"snapshot\": [{\"cites\": [\"S3.u01\"], \"kind\": \"reported_fact\", \"text\": \"Sarvottam Cables Ltd is a manufacturer of power cables, wires and conductors listed on the NSE.\"}, {\"cites\": [\"S3.u02\", \"S3.u05\"], \"kind\": \"reported_fact\", \"text\": \"For the quarter ended 30 June 2026, the company reported revenue of ₹1,248 crore and profit after tax of ₹82 crore.\"}, {\"cites\": [\"S2.u01\"], \"kind\": \"reported_fact\", \"text\": \"As of 30 June 2026, promoters and the promoter group held 58.2% of the company's shares.\"}, {\"cites\": [\"S2.u02\"], \"kind\": \"reported_fact\", \"text\": \"The share of promoter holdings pledged with lenders was 4.1% as of 30 June 2026, down from 11.5% in June 2025.\"}]}",
+            "refusal": null,
+            "role": "assistant",
+            "annotations": null,
+            "audio": null,
+            "function_call": null,
+            "tool_calls": null
+          }
+        }
+      ],
+      "created": 1791219256,
+      "model": "qwen/qwen3.8-27b",
+      "object": "chat.completion",
+      "metadata": null,
+      "moderation": null,
+      "service_tier": "on_demand",
+      "system_fingerprint": "fp_21e59ac2de",
+      "usage": {
+        "completion_tokens": 818,
+        "prompt_tokens": 3809,
+        "total_tokens": 4627,
+        "completion_tokens_details": null,
+        "prompt_tokens_details": null,
+        "queue_time": 0.059956866,
+        "prompt_time": 0.261756187,
+        "completion_time": 1.677287923,
+        "total_time": 1.93904411
+      },
+      "usage_breakdown": null,
+      "x_groq": {
+        "id": "req_01m46fshkjeb2szr50hbcp4esb",
+        "seed": 1991804792
+      }
+    },
+    "status": "ok",
+    "elapsed_s": 2.1857,
+    "request_sha256": "1e556c2e2b2fbb8fc267570aa7f813af086a62b43da847d17045b412529032aa"
+  },
+  {
+    "attempt": 1,
+    "requested_model": "qwen/qwen3.8-27b",
+    "model": null,
+    "usage": {},
+    "raw_response": null,
+    "status": "error",
+    "error_type": "RateLimitError",
+    "http_status": 429,
+    "retry_reason": "retry-after",
+    "retry_delay_s": 42.0,
+    "elapsed_s": 0.1833,
+    "request_sha256": "4e0ea1848fdbe49e6cebe14e8f9b5af01e740fc5fd89146c197c469f48b4be7f"
+  },
+  {
+    "attempt": 2,
+    "requested_model": "qwen/qwen3.8-27b",
+    "model": null,
+    "usage": {},
+    "raw_response": null,
+    "status": "error",
+    "error_type": "RateLimitError",
+    "http_status": 429,
+    "retry_reason": "token_reset",
+    "retry_delay_s": 4.74,
+    "elapsed_s": 0.129,
+    "request_sha256": "4e0ea1848fdbe49e6cebe14e8f9b5af01e740fc5fd89146c197c469f48b4be7f"
+  },
+  {
+    "attempt": 3,
+    "requested_model": "qwen/qwen3.8-27b",
+    "model": null,
+    "usage": {},
+    "raw_response": null,
+    "status": "error",
+    "error_type": "RateLimitError",
+    "http_status": 429,
+    "retry_reason": "attempt_limit_reached",
+    "retry_delay_s": 0,
+    "elapsed_s": 0.0757,
+    "request_sha256": "4e0ea1848fdbe49e6cebe14e8f9b5af01e740fc5fd89146c197c469f48b4be7f"
+  }
+]

@@ -1,0 +1,72 @@
+{
+  "elapsed_s": 4.48,
+  "writer_attempts": 1,
+  "jev_attempts": 9,
+  "usage": [
+    {
+      "provider": "jev",
+      "usage": {
+        "input_tokens": 591,
+        "output_tokens": 75
+      }
+    },
+    {
+      "provider": "jev",
+      "usage": {
+        "input_tokens": 573,
+        "output_tokens": 42
+      }
+    },
+    {
+      "provider": "jev",
+      "usage": {
+        "input_tokens": 761,
+        "output_tokens": 42
+      }
+    },
+    {
+      "provider": "jev",
+      "usage": {
+        "input_tokens": 696,
+        "output_tokens": 75
+      }
+    },
+    {
+      "provider": "jev",
+      "usage": {
+        "input_tokens": 697,
+        "output_tokens": 42
+      }
+    },
+    {
+      "provider": "jev",
+      "usage": {
+        "input_tokens": 500,
+        "output_tokens": 42
+      }
+    },
+    {
+      "provider": "jev",
+      "usage": {
+        "input_tokens": 530,
+        "output_tokens": 22
+      }
+    },
+    {
+      "provider": "jev",
+      "usage": {
+        "input_tokens": 612,
+        "output_tokens": 75
+      }
+    },
+    {
+      "provider": "jev",
+      "usage": {
+        "input_tokens": 506,
+        "output_tokens": 42
+      }
+    }
+  ],
+  "billed_cost_usd": null,
+  "cost_note": "Provider billing not returned. Free routes selected by default; no paid fallback was invoked."
+}

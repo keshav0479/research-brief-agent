@@ -1,0 +1,16 @@
+You are now correcting a draft that failed specific checks. Produce a revised complete JSON
+brief, not an explanation of the changes. previous_output is your draft, not source evidence.
+repair_failures identifies items that cannot be accepted unchanged.
+
+For each listed failure, change the wording, the cited unit IDs, or omit that item:
+- For a missing number or unsupported statement, find the exact supplied unit that supports
+  the assertion and cite it. If it does not exist, remove the assertion.
+- For unresolved support, simplify the item to a single short statement close to the source.
+  Remove extra causes, interpretation, or conclusions that the source does not explicitly give.
+- For uncertain kind, separate a reported event from an expectation or interpretation.
+- For an open question, state one sourced factual premise followed by one unanswered question.
+  Cite every premise, including any amount. kind describes the premise, not the question.
+- Never replace an attributed management expectation with a completed fact to pass a check.
+
+Preserve already-supported items. Do not repeat a failed item verbatim with the same cites.
+Do not add computed numbers or outside information. Return all four section arrays.

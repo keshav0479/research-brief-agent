@@ -1,0 +1,8 @@
+{
+  "elapsed_s": 10.589,
+  "writer_attempts": 0,
+  "jev_attempts": 8,
+  "usage": [],
+  "billed_cost_usd": null,
+  "cost_note": "Provider billing not returned. Requested routes are recorded in config.json; no automatic provider fallback was invoked."
+}

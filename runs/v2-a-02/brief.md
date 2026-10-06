@@ -1,0 +1,31 @@
+# Research Brief: Sarvottam Cables Ltd (NSE: SRVCABLE)
+**As of:** 2026-09-23
+
+## Snapshot
+Sarvottam Cables is a manufacturer of power cables and conductors that reported 18% year-over-year revenue growth in Q1 FY27, driven by strong demand from power transmission and data-center projects. The company is expanding capacity with a new plant in Bharuch, Gujarat, which is expected to begin commercial production in Q3 FY27. While the order book has grown to ₹3,900 crore, recent results show margin compression due to rising copper costs, and the company faces a pending GST demand of ₹46.3 crore.
+
+## Bull Case
+*   **Strong Order Book and Growth:** The order book increased to ₹3,900 crore as of June 2026, up from ₹3,150 crore a year ago. Management maintains a full-year revenue growth guidance of 15% to 17% for FY27.
+*   **Capacity Expansion:** The new Bharuch plant, which adds approximately 30% to cable capacity, is on track for commercial production in Q3 FY27. This expansion is funded largely by internal accruals, with a manageable net debt-to-equity ratio of 0.35 times.
+*   **Diversification into Data Centers:** Exports contributed 21% of revenue in Q1 FY27, up from 16% in the prior year. Data-center cables now account for 9% of domestic revenue, with management expecting this segment to double within two years.
+*   **Institutional Accumulation:** Foreign institutional investor (FII) holdings rose to 11.8% in June 2026, up from 9.2% in June 2025, indicating growing institutional interest.
+
+## Bear Case
+*   **Margin Compression:** EBITDA margins contracted by 170 basis points to 11.2% in Q1 FY27 due to a 14% rise in copper prices. Although two-thirds of contracts have price-variation clauses, these reset with a lag of one to two quarters, creating near-term pressure.
+*   **Working Capital Deterioration:** Receivable days increased from 78 to 96 over the last year, primarily due to slower payments from two large state utility customers.
+*   **Regulatory and Tax Risks:** The company received a GST demand order for ₹46.3 crore related to input tax credits for FY2020-21 and FY2021-22. While management believes it has a strong case and expects no material impact, this represents a potential financial liability.
+*   **Governance and Pledging History:** Promoter pledging was reported at 35% in March 2024, raising governance concerns. While the latest exchange filing for June 2026 shows pledged shares at 4.1% of promoter holdings, the historical spike warrants monitoring.
+
+## Open Questions
+*   **Margin Recovery:** Will the company successfully pass on higher copper costs to customers within the next two quarters as stated by the Managing Director?
+*   **GST Appeal Outcome:** What is the likelihood of the company winning its appeal against the ₹46.3 crore GST demand, and could this impact cash flow?
+*   **Receivables Management:** Will the company see an improvement in receivable days as payments from state utilities normalize?
+*   **Bharuch Plant Execution:** Will the Bharuch plant meet its Q3 FY27 commercial production target without significant capex overruns?
+
+## Sources
+1.  Sarvottam Cables Ltd, investor relations (company press release), "Sarvottam Cables Ltd announces Q1 FY27 results," published 2026-08-08.
+2.  NSE shareholding pattern filing (summary), "Sarvottam Cables Ltd: shareholding pattern as of 30 June 2026," published 2026-07-15.
+3.  Q1 FY27 earnings call transcript (excerpt), hosted on company IR site, published 2026-08-11.
+4.  NSE corporate announcement (company disclosure), "Disclosure under Regulation 30 of SEBI (LODR) Regulations: receipt of GST demand order," published 2026-09-02.
+5.  Business Daily Online (news website), "Sarvottam Cables' Q1 revenue jumps 35%, but copper costs bite into margins," published 2026-08-09.
+6.  Market Watch India (news website), "Promoter pledge at Sarvottam Cables rises to 35%, raising governance concerns," published 2024-03-18.

@@ -1,0 +1,3847 @@
+{
+  "arm": "D",
+  "profile": {
+    "ticker": "SRVCABLE",
+    "name": "Sarvottam Cables Ltd",
+    "business": "a manufacturer of power cables, wires and conductors"
+  },
+  "passes": [
+    {
+      "stage": "draft",
+      "results": [
+        {
+          "section": "snapshot",
+          "index": 0,
+          "claim": {
+            "cites": [
+              "S3.u01"
+            ],
+            "kind": "reported_fact",
+            "text": "Sarvottam Cables Ltd is a manufacturer of power cables, wires, and conductors listed on the NSE under the ticker SRVCABLE."
+          },
+          "code_errors": [],
+          "verification": {
+            "errors": [],
+            "kind": "reported_fact",
+            "diagnostics": [
+              {
+                "stage": "cited_evidence",
+                "answers": {
+                  "relation": {
+                    "type": "choice",
+                    "choice": "supports",
+                    "confidence": 1,
+                    "probabilities": {
+                      "supports": 1,
+                      "contradicts": 0,
+                      "says_nothing": 0
+                    }
+                  },
+                  "kind": {
+                    "type": "choice",
+                    "choice": "reported_fact",
+                    "confidence": 1,
+                    "probabilities": {
+                      "reported_fact": 1,
+                      "third_party_view": 0,
+                      "management_view_or_forecast": 0
+                    }
+                  }
+                }
+              }
+            ],
+            "unavailable": false,
+            "conflicts": []
+          },
+          "errors": [],
+          "accepted": true,
+          "final_claim": {
+            "cites": [
+              "S3.u01"
+            ],
+            "kind": "reported_fact",
+            "text": "Sarvottam Cables Ltd is a manufacturer of power cables, wires, and conductors listed on the NSE under the ticker SRVCABLE."
+          }
+        },
+        {
+          "section": "snapshot",
+          "index": 1,
+          "claim": {
+            "cites": [
+              "S3.u02",
+              "S3.u05"
+            ],
+            "kind": "reported_fact",
+            "text": "For Q1 FY27, the company reported revenue of ₹1,248 crore and profit after tax of ₹82 crore, representing year-on-year growth of 18.0% and 5.9% respectively."
+          },
+          "code_errors": [],
+          "verification": {
+            "errors": [],
+            "kind": "reported_fact",
+            "diagnostics": [
+              {
+                "stage": "cited_evidence",
+                "answers": {
+                  "relation": {
+                    "type": "choice",
+                    "choice": "supports",
+                    "confidence": 1,
+                    "probabilities": {
+                      "supports": 1,
+                      "contradicts": 0,
+                      "says_nothing": 0
+                    }
+                  },
+                  "kind": {
+                    "type": "choice",
+                    "choice": "reported_fact",
+                    "confidence": 1,
+                    "probabilities": {
+                      "reported_fact": 1,
+                      "management_view_or_forecast": 0,
+                      "third_party_view": 0
+                    }
+                  }
+                }
+              }
+            ],
+            "unavailable": false,
+            "conflicts": []
+          },
+          "errors": [],
+          "accepted": true,
+          "final_claim": {
+            "cites": [
+              "S3.u02",
+              "S3.u05"
+            ],
+            "kind": "reported_fact",
+            "text": "For Q1 FY27, the company reported revenue of ₹1,248 crore and profit after tax of ₹82 crore, representing year-on-year growth of 18.0% and 5.9% respectively."
+          }
+        },
+        {
+          "section": "snapshot",
+          "index": 2,
+          "claim": {
+            "cites": [
+              "S2.u01",
+              "S2.u02"
+            ],
+            "kind": "reported_fact",
+            "text": "As of June 2026, promoters held 58.2% of the company, with 4.1% of that holding pledged, a significant decrease from 11.5% pledged in June 2025."
+          },
+          "code_errors": [],
+          "verification": {
+            "errors": [],
+            "kind": "reported_fact",
+            "diagnostics": [
+              {
+                "stage": "cited_evidence",
+                "answers": {
+                  "relation": {
+                    "type": "choice",
+                    "choice": "supports",
+                    "confidence": 1,
+                    "probabilities": {
+                      "contradicts": 0,
+                      "supports": 1,
+                      "says_nothing": 0
+                    }
+                  },
+                  "kind": {
+                    "type": "choice",
+                    "choice": "reported_fact",
+                    "confidence": 1,
+                    "probabilities": {
+                      "third_party_view": 0,
+                      "management_view_or_forecast": 0,
+                      "reported_fact": 1
+                    }
+                  }
+                }
+              }
+            ],
+            "unavailable": false,
+            "conflicts": []
+          },
+          "errors": [],
+          "accepted": true,
+          "final_claim": {
+            "cites": [
+              "S2.u01",
+              "S2.u02"
+            ],
+            "kind": "reported_fact",
+            "text": "As of June 2026, promoters held 58.2% of the company, with 4.1% of that holding pledged, a significant decrease from 11.5% pledged in June 2025."
+          }
+        },
+        {
+          "section": "snapshot",
+          "index": 3,
+          "claim": {
+            "cites": [
+              "S3.u07"
+            ],
+            "kind": "reported_fact",
+            "text": "Exports contributed 21% of revenue in Q1 FY27, up from 16% in the same quarter of the previous year."
+          },
+          "code_errors": [],
+          "verification": {
+            "errors": [
+              "Evidence support is unresolved after an order check."
+            ],
+            "kind": "reported_fact",
+            "diagnostics": [
+              {
+                "stage": "cited_evidence",
+                "answers": {
+                  "relation": {
+                    "type": "choice",
+                    "choice": "supports",
+                    "confidence": 0.76,
+                    "probabilities": {
+                      "supports": 0.84,
+                      "says_nothing": 0.01,
+                      "contradicts": 0.15
+                    }
+                  },
+                  "kind": {
+                    "type": "choice",
+                    "choice": "reported_fact",
+                    "confidence": 1,
+                    "probabilities": {
+                      "third_party_view": 0,
+                      "management_view_or_forecast": 0,
+                      "reported_fact": 1
+                    }
+                  }
+                },
+                "reversed_questions": [
+                  "relation"
+                ],
+                "retry_answers": {
+                  "relation": {
+                    "type": "choice",
+                    "choice": "supports",
+                    "confidence": 0.72,
+                    "probabilities": {
+                      "contradicts": 0.18,
+                      "supports": 0.81,
+                      "says_nothing": 0.01
+                    }
+                  }
+                }
+              }
+            ],
+            "unavailable": false,
+            "conflicts": []
+          },
+          "errors": [
+            "Evidence support is unresolved after an order check."
+          ],
+          "accepted": false,
+          "final_claim": {
+            "cites": [
+              "S3.u07"
+            ],
+            "kind": "reported_fact",
+            "text": "Exports contributed 21% of revenue in Q1 FY27, up from 16% in the same quarter of the previous year."
+          }
+        },
+        {
+          "section": "bull",
+          "index": 0,
+          "claim": {
+            "cites": [
+              "S3.u02"
+            ],
+            "kind": "reported_fact",
+            "text": "Revenue from operations grew 18.0% year-on-year to ₹1,248 crore in Q1 FY27, driven by demand from power transmission and data-centre projects."
+          },
+          "code_errors": [],
+          "verification": {
+            "errors": [
+              "Evidence support is unresolved after an order check."
+            ],
+            "kind": "reported_fact",
+            "diagnostics": [
+              {
+                "stage": "cited_evidence",
+                "answers": {
+                  "relation": {
+                    "type": "choice",
+                    "choice": "says_nothing",
+                    "confidence": 0.57,
+                    "probabilities": {
+                      "supports": 0.29,
+                      "contradicts": 0,
+                      "says_nothing": 0.71
+                    }
+                  },
+                  "kind": {
+                    "type": "choice",
+                    "choice": "reported_fact",
+                    "confidence": 0.98,
+                    "probabilities": {
+                      "reported_fact": 0.99,
+                      "third_party_view": 0.01,
+                      "management_view_or_forecast": 0
+                    }
+                  }
+                },
+                "reversed_questions": [
+                  "relation"
+                ],
+                "retry_answers": {
+                  "relation": {
+                    "type": "choice",
+                    "choice": "says_nothing",
+                    "confidence": 0.63,
+                    "probabilities": {
+                      "contradicts": 0,
+                      "says_nothing": 0.75,
+                      "supports": 0.25
+                    }
+                  }
+                }
+              }
+            ],
+            "unavailable": false,
+            "conflicts": []
+          },
+          "errors": [
+            "Evidence support is unresolved after an order check."
+          ],
+          "accepted": false,
+          "final_claim": {
+            "cites": [
+              "S3.u02"
+            ],
+            "kind": "reported_fact",
+            "text": "Revenue from operations grew 18.0% year-on-year to ₹1,248 crore in Q1 FY27, driven by demand from power transmission and data-centre projects."
+          }
+        },
+        {
+          "section": "bull",
+          "index": 1,
+          "claim": {
+            "cites": [
+              "S3.u06"
+            ],
+            "kind": "reported_fact",
+            "text": "The order book stood at ₹3,900 crore as of 30 June 2026, an increase from ₹3,150 crore a year earlier, indicating strong future demand visibility."
+          },
+          "code_errors": [],
+          "verification": {
+            "errors": [
+              "Evidence support is unresolved after an order check.",
+              "Statement kind is unresolved after an order check."
+            ],
+            "kind": "reported_fact",
+            "diagnostics": [
+              {
+                "stage": "cited_evidence",
+                "answers": {
+                  "relation": {
+                    "type": "choice",
+                    "choice": "supports",
+                    "confidence": 0.73,
+                    "probabilities": {
+                      "contradicts": 0,
+                      "says_nothing": 0.18,
+                      "supports": 0.82
+                    }
+                  },
+                  "kind": {
+                    "type": "choice",
+                    "choice": "reported_fact",
+                    "confidence": 0.61,
+                    "probabilities": {
+                      "management_view_or_forecast": 0.15,
+                      "third_party_view": 0.11,
+                      "reported_fact": 0.74
+                    }
+                  }
+                },
+                "reversed_questions": [
+                  "relation",
+                  "kind"
+                ],
+                "retry_answers": {
+                  "relation": {
+                    "type": "choice",
+                    "choice": "supports",
+                    "confidence": 0.63,
+                    "probabilities": {
+                      "says_nothing": 0.25,
+                      "contradicts": 0,
+                      "supports": 0.75
+                    }
+                  },
+                  "kind": {
+                    "type": "choice",
+                    "choice": "reported_fact",
+                    "confidence": 0.63,
+                    "probabilities": {
+                      "third_party_view": 0.09,
+                      "management_view_or_forecast": 0.16,
+                      "reported_fact": 0.75
+                    }
+                  }
+                }
+              }
+            ],
+            "unavailable": false,
+            "conflicts": []
+          },
+          "errors": [
+            "Evidence support is unresolved after an order check.",
+            "Statement kind is unresolved after an order check."
+          ],
+          "accepted": false,
+          "final_claim": {
+            "cites": [
+              "S3.u06"
+            ],
+            "kind": "reported_fact",
+            "text": "The order book stood at ₹3,900 crore as of 30 June 2026, an increase from ₹3,150 crore a year earlier, indicating strong future demand visibility."
+          }
+        },
+        {
+          "section": "bull",
+          "index": 2,
+          "claim": {
+            "cites": [
+              "S5.u01"
+            ],
+            "kind": "management_view_or_forecast",
+            "text": "Management maintains its full-year FY27 revenue growth guidance of 15 to 17 percent, suggesting confidence in sustained demand."
+          },
+          "code_errors": [],
+          "verification": {
+            "errors": [
+              "Evidence support is unresolved after an order check."
+            ],
+            "kind": "management_view_or_forecast",
+            "diagnostics": [
+              {
+                "stage": "cited_evidence",
+                "answers": {
+                  "relation": {
+                    "type": "choice",
+                    "choice": "supports",
+                    "confidence": 0.58,
+                    "probabilities": {
+                      "supports": 0.72,
+                      "contradicts": 0,
+                      "says_nothing": 0.28
+                    }
+                  },
+                  "kind": {
+                    "type": "choice",
+                    "choice": "management_view_or_forecast",
+                    "confidence": 0.91,
+                    "probabilities": {
+                      "reported_fact": 0.01,
+                      "management_view_or_forecast": 0.94,
+                      "third_party_view": 0.05
+                    }
+                  }
+                },
+                "reversed_questions": [
+                  "relation"
+                ],
+                "retry_answers": {
+                  "relation": {
+                    "type": "choice",
+                    "choice": "supports",
+                    "confidence": 0.54,
+                    "probabilities": {
+                      "supports": 0.7,
+                      "contradicts": 0,
+                      "says_nothing": 0.3
+                    }
+                  }
+                }
+              }
+            ],
+            "unavailable": false,
+            "conflicts": []
+          },
+          "errors": [
+            "Evidence support is unresolved after an order check."
+          ],
+          "accepted": false,
+          "final_claim": {
+            "cites": [
+              "S5.u01"
+            ],
+            "kind": "management_view_or_forecast",
+            "text": "Management maintains its full-year FY27 revenue growth guidance of 15 to 17 percent, suggesting confidence in sustained demand."
+          }
+        },
+        {
+          "section": "bull",
+          "index": 3,
+          "claim": {
+            "cites": [
+              "S3.u08",
+              "S5.u02"
+            ],
+            "kind": "management_view_or_forecast",
+            "text": "The new Bharuch plant, which adds about 30% to cable capacity, is on track to begin commercial production in Q3 FY27, with management noting it will contribute from the second half."
+          },
+          "code_errors": [],
+          "verification": {
+            "errors": [],
+            "kind": "management_view_or_forecast",
+            "diagnostics": [
+              {
+                "stage": "cited_evidence",
+                "answers": {
+                  "relation": {
+                    "type": "choice",
+                    "choice": "supports",
+                    "confidence": 1,
+                    "probabilities": {
+                      "contradicts": 0,
+                      "supports": 1,
+                      "says_nothing": 0
+                    }
+                  },
+                  "kind": {
+                    "type": "choice",
+                    "choice": "management_view_or_forecast",
+                    "confidence": 0.94,
+                    "probabilities": {
+                      "third_party_view": 0,
+                      "management_view_or_forecast": 0.96,
+                      "reported_fact": 0.04
+                    }
+                  }
+                }
+              }
+            ],
+            "unavailable": false,
+            "conflicts": []
+          },
+          "errors": [],
+          "accepted": true,
+          "final_claim": {
+            "cites": [
+              "S3.u08",
+              "S5.u02"
+            ],
+            "kind": "management_view_or_forecast",
+            "text": "The new Bharuch plant, which adds about 30% to cable capacity, is on track to begin commercial production in Q3 FY27, with management noting it will contribute from the second half."
+          }
+        },
+        {
+          "section": "bear",
+          "index": 0,
+          "claim": {
+            "cites": [
+              "S3.u04",
+              "S4.u04"
+            ],
+            "kind": "reported_fact",
+            "text": "EBITDA margin fell to 11.2% in Q1 FY27, down 170 basis points from 12.9% in the prior year quarter, primarily due to rising copper costs."
+          },
+          "code_errors": [],
+          "verification": {
+            "errors": [],
+            "kind": "reported_fact",
+            "diagnostics": [
+              {
+                "stage": "cited_evidence",
+                "answers": {
+                  "relation": {
+                    "type": "choice",
+                    "choice": "supports",
+                    "confidence": 0.86,
+                    "probabilities": {
+                      "says_nothing": 0.04,
+                      "contradicts": 0.06,
+                      "supports": 0.9
+                    }
+                  },
+                  "kind": {
+                    "type": "choice",
+                    "choice": "reported_fact",
+                    "confidence": 1,
+                    "probabilities": {
+                      "third_party_view": 0,
+                      "management_view_or_forecast": 0,
+                      "reported_fact": 1
+                    }
+                  }
+                }
+              }
+            ],
+            "unavailable": false,
+            "conflicts": []
+          },
+          "errors": [],
+          "accepted": true,
+          "final_claim": {
+            "cites": [
+              "S3.u04",
+              "S4.u04"
+            ],
+            "kind": "reported_fact",
+            "text": "EBITDA margin fell to 11.2% in Q1 FY27, down 170 basis points from 12.9% in the prior year quarter, primarily due to rising copper costs."
+          }
+        },
+        {
+          "section": "bear",
+          "index": 1,
+          "claim": {
+            "cites": [
+              "S5.u11",
+              "S5.u12"
+            ],
+            "kind": "reported_fact",
+            "text": "Receivable days increased from 78 to 96 over the last year, a trend the CFO attributes to slower payments from two large state utility customers."
+          },
+          "code_errors": [],
+          "verification": {
+            "errors": [],
+            "kind": "reported_fact",
+            "diagnostics": [
+              {
+                "stage": "cited_evidence",
+                "answers": {
+                  "relation": {
+                    "type": "choice",
+                    "choice": "supports",
+                    "confidence": 1,
+                    "probabilities": {
+                      "contradicts": 0,
+                      "says_nothing": 0,
+                      "supports": 1
+                    }
+                  },
+                  "kind": {
+                    "type": "choice",
+                    "choice": "reported_fact",
+                    "confidence": 0.96,
+                    "probabilities": {
+                      "third_party_view": 0,
+                      "management_view_or_forecast": 0.03,
+                      "reported_fact": 0.97
+                    }
+                  }
+                }
+              }
+            ],
+            "unavailable": false,
+            "conflicts": []
+          },
+          "errors": [],
+          "accepted": true,
+          "final_claim": {
+            "cites": [
+              "S5.u11",
+              "S5.u12"
+            ],
+            "kind": "reported_fact",
+            "text": "Receivable days increased from 78 to 96 over the last year, a trend the CFO attributes to slower payments from two large state utility customers."
+          }
+        },
+        {
+          "section": "bear",
+          "index": 2,
+          "claim": {
+            "cites": [
+              "S8.u01"
+            ],
+            "kind": "reported_fact",
+            "text": "The company disclosed in September 2026 that it received a GST demand order for ₹46.3 crore, including interest and penalties, related to input tax credits for FY2020-21 and FY2021-22."
+          },
+          "code_errors": [],
+          "verification": {
+            "errors": [
+              "Evidence support is unresolved after an order check."
+            ],
+            "kind": "reported_fact",
+            "diagnostics": [
+              {
+                "stage": "cited_evidence",
+                "answers": {
+                  "relation": {
+                    "type": "choice",
+                    "choice": "supports",
+                    "confidence": 0.53,
+                    "probabilities": {
+                      "says_nothing": 0.3,
+                      "contradicts": 0.01,
+                      "supports": 0.69
+                    }
+                  },
+                  "kind": {
+                    "type": "choice",
+                    "choice": "reported_fact",
+                    "confidence": 1,
+                    "probabilities": {
+                      "management_view_or_forecast": 0,
+                      "reported_fact": 1,
+                      "third_party_view": 0
+                    }
+                  }
+                },
+                "reversed_questions": [
+                  "relation"
+                ],
+                "retry_answers": {
+                  "relation": {
+                    "type": "choice",
+                    "choice": "supports",
+                    "confidence": 0.39,
+                    "probabilities": {
+                      "contradicts": 0.01,
+                      "says_nothing": 0.4,
+                      "supports": 0.59
+                    }
+                  }
+                }
+              }
+            ],
+            "unavailable": false,
+            "conflicts": []
+          },
+          "errors": [
+            "Evidence support is unresolved after an order check."
+          ],
+          "accepted": false,
+          "final_claim": {
+            "cites": [
+              "S8.u01"
+            ],
+            "kind": "reported_fact",
+            "text": "The company disclosed in September 2026 that it received a GST demand order for ₹46.3 crore, including interest and penalties, related to input tax credits for FY2020-21 and FY2021-22."
+          }
+        },
+        {
+          "section": "open_questions",
+          "index": 0,
+          "claim": {
+            "cites": [
+              "S5.u07",
+              "S5.u10"
+            ],
+            "kind": "reported_fact",
+            "text": "How will the one-to-two quarter lag in price-variation clauses affect margins in the next two quarters as copper costs remain elevated?"
+          },
+          "code_errors": [],
+          "verification": {
+            "errors": [
+              "Evidence support is unresolved after an order check.",
+              "Statement kind is unresolved after an order check."
+            ],
+            "kind": "reported_fact",
+            "diagnostics": [
+              {
+                "stage": "cited_evidence",
+                "answers": {
+                  "relation": {
+                    "type": "choice",
+                    "choice": "supports",
+                    "confidence": 0.25,
+                    "probabilities": {
+                      "contradicts": 0.01,
+                      "supports": 0.5,
+                      "says_nothing": 0.49
+                    }
+                  },
+                  "kind": {
+                    "type": "choice",
+                    "choice": "third_party_view",
+                    "confidence": 0.34,
+                    "probabilities": {
+                      "third_party_view": 0.55,
+                      "reported_fact": 0.39,
+                      "management_view_or_forecast": 0.06
+                    }
+                  }
+                },
+                "reversed_questions": [
+                  "relation",
+                  "kind"
+                ],
+                "retry_answers": {
+                  "relation": {
+                    "type": "choice",
+                    "choice": "says_nothing",
+                    "confidence": 0.5,
+                    "probabilities": {
+                      "says_nothing": 0.66,
+                      "supports": 0.33,
+                      "contradicts": 0.01
+                    }
+                  },
+                  "kind": {
+                    "type": "choice",
+                    "choice": "third_party_view",
+                    "confidence": 0.26,
+                    "probabilities": {
+                      "reported_fact": 0.42,
+                      "management_view_or_forecast": 0.07,
+                      "third_party_view": 0.51
+                    }
+                  }
+                }
+              }
+            ],
+            "unavailable": false,
+            "conflicts": []
+          },
+          "errors": [
+            "Evidence support is unresolved after an order check.",
+            "Statement kind is unresolved after an order check."
+          ],
+          "accepted": false,
+          "final_claim": {
+            "cites": [
+              "S5.u07",
+              "S5.u10"
+            ],
+            "kind": "reported_fact",
+            "text": "How will the one-to-two quarter lag in price-variation clauses affect margins in the next two quarters as copper costs remain elevated?"
+          }
+        },
+        {
+          "section": "open_questions",
+          "index": 1,
+          "claim": {
+            "cites": [
+              "S8.u02",
+              "S8.u03"
+            ],
+            "kind": "management_view_or_forecast",
+            "text": "What is the likelihood of the company successfully appealing the ₹46.3 crore GST demand, and could an adverse outcome contradict the management's view of no material impact?"
+          },
+          "code_errors": [
+            "Number 46.3 (rupees) is not supported by the cited quotes"
+          ],
+          "verification": null,
+          "errors": [
+            "Number 46.3 (rupees) is not supported by the cited quotes"
+          ],
+          "accepted": false,
+          "final_claim": {
+            "cites": [
+              "S8.u02",
+              "S8.u03"
+            ],
+            "kind": "management_view_or_forecast",
+            "text": "What is the likelihood of the company successfully appealing the ₹46.3 crore GST demand, and could an adverse outcome contradict the management's view of no material impact?"
+          }
+        },
+        {
+          "section": "open_questions",
+          "index": 2,
+          "claim": {
+            "cites": [
+              "S5.u12",
+              "S5.u13"
+            ],
+            "kind": "reported_fact",
+            "text": "Will the slower payments from the two large state utility customers continue to pressure working capital, or has the monitoring process identified any signs of default?"
+          },
+          "code_errors": [],
+          "verification": {
+            "errors": [
+              "Statement kind is unresolved after an order check."
+            ],
+            "kind": "reported_fact",
+            "diagnostics": [
+              {
+                "stage": "cited_evidence",
+                "answers": {
+                  "relation": {
+                    "type": "choice",
+                    "choice": "supports",
+                    "confidence": 0.95,
+                    "probabilities": {
+                      "says_nothing": 0.02,
+                      "supports": 0.97,
+                      "contradicts": 0.01
+                    }
+                  },
+                  "kind": {
+                    "type": "choice",
+                    "choice": "reported_fact",
+                    "confidence": 0.37,
+                    "probabilities": {
+                      "third_party_view": 0.31,
+                      "reported_fact": 0.59,
+                      "management_view_or_forecast": 0.1
+                    }
+                  }
+                },
+                "reversed_questions": [
+                  "kind"
+                ],
+                "retry_answers": {
+                  "kind": {
+                    "type": "choice",
+                    "choice": "reported_fact",
+                    "confidence": 0.21,
+                    "probabilities": {
+                      "third_party_view": 0.42,
+                      "management_view_or_forecast": 0.11,
+                      "reported_fact": 0.47
+                    }
+                  }
+                }
+              }
+            ],
+            "unavailable": false,
+            "conflicts": []
+          },
+          "errors": [
+            "Statement kind is unresolved after an order check."
+          ],
+          "accepted": false,
+          "final_claim": {
+            "cites": [
+              "S5.u12",
+              "S5.u13"
+            ],
+            "kind": "reported_fact",
+            "text": "Will the slower payments from the two large state utility customers continue to pressure working capital, or has the monitoring process identified any signs of default?"
+          }
+        }
+      ],
+      "failures": [
+        {
+          "section": "snapshot",
+          "index": 3,
+          "claim": {
+            "cites": [
+              "S3.u07"
+            ],
+            "kind": "reported_fact",
+            "text": "Exports contributed 21% of revenue in Q1 FY27, up from 16% in the same quarter of the previous year."
+          },
+          "code_errors": [],
+          "verification": {
+            "errors": [
+              "Evidence support is unresolved after an order check."
+            ],
+            "kind": "reported_fact",
+            "diagnostics": [
+              {
+                "stage": "cited_evidence",
+                "answers": {
+                  "relation": {
+                    "type": "choice",
+                    "choice": "supports",
+                    "confidence": 0.76,
+                    "probabilities": {
+                      "supports": 0.84,
+                      "says_nothing": 0.01,
+                      "contradicts": 0.15
+                    }
+                  },
+                  "kind": {
+                    "type": "choice",
+                    "choice": "reported_fact",
+                    "confidence": 1,
+                    "probabilities": {
+                      "third_party_view": 0,
+                      "management_view_or_forecast": 0,
+                      "reported_fact": 1
+                    }
+                  }
+                },
+                "reversed_questions": [
+                  "relation"
+                ],
+                "retry_answers": {
+                  "relation": {
+                    "type": "choice",
+                    "choice": "supports",
+                    "confidence": 0.72,
+                    "probabilities": {
+                      "contradicts": 0.18,
+                      "supports": 0.81,
+                      "says_nothing": 0.01
+                    }
+                  }
+                }
+              }
+            ],
+            "unavailable": false,
+            "conflicts": []
+          },
+          "errors": [
+            "Evidence support is unresolved after an order check."
+          ],
+          "accepted": false,
+          "final_claim": {
+            "cites": [
+              "S3.u07"
+            ],
+            "kind": "reported_fact",
+            "text": "Exports contributed 21% of revenue in Q1 FY27, up from 16% in the same quarter of the previous year."
+          }
+        },
+        {
+          "section": "bull",
+          "index": 0,
+          "claim": {
+            "cites": [
+              "S3.u02"
+            ],
+            "kind": "reported_fact",
+            "text": "Revenue from operations grew 18.0% year-on-year to ₹1,248 crore in Q1 FY27, driven by demand from power transmission and data-centre projects."
+          },
+          "code_errors": [],
+          "verification": {
+            "errors": [
+              "Evidence support is unresolved after an order check."
+            ],
+            "kind": "reported_fact",
+            "diagnostics": [
+              {
+                "stage": "cited_evidence",
+                "answers": {
+                  "relation": {
+                    "type": "choice",
+                    "choice": "says_nothing",
+                    "confidence": 0.57,
+                    "probabilities": {
+                      "supports": 0.29,
+                      "contradicts": 0,
+                      "says_nothing": 0.71
+                    }
+                  },
+                  "kind": {
+                    "type": "choice",
+                    "choice": "reported_fact",
+                    "confidence": 0.98,
+                    "probabilities": {
+                      "reported_fact": 0.99,
+                      "third_party_view": 0.01,
+                      "management_view_or_forecast": 0
+                    }
+                  }
+                },
+                "reversed_questions": [
+                  "relation"
+                ],
+                "retry_answers": {
+                  "relation": {
+                    "type": "choice",
+                    "choice": "says_nothing",
+                    "confidence": 0.63,
+                    "probabilities": {
+                      "contradicts": 0,
+                      "says_nothing": 0.75,
+                      "supports": 0.25
+                    }
+                  }
+                }
+              }
+            ],
+            "unavailable": false,
+            "conflicts": []
+          },
+          "errors": [
+            "Evidence support is unresolved after an order check."
+          ],
+          "accepted": false,
+          "final_claim": {
+            "cites": [
+              "S3.u02"
+            ],
+            "kind": "reported_fact",
+            "text": "Revenue from operations grew 18.0% year-on-year to ₹1,248 crore in Q1 FY27, driven by demand from power transmission and data-centre projects."
+          }
+        },
+        {
+          "section": "bull",
+          "index": 1,
+          "claim": {
+            "cites": [
+              "S3.u06"
+            ],
+            "kind": "reported_fact",
+            "text": "The order book stood at ₹3,900 crore as of 30 June 2026, an increase from ₹3,150 crore a year earlier, indicating strong future demand visibility."
+          },
+          "code_errors": [],
+          "verification": {
+            "errors": [
+              "Evidence support is unresolved after an order check.",
+              "Statement kind is unresolved after an order check."
+            ],
+            "kind": "reported_fact",
+            "diagnostics": [
+              {
+                "stage": "cited_evidence",
+                "answers": {
+                  "relation": {
+                    "type": "choice",
+                    "choice": "supports",
+                    "confidence": 0.73,
+                    "probabilities": {
+                      "contradicts": 0,
+                      "says_nothing": 0.18,
+                      "supports": 0.82
+                    }
+                  },
+                  "kind": {
+                    "type": "choice",
+                    "choice": "reported_fact",
+                    "confidence": 0.61,
+                    "probabilities": {
+                      "management_view_or_forecast": 0.15,
+                      "third_party_view": 0.11,
+                      "reported_fact": 0.74
+                    }
+                  }
+                },
+                "reversed_questions": [
+                  "relation",
+                  "kind"
+                ],
+                "retry_answers": {
+                  "relation": {
+                    "type": "choice",
+                    "choice": "supports",
+                    "confidence": 0.63,
+                    "probabilities": {
+                      "says_nothing": 0.25,
+                      "contradicts": 0,
+                      "supports": 0.75
+                    }
+                  },
+                  "kind": {
+                    "type": "choice",
+                    "choice": "reported_fact",
+                    "confidence": 0.63,
+                    "probabilities": {
+                      "third_party_view": 0.09,
+                      "management_view_or_forecast": 0.16,
+                      "reported_fact": 0.75
+                    }
+                  }
+                }
+              }
+            ],
+            "unavailable": false,
+            "conflicts": []
+          },
+          "errors": [
+            "Evidence support is unresolved after an order check.",
+            "Statement kind is unresolved after an order check."
+          ],
+          "accepted": false,
+          "final_claim": {
+            "cites": [
+              "S3.u06"
+            ],
+            "kind": "reported_fact",
+            "text": "The order book stood at ₹3,900 crore as of 30 June 2026, an increase from ₹3,150 crore a year earlier, indicating strong future demand visibility."
+          }
+        },
+        {
+          "section": "bull",
+          "index": 2,
+          "claim": {
+            "cites": [
+              "S5.u01"
+            ],
+            "kind": "management_view_or_forecast",
+            "text": "Management maintains its full-year FY27 revenue growth guidance of 15 to 17 percent, suggesting confidence in sustained demand."
+          },
+          "code_errors": [],
+          "verification": {
+            "errors": [
+              "Evidence support is unresolved after an order check."
+            ],
+            "kind": "management_view_or_forecast",
+            "diagnostics": [
+              {
+                "stage": "cited_evidence",
+                "answers": {
+                  "relation": {
+                    "type": "choice",
+                    "choice": "supports",
+                    "confidence": 0.58,
+                    "probabilities": {
+                      "supports": 0.72,
+                      "contradicts": 0,
+                      "says_nothing": 0.28
+                    }
+                  },
+                  "kind": {
+                    "type": "choice",
+                    "choice": "management_view_or_forecast",
+                    "confidence": 0.91,
+                    "probabilities": {
+                      "reported_fact": 0.01,
+                      "management_view_or_forecast": 0.94,
+                      "third_party_view": 0.05
+                    }
+                  }
+                },
+                "reversed_questions": [
+                  "relation"
+                ],
+                "retry_answers": {
+                  "relation": {
+                    "type": "choice",
+                    "choice": "supports",
+                    "confidence": 0.54,
+                    "probabilities": {
+                      "supports": 0.7,
+                      "contradicts": 0,
+                      "says_nothing": 0.3
+                    }
+                  }
+                }
+              }
+            ],
+            "unavailable": false,
+            "conflicts": []
+          },
+          "errors": [
+            "Evidence support is unresolved after an order check."
+          ],
+          "accepted": false,
+          "final_claim": {
+            "cites": [
+              "S5.u01"
+            ],
+            "kind": "management_view_or_forecast",
+            "text": "Management maintains its full-year FY27 revenue growth guidance of 15 to 17 percent, suggesting confidence in sustained demand."
+          }
+        },
+        {
+          "section": "bear",
+          "index": 2,
+          "claim": {
+            "cites": [
+              "S8.u01"
+            ],
+            "kind": "reported_fact",
+            "text": "The company disclosed in September 2026 that it received a GST demand order for ₹46.3 crore, including interest and penalties, related to input tax credits for FY2020-21 and FY2021-22."
+          },
+          "code_errors": [],
+          "verification": {
+            "errors": [
+              "Evidence support is unresolved after an order check."
+            ],
+            "kind": "reported_fact",
+            "diagnostics": [
+              {
+                "stage": "cited_evidence",
+                "answers": {
+                  "relation": {
+                    "type": "choice",
+                    "choice": "supports",
+                    "confidence": 0.53,
+                    "probabilities": {
+                      "says_nothing": 0.3,
+                      "contradicts": 0.01,
+                      "supports": 0.69
+                    }
+                  },
+                  "kind": {
+                    "type": "choice",
+                    "choice": "reported_fact",
+                    "confidence": 1,
+                    "probabilities": {
+                      "management_view_or_forecast": 0,
+                      "reported_fact": 1,
+                      "third_party_view": 0
+                    }
+                  }
+                },
+                "reversed_questions": [
+                  "relation"
+                ],
+                "retry_answers": {
+                  "relation": {
+                    "type": "choice",
+                    "choice": "supports",
+                    "confidence": 0.39,
+                    "probabilities": {
+                      "contradicts": 0.01,
+                      "says_nothing": 0.4,
+                      "supports": 0.59
+                    }
+                  }
+                }
+              }
+            ],
+            "unavailable": false,
+            "conflicts": []
+          },
+          "errors": [
+            "Evidence support is unresolved after an order check."
+          ],
+          "accepted": false,
+          "final_claim": {
+            "cites": [
+              "S8.u01"
+            ],
+            "kind": "reported_fact",
+            "text": "The company disclosed in September 2026 that it received a GST demand order for ₹46.3 crore, including interest and penalties, related to input tax credits for FY2020-21 and FY2021-22."
+          }
+        },
+        {
+          "section": "open_questions",
+          "index": 0,
+          "claim": {
+            "cites": [
+              "S5.u07",
+              "S5.u10"
+            ],
+            "kind": "reported_fact",
+            "text": "How will the one-to-two quarter lag in price-variation clauses affect margins in the next two quarters as copper costs remain elevated?"
+          },
+          "code_errors": [],
+          "verification": {
+            "errors": [
+              "Evidence support is unresolved after an order check.",
+              "Statement kind is unresolved after an order check."
+            ],
+            "kind": "reported_fact",
+            "diagnostics": [
+              {
+                "stage": "cited_evidence",
+                "answers": {
+                  "relation": {
+                    "type": "choice",
+                    "choice": "supports",
+                    "confidence": 0.25,
+                    "probabilities": {
+                      "contradicts": 0.01,
+                      "supports": 0.5,
+                      "says_nothing": 0.49
+                    }
+                  },
+                  "kind": {
+                    "type": "choice",
+                    "choice": "third_party_view",
+                    "confidence": 0.34,
+                    "probabilities": {
+                      "third_party_view": 0.55,
+                      "reported_fact": 0.39,
+                      "management_view_or_forecast": 0.06
+                    }
+                  }
+                },
+                "reversed_questions": [
+                  "relation",
+                  "kind"
+                ],
+                "retry_answers": {
+                  "relation": {
+                    "type": "choice",
+                    "choice": "says_nothing",
+                    "confidence": 0.5,
+                    "probabilities": {
+                      "says_nothing": 0.66,
+                      "supports": 0.33,
+                      "contradicts": 0.01
+                    }
+                  },
+                  "kind": {
+                    "type": "choice",
+                    "choice": "third_party_view",
+                    "confidence": 0.26,
+                    "probabilities": {
+                      "reported_fact": 0.42,
+                      "management_view_or_forecast": 0.07,
+                      "third_party_view": 0.51
+                    }
+                  }
+                }
+              }
+            ],
+            "unavailable": false,
+            "conflicts": []
+          },
+          "errors": [
+            "Evidence support is unresolved after an order check.",
+            "Statement kind is unresolved after an order check."
+          ],
+          "accepted": false,
+          "final_claim": {
+            "cites": [
+              "S5.u07",
+              "S5.u10"
+            ],
+            "kind": "reported_fact",
+            "text": "How will the one-to-two quarter lag in price-variation clauses affect margins in the next two quarters as copper costs remain elevated?"
+          }
+        },
+        {
+          "section": "open_questions",
+          "index": 1,
+          "claim": {
+            "cites": [
+              "S8.u02",
+              "S8.u03"
+            ],
+            "kind": "management_view_or_forecast",
+            "text": "What is the likelihood of the company successfully appealing the ₹46.3 crore GST demand, and could an adverse outcome contradict the management's view of no material impact?"
+          },
+          "code_errors": [
+            "Number 46.3 (rupees) is not supported by the cited quotes"
+          ],
+          "verification": null,
+          "errors": [
+            "Number 46.3 (rupees) is not supported by the cited quotes"
+          ],
+          "accepted": false,
+          "final_claim": {
+            "cites": [
+              "S8.u02",
+              "S8.u03"
+            ],
+            "kind": "management_view_or_forecast",
+            "text": "What is the likelihood of the company successfully appealing the ₹46.3 crore GST demand, and could an adverse outcome contradict the management's view of no material impact?"
+          }
+        },
+        {
+          "section": "open_questions",
+          "index": 2,
+          "claim": {
+            "cites": [
+              "S5.u12",
+              "S5.u13"
+            ],
+            "kind": "reported_fact",
+            "text": "Will the slower payments from the two large state utility customers continue to pressure working capital, or has the monitoring process identified any signs of default?"
+          },
+          "code_errors": [],
+          "verification": {
+            "errors": [
+              "Statement kind is unresolved after an order check."
+            ],
+            "kind": "reported_fact",
+            "diagnostics": [
+              {
+                "stage": "cited_evidence",
+                "answers": {
+                  "relation": {
+                    "type": "choice",
+                    "choice": "supports",
+                    "confidence": 0.95,
+                    "probabilities": {
+                      "says_nothing": 0.02,
+                      "supports": 0.97,
+                      "contradicts": 0.01
+                    }
+                  },
+                  "kind": {
+                    "type": "choice",
+                    "choice": "reported_fact",
+                    "confidence": 0.37,
+                    "probabilities": {
+                      "third_party_view": 0.31,
+                      "reported_fact": 0.59,
+                      "management_view_or_forecast": 0.1
+                    }
+                  }
+                },
+                "reversed_questions": [
+                  "kind"
+                ],
+                "retry_answers": {
+                  "kind": {
+                    "type": "choice",
+                    "choice": "reported_fact",
+                    "confidence": 0.21,
+                    "probabilities": {
+                      "third_party_view": 0.42,
+                      "management_view_or_forecast": 0.11,
+                      "reported_fact": 0.47
+                    }
+                  }
+                }
+              }
+            ],
+            "unavailable": false,
+            "conflicts": []
+          },
+          "errors": [
+            "Statement kind is unresolved after an order check."
+          ],
+          "accepted": false,
+          "final_claim": {
+            "cites": [
+              "S5.u12",
+              "S5.u13"
+            ],
+            "kind": "reported_fact",
+            "text": "Will the slower payments from the two large state utility customers continue to pressure working capital, or has the monitoring process identified any signs of default?"
+          }
+        }
+      ]
+    },
+    {
+      "stage": "repair",
+      "results": [
+        {
+          "section": "snapshot",
+          "index": 0,
+          "claim": {
+            "cites": [
+              "S3.u01"
+            ],
+            "kind": "reported_fact",
+            "text": "Sarvottam Cables Ltd is a manufacturer of power cables, wires, and conductors listed on the NSE under the ticker SRVCABLE."
+          },
+          "code_errors": [],
+          "verification": {
+            "errors": [],
+            "kind": "reported_fact",
+            "diagnostics": [
+              {
+                "stage": "cited_evidence",
+                "answers": {
+                  "relation": {
+                    "type": "choice",
+                    "choice": "supports",
+                    "confidence": 1,
+                    "probabilities": {
+                      "supports": 1,
+                      "contradicts": 0,
+                      "says_nothing": 0
+                    }
+                  },
+                  "kind": {
+                    "type": "choice",
+                    "choice": "reported_fact",
+                    "confidence": 1,
+                    "probabilities": {
+                      "reported_fact": 1,
+                      "third_party_view": 0,
+                      "management_view_or_forecast": 0
+                    }
+                  }
+                }
+              }
+            ],
+            "unavailable": false,
+            "conflicts": []
+          },
+          "errors": [],
+          "accepted": true,
+          "final_claim": {
+            "cites": [
+              "S3.u01"
+            ],
+            "kind": "reported_fact",
+            "text": "Sarvottam Cables Ltd is a manufacturer of power cables, wires, and conductors listed on the NSE under the ticker SRVCABLE."
+          }
+        },
+        {
+          "section": "snapshot",
+          "index": 1,
+          "claim": {
+            "cites": [
+              "S3.u02",
+              "S3.u05"
+            ],
+            "kind": "reported_fact",
+            "text": "For Q1 FY27, the company reported revenue of ₹1,248 crore and profit after tax of ₹82 crore, representing year-on-year growth of 18.0% and 5.9% respectively."
+          },
+          "code_errors": [],
+          "verification": {
+            "errors": [],
+            "kind": "reported_fact",
+            "diagnostics": [
+              {
+                "stage": "cited_evidence",
+                "answers": {
+                  "relation": {
+                    "type": "choice",
+                    "choice": "supports",
+                    "confidence": 1,
+                    "probabilities": {
+                      "supports": 1,
+                      "contradicts": 0,
+                      "says_nothing": 0
+                    }
+                  },
+                  "kind": {
+                    "type": "choice",
+                    "choice": "reported_fact",
+                    "confidence": 1,
+                    "probabilities": {
+                      "reported_fact": 1,
+                      "management_view_or_forecast": 0,
+                      "third_party_view": 0
+                    }
+                  }
+                }
+              }
+            ],
+            "unavailable": false,
+            "conflicts": []
+          },
+          "errors": [],
+          "accepted": true,
+          "final_claim": {
+            "cites": [
+              "S3.u02",
+              "S3.u05"
+            ],
+            "kind": "reported_fact",
+            "text": "For Q1 FY27, the company reported revenue of ₹1,248 crore and profit after tax of ₹82 crore, representing year-on-year growth of 18.0% and 5.9% respectively."
+          }
+        },
+        {
+          "section": "snapshot",
+          "index": 2,
+          "claim": {
+            "cites": [
+              "S2.u01",
+              "S2.u02"
+            ],
+            "kind": "reported_fact",
+            "text": "As of June 2026, promoters held 58.2% of the company, with 4.1% of that holding pledged, a significant decrease from 11.5% pledged in June 2025."
+          },
+          "code_errors": [],
+          "verification": {
+            "errors": [],
+            "kind": "reported_fact",
+            "diagnostics": [
+              {
+                "stage": "cited_evidence",
+                "answers": {
+                  "relation": {
+                    "type": "choice",
+                    "choice": "supports",
+                    "confidence": 1,
+                    "probabilities": {
+                      "contradicts": 0,
+                      "supports": 1,
+                      "says_nothing": 0
+                    }
+                  },
+                  "kind": {
+                    "type": "choice",
+                    "choice": "reported_fact",
+                    "confidence": 1,
+                    "probabilities": {
+                      "third_party_view": 0,
+                      "management_view_or_forecast": 0,
+                      "reported_fact": 1
+                    }
+                  }
+                }
+              }
+            ],
+            "unavailable": false,
+            "conflicts": []
+          },
+          "errors": [],
+          "accepted": true,
+          "final_claim": {
+            "cites": [
+              "S2.u01",
+              "S2.u02"
+            ],
+            "kind": "reported_fact",
+            "text": "As of June 2026, promoters held 58.2% of the company, with 4.1% of that holding pledged, a significant decrease from 11.5% pledged in June 2025."
+          }
+        },
+        {
+          "section": "snapshot",
+          "index": 3,
+          "claim": {
+            "cites": [
+              "S3.u07"
+            ],
+            "kind": "reported_fact",
+            "text": "Exports contributed 21% of revenue in Q1 FY27, up from 16% in the same quarter of the previous year."
+          },
+          "code_errors": [],
+          "verification": {
+            "errors": [
+              "Evidence support is unresolved after an order check."
+            ],
+            "kind": "reported_fact",
+            "diagnostics": [
+              {
+                "stage": "cited_evidence",
+                "answers": {
+                  "relation": {
+                    "type": "choice",
+                    "choice": "supports",
+                    "confidence": 0.76,
+                    "probabilities": {
+                      "supports": 0.84,
+                      "says_nothing": 0.01,
+                      "contradicts": 0.15
+                    }
+                  },
+                  "kind": {
+                    "type": "choice",
+                    "choice": "reported_fact",
+                    "confidence": 1,
+                    "probabilities": {
+                      "third_party_view": 0,
+                      "management_view_or_forecast": 0,
+                      "reported_fact": 1
+                    }
+                  }
+                },
+                "reversed_questions": [
+                  "relation"
+                ],
+                "retry_answers": {
+                  "relation": {
+                    "type": "choice",
+                    "choice": "supports",
+                    "confidence": 0.72,
+                    "probabilities": {
+                      "contradicts": 0.18,
+                      "supports": 0.81,
+                      "says_nothing": 0.01
+                    }
+                  }
+                }
+              }
+            ],
+            "unavailable": false,
+            "conflicts": []
+          },
+          "errors": [
+            "Evidence support is unresolved after an order check."
+          ],
+          "accepted": false,
+          "final_claim": {
+            "cites": [
+              "S3.u07"
+            ],
+            "kind": "reported_fact",
+            "text": "Exports contributed 21% of revenue in Q1 FY27, up from 16% in the same quarter of the previous year."
+          }
+        },
+        {
+          "section": "bull",
+          "index": 0,
+          "claim": {
+            "cites": [
+              "S3.u02"
+            ],
+            "kind": "reported_fact",
+            "text": "Revenue from operations grew 18.0% year-on-year to ₹1,248 crore in Q1 FY27, driven by demand from power transmission and data-centre projects."
+          },
+          "code_errors": [],
+          "verification": {
+            "errors": [
+              "Evidence support is unresolved after an order check."
+            ],
+            "kind": "reported_fact",
+            "diagnostics": [
+              {
+                "stage": "cited_evidence",
+                "answers": {
+                  "relation": {
+                    "type": "choice",
+                    "choice": "says_nothing",
+                    "confidence": 0.57,
+                    "probabilities": {
+                      "supports": 0.29,
+                      "contradicts": 0,
+                      "says_nothing": 0.71
+                    }
+                  },
+                  "kind": {
+                    "type": "choice",
+                    "choice": "reported_fact",
+                    "confidence": 0.98,
+                    "probabilities": {
+                      "reported_fact": 0.99,
+                      "third_party_view": 0.01,
+                      "management_view_or_forecast": 0
+                    }
+                  }
+                },
+                "reversed_questions": [
+                  "relation"
+                ],
+                "retry_answers": {
+                  "relation": {
+                    "type": "choice",
+                    "choice": "says_nothing",
+                    "confidence": 0.63,
+                    "probabilities": {
+                      "contradicts": 0,
+                      "says_nothing": 0.75,
+                      "supports": 0.25
+                    }
+                  }
+                }
+              }
+            ],
+            "unavailable": false,
+            "conflicts": []
+          },
+          "errors": [
+            "Evidence support is unresolved after an order check."
+          ],
+          "accepted": false,
+          "final_claim": {
+            "cites": [
+              "S3.u02"
+            ],
+            "kind": "reported_fact",
+            "text": "Revenue from operations grew 18.0% year-on-year to ₹1,248 crore in Q1 FY27, driven by demand from power transmission and data-centre projects."
+          }
+        },
+        {
+          "section": "bull",
+          "index": 1,
+          "claim": {
+            "cites": [
+              "S3.u06"
+            ],
+            "kind": "reported_fact",
+            "text": "The order book stood at ₹3,900 crore as of 30 June 2026, an increase from ₹3,150 crore a year earlier, indicating strong future demand visibility."
+          },
+          "code_errors": [],
+          "verification": {
+            "errors": [
+              "Evidence support is unresolved after an order check.",
+              "Statement kind is unresolved after an order check."
+            ],
+            "kind": "reported_fact",
+            "diagnostics": [
+              {
+                "stage": "cited_evidence",
+                "answers": {
+                  "relation": {
+                    "type": "choice",
+                    "choice": "supports",
+                    "confidence": 0.73,
+                    "probabilities": {
+                      "contradicts": 0,
+                      "says_nothing": 0.18,
+                      "supports": 0.82
+                    }
+                  },
+                  "kind": {
+                    "type": "choice",
+                    "choice": "reported_fact",
+                    "confidence": 0.61,
+                    "probabilities": {
+                      "management_view_or_forecast": 0.15,
+                      "third_party_view": 0.11,
+                      "reported_fact": 0.74
+                    }
+                  }
+                },
+                "reversed_questions": [
+                  "relation",
+                  "kind"
+                ],
+                "retry_answers": {
+                  "relation": {
+                    "type": "choice",
+                    "choice": "supports",
+                    "confidence": 0.63,
+                    "probabilities": {
+                      "says_nothing": 0.25,
+                      "contradicts": 0,
+                      "supports": 0.75
+                    }
+                  },
+                  "kind": {
+                    "type": "choice",
+                    "choice": "reported_fact",
+                    "confidence": 0.63,
+                    "probabilities": {
+                      "third_party_view": 0.09,
+                      "management_view_or_forecast": 0.16,
+                      "reported_fact": 0.75
+                    }
+                  }
+                }
+              }
+            ],
+            "unavailable": false,
+            "conflicts": []
+          },
+          "errors": [
+            "Evidence support is unresolved after an order check.",
+            "Statement kind is unresolved after an order check."
+          ],
+          "accepted": false,
+          "final_claim": {
+            "cites": [
+              "S3.u06"
+            ],
+            "kind": "reported_fact",
+            "text": "The order book stood at ₹3,900 crore as of 30 June 2026, an increase from ₹3,150 crore a year earlier, indicating strong future demand visibility."
+          }
+        },
+        {
+          "section": "bull",
+          "index": 2,
+          "claim": {
+            "cites": [
+              "S5.u01"
+            ],
+            "kind": "management_view_or_forecast",
+            "text": "Management maintains its full-year FY27 revenue growth guidance of 15 to 17 percent, suggesting confidence in sustained demand."
+          },
+          "code_errors": [],
+          "verification": {
+            "errors": [
+              "Evidence support is unresolved after an order check."
+            ],
+            "kind": "management_view_or_forecast",
+            "diagnostics": [
+              {
+                "stage": "cited_evidence",
+                "answers": {
+                  "relation": {
+                    "type": "choice",
+                    "choice": "supports",
+                    "confidence": 0.58,
+                    "probabilities": {
+                      "supports": 0.72,
+                      "contradicts": 0,
+                      "says_nothing": 0.28
+                    }
+                  },
+                  "kind": {
+                    "type": "choice",
+                    "choice": "management_view_or_forecast",
+                    "confidence": 0.91,
+                    "probabilities": {
+                      "reported_fact": 0.01,
+                      "management_view_or_forecast": 0.94,
+                      "third_party_view": 0.05
+                    }
+                  }
+                },
+                "reversed_questions": [
+                  "relation"
+                ],
+                "retry_answers": {
+                  "relation": {
+                    "type": "choice",
+                    "choice": "supports",
+                    "confidence": 0.54,
+                    "probabilities": {
+                      "supports": 0.7,
+                      "contradicts": 0,
+                      "says_nothing": 0.3
+                    }
+                  }
+                }
+              }
+            ],
+            "unavailable": false,
+            "conflicts": []
+          },
+          "errors": [
+            "Evidence support is unresolved after an order check."
+          ],
+          "accepted": false,
+          "final_claim": {
+            "cites": [
+              "S5.u01"
+            ],
+            "kind": "management_view_or_forecast",
+            "text": "Management maintains its full-year FY27 revenue growth guidance of 15 to 17 percent, suggesting confidence in sustained demand."
+          }
+        },
+        {
+          "section": "bull",
+          "index": 3,
+          "claim": {
+            "cites": [
+              "S3.u08",
+              "S5.u02"
+            ],
+            "kind": "management_view_or_forecast",
+            "text": "The new Bharuch plant, which adds about 30% to cable capacity, is on track to begin commercial production in Q3 FY27, with management noting it will contribute from the second half."
+          },
+          "code_errors": [],
+          "verification": {
+            "errors": [],
+            "kind": "management_view_or_forecast",
+            "diagnostics": [
+              {
+                "stage": "cited_evidence",
+                "answers": {
+                  "relation": {
+                    "type": "choice",
+                    "choice": "supports",
+                    "confidence": 1,
+                    "probabilities": {
+                      "contradicts": 0,
+                      "supports": 1,
+                      "says_nothing": 0
+                    }
+                  },
+                  "kind": {
+                    "type": "choice",
+                    "choice": "management_view_or_forecast",
+                    "confidence": 0.94,
+                    "probabilities": {
+                      "third_party_view": 0,
+                      "management_view_or_forecast": 0.96,
+                      "reported_fact": 0.04
+                    }
+                  }
+                }
+              }
+            ],
+            "unavailable": false,
+            "conflicts": []
+          },
+          "errors": [],
+          "accepted": true,
+          "final_claim": {
+            "cites": [
+              "S3.u08",
+              "S5.u02"
+            ],
+            "kind": "management_view_or_forecast",
+            "text": "The new Bharuch plant, which adds about 30% to cable capacity, is on track to begin commercial production in Q3 FY27, with management noting it will contribute from the second half."
+          }
+        },
+        {
+          "section": "bear",
+          "index": 0,
+          "claim": {
+            "cites": [
+              "S3.u04",
+              "S4.u04"
+            ],
+            "kind": "reported_fact",
+            "text": "EBITDA margin fell to 11.2% in Q1 FY27, down 170 basis points from 12.9% in the prior year quarter, primarily due to rising copper costs."
+          },
+          "code_errors": [],
+          "verification": {
+            "errors": [],
+            "kind": "reported_fact",
+            "diagnostics": [
+              {
+                "stage": "cited_evidence",
+                "answers": {
+                  "relation": {
+                    "type": "choice",
+                    "choice": "supports",
+                    "confidence": 0.86,
+                    "probabilities": {
+                      "says_nothing": 0.04,
+                      "contradicts": 0.06,
+                      "supports": 0.9
+                    }
+                  },
+                  "kind": {
+                    "type": "choice",
+                    "choice": "reported_fact",
+                    "confidence": 1,
+                    "probabilities": {
+                      "third_party_view": 0,
+                      "management_view_or_forecast": 0,
+                      "reported_fact": 1
+                    }
+                  }
+                }
+              }
+            ],
+            "unavailable": false,
+            "conflicts": []
+          },
+          "errors": [],
+          "accepted": true,
+          "final_claim": {
+            "cites": [
+              "S3.u04",
+              "S4.u04"
+            ],
+            "kind": "reported_fact",
+            "text": "EBITDA margin fell to 11.2% in Q1 FY27, down 170 basis points from 12.9% in the prior year quarter, primarily due to rising copper costs."
+          }
+        },
+        {
+          "section": "bear",
+          "index": 1,
+          "claim": {
+            "cites": [
+              "S5.u11",
+              "S5.u12"
+            ],
+            "kind": "reported_fact",
+            "text": "Receivable days increased from 78 to 96 over the last year, a trend the CFO attributes to slower payments from two large state utility customers."
+          },
+          "code_errors": [],
+          "verification": {
+            "errors": [],
+            "kind": "reported_fact",
+            "diagnostics": [
+              {
+                "stage": "cited_evidence",
+                "answers": {
+                  "relation": {
+                    "type": "choice",
+                    "choice": "supports",
+                    "confidence": 1,
+                    "probabilities": {
+                      "contradicts": 0,
+                      "says_nothing": 0,
+                      "supports": 1
+                    }
+                  },
+                  "kind": {
+                    "type": "choice",
+                    "choice": "reported_fact",
+                    "confidence": 0.96,
+                    "probabilities": {
+                      "third_party_view": 0,
+                      "management_view_or_forecast": 0.03,
+                      "reported_fact": 0.97
+                    }
+                  }
+                }
+              }
+            ],
+            "unavailable": false,
+            "conflicts": []
+          },
+          "errors": [],
+          "accepted": true,
+          "final_claim": {
+            "cites": [
+              "S5.u11",
+              "S5.u12"
+            ],
+            "kind": "reported_fact",
+            "text": "Receivable days increased from 78 to 96 over the last year, a trend the CFO attributes to slower payments from two large state utility customers."
+          }
+        },
+        {
+          "section": "bear",
+          "index": 2,
+          "claim": {
+            "cites": [
+              "S8.u01"
+            ],
+            "kind": "reported_fact",
+            "text": "The company disclosed in September 2026 that it received a GST demand order for ₹46.3 crore, including interest and penalties, related to input tax credits for FY2020-21 and FY2021-22."
+          },
+          "code_errors": [],
+          "verification": {
+            "errors": [
+              "Evidence support is unresolved after an order check."
+            ],
+            "kind": "reported_fact",
+            "diagnostics": [
+              {
+                "stage": "cited_evidence",
+                "answers": {
+                  "relation": {
+                    "type": "choice",
+                    "choice": "supports",
+                    "confidence": 0.53,
+                    "probabilities": {
+                      "says_nothing": 0.3,
+                      "contradicts": 0.01,
+                      "supports": 0.69
+                    }
+                  },
+                  "kind": {
+                    "type": "choice",
+                    "choice": "reported_fact",
+                    "confidence": 1,
+                    "probabilities": {
+                      "management_view_or_forecast": 0,
+                      "reported_fact": 1,
+                      "third_party_view": 0
+                    }
+                  }
+                },
+                "reversed_questions": [
+                  "relation"
+                ],
+                "retry_answers": {
+                  "relation": {
+                    "type": "choice",
+                    "choice": "supports",
+                    "confidence": 0.39,
+                    "probabilities": {
+                      "contradicts": 0.01,
+                      "says_nothing": 0.4,
+                      "supports": 0.59
+                    }
+                  }
+                }
+              }
+            ],
+            "unavailable": false,
+            "conflicts": []
+          },
+          "errors": [
+            "Evidence support is unresolved after an order check."
+          ],
+          "accepted": false,
+          "final_claim": {
+            "cites": [
+              "S8.u01"
+            ],
+            "kind": "reported_fact",
+            "text": "The company disclosed in September 2026 that it received a GST demand order for ₹46.3 crore, including interest and penalties, related to input tax credits for FY2020-21 and FY2021-22."
+          }
+        },
+        {
+          "section": "open_questions",
+          "index": 0,
+          "claim": {
+            "cites": [
+              "S5.u07",
+              "S5.u10"
+            ],
+            "kind": "reported_fact",
+            "text": "How will the one-to-two quarter lag in price-variation clauses affect margins in the next two quarters as copper costs remain elevated?"
+          },
+          "code_errors": [],
+          "verification": {
+            "errors": [
+              "Evidence support is unresolved after an order check.",
+              "Statement kind is unresolved after an order check."
+            ],
+            "kind": "reported_fact",
+            "diagnostics": [
+              {
+                "stage": "cited_evidence",
+                "answers": {
+                  "relation": {
+                    "type": "choice",
+                    "choice": "supports",
+                    "confidence": 0.25,
+                    "probabilities": {
+                      "contradicts": 0.01,
+                      "supports": 0.5,
+                      "says_nothing": 0.49
+                    }
+                  },
+                  "kind": {
+                    "type": "choice",
+                    "choice": "third_party_view",
+                    "confidence": 0.34,
+                    "probabilities": {
+                      "third_party_view": 0.55,
+                      "reported_fact": 0.39,
+                      "management_view_or_forecast": 0.06
+                    }
+                  }
+                },
+                "reversed_questions": [
+                  "relation",
+                  "kind"
+                ],
+                "retry_answers": {
+                  "relation": {
+                    "type": "choice",
+                    "choice": "says_nothing",
+                    "confidence": 0.5,
+                    "probabilities": {
+                      "says_nothing": 0.66,
+                      "supports": 0.33,
+                      "contradicts": 0.01
+                    }
+                  },
+                  "kind": {
+                    "type": "choice",
+                    "choice": "third_party_view",
+                    "confidence": 0.26,
+                    "probabilities": {
+                      "reported_fact": 0.42,
+                      "management_view_or_forecast": 0.07,
+                      "third_party_view": 0.51
+                    }
+                  }
+                }
+              }
+            ],
+            "unavailable": false,
+            "conflicts": []
+          },
+          "errors": [
+            "Evidence support is unresolved after an order check.",
+            "Statement kind is unresolved after an order check."
+          ],
+          "accepted": false,
+          "final_claim": {
+            "cites": [
+              "S5.u07",
+              "S5.u10"
+            ],
+            "kind": "reported_fact",
+            "text": "How will the one-to-two quarter lag in price-variation clauses affect margins in the next two quarters as copper costs remain elevated?"
+          }
+        },
+        {
+          "section": "open_questions",
+          "index": 1,
+          "claim": {
+            "cites": [
+              "S8.u02",
+              "S8.u03"
+            ],
+            "kind": "management_view_or_forecast",
+            "text": "What is the likelihood of the company successfully appealing the ₹46.3 crore GST demand, and could an adverse outcome contradict the management's view of no material impact?"
+          },
+          "code_errors": [
+            "Number 46.3 (rupees) is not supported by the cited quotes"
+          ],
+          "verification": null,
+          "errors": [
+            "Number 46.3 (rupees) is not supported by the cited quotes"
+          ],
+          "accepted": false,
+          "final_claim": {
+            "cites": [
+              "S8.u02",
+              "S8.u03"
+            ],
+            "kind": "management_view_or_forecast",
+            "text": "What is the likelihood of the company successfully appealing the ₹46.3 crore GST demand, and could an adverse outcome contradict the management's view of no material impact?"
+          }
+        },
+        {
+          "section": "open_questions",
+          "index": 2,
+          "claim": {
+            "cites": [
+              "S5.u12",
+              "S5.u13"
+            ],
+            "kind": "reported_fact",
+            "text": "Will the slower payments from the two large state utility customers continue to pressure working capital, or has the monitoring process identified any signs of default?"
+          },
+          "code_errors": [],
+          "verification": {
+            "errors": [
+              "Statement kind is unresolved after an order check."
+            ],
+            "kind": "reported_fact",
+            "diagnostics": [
+              {
+                "stage": "cited_evidence",
+                "answers": {
+                  "relation": {
+                    "type": "choice",
+                    "choice": "supports",
+                    "confidence": 0.95,
+                    "probabilities": {
+                      "says_nothing": 0.02,
+                      "supports": 0.97,
+                      "contradicts": 0.01
+                    }
+                  },
+                  "kind": {
+                    "type": "choice",
+                    "choice": "reported_fact",
+                    "confidence": 0.37,
+                    "probabilities": {
+                      "third_party_view": 0.31,
+                      "reported_fact": 0.59,
+                      "management_view_or_forecast": 0.1
+                    }
+                  }
+                },
+                "reversed_questions": [
+                  "kind"
+                ],
+                "retry_answers": {
+                  "kind": {
+                    "type": "choice",
+                    "choice": "reported_fact",
+                    "confidence": 0.21,
+                    "probabilities": {
+                      "third_party_view": 0.42,
+                      "management_view_or_forecast": 0.11,
+                      "reported_fact": 0.47
+                    }
+                  }
+                }
+              }
+            ],
+            "unavailable": false,
+            "conflicts": []
+          },
+          "errors": [
+            "Statement kind is unresolved after an order check."
+          ],
+          "accepted": false,
+          "final_claim": {
+            "cites": [
+              "S5.u12",
+              "S5.u13"
+            ],
+            "kind": "reported_fact",
+            "text": "Will the slower payments from the two large state utility customers continue to pressure working capital, or has the monitoring process identified any signs of default?"
+          }
+        }
+      ],
+      "failures": [
+        {
+          "section": "snapshot",
+          "index": 3,
+          "claim": {
+            "cites": [
+              "S3.u07"
+            ],
+            "kind": "reported_fact",
+            "text": "Exports contributed 21% of revenue in Q1 FY27, up from 16% in the same quarter of the previous year."
+          },
+          "code_errors": [],
+          "verification": {
+            "errors": [
+              "Evidence support is unresolved after an order check."
+            ],
+            "kind": "reported_fact",
+            "diagnostics": [
+              {
+                "stage": "cited_evidence",
+                "answers": {
+                  "relation": {
+                    "type": "choice",
+                    "choice": "supports",
+                    "confidence": 0.76,
+                    "probabilities": {
+                      "supports": 0.84,
+                      "says_nothing": 0.01,
+                      "contradicts": 0.15
+                    }
+                  },
+                  "kind": {
+                    "type": "choice",
+                    "choice": "reported_fact",
+                    "confidence": 1,
+                    "probabilities": {
+                      "third_party_view": 0,
+                      "management_view_or_forecast": 0,
+                      "reported_fact": 1
+                    }
+                  }
+                },
+                "reversed_questions": [
+                  "relation"
+                ],
+                "retry_answers": {
+                  "relation": {
+                    "type": "choice",
+                    "choice": "supports",
+                    "confidence": 0.72,
+                    "probabilities": {
+                      "contradicts": 0.18,
+                      "supports": 0.81,
+                      "says_nothing": 0.01
+                    }
+                  }
+                }
+              }
+            ],
+            "unavailable": false,
+            "conflicts": []
+          },
+          "errors": [
+            "Evidence support is unresolved after an order check."
+          ],
+          "accepted": false,
+          "final_claim": {
+            "cites": [
+              "S3.u07"
+            ],
+            "kind": "reported_fact",
+            "text": "Exports contributed 21% of revenue in Q1 FY27, up from 16% in the same quarter of the previous year."
+          }
+        },
+        {
+          "section": "bull",
+          "index": 0,
+          "claim": {
+            "cites": [
+              "S3.u02"
+            ],
+            "kind": "reported_fact",
+            "text": "Revenue from operations grew 18.0% year-on-year to ₹1,248 crore in Q1 FY27, driven by demand from power transmission and data-centre projects."
+          },
+          "code_errors": [],
+          "verification": {
+            "errors": [
+              "Evidence support is unresolved after an order check."
+            ],
+            "kind": "reported_fact",
+            "diagnostics": [
+              {
+                "stage": "cited_evidence",
+                "answers": {
+                  "relation": {
+                    "type": "choice",
+                    "choice": "says_nothing",
+                    "confidence": 0.57,
+                    "probabilities": {
+                      "supports": 0.29,
+                      "contradicts": 0,
+                      "says_nothing": 0.71
+                    }
+                  },
+                  "kind": {
+                    "type": "choice",
+                    "choice": "reported_fact",
+                    "confidence": 0.98,
+                    "probabilities": {
+                      "reported_fact": 0.99,
+                      "third_party_view": 0.01,
+                      "management_view_or_forecast": 0
+                    }
+                  }
+                },
+                "reversed_questions": [
+                  "relation"
+                ],
+                "retry_answers": {
+                  "relation": {
+                    "type": "choice",
+                    "choice": "says_nothing",
+                    "confidence": 0.63,
+                    "probabilities": {
+                      "contradicts": 0,
+                      "says_nothing": 0.75,
+                      "supports": 0.25
+                    }
+                  }
+                }
+              }
+            ],
+            "unavailable": false,
+            "conflicts": []
+          },
+          "errors": [
+            "Evidence support is unresolved after an order check."
+          ],
+          "accepted": false,
+          "final_claim": {
+            "cites": [
+              "S3.u02"
+            ],
+            "kind": "reported_fact",
+            "text": "Revenue from operations grew 18.0% year-on-year to ₹1,248 crore in Q1 FY27, driven by demand from power transmission and data-centre projects."
+          }
+        },
+        {
+          "section": "bull",
+          "index": 1,
+          "claim": {
+            "cites": [
+              "S3.u06"
+            ],
+            "kind": "reported_fact",
+            "text": "The order book stood at ₹3,900 crore as of 30 June 2026, an increase from ₹3,150 crore a year earlier, indicating strong future demand visibility."
+          },
+          "code_errors": [],
+          "verification": {
+            "errors": [
+              "Evidence support is unresolved after an order check.",
+              "Statement kind is unresolved after an order check."
+            ],
+            "kind": "reported_fact",
+            "diagnostics": [
+              {
+                "stage": "cited_evidence",
+                "answers": {
+                  "relation": {
+                    "type": "choice",
+                    "choice": "supports",
+                    "confidence": 0.73,
+                    "probabilities": {
+                      "contradicts": 0,
+                      "says_nothing": 0.18,
+                      "supports": 0.82
+                    }
+                  },
+                  "kind": {
+                    "type": "choice",
+                    "choice": "reported_fact",
+                    "confidence": 0.61,
+                    "probabilities": {
+                      "management_view_or_forecast": 0.15,
+                      "third_party_view": 0.11,
+                      "reported_fact": 0.74
+                    }
+                  }
+                },
+                "reversed_questions": [
+                  "relation",
+                  "kind"
+                ],
+                "retry_answers": {
+                  "relation": {
+                    "type": "choice",
+                    "choice": "supports",
+                    "confidence": 0.63,
+                    "probabilities": {
+                      "says_nothing": 0.25,
+                      "contradicts": 0,
+                      "supports": 0.75
+                    }
+                  },
+                  "kind": {
+                    "type": "choice",
+                    "choice": "reported_fact",
+                    "confidence": 0.63,
+                    "probabilities": {
+                      "third_party_view": 0.09,
+                      "management_view_or_forecast": 0.16,
+                      "reported_fact": 0.75
+                    }
+                  }
+                }
+              }
+            ],
+            "unavailable": false,
+            "conflicts": []
+          },
+          "errors": [
+            "Evidence support is unresolved after an order check.",
+            "Statement kind is unresolved after an order check."
+          ],
+          "accepted": false,
+          "final_claim": {
+            "cites": [
+              "S3.u06"
+            ],
+            "kind": "reported_fact",
+            "text": "The order book stood at ₹3,900 crore as of 30 June 2026, an increase from ₹3,150 crore a year earlier, indicating strong future demand visibility."
+          }
+        },
+        {
+          "section": "bull",
+          "index": 2,
+          "claim": {
+            "cites": [
+              "S5.u01"
+            ],
+            "kind": "management_view_or_forecast",
+            "text": "Management maintains its full-year FY27 revenue growth guidance of 15 to 17 percent, suggesting confidence in sustained demand."
+          },
+          "code_errors": [],
+          "verification": {
+            "errors": [
+              "Evidence support is unresolved after an order check."
+            ],
+            "kind": "management_view_or_forecast",
+            "diagnostics": [
+              {
+                "stage": "cited_evidence",
+                "answers": {
+                  "relation": {
+                    "type": "choice",
+                    "choice": "supports",
+                    "confidence": 0.58,
+                    "probabilities": {
+                      "supports": 0.72,
+                      "contradicts": 0,
+                      "says_nothing": 0.28
+                    }
+                  },
+                  "kind": {
+                    "type": "choice",
+                    "choice": "management_view_or_forecast",
+                    "confidence": 0.91,
+                    "probabilities": {
+                      "reported_fact": 0.01,
+                      "management_view_or_forecast": 0.94,
+                      "third_party_view": 0.05
+                    }
+                  }
+                },
+                "reversed_questions": [
+                  "relation"
+                ],
+                "retry_answers": {
+                  "relation": {
+                    "type": "choice",
+                    "choice": "supports",
+                    "confidence": 0.54,
+                    "probabilities": {
+                      "supports": 0.7,
+                      "contradicts": 0,
+                      "says_nothing": 0.3
+                    }
+                  }
+                }
+              }
+            ],
+            "unavailable": false,
+            "conflicts": []
+          },
+          "errors": [
+            "Evidence support is unresolved after an order check."
+          ],
+          "accepted": false,
+          "final_claim": {
+            "cites": [
+              "S5.u01"
+            ],
+            "kind": "management_view_or_forecast",
+            "text": "Management maintains its full-year FY27 revenue growth guidance of 15 to 17 percent, suggesting confidence in sustained demand."
+          }
+        },
+        {
+          "section": "bear",
+          "index": 2,
+          "claim": {
+            "cites": [
+              "S8.u01"
+            ],
+            "kind": "reported_fact",
+            "text": "The company disclosed in September 2026 that it received a GST demand order for ₹46.3 crore, including interest and penalties, related to input tax credits for FY2020-21 and FY2021-22."
+          },
+          "code_errors": [],
+          "verification": {
+            "errors": [
+              "Evidence support is unresolved after an order check."
+            ],
+            "kind": "reported_fact",
+            "diagnostics": [
+              {
+                "stage": "cited_evidence",
+                "answers": {
+                  "relation": {
+                    "type": "choice",
+                    "choice": "supports",
+                    "confidence": 0.53,
+                    "probabilities": {
+                      "says_nothing": 0.3,
+                      "contradicts": 0.01,
+                      "supports": 0.69
+                    }
+                  },
+                  "kind": {
+                    "type": "choice",
+                    "choice": "reported_fact",
+                    "confidence": 1,
+                    "probabilities": {
+                      "management_view_or_forecast": 0,
+                      "reported_fact": 1,
+                      "third_party_view": 0
+                    }
+                  }
+                },
+                "reversed_questions": [
+                  "relation"
+                ],
+                "retry_answers": {
+                  "relation": {
+                    "type": "choice",
+                    "choice": "supports",
+                    "confidence": 0.39,
+                    "probabilities": {
+                      "contradicts": 0.01,
+                      "says_nothing": 0.4,
+                      "supports": 0.59
+                    }
+                  }
+                }
+              }
+            ],
+            "unavailable": false,
+            "conflicts": []
+          },
+          "errors": [
+            "Evidence support is unresolved after an order check."
+          ],
+          "accepted": false,
+          "final_claim": {
+            "cites": [
+              "S8.u01"
+            ],
+            "kind": "reported_fact",
+            "text": "The company disclosed in September 2026 that it received a GST demand order for ₹46.3 crore, including interest and penalties, related to input tax credits for FY2020-21 and FY2021-22."
+          }
+        },
+        {
+          "section": "open_questions",
+          "index": 0,
+          "claim": {
+            "cites": [
+              "S5.u07",
+              "S5.u10"
+            ],
+            "kind": "reported_fact",
+            "text": "How will the one-to-two quarter lag in price-variation clauses affect margins in the next two quarters as copper costs remain elevated?"
+          },
+          "code_errors": [],
+          "verification": {
+            "errors": [
+              "Evidence support is unresolved after an order check.",
+              "Statement kind is unresolved after an order check."
+            ],
+            "kind": "reported_fact",
+            "diagnostics": [
+              {
+                "stage": "cited_evidence",
+                "answers": {
+                  "relation": {
+                    "type": "choice",
+                    "choice": "supports",
+                    "confidence": 0.25,
+                    "probabilities": {
+                      "contradicts": 0.01,
+                      "supports": 0.5,
+                      "says_nothing": 0.49
+                    }
+                  },
+                  "kind": {
+                    "type": "choice",
+                    "choice": "third_party_view",
+                    "confidence": 0.34,
+                    "probabilities": {
+                      "third_party_view": 0.55,
+                      "reported_fact": 0.39,
+                      "management_view_or_forecast": 0.06
+                    }
+                  }
+                },
+                "reversed_questions": [
+                  "relation",
+                  "kind"
+                ],
+                "retry_answers": {
+                  "relation": {
+                    "type": "choice",
+                    "choice": "says_nothing",
+                    "confidence": 0.5,
+                    "probabilities": {
+                      "says_nothing": 0.66,
+                      "supports": 0.33,
+                      "contradicts": 0.01
+                    }
+                  },
+                  "kind": {
+                    "type": "choice",
+                    "choice": "third_party_view",
+                    "confidence": 0.26,
+                    "probabilities": {
+                      "reported_fact": 0.42,
+                      "management_view_or_forecast": 0.07,
+                      "third_party_view": 0.51
+                    }
+                  }
+                }
+              }
+            ],
+            "unavailable": false,
+            "conflicts": []
+          },
+          "errors": [
+            "Evidence support is unresolved after an order check.",
+            "Statement kind is unresolved after an order check."
+          ],
+          "accepted": false,
+          "final_claim": {
+            "cites": [
+              "S5.u07",
+              "S5.u10"
+            ],
+            "kind": "reported_fact",
+            "text": "How will the one-to-two quarter lag in price-variation clauses affect margins in the next two quarters as copper costs remain elevated?"
+          }
+        },
+        {
+          "section": "open_questions",
+          "index": 1,
+          "claim": {
+            "cites": [
+              "S8.u02",
+              "S8.u03"
+            ],
+            "kind": "management_view_or_forecast",
+            "text": "What is the likelihood of the company successfully appealing the ₹46.3 crore GST demand, and could an adverse outcome contradict the management's view of no material impact?"
+          },
+          "code_errors": [
+            "Number 46.3 (rupees) is not supported by the cited quotes"
+          ],
+          "verification": null,
+          "errors": [
+            "Number 46.3 (rupees) is not supported by the cited quotes"
+          ],
+          "accepted": false,
+          "final_claim": {
+            "cites": [
+              "S8.u02",
+              "S8.u03"
+            ],
+            "kind": "management_view_or_forecast",
+            "text": "What is the likelihood of the company successfully appealing the ₹46.3 crore GST demand, and could an adverse outcome contradict the management's view of no material impact?"
+          }
+        },
+        {
+          "section": "open_questions",
+          "index": 2,
+          "claim": {
+            "cites": [
+              "S5.u12",
+              "S5.u13"
+            ],
+            "kind": "reported_fact",
+            "text": "Will the slower payments from the two large state utility customers continue to pressure working capital, or has the monitoring process identified any signs of default?"
+          },
+          "code_errors": [],
+          "verification": {
+            "errors": [
+              "Statement kind is unresolved after an order check."
+            ],
+            "kind": "reported_fact",
+            "diagnostics": [
+              {
+                "stage": "cited_evidence",
+                "answers": {
+                  "relation": {
+                    "type": "choice",
+                    "choice": "supports",
+                    "confidence": 0.95,
+                    "probabilities": {
+                      "says_nothing": 0.02,
+                      "supports": 0.97,
+                      "contradicts": 0.01
+                    }
+                  },
+                  "kind": {
+                    "type": "choice",
+                    "choice": "reported_fact",
+                    "confidence": 0.37,
+                    "probabilities": {
+                      "third_party_view": 0.31,
+                      "reported_fact": 0.59,
+                      "management_view_or_forecast": 0.1
+                    }
+                  }
+                },
+                "reversed_questions": [
+                  "kind"
+                ],
+                "retry_answers": {
+                  "kind": {
+                    "type": "choice",
+                    "choice": "reported_fact",
+                    "confidence": 0.21,
+                    "probabilities": {
+                      "third_party_view": 0.42,
+                      "management_view_or_forecast": 0.11,
+                      "reported_fact": 0.47
+                    }
+                  }
+                }
+              }
+            ],
+            "unavailable": false,
+            "conflicts": []
+          },
+          "errors": [
+            "Statement kind is unresolved after an order check."
+          ],
+          "accepted": false,
+          "final_claim": {
+            "cites": [
+              "S5.u12",
+              "S5.u13"
+            ],
+            "kind": "reported_fact",
+            "text": "Will the slower payments from the two large state utility customers continue to pressure working capital, or has the monitoring process identified any signs of default?"
+          }
+        }
+      ]
+    }
+  ],
+  "dropped": [
+    {
+      "section": "snapshot",
+      "index": 3,
+      "claim": {
+        "cites": [
+          "S3.u07"
+        ],
+        "kind": "reported_fact",
+        "text": "Exports contributed 21% of revenue in Q1 FY27, up from 16% in the same quarter of the previous year."
+      },
+      "code_errors": [],
+      "verification": {
+        "errors": [
+          "Evidence support is unresolved after an order check."
+        ],
+        "kind": "reported_fact",
+        "diagnostics": [
+          {
+            "stage": "cited_evidence",
+            "answers": {
+              "relation": {
+                "type": "choice",
+                "choice": "supports",
+                "confidence": 0.76,
+                "probabilities": {
+                  "supports": 0.84,
+                  "says_nothing": 0.01,
+                  "contradicts": 0.15
+                }
+              },
+              "kind": {
+                "type": "choice",
+                "choice": "reported_fact",
+                "confidence": 1,
+                "probabilities": {
+                  "third_party_view": 0,
+                  "management_view_or_forecast": 0,
+                  "reported_fact": 1
+                }
+              }
+            },
+            "reversed_questions": [
+              "relation"
+            ],
+            "retry_answers": {
+              "relation": {
+                "type": "choice",
+                "choice": "supports",
+                "confidence": 0.72,
+                "probabilities": {
+                  "contradicts": 0.18,
+                  "supports": 0.81,
+                  "says_nothing": 0.01
+                }
+              }
+            }
+          }
+        ],
+        "unavailable": false,
+        "conflicts": []
+      },
+      "errors": [
+        "Evidence support is unresolved after an order check."
+      ],
+      "accepted": false,
+      "final_claim": {
+        "cites": [
+          "S3.u07"
+        ],
+        "kind": "reported_fact",
+        "text": "Exports contributed 21% of revenue in Q1 FY27, up from 16% in the same quarter of the previous year."
+      }
+    },
+    {
+      "section": "bull",
+      "index": 0,
+      "claim": {
+        "cites": [
+          "S3.u02"
+        ],
+        "kind": "reported_fact",
+        "text": "Revenue from operations grew 18.0% year-on-year to ₹1,248 crore in Q1 FY27, driven by demand from power transmission and data-centre projects."
+      },
+      "code_errors": [],
+      "verification": {
+        "errors": [
+          "Evidence support is unresolved after an order check."
+        ],
+        "kind": "reported_fact",
+        "diagnostics": [
+          {
+            "stage": "cited_evidence",
+            "answers": {
+              "relation": {
+                "type": "choice",
+                "choice": "says_nothing",
+                "confidence": 0.57,
+                "probabilities": {
+                  "supports": 0.29,
+                  "contradicts": 0,
+                  "says_nothing": 0.71
+                }
+              },
+              "kind": {
+                "type": "choice",
+                "choice": "reported_fact",
+                "confidence": 0.98,
+                "probabilities": {
+                  "reported_fact": 0.99,
+                  "third_party_view": 0.01,
+                  "management_view_or_forecast": 0
+                }
+              }
+            },
+            "reversed_questions": [
+              "relation"
+            ],
+            "retry_answers": {
+              "relation": {
+                "type": "choice",
+                "choice": "says_nothing",
+                "confidence": 0.63,
+                "probabilities": {
+                  "contradicts": 0,
+                  "says_nothing": 0.75,
+                  "supports": 0.25
+                }
+              }
+            }
+          }
+        ],
+        "unavailable": false,
+        "conflicts": []
+      },
+      "errors": [
+        "Evidence support is unresolved after an order check."
+      ],
+      "accepted": false,
+      "final_claim": {
+        "cites": [
+          "S3.u02"
+        ],
+        "kind": "reported_fact",
+        "text": "Revenue from operations grew 18.0% year-on-year to ₹1,248 crore in Q1 FY27, driven by demand from power transmission and data-centre projects."
+      }
+    },
+    {
+      "section": "bull",
+      "index": 1,
+      "claim": {
+        "cites": [
+          "S3.u06"
+        ],
+        "kind": "reported_fact",
+        "text": "The order book stood at ₹3,900 crore as of 30 June 2026, an increase from ₹3,150 crore a year earlier, indicating strong future demand visibility."
+      },
+      "code_errors": [],
+      "verification": {
+        "errors": [
+          "Evidence support is unresolved after an order check.",
+          "Statement kind is unresolved after an order check."
+        ],
+        "kind": "reported_fact",
+        "diagnostics": [
+          {
+            "stage": "cited_evidence",
+            "answers": {
+              "relation": {
+                "type": "choice",
+                "choice": "supports",
+                "confidence": 0.73,
+                "probabilities": {
+                  "contradicts": 0,
+                  "says_nothing": 0.18,
+                  "supports": 0.82
+                }
+              },
+              "kind": {
+                "type": "choice",
+                "choice": "reported_fact",
+                "confidence": 0.61,
+                "probabilities": {
+                  "management_view_or_forecast": 0.15,
+                  "third_party_view": 0.11,
+                  "reported_fact": 0.74
+                }
+              }
+            },
+            "reversed_questions": [
+              "relation",
+              "kind"
+            ],
+            "retry_answers": {
+              "relation": {
+                "type": "choice",
+                "choice": "supports",
+                "confidence": 0.63,
+                "probabilities": {
+                  "says_nothing": 0.25,
+                  "contradicts": 0,
+                  "supports": 0.75
+                }
+              },
+              "kind": {
+                "type": "choice",
+                "choice": "reported_fact",
+                "confidence": 0.63,
+                "probabilities": {
+                  "third_party_view": 0.09,
+                  "management_view_or_forecast": 0.16,
+                  "reported_fact": 0.75
+                }
+              }
+            }
+          }
+        ],
+        "unavailable": false,
+        "conflicts": []
+      },
+      "errors": [
+        "Evidence support is unresolved after an order check.",
+        "Statement kind is unresolved after an order check."
+      ],
+      "accepted": false,
+      "final_claim": {
+        "cites": [
+          "S3.u06"
+        ],
+        "kind": "reported_fact",
+        "text": "The order book stood at ₹3,900 crore as of 30 June 2026, an increase from ₹3,150 crore a year earlier, indicating strong future demand visibility."
+      }
+    },
+    {
+      "section": "bull",
+      "index": 2,
+      "claim": {
+        "cites": [
+          "S5.u01"
+        ],
+        "kind": "management_view_or_forecast",
+        "text": "Management maintains its full-year FY27 revenue growth guidance of 15 to 17 percent, suggesting confidence in sustained demand."
+      },
+      "code_errors": [],
+      "verification": {
+        "errors": [
+          "Evidence support is unresolved after an order check."
+        ],
+        "kind": "management_view_or_forecast",
+        "diagnostics": [
+          {
+            "stage": "cited_evidence",
+            "answers": {
+              "relation": {
+                "type": "choice",
+                "choice": "supports",
+                "confidence": 0.58,
+                "probabilities": {
+                  "supports": 0.72,
+                  "contradicts": 0,
+                  "says_nothing": 0.28
+                }
+              },
+              "kind": {
+                "type": "choice",
+                "choice": "management_view_or_forecast",
+                "confidence": 0.91,
+                "probabilities": {
+                  "reported_fact": 0.01,
+                  "management_view_or_forecast": 0.94,
+                  "third_party_view": 0.05
+                }
+              }
+            },
+            "reversed_questions": [
+              "relation"
+            ],
+            "retry_answers": {
+              "relation": {
+                "type": "choice",
+                "choice": "supports",
+                "confidence": 0.54,
+                "probabilities": {
+                  "supports": 0.7,
+                  "contradicts": 0,
+                  "says_nothing": 0.3
+                }
+              }
+            }
+          }
+        ],
+        "unavailable": false,
+        "conflicts": []
+      },
+      "errors": [
+        "Evidence support is unresolved after an order check."
+      ],
+      "accepted": false,
+      "final_claim": {
+        "cites": [
+          "S5.u01"
+        ],
+        "kind": "management_view_or_forecast",
+        "text": "Management maintains its full-year FY27 revenue growth guidance of 15 to 17 percent, suggesting confidence in sustained demand."
+      }
+    },
+    {
+      "section": "bear",
+      "index": 2,
+      "claim": {
+        "cites": [
+          "S8.u01"
+        ],
+        "kind": "reported_fact",
+        "text": "The company disclosed in September 2026 that it received a GST demand order for ₹46.3 crore, including interest and penalties, related to input tax credits for FY2020-21 and FY2021-22."
+      },
+      "code_errors": [],
+      "verification": {
+        "errors": [
+          "Evidence support is unresolved after an order check."
+        ],
+        "kind": "reported_fact",
+        "diagnostics": [
+          {
+            "stage": "cited_evidence",
+            "answers": {
+              "relation": {
+                "type": "choice",
+                "choice": "supports",
+                "confidence": 0.53,
+                "probabilities": {
+                  "says_nothing": 0.3,
+                  "contradicts": 0.01,
+                  "supports": 0.69
+                }
+              },
+              "kind": {
+                "type": "choice",
+                "choice": "reported_fact",
+                "confidence": 1,
+                "probabilities": {
+                  "management_view_or_forecast": 0,
+                  "reported_fact": 1,
+                  "third_party_view": 0
+                }
+              }
+            },
+            "reversed_questions": [
+              "relation"
+            ],
+            "retry_answers": {
+              "relation": {
+                "type": "choice",
+                "choice": "supports",
+                "confidence": 0.39,
+                "probabilities": {
+                  "contradicts": 0.01,
+                  "says_nothing": 0.4,
+                  "supports": 0.59
+                }
+              }
+            }
+          }
+        ],
+        "unavailable": false,
+        "conflicts": []
+      },
+      "errors": [
+        "Evidence support is unresolved after an order check."
+      ],
+      "accepted": false,
+      "final_claim": {
+        "cites": [
+          "S8.u01"
+        ],
+        "kind": "reported_fact",
+        "text": "The company disclosed in September 2026 that it received a GST demand order for ₹46.3 crore, including interest and penalties, related to input tax credits for FY2020-21 and FY2021-22."
+      }
+    },
+    {
+      "section": "open_questions",
+      "index": 0,
+      "claim": {
+        "cites": [
+          "S5.u07",
+          "S5.u10"
+        ],
+        "kind": "reported_fact",
+        "text": "How will the one-to-two quarter lag in price-variation clauses affect margins in the next two quarters as copper costs remain elevated?"
+      },
+      "code_errors": [],
+      "verification": {
+        "errors": [
+          "Evidence support is unresolved after an order check.",
+          "Statement kind is unresolved after an order check."
+        ],
+        "kind": "reported_fact",
+        "diagnostics": [
+          {
+            "stage": "cited_evidence",
+            "answers": {
+              "relation": {
+                "type": "choice",
+                "choice": "supports",
+                "confidence": 0.25,
+                "probabilities": {
+                  "contradicts": 0.01,
+                  "supports": 0.5,
+                  "says_nothing": 0.49
+                }
+              },
+              "kind": {
+                "type": "choice",
+                "choice": "third_party_view",
+                "confidence": 0.34,
+                "probabilities": {
+                  "third_party_view": 0.55,
+                  "reported_fact": 0.39,
+                  "management_view_or_forecast": 0.06
+                }
+              }
+            },
+            "reversed_questions": [
+              "relation",
+              "kind"
+            ],
+            "retry_answers": {
+              "relation": {
+                "type": "choice",
+                "choice": "says_nothing",
+                "confidence": 0.5,
+                "probabilities": {
+                  "says_nothing": 0.66,
+                  "supports": 0.33,
+                  "contradicts": 0.01
+                }
+              },
+              "kind": {
+                "type": "choice",
+                "choice": "third_party_view",
+                "confidence": 0.26,
+                "probabilities": {
+                  "reported_fact": 0.42,
+                  "management_view_or_forecast": 0.07,
+                  "third_party_view": 0.51
+                }
+              }
+            }
+          }
+        ],
+        "unavailable": false,
+        "conflicts": []
+      },
+      "errors": [
+        "Evidence support is unresolved after an order check.",
+        "Statement kind is unresolved after an order check."
+      ],
+      "accepted": false,
+      "final_claim": {
+        "cites": [
+          "S5.u07",
+          "S5.u10"
+        ],
+        "kind": "reported_fact",
+        "text": "How will the one-to-two quarter lag in price-variation clauses affect margins in the next two quarters as copper costs remain elevated?"
+      }
+    },
+    {
+      "section": "open_questions",
+      "index": 1,
+      "claim": {
+        "cites": [
+          "S8.u02",
+          "S8.u03"
+        ],
+        "kind": "management_view_or_forecast",
+        "text": "What is the likelihood of the company successfully appealing the ₹46.3 crore GST demand, and could an adverse outcome contradict the management's view of no material impact?"
+      },
+      "code_errors": [
+        "Number 46.3 (rupees) is not supported by the cited quotes"
+      ],
+      "verification": null,
+      "errors": [
+        "Number 46.3 (rupees) is not supported by the cited quotes"
+      ],
+      "accepted": false,
+      "final_claim": {
+        "cites": [
+          "S8.u02",
+          "S8.u03"
+        ],
+        "kind": "management_view_or_forecast",
+        "text": "What is the likelihood of the company successfully appealing the ₹46.3 crore GST demand, and could an adverse outcome contradict the management's view of no material impact?"
+      }
+    },
+    {
+      "section": "open_questions",
+      "index": 2,
+      "claim": {
+        "cites": [
+          "S5.u12",
+          "S5.u13"
+        ],
+        "kind": "reported_fact",
+        "text": "Will the slower payments from the two large state utility customers continue to pressure working capital, or has the monitoring process identified any signs of default?"
+      },
+      "code_errors": [],
+      "verification": {
+        "errors": [
+          "Statement kind is unresolved after an order check."
+        ],
+        "kind": "reported_fact",
+        "diagnostics": [
+          {
+            "stage": "cited_evidence",
+            "answers": {
+              "relation": {
+                "type": "choice",
+                "choice": "supports",
+                "confidence": 0.95,
+                "probabilities": {
+                  "says_nothing": 0.02,
+                  "supports": 0.97,
+                  "contradicts": 0.01
+                }
+              },
+              "kind": {
+                "type": "choice",
+                "choice": "reported_fact",
+                "confidence": 0.37,
+                "probabilities": {
+                  "third_party_view": 0.31,
+                  "reported_fact": 0.59,
+                  "management_view_or_forecast": 0.1
+                }
+              }
+            },
+            "reversed_questions": [
+              "kind"
+            ],
+            "retry_answers": {
+              "kind": {
+                "type": "choice",
+                "choice": "reported_fact",
+                "confidence": 0.21,
+                "probabilities": {
+                  "third_party_view": 0.42,
+                  "management_view_or_forecast": 0.11,
+                  "reported_fact": 0.47
+                }
+              }
+            }
+          }
+        ],
+        "unavailable": false,
+        "conflicts": []
+      },
+      "errors": [
+        "Statement kind is unresolved after an order check."
+      ],
+      "accepted": false,
+      "final_claim": {
+        "cites": [
+          "S5.u12",
+          "S5.u13"
+        ],
+        "kind": "reported_fact",
+        "text": "Will the slower payments from the two large state utility customers continue to pressure working capital, or has the monitoring process identified any signs of default?"
+      }
+    }
+  ],
+  "removals": {
+    "S6": [
+      {
+        "kind": "html_comment",
+        "count": 247
+      }
+    ]
+  },
+  "warnings": [
+    "No accepted claims in required section: open_questions"
+  ],
+  "manual_supported_review": "pending",
+  "manual_trap_review": "pending",
+  "routes": {
+    "S1": {
+      "status": "evidence",
+      "reason": "Company identity and document screening passed",
+      "diagnostics": {
+        "hard_identifier": null,
+        "clean": {
+          "promotional_stock_tip": {
+            "type": "noul",
+            "noul": 0.04
+          },
+          "addresses_ai_tools": {
+            "type": "noul",
+            "noul": 0.01
+          },
+          "same_company": {
+            "type": "score",
+            "score": 2,
+            "confidence": 0.99,
+            "legend": {
+              "0": "A different company or business: a different legal name, line of business, city or people.",
+              "1": "Unclear: a similar name, or too little detail to tell whether it is the same company.",
+              "2": "The same company as `target_company`."
+            },
+            "probabilities": {
+              "0": 0,
+              "1": 0,
+              "2": 1
+            }
+          },
+          "same_line_of_business": {
+            "type": "noul",
+            "noul": 0.91
+          }
+        },
+        "clean_addresses_ai_tools": 0.01,
+        "raw_addresses_ai_tools": 0.01,
+        "raw_screen_reused": true
+      }
+    },
+    "S2": {
+      "status": "evidence",
+      "reason": "Company matched by ticker; document screening passed",
+      "diagnostics": {
+        "hard_identifier": "ticker",
+        "clean": {
+          "promotional_stock_tip": {
+            "type": "noul",
+            "noul": 0.03
+          },
+          "addresses_ai_tools": {
+            "type": "noul",
+            "noul": 0.01
+          }
+        },
+        "clean_addresses_ai_tools": 0.01,
+        "raw_addresses_ai_tools": 0.01,
+        "raw_screen_reused": true
+      }
+    },
+    "S3": {
+      "status": "evidence",
+      "reason": "Company matched by ticker; document screening passed",
+      "diagnostics": {
+        "hard_identifier": "ticker",
+        "clean": {
+          "promotional_stock_tip": {
+            "type": "noul",
+            "noul": 0.03
+          },
+          "addresses_ai_tools": {
+            "type": "noul",
+            "noul": 0.01
+          }
+        },
+        "clean_addresses_ai_tools": 0.01,
+        "raw_addresses_ai_tools": 0.01,
+        "raw_screen_reused": true
+      }
+    },
+    "S4": {
+      "status": "evidence",
+      "reason": "Company identity and document screening passed",
+      "diagnostics": {
+        "hard_identifier": null,
+        "clean": {
+          "promotional_stock_tip": {
+            "type": "noul",
+            "noul": 0.03
+          },
+          "addresses_ai_tools": {
+            "type": "noul",
+            "noul": 0.01
+          },
+          "same_company": {
+            "type": "score",
+            "score": 2,
+            "confidence": 1,
+            "legend": {
+              "0": "A different company or business: a different legal name, line of business, city or people.",
+              "1": "Unclear: a similar name, or too little detail to tell whether it is the same company.",
+              "2": "The same company as `target_company`."
+            },
+            "probabilities": {
+              "0": 0,
+              "1": 0,
+              "2": 1
+            }
+          },
+          "same_line_of_business": {
+            "type": "noul",
+            "noul": 0.99
+          }
+        },
+        "clean_addresses_ai_tools": 0.01,
+        "raw_addresses_ai_tools": 0.01,
+        "raw_screen_reused": true
+      }
+    },
+    "S5": {
+      "status": "evidence",
+      "reason": "Company matched by issuer_host; document screening passed",
+      "diagnostics": {
+        "hard_identifier": "issuer_host",
+        "clean": {
+          "promotional_stock_tip": {
+            "type": "noul",
+            "noul": 0.02
+          },
+          "addresses_ai_tools": {
+            "type": "noul",
+            "noul": 0.01
+          }
+        },
+        "clean_addresses_ai_tools": 0.01,
+        "raw_addresses_ai_tools": 0.01,
+        "raw_screen_reused": true
+      }
+    },
+    "S6": {
+      "status": "excluded",
+      "reason": "Promotional stock-tip content",
+      "diagnostics": {
+        "hard_identifier": "ticker",
+        "clean": {
+          "promotional_stock_tip": {
+            "type": "noul",
+            "noul": 0.99
+          },
+          "addresses_ai_tools": {
+            "type": "noul",
+            "noul": 0.02
+          }
+        },
+        "clean_addresses_ai_tools": 0.02,
+        "raw_addresses_ai_tools": 0.99,
+        "raw_screen_reused": false
+      }
+    },
+    "S7": {
+      "status": "excluded",
+      "reason": "Different company or business",
+      "diagnostics": {
+        "hard_identifier": null,
+        "clean": {
+          "promotional_stock_tip": {
+            "type": "noul",
+            "noul": 0.01
+          },
+          "addresses_ai_tools": {
+            "type": "noul",
+            "noul": 0.01
+          },
+          "same_company": {
+            "type": "score",
+            "score": 0.24,
+            "confidence": 0.64,
+            "legend": {
+              "0": "A different company or business: a different legal name, line of business, city or people.",
+              "1": "Unclear: a similar name, or too little detail to tell whether it is the same company.",
+              "2": "The same company as `target_company`."
+            },
+            "probabilities": {
+              "0": 0.77,
+              "1": 0.23,
+              "2": 0
+            }
+          },
+          "same_line_of_business": {
+            "type": "noul",
+            "noul": 0.11
+          }
+        },
+        "clean_addresses_ai_tools": 0.01,
+        "raw_addresses_ai_tools": 0.01,
+        "raw_screen_reused": true
+      }
+    },
+    "S8": {
+      "status": "evidence",
+      "reason": "Company matched by ticker; document screening passed",
+      "diagnostics": {
+        "hard_identifier": "ticker",
+        "clean": {
+          "promotional_stock_tip": {
+            "type": "noul",
+            "noul": 0.02
+          },
+          "addresses_ai_tools": {
+            "type": "noul",
+            "noul": 0.01
+          }
+        },
+        "clean_addresses_ai_tools": 0.01,
+        "raw_addresses_ai_tools": 0.01,
+        "raw_screen_reused": true
+      }
+    }
+  },
+  "unavailable": false,
+  "accepted": {
+    "snapshot": [
+      {
+        "cites": [
+          "S3.u01"
+        ],
+        "kind": "reported_fact",
+        "text": "Sarvottam Cables Ltd is a manufacturer of power cables, wires, and conductors listed on the NSE under the ticker SRVCABLE."
+      },
+      {
+        "cites": [
+          "S3.u02",
+          "S3.u05"
+        ],
+        "kind": "reported_fact",
+        "text": "For Q1 FY27, the company reported revenue of ₹1,248 crore and profit after tax of ₹82 crore, representing year-on-year growth of 18.0% and 5.9% respectively."
+      },
+      {
+        "cites": [
+          "S2.u01",
+          "S2.u02"
+        ],
+        "kind": "reported_fact",
+        "text": "As of June 2026, promoters held 58.2% of the company, with 4.1% of that holding pledged, a significant decrease from 11.5% pledged in June 2025."
+      }
+    ],
+    "bull": [
+      {
+        "cites": [
+          "S3.u08",
+          "S5.u02"
+        ],
+        "kind": "management_view_or_forecast",
+        "text": "The new Bharuch plant, which adds about 30% to cable capacity, is on track to begin commercial production in Q3 FY27, with management noting it will contribute from the second half."
+      }
+    ],
+    "bear": [
+      {
+        "cites": [
+          "S3.u04",
+          "S4.u04"
+        ],
+        "kind": "reported_fact",
+        "text": "EBITDA margin fell to 11.2% in Q1 FY27, down 170 basis points from 12.9% in the prior year quarter, primarily due to rising copper costs."
+      },
+      {
+        "cites": [
+          "S5.u11",
+          "S5.u12"
+        ],
+        "kind": "reported_fact",
+        "text": "Receivable days increased from 78 to 96 over the last year, a trend the CFO attributes to slower payments from two large state utility customers."
+      }
+    ],
+    "open_questions": []
+  },
+  "metrics": {
+    "cited_ids_valid": {
+      "k": 14,
+      "n": 14,
+      "low": 0.7846891972623643,
+      "high": 1.0
+    },
+    "numbers_matched": {
+      "k": 13,
+      "n": 14,
+      "low": 0.6853129557584889,
+      "high": 0.9872777847521093
+    },
+    "accepted_claims": 6,
+    "dropped_claims": 8,
+    "system_open_questions": 0
+  },
+  "status": "incomplete",
+  "word_count": 184
+}

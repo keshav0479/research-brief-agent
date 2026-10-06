@@ -1,0 +1,117 @@
+{
+  "bear": [
+    {
+      "cites": [
+        "S8.u01"
+      ],
+      "kind": "reported_fact",
+      "text": "The company disclosed on 2 September 2026 that it received a GST demand order for ₹46.3 crore, including interest and penalty, related to input tax credits claimed for FY2020-21 and FY2021-22."
+    },
+    {
+      "cites": [
+        "S5.u11",
+        "S5.u12"
+      ],
+      "kind": "reported_fact",
+      "text": "The CFO stated that receivable days increased from 78 to 96 over the last year, attributing the rise mainly to slower payments from two large state utility customers."
+    },
+    {
+      "cites": [
+        "S3.u04",
+        "S3.u10"
+      ],
+      "kind": "reported_fact",
+      "text": "EBITDA margin contracted by 170 basis points to 11.2% in Q1 FY27, which the Managing Director said was affected by a sharp rise in copper prices during the quarter."
+    }
+  ],
+  "bull": [
+    {
+      "cites": [
+        "S3.u06"
+      ],
+      "kind": "reported_fact",
+      "text": "The order book stood at ₹3,900 crore as of 30 June 2026, up from ₹3,150 crore a year ago."
+    },
+    {
+      "cites": [
+        "S3.u08",
+        "S5.u02"
+      ],
+      "kind": "management_view_or_forecast",
+      "text": "Management said the new Bharuch plant, adding about 30% to cable capacity, is on track to begin commercial production in Q3 FY27 and will contribute from the second half."
+    },
+    {
+      "cites": [
+        "S5.u03"
+      ],
+      "kind": "management_view_or_forecast",
+      "text": "The Managing Director said data-centre cables are now about 9 percent of domestic revenue and thinks that can double in two years."
+    },
+    {
+      "cites": [
+        "S2.u03",
+        "S2.u04"
+      ],
+      "kind": "reported_fact",
+      "text": "Institutional ownership increased, with foreign institutional investors holding 11.8% and domestic institutional investors holding 14.6% as of June 2026, up from 9.2% and 12.7% a year earlier."
+    }
+  ],
+  "open_questions": [
+    {
+      "cites": [
+        "S3.u02",
+        "S4.u02"
+      ],
+      "kind": "reported_fact",
+      "text": "The company's press release reports Q1 FY27 revenue from operations of ₹1,248 crore, while a news article reports it as ₹1,428 crore. What explains this discrepancy in the reported revenue figure?"
+    },
+    {
+      "cites": [
+        "S8.u02",
+        "S8.u03"
+      ],
+      "kind": "management_view_or_forecast",
+      "text": "The company says it intends to file an appeal against the ₹46.3 crore GST demand and does not expect a material impact on its financial position. What is the timeline for this appeal and what are the potential financial implications if the appeal is unsuccessful?"
+    },
+    {
+      "cites": [
+        "S5.u07",
+        "S5.u10"
+      ],
+      "kind": "management_view_or_forecast",
+      "text": "The Managing Director stated that about two-thirds of contracts have price-variation clauses that reset with a lag of one to two quarters. How quickly can the company pass on the current rise in copper costs to customers to restore margins?"
+    }
+  ],
+  "snapshot": [
+    {
+      "cites": [
+        "S3.u01"
+      ],
+      "kind": "reported_fact",
+      "text": "Sarvottam Cables Ltd is a manufacturer of power cables, wires and conductors."
+    },
+    {
+      "cites": [
+        "S3.u02",
+        "S3.u05"
+      ],
+      "kind": "reported_fact",
+      "text": "For the quarter ended 30 June 2026, the company reported revenue from operations of ₹1,248 crore and profit after tax of ₹82 crore."
+    },
+    {
+      "cites": [
+        "S3.u03",
+        "S3.u04"
+      ],
+      "kind": "reported_fact",
+      "text": "EBITDA for Q1 FY27 was ₹140 crore, resulting in an EBITDA margin of 11.2%."
+    },
+    {
+      "cites": [
+        "S2.u01"
+      ],
+      "kind": "reported_fact",
+      "text": "Promoters and the promoter group held 58.2% of the company's shares as of June 2026."
+    }
+  ]
+}

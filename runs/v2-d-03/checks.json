@@ -1,0 +1,242 @@
+{
+  "arm": "D",
+  "profile": {
+    "ticker": "SRVCABLE",
+    "name": "Sarvottam Cables Ltd",
+    "business": "a manufacturer of power cables, wires and conductors"
+  },
+  "passes": [],
+  "dropped": [],
+  "removals": {
+    "S6": [
+      {
+        "kind": "html_comment",
+        "count": 247
+      }
+    ]
+  },
+  "warnings": [],
+  "manual_supported_review": "pending",
+  "manual_trap_review": "pending",
+  "routes": {
+    "S1": {
+      "status": "evidence",
+      "reason": "Company identity and document screening passed",
+      "diagnostics": {
+        "hard_identifier": null,
+        "clean": {
+          "promotional_stock_tip": {
+            "type": "noul",
+            "noul": 0.04
+          },
+          "addresses_ai_tools": {
+            "type": "noul",
+            "noul": 0.01
+          },
+          "same_company": {
+            "type": "score",
+            "score": 2,
+            "confidence": 1,
+            "legend": {
+              "0": "A different company or business: a different legal name, line of business, city or people.",
+              "1": "Unclear: a similar name, or too little detail to tell whether it is the same company.",
+              "2": "The same company as `target_company`."
+            },
+            "probabilities": {
+              "0": 0,
+              "1": 0,
+              "2": 1
+            }
+          },
+          "same_line_of_business": {
+            "type": "noul",
+            "noul": 0.89
+          }
+        },
+        "clean_addresses_ai_tools": 0.01,
+        "raw_addresses_ai_tools": 0.01,
+        "raw_screen_reused": true
+      }
+    },
+    "S2": {
+      "status": "evidence",
+      "reason": "Company matched by ticker; document screening passed",
+      "diagnostics": {
+        "hard_identifier": "ticker",
+        "clean": {
+          "promotional_stock_tip": {
+            "type": "noul",
+            "noul": 0.02
+          },
+          "addresses_ai_tools": {
+            "type": "noul",
+            "noul": 0.01
+          }
+        },
+        "clean_addresses_ai_tools": 0.01,
+        "raw_addresses_ai_tools": 0.01,
+        "raw_screen_reused": true
+      }
+    },
+    "S3": {
+      "status": "evidence",
+      "reason": "Company matched by ticker; document screening passed",
+      "diagnostics": {
+        "hard_identifier": "ticker",
+        "clean": {
+          "promotional_stock_tip": {
+            "type": "noul",
+            "noul": 0.03
+          },
+          "addresses_ai_tools": {
+            "type": "noul",
+            "noul": 0.01
+          }
+        },
+        "clean_addresses_ai_tools": 0.01,
+        "raw_addresses_ai_tools": 0.01,
+        "raw_screen_reused": true
+      }
+    },
+    "S4": {
+      "status": "evidence",
+      "reason": "Company identity and document screening passed",
+      "diagnostics": {
+        "hard_identifier": null,
+        "clean": {
+          "promotional_stock_tip": {
+            "type": "noul",
+            "noul": 0.03
+          },
+          "addresses_ai_tools": {
+            "type": "noul",
+            "noul": 0.01
+          },
+          "same_company": {
+            "type": "score",
+            "score": 2,
+            "confidence": 1,
+            "legend": {
+              "0": "A different company or business: a different legal name, line of business, city or people.",
+              "1": "Unclear: a similar name, or too little detail to tell whether it is the same company.",
+              "2": "The same company as `target_company`."
+            },
+            "probabilities": {
+              "0": 0,
+              "1": 0,
+              "2": 1
+            }
+          },
+          "same_line_of_business": {
+            "type": "noul",
+            "noul": 0.99
+          }
+        },
+        "clean_addresses_ai_tools": 0.01,
+        "raw_addresses_ai_tools": 0.01,
+        "raw_screen_reused": true
+      }
+    },
+    "S5": {
+      "status": "evidence",
+      "reason": "Company matched by issuer_host; document screening passed",
+      "diagnostics": {
+        "hard_identifier": "issuer_host",
+        "clean": {
+          "promotional_stock_tip": {
+            "type": "noul",
+            "noul": 0.02
+          },
+          "addresses_ai_tools": {
+            "type": "noul",
+            "noul": 0.01
+          }
+        },
+        "clean_addresses_ai_tools": 0.01,
+        "raw_addresses_ai_tools": 0.01,
+        "raw_screen_reused": true
+      }
+    },
+    "S6": {
+      "status": "excluded",
+      "reason": "Promotional stock-tip content",
+      "diagnostics": {
+        "hard_identifier": "ticker",
+        "clean": {
+          "promotional_stock_tip": {
+            "type": "noul",
+            "noul": 0.99
+          },
+          "addresses_ai_tools": {
+            "type": "noul",
+            "noul": 0.02
+          }
+        },
+        "clean_addresses_ai_tools": 0.02,
+        "raw_addresses_ai_tools": 0.99,
+        "raw_screen_reused": false
+      }
+    },
+    "S7": {
+      "status": "excluded",
+      "reason": "Different company or business",
+      "diagnostics": {
+        "hard_identifier": null,
+        "clean": {
+          "promotional_stock_tip": {
+            "type": "noul",
+            "noul": 0.01
+          },
+          "addresses_ai_tools": {
+            "type": "noul",
+            "noul": 0.01
+          },
+          "same_company": {
+            "type": "score",
+            "score": 0.24,
+            "confidence": 0.63,
+            "legend": {
+              "0": "A different company or business: a different legal name, line of business, city or people.",
+              "1": "Unclear: a similar name, or too little detail to tell whether it is the same company.",
+              "2": "The same company as `target_company`."
+            },
+            "probabilities": {
+              "0": 0.77,
+              "1": 0.23,
+              "2": 0
+            }
+          },
+          "same_line_of_business": {
+            "type": "noul",
+            "noul": 0.11
+          }
+        },
+        "clean_addresses_ai_tools": 0.01,
+        "raw_addresses_ai_tools": 0.01,
+        "raw_screen_reused": true
+      }
+    },
+    "S8": {
+      "status": "evidence",
+      "reason": "Company matched by ticker; document screening passed",
+      "diagnostics": {
+        "hard_identifier": "ticker",
+        "clean": {
+          "promotional_stock_tip": {
+            "type": "noul",
+            "noul": 0.02
+          },
+          "addresses_ai_tools": {
+            "type": "noul",
+            "noul": 0.01
+          }
+        },
+        "clean_addresses_ai_tools": 0.01,
+        "raw_addresses_ai_tools": 0.01,
+        "raw_screen_reused": true
+      }
+    }
+  },
+  "status": "failed",
+  "error": "Provider error: BadRequestError (HTTP 400)"
+}

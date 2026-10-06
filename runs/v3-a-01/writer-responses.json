@@ -1,0 +1,63 @@
+[
+  {
+    "attempt": 1,
+    "requested_model": "qwen/qwen3.8-27b",
+    "model": "qwen/qwen3.8-27b",
+    "usage": {
+      "completion_tokens": 1082,
+      "prompt_tokens": 2335,
+      "total_tokens": 3417,
+      "completion_tokens_details": null,
+      "prompt_tokens_details": null,
+      "queue_time": 0.052859403,
+      "prompt_time": 0.177354792,
+      "completion_time": 2.109232279,
+      "total_time": 2.286587071
+    },
+    "raw_response": {
+      "id": "chatcmpl-2b012323-186e-4276-bb57-3102d5bcf541",
+      "choices": [
+        {
+          "finish_reason": "stop",
+          "index": 0,
+          "logprobs": null,
+          "message": {
+            "content": "# Research Brief: Sarvottam Cables Ltd (NSE: SRVCABLE)\n\n**As of:** 2026-09-23\n\n## Snapshot\nSarvottam Cables is a manufacturer of power cables and conductors that reported 18% year-over-year revenue growth in Q1 FY27, driven by strong demand from power transmission and data-center projects. The company is expanding capacity with a new plant in Bharuch, Gujarat, which is expected to begin commercial production in Q3 FY27. While revenue is growing, operating margins have compressed due to rising copper costs, and the company faces a pending GST demand of ₹46.3 crore.\n\n## Bull Case\n*   **Strong Order Book and Growth:** The order book stood at ₹3,900 crore as of June 30, 2026, up from ₹3,150 crore a year ago. Management maintains a full-year FY27 revenue growth guidance of 15% to 17%.\n*   **Capacity Expansion:** The new Bharuch plant, which adds approximately 30% to cable capacity, is on track for commercial production in Q3 FY27. This expansion is funded largely by internal accruals, with a net debt-to-equity ratio of 0.35 times.\n*   **Diversification into Data Centers:** Exports contributed 21% of revenue in Q1 FY27, up from 16% in the prior year. Data-center cables now represent about 9% of domestic revenue, with management expecting this segment to double in two years.\n*   **Institutional Accumulation:** Foreign institutional investor (FII) holdings increased to 11.8% in June 2026, up from 9.2% in June 2025, indicating growing institutional interest.\n\n## Bear Case\n*   **Margin Compression:** EBITDA margins contracted by 170 basis points to 11.2% in Q1 FY27 due to a sharp rise in copper prices. While management expects to pass on costs, price-variation clauses in contracts reset with a lag of one to two quarters.\n*   **GST Litigation Risk:** The company received a GST demand order for ₹46.3 crore related to input tax credits for FY2020-21 and FY2021-22. Although management believes it has a strong case and expects no material impact, the amount is significant relative to quarterly profits.\n*   **Working Capital Strain:** Receivable days increased from 78 to 96 over the last year, primarily due to slower payments from two large state utility customers.\n*   **Governance and Pledging History:** While current promoter pledging is low at 4.1% of promoter holdings as of June 2026, it was as high as 35% in March 2024. This history may raise concerns for risk-averse investors regarding potential future distress.\n\n## Open Questions\n*   **Cost Pass-Through Timing:** How quickly can the company fully pass on copper price increases to customers given the one-to-two-quarter lag in contract resets?\n*   **GST Appeal Outcome:** What is the likelihood of the company successfully appealing the ₹46.3 crore GST demand, and what are the potential cash flow implications if the appeal fails?\n*   **Receivables Management:** Will the increased receivable days from state utilities normalize, or does this indicate a structural shift in payment terms that could impact working capital efficiency?\n*   **Bharuch Plant Execution:** Can the Bharuch plant achieve commercial production in Q3 FY27 as planned, and what will be the immediate impact on utilization and margins?\n\n## Sources\n1.  **Sarvottam Cables Ltd, investor relations (company press release):** \"Sarvottam Cables Ltd announces Q1 FY27 results,\" published 2026-08-08.\n2.  **NSE shareholding pattern filing (summary):** \"Sarvottam Cables Ltd: shareholding pattern as of 30 June 2026,\" published 2026-07-15.\n3.  **Q1 FY27 earnings call transcript (excerpt):** \"Q1 FY27 earnings conference call: excerpt,\" published 2026-08-11.\n4.  **NSE corporate announcement (company disclosure):** \"Disclosure under Regulation 30 of SEBI (LODR) Regulations: receipt of GST demand order,\" published 2026-09-02.\n5.  **Market Watch India (news article):** \"Promoter pledge at Sarvottam Cables rises to 35%, raising governance concerns,\" published 2024-03-18.\n6.  **Business Daily Online (news article):** \"Sarvottam Cables' Q1 revenue jumps 35%, but copper costs bite into margins,\" published 2026-08-09.",
+            "refusal": null,
+            "role": "assistant",
+            "annotations": null,
+            "audio": null,
+            "function_call": null,
+            "tool_calls": null
+          }
+        }
+      ],
+      "created": 1791220339,
+      "model": "qwen/qwen3.8-27b",
+      "object": "chat.completion",
+      "metadata": null,
+      "moderation": null,
+      "service_tier": "on_demand",
+      "system_fingerprint": "fp_a1293f40b5",
+      "usage": {
+        "completion_tokens": 1082,
+        "prompt_tokens": 2335,
+        "total_tokens": 3417,
+        "completion_tokens_details": null,
+        "prompt_tokens_details": null,
+        "queue_time": 0.052859403,
+        "prompt_time": 0.177354792,
+        "completion_time": 2.109232279,
+        "total_time": 2.286587071
+      },
+      "usage_breakdown": null,
+      "x_groq": {
+        "id": "req_01m46gtjkpenbv844rs8jhg6ch",
+        "seed": 305482898
+      }
+    },
+    "status": "ok",
+    "elapsed_s": 2.6332,
+    "request_sha256": "6f9da75bc305068abae594902f94c0c533d5e95277aa3e12b8cbff23fc0beda6"
+  }
+]

@@ -1,0 +1,114 @@
+[
+  {
+    "attempt": 1,
+    "requested_model": "qwen/qwen3.8-27b",
+    "model": null,
+    "usage": {},
+    "raw_response": null,
+    "status": "error",
+    "error_type": "RateLimitError",
+    "http_status": 429,
+    "retry_delay_s": 1,
+    "elapsed_s": 0.2271,
+    "request_sha256": "ed622f236afe7be6102a6c532c15680b35f775213c32fd7723499bf0bd0c9da9"
+  },
+  {
+    "attempt": 2,
+    "requested_model": "qwen/qwen3.8-27b",
+    "model": "qwen/qwen3.8-27b",
+    "usage": {
+      "completion_tokens": 779,
+      "prompt_tokens": 3244,
+      "total_tokens": 4023,
+      "completion_tokens_details": null,
+      "prompt_tokens_details": null,
+      "queue_time": 0.063268539,
+      "prompt_time": 0.229252577,
+      "completion_time": 1.58577864,
+      "total_time": 1.815031217
+    },
+    "raw_response": {
+      "id": "chatcmpl-b0076d58-5343-49ee-92d3-7ecb48c62c40",
+      "choices": [
+        {
+          "finish_reason": "stop",
+          "index": 0,
+          "logprobs": null,
+          "message": {
+            "content": "{\"bear\": [{\"cites\": [\"S3.u04\", \"S4.u04\"], \"kind\": \"reported_fact\", \"text\": \"EBITDA margin contracted by 170 basis points to 11.2% in Q1 FY27, driven by a sharp rise in copper prices.\"}, {\"cites\": [\"S5.u11\", \"S5.u12\"], \"kind\": \"reported_fact\", \"text\": \"Receivable days increased from 78 to 96 over the last year, primarily due to slower payments from two large state utility customers.\"}, {\"cites\": [\"S8.u01\"], \"kind\": \"reported_fact\", \"text\": \"The company received a GST demand order for ₹46.3 crore relating to input tax credits claimed for FY2020-21 and FY2021-22.\"}], \"bull\": [{\"cites\": [\"S3.u02\"], \"kind\": \"reported_fact\", \"text\": \"Revenue from operations grew 18.0% year-over-year to ₹1,248 crore in Q1 FY27.\"}, {\"cites\": [\"S3.u06\"], \"kind\": \"reported_fact\", \"text\": \"The order book stood at ₹3,900 crore as of 30 June 2026, up from ₹3,150 crore a year ago.\"}, {\"cites\": [\"S3.u08\", \"S5.u02\"], \"kind\": \"management_view_or_forecast\", \"text\": \"Management states the new Bharuch plant is on track to begin commercial production in Q3 FY27, adding about 30% to cable capacity.\"}, {\"cites\": [\"S3.u07\"], \"kind\": \"reported_fact\", \"text\": \"Exports contributed 21% of revenue in Q1 FY27, up from 16% in the same period last year.\"}], \"open_questions\": [{\"cites\": [\"S3.u02\", \"S4.u02\"], \"kind\": \"reported_fact\", \"text\": \"The company's press release reports Q1 FY27 revenue of ₹1,248 crore, while a news article reports ₹1,428 crore. Which figure is accurate?\"}, {\"cites\": [\"S8.u02\", \"S8.u03\"], \"kind\": \"management_view_or_forecast\", \"text\": \"Management intends to appeal the GST demand and expects no material impact, but what is the likelihood of a successful appeal?\"}, {\"cites\": [\"S5.u07\", \"S5.u10\"], \"kind\": \"management_view_or_forecast\", \"text\": \"Management expects to pass on higher copper costs over the next two quarters, but how effective will this be given the lag in price-variation clauses?\"}], \"snapshot\": [{\"cites\": [\"S3.u01\"], \"kind\": \"reported_fact\", \"text\": \"Sarvottam Cables Ltd is a manufacturer of power cables, wires and conductors.\"}, {\"cites\": [\"S3.u02\", \"S3.u05\"], \"kind\": \"reported_fact\", \"text\": \"In Q1 FY27, the company reported revenue of ₹1,248 crore and profit after tax of ₹82 crore.\"}, {\"cites\": [\"S2.u01\", \"S2.u02\"], \"kind\": \"reported_fact\", \"text\": \"As of June 2026, promoters held 58.2% of the company, with 4.1% of that holding pledged.\"}]}",
+            "refusal": null,
+            "role": "assistant",
+            "annotations": null,
+            "audio": null,
+            "function_call": null,
+            "tool_calls": null
+          }
+        }
+      ],
+      "created": 1791218307,
+      "model": "qwen/qwen3.8-27b",
+      "object": "chat.completion",
+      "metadata": null,
+      "moderation": null,
+      "service_tier": "on_demand",
+      "system_fingerprint": "fp_21e59ac2de",
+      "usage": {
+        "completion_tokens": 779,
+        "prompt_tokens": 3244,
+        "total_tokens": 4023,
+        "completion_tokens_details": null,
+        "prompt_tokens_details": null,
+        "queue_time": 0.063268539,
+        "prompt_time": 0.229252577,
+        "completion_time": 1.58577864,
+        "total_time": 1.815031217
+      },
+      "usage_breakdown": null,
+      "x_groq": {
+        "id": "req_01m46ewjnrevvrjg1vsem55p0g",
+        "seed": 815812947
+      }
+    },
+    "status": "ok",
+    "elapsed_s": 1.9646,
+    "request_sha256": "ed622f236afe7be6102a6c532c15680b35f775213c32fd7723499bf0bd0c9da9"
+  },
+  {
+    "attempt": 1,
+    "requested_model": "qwen/qwen3.8-27b",
+    "model": null,
+    "usage": {},
+    "raw_response": null,
+    "status": "error",
+    "error_type": "RateLimitError",
+    "http_status": 429,
+    "retry_delay_s": 1,
+    "elapsed_s": 5.1737,
+    "request_sha256": "efd6bce10926b46635fffcad1973eb890f2973e183f57822ae7f9c28649fddd0"
+  },
+  {
+    "attempt": 2,
+    "requested_model": "qwen/qwen3.8-27b",
+    "model": null,
+    "usage": {},
+    "raw_response": null,
+    "status": "error",
+    "error_type": "RateLimitError",
+    "http_status": 429,
+    "retry_delay_s": 2,
+    "elapsed_s": 0.0667,
+    "request_sha256": "efd6bce10926b46635fffcad1973eb890f2973e183f57822ae7f9c28649fddd0"
+  },
+  {
+    "attempt": 3,
+    "requested_model": "qwen/qwen3.8-27b",
+    "model": null,
+    "usage": {},
+    "raw_response": null,
+    "status": "error",
+    "error_type": "RateLimitError",
+    "http_status": 429,
+    "elapsed_s": 0.0641,
+    "request_sha256": "efd6bce10926b46635fffcad1973eb890f2973e183f57822ae7f9c28649fddd0"
+  }
+]

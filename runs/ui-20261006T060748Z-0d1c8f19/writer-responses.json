@@ -1,0 +1,44 @@
+[
+  {
+    "attempt": 1,
+    "requested_model": "qwen/qwen3.8-27b",
+    "model": null,
+    "usage": {},
+    "raw_response": null,
+    "status": "error",
+    "error_type": "BadRequestError",
+    "http_status": 400,
+    "provider_error_code": "json_validate_failed",
+    "elapsed_s": 0.6137,
+    "request_sha256": "82e9bbbffad3642954790c79c526e653a541d24be2d5a124297db33aaa0be159"
+  },
+  {
+    "attempt": 1,
+    "requested_model": "qwen/qwen3.8-27b",
+    "model": null,
+    "usage": {},
+    "raw_response": null,
+    "status": "error",
+    "error_type": "RateLimitError",
+    "http_status": 429,
+    "provider_error_code": "rate_limit_exceeded",
+    "provider_requested_wait_s": 4.0,
+    "retry_reason": "minute_window_cooldown",
+    "retry_delay_s": 60,
+    "elapsed_s": 0.0955,
+    "request_sha256": "23ae89cb8b53a8e6aebabd3c29b5c784d2e4829d0aa18a542d6b97963f6f8ef1"
+  },
+  {
+    "attempt": 2,
+    "requested_model": "qwen/qwen3.8-27b",
+    "model": null,
+    "usage": {},
+    "raw_response": null,
+    "status": "error",
+    "error_type": "BadRequestError",
+    "http_status": 400,
+    "provider_error_code": "json_validate_failed",
+    "elapsed_s": 0.5413,
+    "request_sha256": "23ae89cb8b53a8e6aebabd3c29b5c784d2e4829d0aa18a542d6b97963f6f8ef1"
+  }
+]

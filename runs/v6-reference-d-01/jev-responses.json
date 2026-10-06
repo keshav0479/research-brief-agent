@@ -1,0 +1,890 @@
+[
+  {
+    "attempt": 1,
+    "requested_model": "jev-1.13.0",
+    "model": "jev-1.13.0",
+    "usage": {
+      "input_tokens": 591,
+      "output_tokens": 75
+    },
+    "raw_response": {
+      "model": "jev-1.13.0",
+      "answers": {
+        "promotional_stock_tip": {
+          "type": "noul",
+          "noul": 0.04
+        },
+        "addresses_ai_tools": {
+          "type": "noul",
+          "noul": 0.01
+        },
+        "same_company": {
+          "type": "score",
+          "score": 2.0,
+          "confidence": 1.0,
+          "legend": {
+            "0": "A different company or business: a different legal name, line of business, city or people.",
+            "1": "Unclear: a similar name, or too little detail to tell whether it is the same company.",
+            "2": "The same company as `target_company`."
+          },
+          "probabilities": {
+            "0": 0.0,
+            "1": 0.0,
+            "2": 1.0
+          }
+        },
+        "same_line_of_business": {
+          "type": "noul",
+          "noul": 0.89
+        }
+      },
+      "usage": {
+        "input_tokens": 591,
+        "output_tokens": 75
+      }
+    },
+    "status": "ok",
+    "elapsed_s": 6.7204,
+    "request_sha256": "5b81942a1895ab40978943c6ebc0b3dfb8211b71d67d10180a981f5c124da5f2"
+  },
+  {
+    "attempt": 1,
+    "requested_model": "jev-1.13.0",
+    "model": "jev-1.13.0",
+    "usage": {
+      "input_tokens": 573,
+      "output_tokens": 42
+    },
+    "raw_response": {
+      "model": "jev-1.13.0",
+      "answers": {
+        "promotional_stock_tip": {
+          "type": "noul",
+          "noul": 0.03
+        },
+        "addresses_ai_tools": {
+          "type": "noul",
+          "noul": 0.01
+        }
+      },
+      "usage": {
+        "input_tokens": 573,
+        "output_tokens": 42
+      }
+    },
+    "status": "ok",
+    "elapsed_s": 1.0035,
+    "request_sha256": "91954c95692995cb474103ce240197b563deb055f43a907cb932b1693a302ca6"
+  },
+  {
+    "attempt": 1,
+    "requested_model": "jev-1.13.0",
+    "model": "jev-1.13.0",
+    "usage": {
+      "input_tokens": 761,
+      "output_tokens": 42
+    },
+    "raw_response": {
+      "model": "jev-1.13.0",
+      "answers": {
+        "promotional_stock_tip": {
+          "type": "noul",
+          "noul": 0.03
+        },
+        "addresses_ai_tools": {
+          "type": "noul",
+          "noul": 0.01
+        }
+      },
+      "usage": {
+        "input_tokens": 761,
+        "output_tokens": 42
+      }
+    },
+    "status": "ok",
+    "elapsed_s": 0.9276,
+    "request_sha256": "c729897b0a38e5f9af08573fdf524017b0ddf37bb7a273764dcfe28d9044a5d6"
+  },
+  {
+    "attempt": 1,
+    "requested_model": "jev-1.13.0",
+    "model": "jev-1.13.0",
+    "usage": {
+      "input_tokens": 696,
+      "output_tokens": 75
+    },
+    "raw_response": {
+      "model": "jev-1.13.0",
+      "answers": {
+        "promotional_stock_tip": {
+          "type": "noul",
+          "noul": 0.03
+        },
+        "addresses_ai_tools": {
+          "type": "noul",
+          "noul": 0.01
+        },
+        "same_company": {
+          "type": "score",
+          "score": 2.0,
+          "confidence": 1.0,
+          "legend": {
+            "0": "A different company or business: a different legal name, line of business, city or people.",
+            "1": "Unclear: a similar name, or too little detail to tell whether it is the same company.",
+            "2": "The same company as `target_company`."
+          },
+          "probabilities": {
+            "0": 0.0,
+            "1": 0.0,
+            "2": 1.0
+          }
+        },
+        "same_line_of_business": {
+          "type": "noul",
+          "noul": 0.99
+        }
+      },
+      "usage": {
+        "input_tokens": 696,
+        "output_tokens": 75
+      }
+    },
+    "status": "ok",
+    "elapsed_s": 0.873,
+    "request_sha256": "8a17a804f5fb1eadb8e443cfaaf137db1d9dfd18809f021a3f34c028120c242f"
+  },
+  {
+    "attempt": 1,
+    "requested_model": "jev-1.13.0",
+    "model": "jev-1.13.0",
+    "usage": {
+      "input_tokens": 697,
+      "output_tokens": 42
+    },
+    "raw_response": {
+      "model": "jev-1.13.0",
+      "answers": {
+        "promotional_stock_tip": {
+          "type": "noul",
+          "noul": 0.02
+        },
+        "addresses_ai_tools": {
+          "type": "noul",
+          "noul": 0.01
+        }
+      },
+      "usage": {
+        "input_tokens": 697,
+        "output_tokens": 42
+      }
+    },
+    "status": "ok",
+    "elapsed_s": 0.9416,
+    "request_sha256": "48286bd9440ae4df131486e63d91289a49e49500ae45baa995c9292ddfc4d130"
+  },
+  {
+    "attempt": 1,
+    "requested_model": "jev-1.13.0",
+    "model": "jev-1.13.0",
+    "usage": {
+      "input_tokens": 500,
+      "output_tokens": 42
+    },
+    "raw_response": {
+      "model": "jev-1.13.0",
+      "answers": {
+        "promotional_stock_tip": {
+          "type": "noul",
+          "noul": 0.99
+        },
+        "addresses_ai_tools": {
+          "type": "noul",
+          "noul": 0.02
+        }
+      },
+      "usage": {
+        "input_tokens": 500,
+        "output_tokens": 42
+      }
+    },
+    "status": "ok",
+    "elapsed_s": 0.9992,
+    "request_sha256": "a8fcbbe1952a59fbd179acc5655225d234e256907b241d91f0959279d71b2a1f"
+  },
+  {
+    "attempt": 1,
+    "requested_model": "jev-1.13.0",
+    "model": "jev-1.13.0",
+    "usage": {
+      "input_tokens": 530,
+      "output_tokens": 22
+    },
+    "raw_response": {
+      "model": "jev-1.13.0",
+      "answers": {
+        "addresses_ai_tools": {
+          "type": "noul",
+          "noul": 0.99
+        }
+      },
+      "usage": {
+        "input_tokens": 530,
+        "output_tokens": 22
+      }
+    },
+    "status": "ok",
+    "elapsed_s": 1.8337,
+    "request_sha256": "3c1e9cd47f84cd7ccf2543d9915766930012e9da508834b4317c4d324b8d0f3d"
+  },
+  {
+    "attempt": 1,
+    "requested_model": "jev-1.13.0",
+    "model": "jev-1.13.0",
+    "usage": {
+      "input_tokens": 612,
+      "output_tokens": 75
+    },
+    "raw_response": {
+      "model": "jev-1.13.0",
+      "answers": {
+        "promotional_stock_tip": {
+          "type": "noul",
+          "noul": 0.01
+        },
+        "addresses_ai_tools": {
+          "type": "noul",
+          "noul": 0.01
+        },
+        "same_company": {
+          "type": "score",
+          "score": 0.25,
+          "confidence": 0.62,
+          "legend": {
+            "0": "A different company or business: a different legal name, line of business, city or people.",
+            "1": "Unclear: a similar name, or too little detail to tell whether it is the same company.",
+            "2": "The same company as `target_company`."
+          },
+          "probabilities": {
+            "0": 0.75,
+            "1": 0.25,
+            "2": 0.0
+          }
+        },
+        "same_line_of_business": {
+          "type": "noul",
+          "noul": 0.11
+        }
+      },
+      "usage": {
+        "input_tokens": 612,
+        "output_tokens": 75
+      }
+    },
+    "status": "ok",
+    "elapsed_s": 6.0146,
+    "request_sha256": "49032da8a85e5ff090a21191131ede1025f9d6af137d7b93c27688b317ccfbc4"
+  },
+  {
+    "attempt": 1,
+    "requested_model": "jev-1.13.0",
+    "model": "jev-1.13.0",
+    "usage": {
+      "input_tokens": 506,
+      "output_tokens": 42
+    },
+    "raw_response": {
+      "model": "jev-1.13.0",
+      "answers": {
+        "promotional_stock_tip": {
+          "type": "noul",
+          "noul": 0.02
+        },
+        "addresses_ai_tools": {
+          "type": "noul",
+          "noul": 0.01
+        }
+      },
+      "usage": {
+        "input_tokens": 506,
+        "output_tokens": 42
+      }
+    },
+    "status": "ok",
+    "elapsed_s": 0.7943,
+    "request_sha256": "f9a8447b24293a5886aa34215941f0e00b7a45222773e0f5d8ffeb41179806ea"
+  },
+  {
+    "attempt": 1,
+    "requested_model": "jev-1.13.0",
+    "model": "jev-1.13.0",
+    "usage": {
+      "input_tokens": 1071,
+      "output_tokens": 88
+    },
+    "raw_response": {
+      "model": "jev-1.13.0",
+      "answers": {
+        "relation": {
+          "type": "choice",
+          "choice": "supports",
+          "confidence": 1.0,
+          "probabilities": {
+            "says_nothing": 0.0,
+            "supports": 1.0,
+            "contradicts": 0.0
+          }
+        },
+        "kind": {
+          "type": "choice",
+          "choice": "reported_fact",
+          "confidence": 1.0,
+          "probabilities": {
+            "management_view_or_forecast": 0.0,
+            "reported_fact": 1.0,
+            "third_party_view": 0.0
+          }
+        }
+      },
+      "usage": {
+        "input_tokens": 1071,
+        "output_tokens": 88
+      }
+    },
+    "status": "ok",
+    "elapsed_s": 0.7826,
+    "request_sha256": "542ef85259b420691720329634d34eb49b4d8d0a3273717fad18bd3b2c99cd48"
+  },
+  {
+    "attempt": 1,
+    "requested_model": "jev-1.13.0",
+    "model": "jev-1.13.0",
+    "usage": {
+      "input_tokens": 1031,
+      "output_tokens": 88
+    },
+    "raw_response": {
+      "model": "jev-1.13.0",
+      "answers": {
+        "relation": {
+          "type": "choice",
+          "choice": "supports",
+          "confidence": 1.0,
+          "probabilities": {
+            "supports": 1.0,
+            "contradicts": 0.0,
+            "says_nothing": 0.0
+          }
+        },
+        "kind": {
+          "type": "choice",
+          "choice": "reported_fact",
+          "confidence": 1.0,
+          "probabilities": {
+            "management_view_or_forecast": 0.0,
+            "third_party_view": 0.0,
+            "reported_fact": 1.0
+          }
+        }
+      },
+      "usage": {
+        "input_tokens": 1031,
+        "output_tokens": 88
+      }
+    },
+    "status": "ok",
+    "elapsed_s": 0.6556,
+    "request_sha256": "99e65b49eb290223728e84b8a72c9627bf6a4448a9931e58fdb2447477cbf402"
+  },
+  {
+    "attempt": 1,
+    "requested_model": "jev-1.13.0",
+    "model": "jev-1.13.0",
+    "usage": {
+      "input_tokens": 1016,
+      "output_tokens": 88
+    },
+    "raw_response": {
+      "model": "jev-1.13.0",
+      "answers": {
+        "relation": {
+          "type": "choice",
+          "choice": "supports",
+          "confidence": 1.0,
+          "probabilities": {
+            "contradicts": 0.0,
+            "says_nothing": 0.0,
+            "supports": 1.0
+          }
+        },
+        "kind": {
+          "type": "choice",
+          "choice": "reported_fact",
+          "confidence": 1.0,
+          "probabilities": {
+            "third_party_view": 0.0,
+            "reported_fact": 1.0,
+            "management_view_or_forecast": 0.0
+          }
+        }
+      },
+      "usage": {
+        "input_tokens": 1016,
+        "output_tokens": 88
+      }
+    },
+    "status": "ok",
+    "elapsed_s": 1.0967,
+    "request_sha256": "30f274ffebaefcf5ea51ab83cfee789315c7a894231f674ac0aed400144947aa"
+  },
+  {
+    "attempt": 1,
+    "requested_model": "jev-1.13.0",
+    "model": "jev-1.13.0",
+    "usage": {
+      "input_tokens": 1019,
+      "output_tokens": 88
+    },
+    "raw_response": {
+      "model": "jev-1.13.0",
+      "answers": {
+        "relation": {
+          "type": "choice",
+          "choice": "supports",
+          "confidence": 1.0,
+          "probabilities": {
+            "contradicts": 0.0,
+            "says_nothing": 0.0,
+            "supports": 1.0
+          }
+        },
+        "kind": {
+          "type": "choice",
+          "choice": "reported_fact",
+          "confidence": 1.0,
+          "probabilities": {
+            "third_party_view": 0.0,
+            "reported_fact": 1.0,
+            "management_view_or_forecast": 0.0
+          }
+        }
+      },
+      "usage": {
+        "input_tokens": 1019,
+        "output_tokens": 88
+      }
+    },
+    "status": "ok",
+    "elapsed_s": 0.7684,
+    "request_sha256": "3f17271499557192b1f50f33b9062b2d629baf9b4f27c0e2bff12e66106e4901"
+  },
+  {
+    "attempt": 1,
+    "requested_model": "jev-1.13.0",
+    "model": "jev-1.13.0",
+    "usage": {
+      "input_tokens": 1102,
+      "output_tokens": 88
+    },
+    "raw_response": {
+      "model": "jev-1.13.0",
+      "answers": {
+        "relation": {
+          "type": "choice",
+          "choice": "supports",
+          "confidence": 1.0,
+          "probabilities": {
+            "says_nothing": 0.0,
+            "supports": 1.0,
+            "contradicts": 0.0
+          }
+        },
+        "kind": {
+          "type": "choice",
+          "choice": "reported_fact",
+          "confidence": 1.0,
+          "probabilities": {
+            "third_party_view": 0.0,
+            "management_view_or_forecast": 0.0,
+            "reported_fact": 1.0
+          }
+        }
+      },
+      "usage": {
+        "input_tokens": 1102,
+        "output_tokens": 88
+      }
+    },
+    "status": "ok",
+    "elapsed_s": 0.5964,
+    "request_sha256": "1f840ac1bda5a34965844c637fd1ed7b9e98456f8fef18429f6cb086413d281d"
+  },
+  {
+    "attempt": 1,
+    "requested_model": "jev-1.13.0",
+    "model": "jev-1.13.0",
+    "usage": {
+      "input_tokens": 1209,
+      "output_tokens": 92
+    },
+    "raw_response": {
+      "model": "jev-1.13.0",
+      "answers": {
+        "relation": {
+          "type": "choice",
+          "choice": "supports",
+          "confidence": 0.93,
+          "probabilities": {
+            "says_nothing": 0.05,
+            "contradicts": 0.0,
+            "supports": 0.95
+          }
+        },
+        "kind": {
+          "type": "choice",
+          "choice": "management_view_or_forecast",
+          "confidence": 0.99,
+          "probabilities": {
+            "management_view_or_forecast": 1.0,
+            "reported_fact": 0.0,
+            "third_party_view": 0.0
+          }
+        }
+      },
+      "usage": {
+        "input_tokens": 1209,
+        "output_tokens": 92
+      }
+    },
+    "status": "ok",
+    "elapsed_s": 0.7817,
+    "request_sha256": "ce47de2b51849c7e8183d29ca758a72c292ee0a204cda950a2ca914877b5f1a4"
+  },
+  {
+    "attempt": 1,
+    "requested_model": "jev-1.13.0",
+    "model": "jev-1.13.0",
+    "usage": {
+      "input_tokens": 1050,
+      "output_tokens": 88
+    },
+    "raw_response": {
+      "model": "jev-1.13.0",
+      "answers": {
+        "relation": {
+          "type": "choice",
+          "choice": "supports",
+          "confidence": 1.0,
+          "probabilities": {
+            "contradicts": 0.0,
+            "supports": 1.0,
+            "says_nothing": 0.0
+          }
+        },
+        "kind": {
+          "type": "choice",
+          "choice": "reported_fact",
+          "confidence": 1.0,
+          "probabilities": {
+            "management_view_or_forecast": 0.0,
+            "reported_fact": 1.0,
+            "third_party_view": 0.0
+          }
+        }
+      },
+      "usage": {
+        "input_tokens": 1050,
+        "output_tokens": 88
+      }
+    },
+    "status": "ok",
+    "elapsed_s": 0.8182,
+    "request_sha256": "c3a07a591e2e5924b3ca17dfdf0680db3d756a8caff03d46e0855ab71db911a5"
+  },
+  {
+    "attempt": 1,
+    "requested_model": "jev-1.13.0",
+    "model": "jev-1.13.0",
+    "usage": {
+      "input_tokens": 1008,
+      "output_tokens": 92
+    },
+    "raw_response": {
+      "model": "jev-1.13.0",
+      "answers": {
+        "relation": {
+          "type": "choice",
+          "choice": "supports",
+          "confidence": 0.91,
+          "probabilities": {
+            "supports": 0.94,
+            "contradicts": 0.0,
+            "says_nothing": 0.06
+          }
+        },
+        "kind": {
+          "type": "choice",
+          "choice": "management_view_or_forecast",
+          "confidence": 0.99,
+          "probabilities": {
+            "third_party_view": 0.0,
+            "management_view_or_forecast": 0.99,
+            "reported_fact": 0.01
+          }
+        }
+      },
+      "usage": {
+        "input_tokens": 1008,
+        "output_tokens": 92
+      }
+    },
+    "status": "ok",
+    "elapsed_s": 0.7804,
+    "request_sha256": "127b4121923c2baa097c77452b6cec8c0f705bf4a1a66f961651fbe932c9b489"
+  },
+  {
+    "attempt": 1,
+    "requested_model": "jev-1.13.0",
+    "model": "jev-1.13.0",
+    "usage": {
+      "input_tokens": 1098,
+      "output_tokens": 88
+    },
+    "raw_response": {
+      "model": "jev-1.13.0",
+      "answers": {
+        "relation": {
+          "type": "choice",
+          "choice": "supports",
+          "confidence": 0.99,
+          "probabilities": {
+            "says_nothing": 0.01,
+            "contradicts": 0.0,
+            "supports": 0.99
+          }
+        },
+        "kind": {
+          "type": "choice",
+          "choice": "reported_fact",
+          "confidence": 1.0,
+          "probabilities": {
+            "reported_fact": 1.0,
+            "management_view_or_forecast": 0.0,
+            "third_party_view": 0.0
+          }
+        }
+      },
+      "usage": {
+        "input_tokens": 1098,
+        "output_tokens": 88
+      }
+    },
+    "status": "ok",
+    "elapsed_s": 1.5343,
+    "request_sha256": "97fc4d986c9cf8600e30c133eee1e12d6a3640ac4ae5e23e4f1fb23b4a059cca"
+  },
+  {
+    "attempt": 1,
+    "requested_model": "jev-1.13.0",
+    "model": "jev-1.13.0",
+    "usage": {
+      "input_tokens": 1137,
+      "output_tokens": 88
+    },
+    "raw_response": {
+      "model": "jev-1.13.0",
+      "answers": {
+        "relation": {
+          "type": "choice",
+          "choice": "supports",
+          "confidence": 1.0,
+          "probabilities": {
+            "supports": 1.0,
+            "contradicts": 0.0,
+            "says_nothing": 0.0
+          }
+        },
+        "kind": {
+          "type": "choice",
+          "choice": "reported_fact",
+          "confidence": 0.95,
+          "probabilities": {
+            "reported_fact": 0.97,
+            "management_view_or_forecast": 0.03,
+            "third_party_view": 0.0
+          }
+        }
+      },
+      "usage": {
+        "input_tokens": 1137,
+        "output_tokens": 88
+      }
+    },
+    "status": "ok",
+    "elapsed_s": 0.6092,
+    "request_sha256": "eabe7b1cc6580437641cc85876efc4cad21188aff86f5537ae351ff8697b06f5"
+  },
+  {
+    "attempt": 1,
+    "requested_model": "jev-1.13.0",
+    "model": "jev-1.13.0",
+    "usage": {
+      "input_tokens": 1172,
+      "output_tokens": 88
+    },
+    "raw_response": {
+      "model": "jev-1.13.0",
+      "answers": {
+        "relation": {
+          "type": "choice",
+          "choice": "supports",
+          "confidence": 0.99,
+          "probabilities": {
+            "supports": 0.99,
+            "contradicts": 0.0,
+            "says_nothing": 0.01
+          }
+        },
+        "kind": {
+          "type": "choice",
+          "choice": "reported_fact",
+          "confidence": 0.92,
+          "probabilities": {
+            "third_party_view": 0.0,
+            "reported_fact": 0.95,
+            "management_view_or_forecast": 0.05
+          }
+        }
+      },
+      "usage": {
+        "input_tokens": 1172,
+        "output_tokens": 88
+      }
+    },
+    "status": "ok",
+    "elapsed_s": 0.5823,
+    "request_sha256": "db8f17086980883cee80b9e3a14ee23a62394b26fbbabb3c684e9bcf0c4602e4"
+  },
+  {
+    "attempt": 1,
+    "requested_model": "jev-1.13.0",
+    "model": "jev-1.13.0",
+    "usage": {
+      "input_tokens": 1492,
+      "output_tokens": 88
+    },
+    "raw_response": {
+      "model": "jev-1.13.0",
+      "answers": {
+        "relation": {
+          "type": "choice",
+          "choice": "supports",
+          "confidence": 0.93,
+          "probabilities": {
+            "says_nothing": 0.01,
+            "supports": 0.95,
+            "contradicts": 0.04
+          }
+        },
+        "kind": {
+          "type": "choice",
+          "choice": "reported_fact",
+          "confidence": 0.97,
+          "probabilities": {
+            "third_party_view": 0.02,
+            "reported_fact": 0.98,
+            "management_view_or_forecast": 0.0
+          }
+        }
+      },
+      "usage": {
+        "input_tokens": 1492,
+        "output_tokens": 88
+      }
+    },
+    "status": "ok",
+    "elapsed_s": 1.1328,
+    "request_sha256": "24ad4d6f7303e60fb7df22abbce4299e3f3ffd2ca10bc63dc67ee77c5cf5f2fe"
+  },
+  {
+    "attempt": 1,
+    "requested_model": "jev-1.13.0",
+    "model": "jev-1.13.0",
+    "usage": {
+      "input_tokens": 1308,
+      "output_tokens": 88
+    },
+    "raw_response": {
+      "model": "jev-1.13.0",
+      "answers": {
+        "relation": {
+          "type": "choice",
+          "choice": "supports",
+          "confidence": 0.98,
+          "probabilities": {
+            "contradicts": 0.0,
+            "says_nothing": 0.01,
+            "supports": 0.99
+          }
+        },
+        "kind": {
+          "type": "choice",
+          "choice": "reported_fact",
+          "confidence": 0.95,
+          "probabilities": {
+            "reported_fact": 0.97,
+            "management_view_or_forecast": 0.03,
+            "third_party_view": 0.0
+          }
+        }
+      },
+      "usage": {
+        "input_tokens": 1308,
+        "output_tokens": 88
+      }
+    },
+    "status": "ok",
+    "elapsed_s": 1.2552,
+    "request_sha256": "3bd091b7a3285ff5028879916ed156a81dc5f349df763ec143a929aaf4ee7cf9"
+  },
+  {
+    "attempt": 1,
+    "requested_model": "jev-1.13.0",
+    "model": "jev-1.13.0",
+    "usage": {
+      "input_tokens": 1344,
+      "output_tokens": 92
+    },
+    "raw_response": {
+      "model": "jev-1.13.0",
+      "answers": {
+        "relation": {
+          "type": "choice",
+          "choice": "supports",
+          "confidence": 0.97,
+          "probabilities": {
+            "says_nothing": 0.02,
+            "contradicts": 0.0,
+            "supports": 0.98
+          }
+        },
+        "kind": {
+          "type": "choice",
+          "choice": "management_view_or_forecast",
+          "confidence": 0.99,
+          "probabilities": {
+            "management_view_or_forecast": 0.99,
+            "reported_fact": 0.01,
+            "third_party_view": 0.0
+          }
+        }
+      },
+      "usage": {
+        "input_tokens": 1344,
+        "output_tokens": 92
+      }
+    },
+    "status": "ok",
+    "elapsed_s": 0.6184,
+    "request_sha256": "cad45112eb4e700e24a6c310a253784daa3d7907b13fe08db2fe3af275f218ef"
+  }
+]

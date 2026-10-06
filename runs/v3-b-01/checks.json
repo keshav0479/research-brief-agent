@@ -1,0 +1,982 @@
+{
+  "arm": "B",
+  "profile": {
+    "ticker": "SRVCABLE",
+    "name": "Sarvottam Cables Ltd",
+    "business": "a manufacturer of power cables, wires and conductors"
+  },
+  "passes": [
+    {
+      "stage": "draft",
+      "results": [
+        {
+          "section": "snapshot",
+          "index": 0,
+          "claim": {
+            "cites": [
+              "S3.u01"
+            ],
+            "kind": "reported_fact",
+            "text": "Sarvottam Cables Ltd is a manufacturer of power cables, wires and conductors listed on the NSE."
+          },
+          "code_errors": [],
+          "verification": null,
+          "errors": [],
+          "accepted": true,
+          "final_claim": {
+            "cites": [
+              "S3.u01"
+            ],
+            "kind": "reported_fact",
+            "text": "Sarvottam Cables Ltd is a manufacturer of power cables, wires and conductors listed on the NSE."
+          }
+        },
+        {
+          "section": "snapshot",
+          "index": 1,
+          "claim": {
+            "cites": [
+              "S3.u05"
+            ],
+            "kind": "reported_fact",
+            "text": "Consolidated profit after tax for Q1 FY27 was ₹82 crore, a 5.9% increase from ₹77 crore in Q1 FY26."
+          },
+          "code_errors": [],
+          "verification": null,
+          "errors": [],
+          "accepted": true,
+          "final_claim": {
+            "cites": [
+              "S3.u05"
+            ],
+            "kind": "reported_fact",
+            "text": "Consolidated profit after tax for Q1 FY27 was ₹82 crore, a 5.9% increase from ₹77 crore in Q1 FY26."
+          }
+        },
+        {
+          "section": "snapshot",
+          "index": 2,
+          "claim": {
+            "cites": [
+              "S2.u01"
+            ],
+            "kind": "reported_fact",
+            "text": "As of 30 June 2026, promoters and the promoter group held 58.2% of the company's shares."
+          },
+          "code_errors": [
+            "Number 30 (scalar) is not supported by the cited quotes"
+          ],
+          "verification": null,
+          "errors": [
+            "Number 30 (scalar) is not supported by the cited quotes"
+          ],
+          "accepted": false,
+          "final_claim": {
+            "cites": [
+              "S2.u01"
+            ],
+            "kind": "reported_fact",
+            "text": "As of 30 June 2026, promoters and the promoter group held 58.2% of the company's shares."
+          }
+        },
+        {
+          "section": "snapshot",
+          "index": 3,
+          "claim": {
+            "cites": [
+              "S2.u02"
+            ],
+            "kind": "reported_fact",
+            "text": "The share of promoter holdings pledged with lenders was 4.1% as of 30 June 2026, down from 11.5% a year earlier."
+          },
+          "code_errors": [
+            "Number 30 (scalar) is not supported by the cited quotes"
+          ],
+          "verification": null,
+          "errors": [
+            "Number 30 (scalar) is not supported by the cited quotes"
+          ],
+          "accepted": false,
+          "final_claim": {
+            "cites": [
+              "S2.u02"
+            ],
+            "kind": "reported_fact",
+            "text": "The share of promoter holdings pledged with lenders was 4.1% as of 30 June 2026, down from 11.5% a year earlier."
+          }
+        },
+        {
+          "section": "bull",
+          "index": 0,
+          "claim": {
+            "cites": [
+              "S3.u02"
+            ],
+            "kind": "reported_fact",
+            "text": "Consolidated revenue from operations for Q1 FY27 was ₹1,248 crore, an 18.0% increase year-on-year."
+          },
+          "code_errors": [],
+          "verification": null,
+          "errors": [],
+          "accepted": true,
+          "final_claim": {
+            "cites": [
+              "S3.u02"
+            ],
+            "kind": "reported_fact",
+            "text": "Consolidated revenue from operations for Q1 FY27 was ₹1,248 crore, an 18.0% increase year-on-year."
+          }
+        },
+        {
+          "section": "bull",
+          "index": 1,
+          "claim": {
+            "cites": [
+              "S3.u06"
+            ],
+            "kind": "reported_fact",
+            "text": "The order book stood at ₹3,900 crore as of 30 June 2026, up from ₹3,150 crore a year earlier."
+          },
+          "code_errors": [],
+          "verification": null,
+          "errors": [],
+          "accepted": true,
+          "final_claim": {
+            "cites": [
+              "S3.u06"
+            ],
+            "kind": "reported_fact",
+            "text": "The order book stood at ₹3,900 crore as of 30 June 2026, up from ₹3,150 crore a year earlier."
+          }
+        },
+        {
+          "section": "bull",
+          "index": 2,
+          "claim": {
+            "cites": [
+              "S3.u08"
+            ],
+            "kind": "management_view_or_forecast",
+            "text": "Management states that the new Bharuch plant, which adds about 30% to cable capacity, is on track to begin commercial production in Q3 FY27."
+          },
+          "code_errors": [],
+          "verification": null,
+          "errors": [],
+          "accepted": true,
+          "final_claim": {
+            "cites": [
+              "S3.u08"
+            ],
+            "kind": "management_view_or_forecast",
+            "text": "Management states that the new Bharuch plant, which adds about 30% to cable capacity, is on track to begin commercial production in Q3 FY27."
+          }
+        },
+        {
+          "section": "bull",
+          "index": 3,
+          "claim": {
+            "cites": [
+              "S5.u03"
+            ],
+            "kind": "management_view_or_forecast",
+            "text": "The Managing Director noted that data-centre cables are about 9% of domestic revenue and expects this share to double in two years."
+          },
+          "code_errors": [],
+          "verification": null,
+          "errors": [],
+          "accepted": true,
+          "final_claim": {
+            "cites": [
+              "S5.u03"
+            ],
+            "kind": "management_view_or_forecast",
+            "text": "The Managing Director noted that data-centre cables are about 9% of domestic revenue and expects this share to double in two years."
+          }
+        },
+        {
+          "section": "bear",
+          "index": 0,
+          "claim": {
+            "cites": [
+              "S3.u04"
+            ],
+            "kind": "reported_fact",
+            "text": "Consolidated EBITDA margin for Q1 FY27 was 11.2%, down 170 basis points from 12.9% in Q1 FY26."
+          },
+          "code_errors": [],
+          "verification": null,
+          "errors": [],
+          "accepted": true,
+          "final_claim": {
+            "cites": [
+              "S3.u04"
+            ],
+            "kind": "reported_fact",
+            "text": "Consolidated EBITDA margin for Q1 FY27 was 11.2%, down 170 basis points from 12.9% in Q1 FY26."
+          }
+        },
+        {
+          "section": "bear",
+          "index": 1,
+          "claim": {
+            "cites": [
+              "S5.u11",
+              "S5.u12"
+            ],
+            "kind": "reported_fact",
+            "text": "The CFO stated that receivable days increased from 78 to 96 over the last year, mainly due to slower payments from two large state utility customers."
+          },
+          "code_errors": [],
+          "verification": null,
+          "errors": [],
+          "accepted": true,
+          "final_claim": {
+            "cites": [
+              "S5.u11",
+              "S5.u12"
+            ],
+            "kind": "reported_fact",
+            "text": "The CFO stated that receivable days increased from 78 to 96 over the last year, mainly due to slower payments from two large state utility customers."
+          }
+        },
+        {
+          "section": "bear",
+          "index": 2,
+          "claim": {
+            "cites": [
+              "S8.u01"
+            ],
+            "kind": "reported_fact",
+            "text": "The company disclosed on 2 September 2026 that it received a GST demand order for ₹46.3 crore, including interest and penalty, relating to input tax credit claims for FY2020-21 and FY2021-22."
+          },
+          "code_errors": [
+            "Number 2 (scalar) is not supported by the cited quotes"
+          ],
+          "verification": null,
+          "errors": [
+            "Number 2 (scalar) is not supported by the cited quotes"
+          ],
+          "accepted": false,
+          "final_claim": {
+            "cites": [
+              "S8.u01"
+            ],
+            "kind": "reported_fact",
+            "text": "The company disclosed on 2 September 2026 that it received a GST demand order for ₹46.3 crore, including interest and penalty, relating to input tax credit claims for FY2020-21 and FY2021-22."
+          }
+        },
+        {
+          "section": "open_questions",
+          "index": 0,
+          "claim": {
+            "cites": [
+              "S3.u02",
+              "S4.u02"
+            ],
+            "kind": "reported_fact",
+            "text": "The company's press release reports Q1 FY27 revenue of ₹1,248 crore, while a news article reports ₹1,428 crore. What explains this discrepancy in the reported revenue figures?"
+          },
+          "code_errors": [],
+          "verification": null,
+          "errors": [],
+          "accepted": true,
+          "final_claim": {
+            "cites": [
+              "S3.u02",
+              "S4.u02"
+            ],
+            "kind": "reported_fact",
+            "text": "The company's press release reports Q1 FY27 revenue of ₹1,248 crore, while a news article reports ₹1,428 crore. What explains this discrepancy in the reported revenue figures?"
+          }
+        },
+        {
+          "section": "open_questions",
+          "index": 1,
+          "claim": {
+            "cites": [
+              "S8.u02",
+              "S8.u03"
+            ],
+            "kind": "management_view_or_forecast",
+            "text": "The company intends to appeal the ₹46.3 crore GST demand and states it does not expect a material impact on its financial position. What is the current status of this appeal and the final outcome?"
+          },
+          "code_errors": [
+            "Number 46.3 (rupees) is not supported by the cited quotes"
+          ],
+          "verification": null,
+          "errors": [
+            "Number 46.3 (rupees) is not supported by the cited quotes"
+          ],
+          "accepted": false,
+          "final_claim": {
+            "cites": [
+              "S8.u02",
+              "S8.u03"
+            ],
+            "kind": "management_view_or_forecast",
+            "text": "The company intends to appeal the ₹46.3 crore GST demand and states it does not expect a material impact on its financial position. What is the current status of this appeal and the final outcome?"
+          }
+        },
+        {
+          "section": "open_questions",
+          "index": 2,
+          "claim": {
+            "cites": [
+              "S5.u07",
+              "S5.u10"
+            ],
+            "kind": "management_view_or_forecast",
+            "text": "Management attributes the margin decline mostly to copper prices and notes that price-variation clauses reset with a lag of one to two quarters. How much of the margin contraction is specifically due to competitive pricing versus raw material costs?"
+          },
+          "code_errors": [],
+          "verification": null,
+          "errors": [],
+          "accepted": true,
+          "final_claim": {
+            "cites": [
+              "S5.u07",
+              "S5.u10"
+            ],
+            "kind": "management_view_or_forecast",
+            "text": "Management attributes the margin decline mostly to copper prices and notes that price-variation clauses reset with a lag of one to two quarters. How much of the margin contraction is specifically due to competitive pricing versus raw material costs?"
+          }
+        }
+      ],
+      "failures": [
+        {
+          "section": "snapshot",
+          "index": 2,
+          "claim": {
+            "cites": [
+              "S2.u01"
+            ],
+            "kind": "reported_fact",
+            "text": "As of 30 June 2026, promoters and the promoter group held 58.2% of the company's shares."
+          },
+          "code_errors": [
+            "Number 30 (scalar) is not supported by the cited quotes"
+          ],
+          "verification": null,
+          "errors": [
+            "Number 30 (scalar) is not supported by the cited quotes"
+          ],
+          "accepted": false,
+          "final_claim": {
+            "cites": [
+              "S2.u01"
+            ],
+            "kind": "reported_fact",
+            "text": "As of 30 June 2026, promoters and the promoter group held 58.2% of the company's shares."
+          }
+        },
+        {
+          "section": "snapshot",
+          "index": 3,
+          "claim": {
+            "cites": [
+              "S2.u02"
+            ],
+            "kind": "reported_fact",
+            "text": "The share of promoter holdings pledged with lenders was 4.1% as of 30 June 2026, down from 11.5% a year earlier."
+          },
+          "code_errors": [
+            "Number 30 (scalar) is not supported by the cited quotes"
+          ],
+          "verification": null,
+          "errors": [
+            "Number 30 (scalar) is not supported by the cited quotes"
+          ],
+          "accepted": false,
+          "final_claim": {
+            "cites": [
+              "S2.u02"
+            ],
+            "kind": "reported_fact",
+            "text": "The share of promoter holdings pledged with lenders was 4.1% as of 30 June 2026, down from 11.5% a year earlier."
+          }
+        },
+        {
+          "section": "bear",
+          "index": 2,
+          "claim": {
+            "cites": [
+              "S8.u01"
+            ],
+            "kind": "reported_fact",
+            "text": "The company disclosed on 2 September 2026 that it received a GST demand order for ₹46.3 crore, including interest and penalty, relating to input tax credit claims for FY2020-21 and FY2021-22."
+          },
+          "code_errors": [
+            "Number 2 (scalar) is not supported by the cited quotes"
+          ],
+          "verification": null,
+          "errors": [
+            "Number 2 (scalar) is not supported by the cited quotes"
+          ],
+          "accepted": false,
+          "final_claim": {
+            "cites": [
+              "S8.u01"
+            ],
+            "kind": "reported_fact",
+            "text": "The company disclosed on 2 September 2026 that it received a GST demand order for ₹46.3 crore, including interest and penalty, relating to input tax credit claims for FY2020-21 and FY2021-22."
+          }
+        },
+        {
+          "section": "open_questions",
+          "index": 1,
+          "claim": {
+            "cites": [
+              "S8.u02",
+              "S8.u03"
+            ],
+            "kind": "management_view_or_forecast",
+            "text": "The company intends to appeal the ₹46.3 crore GST demand and states it does not expect a material impact on its financial position. What is the current status of this appeal and the final outcome?"
+          },
+          "code_errors": [
+            "Number 46.3 (rupees) is not supported by the cited quotes"
+          ],
+          "verification": null,
+          "errors": [
+            "Number 46.3 (rupees) is not supported by the cited quotes"
+          ],
+          "accepted": false,
+          "final_claim": {
+            "cites": [
+              "S8.u02",
+              "S8.u03"
+            ],
+            "kind": "management_view_or_forecast",
+            "text": "The company intends to appeal the ₹46.3 crore GST demand and states it does not expect a material impact on its financial position. What is the current status of this appeal and the final outcome?"
+          }
+        }
+      ]
+    },
+    {
+      "stage": "repair",
+      "results": [
+        {
+          "section": "snapshot",
+          "index": 0,
+          "claim": {
+            "cites": [
+              "S3.u01"
+            ],
+            "kind": "reported_fact",
+            "text": "Sarvottam Cables Ltd is a manufacturer of power cables, wires and conductors listed on the NSE."
+          },
+          "code_errors": [],
+          "verification": null,
+          "errors": [],
+          "accepted": true,
+          "final_claim": {
+            "cites": [
+              "S3.u01"
+            ],
+            "kind": "reported_fact",
+            "text": "Sarvottam Cables Ltd is a manufacturer of power cables, wires and conductors listed on the NSE."
+          }
+        },
+        {
+          "section": "snapshot",
+          "index": 1,
+          "claim": {
+            "cites": [
+              "S3.u05"
+            ],
+            "kind": "reported_fact",
+            "text": "Consolidated profit after tax for Q1 FY27 was ₹82 crore, a 5.9% increase from ₹77 crore in Q1 FY26."
+          },
+          "code_errors": [],
+          "verification": null,
+          "errors": [],
+          "accepted": true,
+          "final_claim": {
+            "cites": [
+              "S3.u05"
+            ],
+            "kind": "reported_fact",
+            "text": "Consolidated profit after tax for Q1 FY27 was ₹82 crore, a 5.9% increase from ₹77 crore in Q1 FY26."
+          }
+        },
+        {
+          "section": "snapshot",
+          "index": 2,
+          "claim": {
+            "cites": [
+              "S2.u01"
+            ],
+            "kind": "reported_fact",
+            "text": "As of June 2026, promoters and the promoter group held 58.2% of the company's shares."
+          },
+          "code_errors": [],
+          "verification": null,
+          "errors": [],
+          "accepted": true,
+          "final_claim": {
+            "cites": [
+              "S2.u01"
+            ],
+            "kind": "reported_fact",
+            "text": "As of June 2026, promoters and the promoter group held 58.2% of the company's shares."
+          }
+        },
+        {
+          "section": "snapshot",
+          "index": 3,
+          "claim": {
+            "cites": [
+              "S2.u02"
+            ],
+            "kind": "reported_fact",
+            "text": "The share of promoter holdings pledged with lenders was 4.1% as of June 2026, down from 11.5% a year earlier."
+          },
+          "code_errors": [],
+          "verification": null,
+          "errors": [],
+          "accepted": true,
+          "final_claim": {
+            "cites": [
+              "S2.u02"
+            ],
+            "kind": "reported_fact",
+            "text": "The share of promoter holdings pledged with lenders was 4.1% as of June 2026, down from 11.5% a year earlier."
+          }
+        },
+        {
+          "section": "bull",
+          "index": 0,
+          "claim": {
+            "cites": [
+              "S3.u02"
+            ],
+            "kind": "reported_fact",
+            "text": "Consolidated revenue from operations for Q1 FY27 was ₹1,248 crore, an 18.0% increase year-on-year."
+          },
+          "code_errors": [],
+          "verification": null,
+          "errors": [],
+          "accepted": true,
+          "final_claim": {
+            "cites": [
+              "S3.u02"
+            ],
+            "kind": "reported_fact",
+            "text": "Consolidated revenue from operations for Q1 FY27 was ₹1,248 crore, an 18.0% increase year-on-year."
+          }
+        },
+        {
+          "section": "bull",
+          "index": 1,
+          "claim": {
+            "cites": [
+              "S3.u06"
+            ],
+            "kind": "reported_fact",
+            "text": "The order book stood at ₹3,900 crore as of 30 June 2026, up from ₹3,150 crore a year earlier."
+          },
+          "code_errors": [],
+          "verification": null,
+          "errors": [],
+          "accepted": true,
+          "final_claim": {
+            "cites": [
+              "S3.u06"
+            ],
+            "kind": "reported_fact",
+            "text": "The order book stood at ₹3,900 crore as of 30 June 2026, up from ₹3,150 crore a year earlier."
+          }
+        },
+        {
+          "section": "bull",
+          "index": 2,
+          "claim": {
+            "cites": [
+              "S3.u08"
+            ],
+            "kind": "management_view_or_forecast",
+            "text": "Management states that the new Bharuch plant, which adds about 30% to cable capacity, is on track to begin commercial production in Q3 FY27."
+          },
+          "code_errors": [],
+          "verification": null,
+          "errors": [],
+          "accepted": true,
+          "final_claim": {
+            "cites": [
+              "S3.u08"
+            ],
+            "kind": "management_view_or_forecast",
+            "text": "Management states that the new Bharuch plant, which adds about 30% to cable capacity, is on track to begin commercial production in Q3 FY27."
+          }
+        },
+        {
+          "section": "bull",
+          "index": 3,
+          "claim": {
+            "cites": [
+              "S5.u03"
+            ],
+            "kind": "management_view_or_forecast",
+            "text": "The Managing Director noted that data-centre cables are about 9% of domestic revenue and expects this share to double in two years."
+          },
+          "code_errors": [],
+          "verification": null,
+          "errors": [],
+          "accepted": true,
+          "final_claim": {
+            "cites": [
+              "S5.u03"
+            ],
+            "kind": "management_view_or_forecast",
+            "text": "The Managing Director noted that data-centre cables are about 9% of domestic revenue and expects this share to double in two years."
+          }
+        },
+        {
+          "section": "bear",
+          "index": 0,
+          "claim": {
+            "cites": [
+              "S3.u04"
+            ],
+            "kind": "reported_fact",
+            "text": "Consolidated EBITDA margin for Q1 FY27 was 11.2%, down 170 basis points from 12.9% in Q1 FY26."
+          },
+          "code_errors": [],
+          "verification": null,
+          "errors": [],
+          "accepted": true,
+          "final_claim": {
+            "cites": [
+              "S3.u04"
+            ],
+            "kind": "reported_fact",
+            "text": "Consolidated EBITDA margin for Q1 FY27 was 11.2%, down 170 basis points from 12.9% in Q1 FY26."
+          }
+        },
+        {
+          "section": "bear",
+          "index": 1,
+          "claim": {
+            "cites": [
+              "S5.u11",
+              "S5.u12"
+            ],
+            "kind": "reported_fact",
+            "text": "The CFO stated that receivable days increased from 78 to 96 over the last year, mainly due to slower payments from two large state utility customers."
+          },
+          "code_errors": [],
+          "verification": null,
+          "errors": [],
+          "accepted": true,
+          "final_claim": {
+            "cites": [
+              "S5.u11",
+              "S5.u12"
+            ],
+            "kind": "reported_fact",
+            "text": "The CFO stated that receivable days increased from 78 to 96 over the last year, mainly due to slower payments from two large state utility customers."
+          }
+        },
+        {
+          "section": "bear",
+          "index": 2,
+          "claim": {
+            "cites": [
+              "S8.u01"
+            ],
+            "kind": "reported_fact",
+            "text": "The company disclosed that it received a GST demand order for ₹46.3 crore, including interest and penalty, relating to input tax credit claims for FY2020-21 and FY2021-22."
+          },
+          "code_errors": [],
+          "verification": null,
+          "errors": [],
+          "accepted": true,
+          "final_claim": {
+            "cites": [
+              "S8.u01"
+            ],
+            "kind": "reported_fact",
+            "text": "The company disclosed that it received a GST demand order for ₹46.3 crore, including interest and penalty, relating to input tax credit claims for FY2020-21 and FY2021-22."
+          }
+        },
+        {
+          "section": "open_questions",
+          "index": 0,
+          "claim": {
+            "cites": [
+              "S3.u02",
+              "S4.u02"
+            ],
+            "kind": "reported_fact",
+            "text": "The company's press release reports Q1 FY27 revenue of ₹1,248 crore, while a news article reports ₹1,428 crore. What explains this discrepancy in the reported revenue figures?"
+          },
+          "code_errors": [],
+          "verification": null,
+          "errors": [],
+          "accepted": true,
+          "final_claim": {
+            "cites": [
+              "S3.u02",
+              "S4.u02"
+            ],
+            "kind": "reported_fact",
+            "text": "The company's press release reports Q1 FY27 revenue of ₹1,248 crore, while a news article reports ₹1,428 crore. What explains this discrepancy in the reported revenue figures?"
+          }
+        },
+        {
+          "section": "open_questions",
+          "index": 1,
+          "claim": {
+            "cites": [
+              "S8.u01",
+              "S8.u02",
+              "S8.u03"
+            ],
+            "kind": "management_view_or_forecast",
+            "text": "The company disclosed a ₹46.3 crore GST demand, intends to appeal it, and states it does not expect a material impact on its financial position. What is the current status of this appeal and the final outcome?"
+          },
+          "code_errors": [],
+          "verification": null,
+          "errors": [],
+          "accepted": true,
+          "final_claim": {
+            "cites": [
+              "S8.u01",
+              "S8.u02",
+              "S8.u03"
+            ],
+            "kind": "management_view_or_forecast",
+            "text": "The company disclosed a ₹46.3 crore GST demand, intends to appeal it, and states it does not expect a material impact on its financial position. What is the current status of this appeal and the final outcome?"
+          }
+        },
+        {
+          "section": "open_questions",
+          "index": 2,
+          "claim": {
+            "cites": [
+              "S5.u07",
+              "S5.u10"
+            ],
+            "kind": "management_view_or_forecast",
+            "text": "Management attributes the margin decline mostly to copper prices and notes that price-variation clauses reset with a lag of one to two quarters. How much of the margin contraction is specifically due to competitive pricing versus raw material costs?"
+          },
+          "code_errors": [],
+          "verification": null,
+          "errors": [],
+          "accepted": true,
+          "final_claim": {
+            "cites": [
+              "S5.u07",
+              "S5.u10"
+            ],
+            "kind": "management_view_or_forecast",
+            "text": "Management attributes the margin decline mostly to copper prices and notes that price-variation clauses reset with a lag of one to two quarters. How much of the margin contraction is specifically due to competitive pricing versus raw material costs?"
+          }
+        }
+      ],
+      "failures": []
+    }
+  ],
+  "dropped": [],
+  "removals": {
+    "S6": [
+      {
+        "kind": "html_comment",
+        "count": 247
+      }
+    ]
+  },
+  "warnings": [],
+  "manual_supported_review": "pending",
+  "manual_trap_review": "pending",
+  "routes": {
+    "S1": {
+      "status": "evidence",
+      "reason": "Entity not checked; semantic screening not run",
+      "diagnostics": {
+        "hard_identifier": null
+      }
+    },
+    "S2": {
+      "status": "evidence",
+      "reason": "Company matched by ticker; semantic screening not run",
+      "diagnostics": {
+        "hard_identifier": "ticker"
+      }
+    },
+    "S3": {
+      "status": "evidence",
+      "reason": "Company matched by ticker; semantic screening not run",
+      "diagnostics": {
+        "hard_identifier": "ticker"
+      }
+    },
+    "S4": {
+      "status": "evidence",
+      "reason": "Entity not checked; semantic screening not run",
+      "diagnostics": {
+        "hard_identifier": null
+      }
+    },
+    "S5": {
+      "status": "evidence",
+      "reason": "Company matched by issuer_host; semantic screening not run",
+      "diagnostics": {
+        "hard_identifier": "issuer_host"
+      }
+    },
+    "S6": {
+      "status": "evidence",
+      "reason": "Company matched by ticker; semantic screening not run",
+      "diagnostics": {
+        "hard_identifier": "ticker"
+      }
+    },
+    "S7": {
+      "status": "evidence",
+      "reason": "Entity not checked; semantic screening not run",
+      "diagnostics": {
+        "hard_identifier": null
+      }
+    },
+    "S8": {
+      "status": "evidence",
+      "reason": "Company matched by ticker; semantic screening not run",
+      "diagnostics": {
+        "hard_identifier": "ticker"
+      }
+    }
+  },
+  "unavailable": false,
+  "accepted": {
+    "snapshot": [
+      {
+        "cites": [
+          "S3.u01"
+        ],
+        "kind": "reported_fact",
+        "text": "Sarvottam Cables Ltd is a manufacturer of power cables, wires and conductors listed on the NSE."
+      },
+      {
+        "cites": [
+          "S3.u05"
+        ],
+        "kind": "reported_fact",
+        "text": "Consolidated profit after tax for Q1 FY27 was ₹82 crore, a 5.9% increase from ₹77 crore in Q1 FY26."
+      },
+      {
+        "cites": [
+          "S2.u01"
+        ],
+        "kind": "reported_fact",
+        "text": "As of June 2026, promoters and the promoter group held 58.2% of the company's shares."
+      },
+      {
+        "cites": [
+          "S2.u02"
+        ],
+        "kind": "reported_fact",
+        "text": "The share of promoter holdings pledged with lenders was 4.1% as of June 2026, down from 11.5% a year earlier."
+      }
+    ],
+    "bull": [
+      {
+        "cites": [
+          "S3.u02"
+        ],
+        "kind": "reported_fact",
+        "text": "Consolidated revenue from operations for Q1 FY27 was ₹1,248 crore, an 18.0% increase year-on-year."
+      },
+      {
+        "cites": [
+          "S3.u06"
+        ],
+        "kind": "reported_fact",
+        "text": "The order book stood at ₹3,900 crore as of 30 June 2026, up from ₹3,150 crore a year earlier."
+      },
+      {
+        "cites": [
+          "S3.u08"
+        ],
+        "kind": "management_view_or_forecast",
+        "text": "Management states that the new Bharuch plant, which adds about 30% to cable capacity, is on track to begin commercial production in Q3 FY27."
+      },
+      {
+        "cites": [
+          "S5.u03"
+        ],
+        "kind": "management_view_or_forecast",
+        "text": "The Managing Director noted that data-centre cables are about 9% of domestic revenue and expects this share to double in two years."
+      }
+    ],
+    "bear": [
+      {
+        "cites": [
+          "S3.u04"
+        ],
+        "kind": "reported_fact",
+        "text": "Consolidated EBITDA margin for Q1 FY27 was 11.2%, down 170 basis points from 12.9% in Q1 FY26."
+      },
+      {
+        "cites": [
+          "S5.u11",
+          "S5.u12"
+        ],
+        "kind": "reported_fact",
+        "text": "The CFO stated that receivable days increased from 78 to 96 over the last year, mainly due to slower payments from two large state utility customers."
+      },
+      {
+        "cites": [
+          "S8.u01"
+        ],
+        "kind": "reported_fact",
+        "text": "The company disclosed that it received a GST demand order for ₹46.3 crore, including interest and penalty, relating to input tax credit claims for FY2020-21 and FY2021-22."
+      }
+    ],
+    "open_questions": [
+      {
+        "cites": [
+          "S3.u02",
+          "S4.u02"
+        ],
+        "kind": "reported_fact",
+        "text": "The company's press release reports Q1 FY27 revenue of ₹1,248 crore, while a news article reports ₹1,428 crore. What explains this discrepancy in the reported revenue figures?"
+      },
+      {
+        "cites": [
+          "S8.u01",
+          "S8.u02",
+          "S8.u03"
+        ],
+        "kind": "management_view_or_forecast",
+        "text": "The company disclosed a ₹46.3 crore GST demand, intends to appeal it, and states it does not expect a material impact on its financial position. What is the current status of this appeal and the final outcome?"
+      },
+      {
+        "cites": [
+          "S5.u07",
+          "S5.u10"
+        ],
+        "kind": "management_view_or_forecast",
+        "text": "Management attributes the margin decline mostly to copper prices and notes that price-variation clauses reset with a lag of one to two quarters. How much of the margin contraction is specifically due to competitive pricing versus raw material costs?"
+      }
+    ]
+  },
+  "metrics": {
+    "cited_ids_valid": {
+      "k": 14,
+      "n": 14,
+      "low": 0.7846891972623643,
+      "high": 1.0
+    },
+    "numbers_matched": {
+      "k": 14,
+      "n": 14,
+      "low": 0.7846891972623643,
+      "high": 1.0
+    },
+    "accepted_claims": 14,
+    "dropped_claims": 0,
+    "system_open_questions": 0
+  },
+  "status": "completed",
+  "word_count": 366
+}

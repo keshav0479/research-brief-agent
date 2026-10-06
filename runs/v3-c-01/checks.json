@@ -1,0 +1,212 @@
+{
+  "arm": "C",
+  "profile": {
+    "ticker": "SRVCABLE",
+    "name": "Sarvottam Cables Ltd",
+    "business": "a manufacturer of power cables, wires and conductors"
+  },
+  "passes": [],
+  "dropped": [],
+  "removals": {
+    "S6": [
+      {
+        "kind": "html_comment",
+        "count": 247
+      }
+    ]
+  },
+  "warnings": [],
+  "manual_supported_review": "pending",
+  "manual_trap_review": "pending",
+  "routes": {
+    "S1": {
+      "status": "evidence",
+      "reason": "Company identity and document screening passed",
+      "diagnostics": {
+        "hard_identifier": null,
+        "clean": {
+          "addresses_ai_tools": {
+            "noul": 0,
+            "type": "noul"
+          },
+          "promotional_stock_tip": {
+            "noul": 0,
+            "type": "noul"
+          },
+          "same_company": {
+            "confidence": 1,
+            "score": 2,
+            "type": "score"
+          },
+          "same_line_of_business": {
+            "noul": 1,
+            "type": "noul"
+          }
+        },
+        "clean_addresses_ai_tools": 0,
+        "raw_addresses_ai_tools": 0,
+        "raw_screen_reused": true
+      }
+    },
+    "S2": {
+      "status": "evidence",
+      "reason": "Company matched by ticker; document screening passed",
+      "diagnostics": {
+        "hard_identifier": "ticker",
+        "clean": {
+          "addresses_ai_tools": {
+            "noul": 0,
+            "type": "noul"
+          },
+          "promotional_stock_tip": {
+            "noul": 0,
+            "type": "noul"
+          }
+        },
+        "clean_addresses_ai_tools": 0,
+        "raw_addresses_ai_tools": 0,
+        "raw_screen_reused": true
+      }
+    },
+    "S3": {
+      "status": "evidence",
+      "reason": "Company matched by ticker; document screening passed",
+      "diagnostics": {
+        "hard_identifier": "ticker",
+        "clean": {
+          "addresses_ai_tools": {
+            "noul": 0,
+            "type": "noul"
+          },
+          "promotional_stock_tip": {
+            "noul": 0,
+            "type": "noul"
+          }
+        },
+        "clean_addresses_ai_tools": 0,
+        "raw_addresses_ai_tools": 0,
+        "raw_screen_reused": true
+      }
+    },
+    "S4": {
+      "status": "evidence",
+      "reason": "Company identity and document screening passed",
+      "diagnostics": {
+        "hard_identifier": null,
+        "clean": {
+          "addresses_ai_tools": {
+            "noul": 0,
+            "type": "noul"
+          },
+          "promotional_stock_tip": {
+            "noul": 0,
+            "type": "noul"
+          },
+          "same_company": {
+            "confidence": 1,
+            "score": 2,
+            "type": "score"
+          },
+          "same_line_of_business": {
+            "noul": 1,
+            "type": "noul"
+          }
+        },
+        "clean_addresses_ai_tools": 0,
+        "raw_addresses_ai_tools": 0,
+        "raw_screen_reused": true
+      }
+    },
+    "S5": {
+      "status": "evidence",
+      "reason": "Company matched by issuer_host; document screening passed",
+      "diagnostics": {
+        "hard_identifier": "issuer_host",
+        "clean": {
+          "addresses_ai_tools": {
+            "noul": 0,
+            "type": "noul"
+          },
+          "promotional_stock_tip": {
+            "noul": 0,
+            "type": "noul"
+          }
+        },
+        "clean_addresses_ai_tools": 0,
+        "raw_addresses_ai_tools": 0,
+        "raw_screen_reused": true
+      }
+    },
+    "S6": {
+      "status": "excluded",
+      "reason": "Promotional stock-tip content",
+      "diagnostics": {
+        "hard_identifier": "ticker",
+        "clean": {
+          "addresses_ai_tools": {
+            "noul": 0,
+            "type": "noul"
+          },
+          "promotional_stock_tip": {
+            "noul": 1,
+            "type": "noul"
+          }
+        },
+        "clean_addresses_ai_tools": 0,
+        "raw_addresses_ai_tools": 1,
+        "raw_screen_reused": false
+      }
+    },
+    "S7": {
+      "status": "excluded",
+      "reason": "Different company or business",
+      "diagnostics": {
+        "hard_identifier": null,
+        "clean": {
+          "addresses_ai_tools": {
+            "noul": 0,
+            "type": "noul"
+          },
+          "promotional_stock_tip": {
+            "noul": 0,
+            "type": "noul"
+          },
+          "same_company": {
+            "confidence": 0.9,
+            "score": 0,
+            "type": "score"
+          },
+          "same_line_of_business": {
+            "noul": 0,
+            "type": "noul"
+          }
+        },
+        "clean_addresses_ai_tools": 0,
+        "raw_addresses_ai_tools": 0,
+        "raw_screen_reused": true
+      }
+    },
+    "S8": {
+      "status": "evidence",
+      "reason": "Company matched by ticker; document screening passed",
+      "diagnostics": {
+        "hard_identifier": "ticker",
+        "clean": {
+          "addresses_ai_tools": {
+            "noul": 0,
+            "type": "noul"
+          },
+          "promotional_stock_tip": {
+            "noul": 0,
+            "type": "noul"
+          }
+        },
+        "clean_addresses_ai_tools": 0,
+        "raw_addresses_ai_tools": 0,
+        "raw_screen_reused": true
+      }
+    }
+  },
+  "status": "failed",
+  "error": "Provider error: BadRequestError (HTTP 400)"
+}

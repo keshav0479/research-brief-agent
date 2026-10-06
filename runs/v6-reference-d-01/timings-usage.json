@@ -1,0 +1,184 @@
+{
+  "elapsed_s": 35.575,
+  "writer_attempts": 1,
+  "jev_attempts": 23,
+  "usage": [
+    {
+      "provider": "writer",
+      "usage": {
+        "completion_tokens": 867,
+        "prompt_tokens": 3513,
+        "total_tokens": 4380,
+        "completion_tokens_details": null,
+        "prompt_tokens_details": null,
+        "queue_time": 0.066428046,
+        "prompt_time": 0.260516427,
+        "completion_time": 1.71073696,
+        "total_time": 1.971253387
+      }
+    },
+    {
+      "provider": "jev",
+      "usage": {
+        "input_tokens": 591,
+        "output_tokens": 75
+      }
+    },
+    {
+      "provider": "jev",
+      "usage": {
+        "input_tokens": 573,
+        "output_tokens": 42
+      }
+    },
+    {
+      "provider": "jev",
+      "usage": {
+        "input_tokens": 761,
+        "output_tokens": 42
+      }
+    },
+    {
+      "provider": "jev",
+      "usage": {
+        "input_tokens": 696,
+        "output_tokens": 75
+      }
+    },
+    {
+      "provider": "jev",
+      "usage": {
+        "input_tokens": 697,
+        "output_tokens": 42
+      }
+    },
+    {
+      "provider": "jev",
+      "usage": {
+        "input_tokens": 500,
+        "output_tokens": 42
+      }
+    },
+    {
+      "provider": "jev",
+      "usage": {
+        "input_tokens": 530,
+        "output_tokens": 22
+      }
+    },
+    {
+      "provider": "jev",
+      "usage": {
+        "input_tokens": 612,
+        "output_tokens": 75
+      }
+    },
+    {
+      "provider": "jev",
+      "usage": {
+        "input_tokens": 506,
+        "output_tokens": 42
+      }
+    },
+    {
+      "provider": "jev",
+      "usage": {
+        "input_tokens": 1071,
+        "output_tokens": 88
+      }
+    },
+    {
+      "provider": "jev",
+      "usage": {
+        "input_tokens": 1031,
+        "output_tokens": 88
+      }
+    },
+    {
+      "provider": "jev",
+      "usage": {
+        "input_tokens": 1016,
+        "output_tokens": 88
+      }
+    },
+    {
+      "provider": "jev",
+      "usage": {
+        "input_tokens": 1019,
+        "output_tokens": 88
+      }
+    },
+    {
+      "provider": "jev",
+      "usage": {
+        "input_tokens": 1102,
+        "output_tokens": 88
+      }
+    },
+    {
+      "provider": "jev",
+      "usage": {
+        "input_tokens": 1209,
+        "output_tokens": 92
+      }
+    },
+    {
+      "provider": "jev",
+      "usage": {
+        "input_tokens": 1050,
+        "output_tokens": 88
+      }
+    },
+    {
+      "provider": "jev",
+      "usage": {
+        "input_tokens": 1008,
+        "output_tokens": 92
+      }
+    },
+    {
+      "provider": "jev",
+      "usage": {
+        "input_tokens": 1098,
+        "output_tokens": 88
+      }
+    },
+    {
+      "provider": "jev",
+      "usage": {
+        "input_tokens": 1137,
+        "output_tokens": 88
+      }
+    },
+    {
+      "provider": "jev",
+      "usage": {
+        "input_tokens": 1172,
+        "output_tokens": 88
+      }
+    },
+    {
+      "provider": "jev",
+      "usage": {
+        "input_tokens": 1492,
+        "output_tokens": 88
+      }
+    },
+    {
+      "provider": "jev",
+      "usage": {
+        "input_tokens": 1308,
+        "output_tokens": 88
+      }
+    },
+    {
+      "provider": "jev",
+      "usage": {
+        "input_tokens": 1344,
+        "output_tokens": 92
+      }
+    }
+  ],
+  "billed_cost_usd": null,
+  "cost_note": "Provider billing not returned. Requested routes are recorded in config.json; no automatic provider fallback was invoked."
+}

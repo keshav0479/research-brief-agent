@@ -1,0 +1,37 @@
+{
+  "elapsed_s": 124.856,
+  "writer_attempts": 4,
+  "jev_attempts": 0,
+  "usage": [
+    {
+      "provider": "writer",
+      "usage": {
+        "completion_tokens": 897,
+        "prompt_tokens": 3809,
+        "total_tokens": 4706,
+        "completion_tokens_details": null,
+        "prompt_tokens_details": null,
+        "queue_time": 0.064969305,
+        "prompt_time": 0.26198772,
+        "completion_time": 1.783660044,
+        "total_time": 2.045647764
+      }
+    },
+    {
+      "provider": "writer",
+      "usage": {
+        "completion_tokens": 893,
+        "prompt_tokens": 5370,
+        "total_tokens": 6263,
+        "completion_tokens_details": null,
+        "prompt_tokens_details": null,
+        "queue_time": 0.070656263,
+        "prompt_time": 0.370108398,
+        "completion_time": 1.757426572,
+        "total_time": 2.12753497
+      }
+    }
+  ],
+  "billed_cost_usd": null,
+  "cost_note": "Provider billing not returned. Free routes selected by default; no paid fallback was invoked."
+}

@@ -1,0 +1,57 @@
+{
+  "probe": "Reconstructed v3-c-01 writer request; historical cause remains unknown unless independently evidenced",
+  "timestamp_utc": "2026-10-05T17:18:00.716417+00:00",
+  "source_run": "v3-c-01",
+  "request_sha256": "d060b7303c5fe57ac5a1816fe3fb2c9ae39d3dd4e2f2f35a11153bd2ba4f38d6",
+  "pack_hashes": {
+    "marketwatchindia_2024-03-18.md": "d5f7b3174de80ae62db49bf70592b1161d982999fcf2f0ef92db8fdc82674f07",
+    "nse_shareholding_2026-07-15.md": "95513aaf420d46fef490c5e1c9d264f679790d7b71dbb7e1faf870f2e55f0a28",
+    "ir_press_release_2026-08-08.md": "7a3ddafe40703aa025ed0c5e91f308a2751d99866d669cabb9151929bb8228f4",
+    "businessdaily_2026-08-09.md": "8278619944f770490194b470c89c50283820c6abbb1b75872b240d6fb17dfdaf",
+    "ir_concall_2026-08-11.md": "40c744245b48e7807462116ad1f49c2131bcdd0e97306a9f726b16a1d6b250ba",
+    "multibaggeralerts_2026-08-12.md": "041368bf32b3758c0b4c2f2662036759ab789c833ca701ff3607ffd73629e1bd",
+    "nagpurcitytimes_2026-08-20.md": "83ee54ae56b8d0d21cccd3dcbface1b333fb687071898d5da034a02da95d5fe2",
+    "nse_announcement_2026-09-02.md": "9ebee20362a4fa7e45706fbe3a5018062bb2befc2fa43708fb93de0483f70c13"
+  },
+  "attempts": [
+    {
+      "status": "success",
+      "returned_model": "qwen/qwen3.8-27b",
+      "usage": {
+        "completion_tokens": 842,
+        "prompt_tokens": 3356,
+        "total_tokens": 4198,
+        "completion_tokens_details": null,
+        "prompt_tokens_details": null,
+        "queue_time": 0.065100267,
+        "prompt_time": 0.231876726,
+        "completion_time": 1.679528648,
+        "total_time": 1.911405374
+      },
+      "finish_reason": "stop",
+      "content_sha256": "b304660b0240503327cbbbfd524927bd503a23cb894c1b0ec16a70f820d0bdfb",
+      "elapsed_s": 2.161
+    },
+    {
+      "status": "success",
+      "returned_model": "qwen/qwen3.8-27b",
+      "usage": {
+        "completion_tokens": 764,
+        "prompt_tokens": 3356,
+        "total_tokens": 4120,
+        "completion_tokens_details": null,
+        "prompt_tokens_details": null,
+        "queue_time": 0.065246356,
+        "prompt_time": 0.23054635,
+        "completion_time": 1.501156119,
+        "total_time": 1.731702469
+      },
+      "finish_reason": "stop",
+      "content_sha256": "6df63d495820b7a4cebdf36ec7289f044ff21366a42a8616c88771c86c7cb4c9",
+      "local_shape_errors": [],
+      "elapsed_s": 1.976,
+      "timestamp_utc": "2026-10-05T17:19:57.439881+00:00"
+    }
+  ],
+  "conclusion": "Both exact-request diagnostic replays succeeded. The historical HTTP 400 cause remains unknown because the original error body was not retained. These probes do not replace or change the failed evaluation run."
+}

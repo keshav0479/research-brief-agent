@@ -1,0 +1,138 @@
+{
+  "_note": "Generic questions adapted from the reviewer probe. Thresholds are starting values from TypeSafe cookbooks and a small development probe, not calibrated probabilities.",
+  "triage": {
+    "same_company": {
+      "type": "score",
+      "instructions": "Is `document` about the same company as `target_company`?",
+      "criteria": [
+        "A different company or business: a different legal name, line of business, city or people.",
+        "Unclear: a similar name, or too little detail to tell whether it is the same company.",
+        "The same company as `target_company`."
+      ]
+    },
+    "same_line_of_business": {
+      "type": "noul",
+      "instructions": "Does `document` describe a business in the same line of work as `target_company.business`?"
+    },
+    "promotional_stock_tip": {
+      "type": "noul",
+      "instructions": "Is `document` promotional stock-tip content that urges readers to buy or sell a stock?"
+    },
+    "addresses_ai_tools": {
+      "type": "noul",
+      "instructions": "Does `document` contain text addressed to AI assistants or summarisation tools, telling them what to write or do?"
+    }
+  },
+  "verify": {
+    "relation": {
+      "type": "choice",
+      "instructions": "How does `source_document` relate to `claim`?",
+      "criteria": {
+        "supports": {
+          "what": "The document states the claim or directly implies it, with the same figure, unit, scope, time period, company, and with results described as results.",
+          "not_for": "Claims that change a figure, scope, period, company or direction, or that state as done something the document only expects or plans."
+        },
+        "contradicts": {
+          "what": "The document states something incompatible with the claim: a different figure, the opposite direction, or a statement the claim reverses.",
+          "not_for": "Claims the document simply does not mention."
+        },
+        "says_nothing": {
+          "what": "The document does not address what the claim asserts, or addresses only part of it, for example a forecast where the claim states a result, or a narrower scope than the claim.",
+          "not_for": "Claims the document clearly states or clearly denies."
+        }
+      }
+    }
+  },
+  "verify_open_questions": {
+    "relation": {
+      "type": "choice",
+      "instructions": "Does `source_document` justify the factual premises of the open question in `claim`? Check every explicit and implied premise, including attributions, figures, scope, timing and company. Do not require the source to answer the question: missing information is the purpose of an open question. A question mark does not excuse an unsupported assumption. When multiple sources are quoted as disagreeing, check that each source is represented accurately; their disagreement alone does not contradict that description.",
+      "criteria": {
+        "supports": {
+          "what": "Every factual premise is stated or directly implied by the cited source material, and the unanswered part asks about a relevant uncertainty without asserting its outcome.",
+          "not_for": "Questions that insert an unsupported event, forecast, causal explanation, figure, scope or time period, or turn a plan or management belief into a completed result."
+        },
+        "contradicts": {
+          "what": "The source explicitly denies a factual premise or gives an incompatible figure, scope, period, company or event. It is incompatible with what the question assumes, not merely unable to answer the question.",
+          "not_for": "Unanswered questions, accurate descriptions of disagreement between sources, or premises the source does not address."
+        },
+        "says_nothing": {
+          "what": "At least one factual premise is absent from the cited material or the uncertainty is unrelated to it. Partial support is not enough.",
+          "not_for": "A relevant unanswered question whose premises are all sourced."
+        }
+      }
+    }
+  },
+  "kinds": {
+    "kind": {
+      "type": "choice",
+      "instructions": "What kind of statement is `statement`?",
+      "criteria": {
+        "reported_fact": {
+          "what": "A result, figure or event that has already happened, stated as fact.",
+          "not_for": "Forecasts, plans, guidance, beliefs, or anyone's opinion.",
+          "examples": [
+            "Net sales rose 7% to 410 million in the March quarter.",
+            "The board approved a dividend of 2 per share."
+          ]
+        },
+        "management_view_or_forecast": {
+          "what": "What a company or its management expects, plans, believes, guides or assesses.",
+          "not_for": "Completed results stated as fact; views of people outside the company.",
+          "examples": [
+            "We expect demand to stay firm next year.",
+            "The company believes the claim has no merit."
+          ]
+        },
+        "third_party_view": {
+          "what": "An opinion, recommendation, rating or general interpretation from someone outside the company, such as a journalist, analyst or blogger.",
+          "not_for": "Statements by the company; plain reported figures.",
+          "examples": [
+            "Analysts see limited upside from here.",
+            "Rising debt is often a warning sign for investors."
+          ]
+        }
+      }
+    }
+  },
+  "open_question_kinds": {
+    "kind": {
+      "type": "choice",
+      "instructions": "Classify the factual premise asserted or presupposed by the open question in `statement`. Use `source_document` to identify its speaker and attribution. Ignore the interrogative format and the outcome being asked about. Asking about the future is not itself a management forecast or an analyst opinion. A premise describing a measured result, existing condition or completed event is a reported fact. A premise about management's expectation, plan or belief remains a management view even when the question reports that management said it. If there is no factual premise, classify the author's uncertainty as a third-party view.",
+      "criteria": {
+        "reported_fact": {
+          "what": "The premise is a measured result, existing condition or completed event. The unanswered part may ask about future consequences; that does not change the premise's kind.",
+          "not_for": "Premises that are forecasts, plans, guidance, beliefs or interpretations attributed to management or outsiders. Do not treat an uncertain future outcome as a reported fact.",
+          "examples": [
+            "Sales rose 7% last quarter. Can this pace continue?",
+            "The board approved a dividend. How will it affect available cash?"
+          ]
+        },
+        "management_view_or_forecast": {
+          "what": "The premise is what the company or its management expects, plans, considers, believes or assesses. Its attribution does not turn the underlying expectation into a completed result.",
+          "not_for": "Questions based only on completed results or current measured conditions, with no management forecast or belief as a premise.",
+          "examples": [
+            "Management expects lower costs next year. What could prevent that?",
+            "The company is considering a warehouse. What decision will management make?"
+          ]
+        },
+        "third_party_view": {
+          "what": "The premise is an opinion or interpretation attributed to an analyst, journalist or another outsider, or the question states no factual premise at all.",
+          "not_for": "A question based on a reported fact or a management view merely because its author is an outside researcher.",
+          "examples": [
+            "An analyst expects weaker demand. What evidence supports that view?",
+            "What other operational risks should investors investigate?"
+          ]
+        }
+      }
+    }
+  },
+  "thresholds": {
+    "same_company_low": 0.5,
+    "same_company_high": 1.5,
+    "promotional": 0.5,
+    "ai_directed": 0.5,
+    "relation": 0.8,
+    "kind": 0.8
+  }
+}

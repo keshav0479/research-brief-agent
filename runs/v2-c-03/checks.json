@@ -1,0 +1,1499 @@
+{
+  "arm": "C",
+  "profile": {
+    "ticker": "SRVCABLE",
+    "name": "Sarvottam Cables Ltd",
+    "business": "a manufacturer of power cables, wires and conductors"
+  },
+  "passes": [
+    {
+      "stage": "draft",
+      "results": [
+        {
+          "section": "snapshot",
+          "index": 0,
+          "claim": {
+            "cites": [
+              "S3.u01"
+            ],
+            "kind": "reported_fact",
+            "text": "Sarvottam Cables Ltd is a manufacturer of power cables, wires and conductors."
+          },
+          "code_errors": [],
+          "verification": {
+            "errors": [],
+            "kind": "reported_fact",
+            "diagnostics": [
+              {
+                "stage": "cited_evidence",
+                "answers": {
+                  "kind": {
+                    "choice": "reported_fact",
+                    "confidence": 1.0,
+                    "type": "choice"
+                  },
+                  "relation": {
+                    "choice": "supports",
+                    "confidence": 1.0,
+                    "type": "choice"
+                  }
+                }
+              }
+            ],
+            "unavailable": false,
+            "conflicts": []
+          },
+          "errors": [],
+          "accepted": true,
+          "final_claim": {
+            "cites": [
+              "S3.u01"
+            ],
+            "kind": "reported_fact",
+            "text": "Sarvottam Cables Ltd is a manufacturer of power cables, wires and conductors."
+          }
+        },
+        {
+          "section": "snapshot",
+          "index": 1,
+          "claim": {
+            "cites": [
+              "S3.u02",
+              "S3.u03",
+              "S3.u04",
+              "S3.u05"
+            ],
+            "kind": "reported_fact",
+            "text": "For Q1 FY27, the company reported revenue of 1,248 crore rupees, EBITDA of 140 crore rupees, an EBITDA margin of 11.2%, and profit after tax of 82 crore rupees."
+          },
+          "code_errors": [],
+          "verification": {
+            "errors": [],
+            "kind": "reported_fact",
+            "diagnostics": [
+              {
+                "stage": "cited_evidence",
+                "answers": {
+                  "kind": {
+                    "choice": "reported_fact",
+                    "confidence": 1.0,
+                    "type": "choice"
+                  },
+                  "relation": {
+                    "choice": "supports",
+                    "confidence": 1.0,
+                    "type": "choice"
+                  }
+                }
+              }
+            ],
+            "unavailable": false,
+            "conflicts": []
+          },
+          "errors": [],
+          "accepted": true,
+          "final_claim": {
+            "cites": [
+              "S3.u02",
+              "S3.u03",
+              "S3.u04",
+              "S3.u05"
+            ],
+            "kind": "reported_fact",
+            "text": "For Q1 FY27, the company reported revenue of 1,248 crore rupees, EBITDA of 140 crore rupees, an EBITDA margin of 11.2%, and profit after tax of 82 crore rupees."
+          }
+        },
+        {
+          "section": "snapshot",
+          "index": 2,
+          "claim": {
+            "cites": [
+              "S2.u01",
+              "S2.u02"
+            ],
+            "kind": "reported_fact",
+            "text": "As of 30 June 2026, promoters held 58.2% of the company, with 4.1% of that holding pledged."
+          },
+          "code_errors": [
+            "Number 30 (scalar) is not supported by the cited quotes"
+          ],
+          "verification": null,
+          "errors": [
+            "Number 30 (scalar) is not supported by the cited quotes"
+          ],
+          "accepted": false,
+          "final_claim": {
+            "cites": [
+              "S2.u01",
+              "S2.u02"
+            ],
+            "kind": "reported_fact",
+            "text": "As of 30 June 2026, promoters held 58.2% of the company, with 4.1% of that holding pledged."
+          }
+        },
+        {
+          "section": "bull",
+          "index": 0,
+          "claim": {
+            "cites": [
+              "S3.u06"
+            ],
+            "kind": "reported_fact",
+            "text": "The company reported that its order book stood at 3,900 crore rupees as of 30 June 2026, up from 3,150 crore rupees a year ago."
+          },
+          "code_errors": [],
+          "verification": {
+            "errors": [],
+            "kind": "reported_fact",
+            "diagnostics": [
+              {
+                "stage": "cited_evidence",
+                "answers": {
+                  "kind": {
+                    "choice": "reported_fact",
+                    "confidence": 0.95,
+                    "type": "choice"
+                  },
+                  "relation": {
+                    "choice": "supports",
+                    "confidence": 0.98,
+                    "type": "choice"
+                  }
+                }
+              }
+            ],
+            "unavailable": false,
+            "conflicts": []
+          },
+          "errors": [],
+          "accepted": true,
+          "final_claim": {
+            "cites": [
+              "S3.u06"
+            ],
+            "kind": "reported_fact",
+            "text": "The company reported that its order book stood at 3,900 crore rupees as of 30 June 2026, up from 3,150 crore rupees a year ago."
+          }
+        },
+        {
+          "section": "bull",
+          "index": 1,
+          "claim": {
+            "cites": [
+              "S3.u07"
+            ],
+            "kind": "reported_fact",
+            "text": "Exports contributed 21% of revenue in Q1 FY27, an increase from 16% in Q1 FY26."
+          },
+          "code_errors": [],
+          "verification": {
+            "errors": [],
+            "kind": "reported_fact",
+            "diagnostics": [
+              {
+                "stage": "cited_evidence",
+                "answers": {
+                  "kind": {
+                    "choice": "reported_fact",
+                    "confidence": 1.0,
+                    "type": "choice"
+                  },
+                  "relation": {
+                    "choice": "supports",
+                    "confidence": 1.0,
+                    "type": "choice"
+                  }
+                }
+              }
+            ],
+            "unavailable": false,
+            "conflicts": []
+          },
+          "errors": [],
+          "accepted": true,
+          "final_claim": {
+            "cites": [
+              "S3.u07"
+            ],
+            "kind": "reported_fact",
+            "text": "Exports contributed 21% of revenue in Q1 FY27, an increase from 16% in Q1 FY26."
+          }
+        },
+        {
+          "section": "bull",
+          "index": 2,
+          "claim": {
+            "cites": [
+              "S5.u01"
+            ],
+            "kind": "management_view_or_forecast",
+            "text": "Management maintains its revenue growth guidance of 15 to 17 percent for the full year FY27."
+          },
+          "code_errors": [],
+          "verification": {
+            "errors": [],
+            "kind": "management_view_or_forecast",
+            "diagnostics": [
+              {
+                "stage": "cited_evidence",
+                "answers": {
+                  "kind": {
+                    "choice": "management_view_or_forecast",
+                    "confidence": 1.0,
+                    "type": "choice"
+                  },
+                  "relation": {
+                    "choice": "supports",
+                    "confidence": 1.0,
+                    "type": "choice"
+                  }
+                }
+              }
+            ],
+            "unavailable": false,
+            "conflicts": []
+          },
+          "errors": [],
+          "accepted": true,
+          "final_claim": {
+            "cites": [
+              "S5.u01"
+            ],
+            "kind": "management_view_or_forecast",
+            "text": "Management maintains its revenue growth guidance of 15 to 17 percent for the full year FY27."
+          }
+        },
+        {
+          "section": "bull",
+          "index": 3,
+          "claim": {
+            "cites": [
+              "S3.u08"
+            ],
+            "kind": "management_view_or_forecast",
+            "text": "The company says the new Bharuch plant, which adds about 30% to cable capacity, is on track to begin commercial production in Q3 FY27."
+          },
+          "code_errors": [],
+          "verification": {
+            "errors": [],
+            "kind": "management_view_or_forecast",
+            "diagnostics": [
+              {
+                "stage": "cited_evidence",
+                "answers": {
+                  "kind": {
+                    "choice": "management_view_or_forecast",
+                    "confidence": 0.95,
+                    "type": "choice"
+                  },
+                  "relation": {
+                    "choice": "supports",
+                    "confidence": 0.98,
+                    "type": "choice"
+                  }
+                }
+              }
+            ],
+            "unavailable": false,
+            "conflicts": []
+          },
+          "errors": [],
+          "accepted": true,
+          "final_claim": {
+            "cites": [
+              "S3.u08"
+            ],
+            "kind": "management_view_or_forecast",
+            "text": "The company says the new Bharuch plant, which adds about 30% to cable capacity, is on track to begin commercial production in Q3 FY27."
+          }
+        },
+        {
+          "section": "bear",
+          "index": 0,
+          "claim": {
+            "cites": [
+              "S4.u02"
+            ],
+            "kind": "reported_fact",
+            "text": "A news report dated 9 August 2026 states that revenue from operations rose to 1,428 crore rupees, a 35% increase from the year-ago period."
+          },
+          "code_errors": [
+            "Number 9 (scalar) is not supported by the cited quotes"
+          ],
+          "verification": null,
+          "errors": [
+            "Number 9 (scalar) is not supported by the cited quotes"
+          ],
+          "accepted": false,
+          "final_claim": {
+            "cites": [
+              "S4.u02"
+            ],
+            "kind": "reported_fact",
+            "text": "A news report dated 9 August 2026 states that revenue from operations rose to 1,428 crore rupees, a 35% increase from the year-ago period."
+          }
+        },
+        {
+          "section": "bear",
+          "index": 1,
+          "claim": {
+            "cites": [
+              "S5.u11",
+              "S5.u12"
+            ],
+            "kind": "reported_fact",
+            "text": "The CFO stated on the earnings call that receivable days increased from 78 to 96 over the last year, mainly due to slower payments from two large state utility customers."
+          },
+          "code_errors": [],
+          "verification": {
+            "errors": [],
+            "kind": "reported_fact",
+            "diagnostics": [
+              {
+                "stage": "cited_evidence",
+                "answers": {
+                  "kind": {
+                    "choice": "reported_fact",
+                    "confidence": 0.95,
+                    "type": "choice"
+                  },
+                  "relation": {
+                    "choice": "supports",
+                    "confidence": 0.98,
+                    "type": "choice"
+                  }
+                }
+              }
+            ],
+            "unavailable": false,
+            "conflicts": []
+          },
+          "errors": [],
+          "accepted": true,
+          "final_claim": {
+            "cites": [
+              "S5.u11",
+              "S5.u12"
+            ],
+            "kind": "reported_fact",
+            "text": "The CFO stated on the earnings call that receivable days increased from 78 to 96 over the last year, mainly due to slower payments from two large state utility customers."
+          }
+        },
+        {
+          "section": "bear",
+          "index": 2,
+          "claim": {
+            "cites": [
+              "S8.u01"
+            ],
+            "kind": "reported_fact",
+            "text": "The company disclosed on 2 September 2026 that it received a GST demand order for 46.3 crore rupees, including interest and penalty, relating to input tax credit claimed for FY2020-21 and FY2021-22."
+          },
+          "code_errors": [
+            "Number 2 (scalar) is not supported by the cited quotes"
+          ],
+          "verification": null,
+          "errors": [
+            "Number 2 (scalar) is not supported by the cited quotes"
+          ],
+          "accepted": false,
+          "final_claim": {
+            "cites": [
+              "S8.u01"
+            ],
+            "kind": "reported_fact",
+            "text": "The company disclosed on 2 September 2026 that it received a GST demand order for 46.3 crore rupees, including interest and penalty, relating to input tax credit claimed for FY2020-21 and FY2021-22."
+          }
+        },
+        {
+          "section": "open_questions",
+          "index": 0,
+          "claim": {
+            "cites": [
+              "S3.u02",
+              "S4.u02"
+            ],
+            "kind": "reported_fact",
+            "text": "The company's press release reports Q1 FY27 revenue of 1,248 crore rupees, while a news article reports 1,428 crore rupees. What explains this discrepancy between the company's official filing and the secondary news report?"
+          },
+          "code_errors": [],
+          "verification": {
+            "errors": [],
+            "kind": "reported_fact",
+            "diagnostics": [
+              {
+                "stage": "cited_evidence",
+                "answers": {
+                  "kind": {
+                    "choice": "reported_fact",
+                    "confidence": 1.0,
+                    "type": "choice"
+                  },
+                  "relation": {
+                    "choice": "supports",
+                    "confidence": 1.0,
+                    "type": "choice"
+                  }
+                }
+              }
+            ],
+            "unavailable": false,
+            "conflicts": []
+          },
+          "errors": [],
+          "accepted": true,
+          "final_claim": {
+            "cites": [
+              "S3.u02",
+              "S4.u02"
+            ],
+            "kind": "reported_fact",
+            "text": "The company's press release reports Q1 FY27 revenue of 1,248 crore rupees, while a news article reports 1,428 crore rupees. What explains this discrepancy between the company's official filing and the secondary news report?"
+          }
+        },
+        {
+          "section": "open_questions",
+          "index": 1,
+          "claim": {
+            "cites": [
+              "S1.u01",
+              "S2.u02"
+            ],
+            "kind": "reported_fact",
+            "text": "A March 2024 news article reported promoter pledge at 35%, while the June 2026 exchange filing shows pledged shares at 4.1% of promoter holding. What explains the difference between the 2024 news report and the 2026 official filing?"
+          },
+          "code_errors": [],
+          "verification": {
+            "errors": [],
+            "kind": "reported_fact",
+            "diagnostics": [
+              {
+                "stage": "cited_evidence",
+                "answers": {
+                  "kind": {
+                    "choice": "reported_fact",
+                    "confidence": 0.95,
+                    "type": "choice"
+                  },
+                  "relation": {
+                    "choice": "supports",
+                    "confidence": 0.95,
+                    "type": "choice"
+                  }
+                }
+              }
+            ],
+            "unavailable": false,
+            "conflicts": []
+          },
+          "errors": [],
+          "accepted": true,
+          "final_claim": {
+            "cites": [
+              "S1.u01",
+              "S2.u02"
+            ],
+            "kind": "reported_fact",
+            "text": "A March 2024 news article reported promoter pledge at 35%, while the June 2026 exchange filing shows pledged shares at 4.1% of promoter holding. What explains the difference between the 2024 news report and the 2026 official filing?"
+          }
+        },
+        {
+          "section": "open_questions",
+          "index": 2,
+          "claim": {
+            "cites": [
+              "S5.u07"
+            ],
+            "kind": "management_view_or_forecast",
+            "text": "Management states that about two-thirds of contracts have price-variation clauses that reset with a lag of one to two quarters. How will this lag affect margins in the upcoming quarters?"
+          },
+          "code_errors": [],
+          "verification": {
+            "errors": [],
+            "kind": "reported_fact",
+            "diagnostics": [
+              {
+                "stage": "cited_evidence",
+                "answers": {
+                  "kind": {
+                    "choice": "reported_fact",
+                    "confidence": 0.95,
+                    "type": "choice"
+                  },
+                  "relation": {
+                    "choice": "supports",
+                    "confidence": 0.95,
+                    "type": "choice"
+                  }
+                }
+              }
+            ],
+            "unavailable": false,
+            "conflicts": []
+          },
+          "errors": [],
+          "accepted": true,
+          "final_claim": {
+            "cites": [
+              "S5.u07"
+            ],
+            "kind": "reported_fact",
+            "text": "Management states that about two-thirds of contracts have price-variation clauses that reset with a lag of one to two quarters. How will this lag affect margins in the upcoming quarters?"
+          }
+        }
+      ],
+      "failures": [
+        {
+          "section": "snapshot",
+          "index": 2,
+          "claim": {
+            "cites": [
+              "S2.u01",
+              "S2.u02"
+            ],
+            "kind": "reported_fact",
+            "text": "As of 30 June 2026, promoters held 58.2% of the company, with 4.1% of that holding pledged."
+          },
+          "code_errors": [
+            "Number 30 (scalar) is not supported by the cited quotes"
+          ],
+          "verification": null,
+          "errors": [
+            "Number 30 (scalar) is not supported by the cited quotes"
+          ],
+          "accepted": false,
+          "final_claim": {
+            "cites": [
+              "S2.u01",
+              "S2.u02"
+            ],
+            "kind": "reported_fact",
+            "text": "As of 30 June 2026, promoters held 58.2% of the company, with 4.1% of that holding pledged."
+          }
+        },
+        {
+          "section": "bear",
+          "index": 0,
+          "claim": {
+            "cites": [
+              "S4.u02"
+            ],
+            "kind": "reported_fact",
+            "text": "A news report dated 9 August 2026 states that revenue from operations rose to 1,428 crore rupees, a 35% increase from the year-ago period."
+          },
+          "code_errors": [
+            "Number 9 (scalar) is not supported by the cited quotes"
+          ],
+          "verification": null,
+          "errors": [
+            "Number 9 (scalar) is not supported by the cited quotes"
+          ],
+          "accepted": false,
+          "final_claim": {
+            "cites": [
+              "S4.u02"
+            ],
+            "kind": "reported_fact",
+            "text": "A news report dated 9 August 2026 states that revenue from operations rose to 1,428 crore rupees, a 35% increase from the year-ago period."
+          }
+        },
+        {
+          "section": "bear",
+          "index": 2,
+          "claim": {
+            "cites": [
+              "S8.u01"
+            ],
+            "kind": "reported_fact",
+            "text": "The company disclosed on 2 September 2026 that it received a GST demand order for 46.3 crore rupees, including interest and penalty, relating to input tax credit claimed for FY2020-21 and FY2021-22."
+          },
+          "code_errors": [
+            "Number 2 (scalar) is not supported by the cited quotes"
+          ],
+          "verification": null,
+          "errors": [
+            "Number 2 (scalar) is not supported by the cited quotes"
+          ],
+          "accepted": false,
+          "final_claim": {
+            "cites": [
+              "S8.u01"
+            ],
+            "kind": "reported_fact",
+            "text": "The company disclosed on 2 September 2026 that it received a GST demand order for 46.3 crore rupees, including interest and penalty, relating to input tax credit claimed for FY2020-21 and FY2021-22."
+          }
+        }
+      ]
+    },
+    {
+      "stage": "repair",
+      "results": [
+        {
+          "section": "snapshot",
+          "index": 0,
+          "claim": {
+            "cites": [
+              "S3.u01"
+            ],
+            "kind": "reported_fact",
+            "text": "Sarvottam Cables Ltd is a manufacturer of power cables, wires and conductors."
+          },
+          "code_errors": [],
+          "verification": {
+            "errors": [],
+            "kind": "reported_fact",
+            "diagnostics": [
+              {
+                "stage": "cited_evidence",
+                "answers": {
+                  "kind": {
+                    "choice": "reported_fact",
+                    "confidence": 1.0,
+                    "type": "choice"
+                  },
+                  "relation": {
+                    "choice": "supports",
+                    "confidence": 1.0,
+                    "type": "choice"
+                  }
+                }
+              }
+            ],
+            "unavailable": false,
+            "conflicts": []
+          },
+          "errors": [],
+          "accepted": true,
+          "final_claim": {
+            "cites": [
+              "S3.u01"
+            ],
+            "kind": "reported_fact",
+            "text": "Sarvottam Cables Ltd is a manufacturer of power cables, wires and conductors."
+          }
+        },
+        {
+          "section": "snapshot",
+          "index": 1,
+          "claim": {
+            "cites": [
+              "S3.u02",
+              "S3.u03",
+              "S3.u04",
+              "S3.u05"
+            ],
+            "kind": "reported_fact",
+            "text": "For Q1 FY27, the company reported revenue of 1,248 crore rupees, EBITDA of 140 crore rupees, an EBITDA margin of 11.2%, and profit after tax of 82 crore rupees."
+          },
+          "code_errors": [],
+          "verification": {
+            "errors": [],
+            "kind": "reported_fact",
+            "diagnostics": [
+              {
+                "stage": "cited_evidence",
+                "answers": {
+                  "kind": {
+                    "choice": "reported_fact",
+                    "confidence": 1.0,
+                    "type": "choice"
+                  },
+                  "relation": {
+                    "choice": "supports",
+                    "confidence": 1.0,
+                    "type": "choice"
+                  }
+                }
+              }
+            ],
+            "unavailable": false,
+            "conflicts": []
+          },
+          "errors": [],
+          "accepted": true,
+          "final_claim": {
+            "cites": [
+              "S3.u02",
+              "S3.u03",
+              "S3.u04",
+              "S3.u05"
+            ],
+            "kind": "reported_fact",
+            "text": "For Q1 FY27, the company reported revenue of 1,248 crore rupees, EBITDA of 140 crore rupees, an EBITDA margin of 11.2%, and profit after tax of 82 crore rupees."
+          }
+        },
+        {
+          "section": "snapshot",
+          "index": 2,
+          "claim": {
+            "cites": [
+              "S2.u01",
+              "S2.u02"
+            ],
+            "kind": "reported_fact",
+            "text": "As of June 2026, promoters held 58.2% of the company, with 4.1% of that holding pledged."
+          },
+          "code_errors": [],
+          "verification": {
+            "errors": [],
+            "kind": "reported_fact",
+            "diagnostics": [
+              {
+                "stage": "cited_evidence",
+                "answers": {
+                  "kind": {
+                    "choice": "reported_fact",
+                    "confidence": 1.0,
+                    "type": "choice"
+                  },
+                  "relation": {
+                    "choice": "supports",
+                    "confidence": 1.0,
+                    "type": "choice"
+                  }
+                }
+              }
+            ],
+            "unavailable": false,
+            "conflicts": []
+          },
+          "errors": [],
+          "accepted": true,
+          "final_claim": {
+            "cites": [
+              "S2.u01",
+              "S2.u02"
+            ],
+            "kind": "reported_fact",
+            "text": "As of June 2026, promoters held 58.2% of the company, with 4.1% of that holding pledged."
+          }
+        },
+        {
+          "section": "bull",
+          "index": 0,
+          "claim": {
+            "cites": [
+              "S3.u06"
+            ],
+            "kind": "reported_fact",
+            "text": "The company reported that its order book stood at 3,900 crore rupees as of 30 June 2026, up from 3,150 crore rupees a year ago."
+          },
+          "code_errors": [],
+          "verification": {
+            "errors": [],
+            "kind": "reported_fact",
+            "diagnostics": [
+              {
+                "stage": "cited_evidence",
+                "answers": {
+                  "kind": {
+                    "choice": "reported_fact",
+                    "confidence": 0.95,
+                    "type": "choice"
+                  },
+                  "relation": {
+                    "choice": "supports",
+                    "confidence": 0.98,
+                    "type": "choice"
+                  }
+                }
+              }
+            ],
+            "unavailable": false,
+            "conflicts": []
+          },
+          "errors": [],
+          "accepted": true,
+          "final_claim": {
+            "cites": [
+              "S3.u06"
+            ],
+            "kind": "reported_fact",
+            "text": "The company reported that its order book stood at 3,900 crore rupees as of 30 June 2026, up from 3,150 crore rupees a year ago."
+          }
+        },
+        {
+          "section": "bull",
+          "index": 1,
+          "claim": {
+            "cites": [
+              "S3.u07"
+            ],
+            "kind": "reported_fact",
+            "text": "Exports contributed 21% of revenue in Q1 FY27, an increase from 16% in Q1 FY26."
+          },
+          "code_errors": [],
+          "verification": {
+            "errors": [],
+            "kind": "reported_fact",
+            "diagnostics": [
+              {
+                "stage": "cited_evidence",
+                "answers": {
+                  "kind": {
+                    "choice": "reported_fact",
+                    "confidence": 1.0,
+                    "type": "choice"
+                  },
+                  "relation": {
+                    "choice": "supports",
+                    "confidence": 1.0,
+                    "type": "choice"
+                  }
+                }
+              }
+            ],
+            "unavailable": false,
+            "conflicts": []
+          },
+          "errors": [],
+          "accepted": true,
+          "final_claim": {
+            "cites": [
+              "S3.u07"
+            ],
+            "kind": "reported_fact",
+            "text": "Exports contributed 21% of revenue in Q1 FY27, an increase from 16% in Q1 FY26."
+          }
+        },
+        {
+          "section": "bull",
+          "index": 2,
+          "claim": {
+            "cites": [
+              "S5.u01"
+            ],
+            "kind": "management_view_or_forecast",
+            "text": "Management maintains its revenue growth guidance of 15 to 17 percent for the full year FY27."
+          },
+          "code_errors": [],
+          "verification": {
+            "errors": [],
+            "kind": "management_view_or_forecast",
+            "diagnostics": [
+              {
+                "stage": "cited_evidence",
+                "answers": {
+                  "kind": {
+                    "choice": "management_view_or_forecast",
+                    "confidence": 1.0,
+                    "type": "choice"
+                  },
+                  "relation": {
+                    "choice": "supports",
+                    "confidence": 1.0,
+                    "type": "choice"
+                  }
+                }
+              }
+            ],
+            "unavailable": false,
+            "conflicts": []
+          },
+          "errors": [],
+          "accepted": true,
+          "final_claim": {
+            "cites": [
+              "S5.u01"
+            ],
+            "kind": "management_view_or_forecast",
+            "text": "Management maintains its revenue growth guidance of 15 to 17 percent for the full year FY27."
+          }
+        },
+        {
+          "section": "bull",
+          "index": 3,
+          "claim": {
+            "cites": [
+              "S3.u08"
+            ],
+            "kind": "management_view_or_forecast",
+            "text": "The company says the new Bharuch plant, which adds about 30% to cable capacity, is on track to begin commercial production in Q3 FY27."
+          },
+          "code_errors": [],
+          "verification": {
+            "errors": [],
+            "kind": "management_view_or_forecast",
+            "diagnostics": [
+              {
+                "stage": "cited_evidence",
+                "answers": {
+                  "kind": {
+                    "choice": "management_view_or_forecast",
+                    "confidence": 0.95,
+                    "type": "choice"
+                  },
+                  "relation": {
+                    "choice": "supports",
+                    "confidence": 0.98,
+                    "type": "choice"
+                  }
+                }
+              }
+            ],
+            "unavailable": false,
+            "conflicts": []
+          },
+          "errors": [],
+          "accepted": true,
+          "final_claim": {
+            "cites": [
+              "S3.u08"
+            ],
+            "kind": "management_view_or_forecast",
+            "text": "The company says the new Bharuch plant, which adds about 30% to cable capacity, is on track to begin commercial production in Q3 FY27."
+          }
+        },
+        {
+          "section": "bear",
+          "index": 0,
+          "claim": {
+            "cites": [
+              "S5.u11",
+              "S5.u12"
+            ],
+            "kind": "reported_fact",
+            "text": "The CFO stated on the earnings call that receivable days increased from 78 to 96 over the last year, mainly due to slower payments from two large state utility customers."
+          },
+          "code_errors": [],
+          "verification": {
+            "errors": [],
+            "kind": "reported_fact",
+            "diagnostics": [
+              {
+                "stage": "cited_evidence",
+                "answers": {
+                  "kind": {
+                    "choice": "reported_fact",
+                    "confidence": 0.95,
+                    "type": "choice"
+                  },
+                  "relation": {
+                    "choice": "supports",
+                    "confidence": 0.98,
+                    "type": "choice"
+                  }
+                }
+              }
+            ],
+            "unavailable": false,
+            "conflicts": []
+          },
+          "errors": [],
+          "accepted": true,
+          "final_claim": {
+            "cites": [
+              "S5.u11",
+              "S5.u12"
+            ],
+            "kind": "reported_fact",
+            "text": "The CFO stated on the earnings call that receivable days increased from 78 to 96 over the last year, mainly due to slower payments from two large state utility customers."
+          }
+        },
+        {
+          "section": "bear",
+          "index": 1,
+          "claim": {
+            "cites": [
+              "S8.u01"
+            ],
+            "kind": "reported_fact",
+            "text": "The company disclosed that it received a GST demand order for 46.3 crore rupees, including interest and penalty, relating to input tax credit claimed for FY2020-21 and FY2021-22."
+          },
+          "code_errors": [],
+          "verification": {
+            "errors": [],
+            "kind": "reported_fact",
+            "diagnostics": [
+              {
+                "stage": "cited_evidence",
+                "answers": {
+                  "kind": {
+                    "choice": "reported_fact",
+                    "confidence": 0.95,
+                    "type": "choice"
+                  },
+                  "relation": {
+                    "choice": "supports",
+                    "confidence": 0.98,
+                    "type": "choice"
+                  }
+                }
+              }
+            ],
+            "unavailable": false,
+            "conflicts": []
+          },
+          "errors": [],
+          "accepted": true,
+          "final_claim": {
+            "cites": [
+              "S8.u01"
+            ],
+            "kind": "reported_fact",
+            "text": "The company disclosed that it received a GST demand order for 46.3 crore rupees, including interest and penalty, relating to input tax credit claimed for FY2020-21 and FY2021-22."
+          }
+        },
+        {
+          "section": "open_questions",
+          "index": 0,
+          "claim": {
+            "cites": [
+              "S3.u02",
+              "S4.u02"
+            ],
+            "kind": "reported_fact",
+            "text": "The company's press release reports Q1 FY27 revenue of 1,248 crore rupees, while a news article reports 1,428 crore rupees. What explains this discrepancy between the company's official filing and the secondary news report?"
+          },
+          "code_errors": [],
+          "verification": {
+            "errors": [],
+            "kind": "reported_fact",
+            "diagnostics": [
+              {
+                "stage": "cited_evidence",
+                "answers": {
+                  "kind": {
+                    "choice": "reported_fact",
+                    "confidence": 1.0,
+                    "type": "choice"
+                  },
+                  "relation": {
+                    "choice": "supports",
+                    "confidence": 1.0,
+                    "type": "choice"
+                  }
+                }
+              }
+            ],
+            "unavailable": false,
+            "conflicts": []
+          },
+          "errors": [],
+          "accepted": true,
+          "final_claim": {
+            "cites": [
+              "S3.u02",
+              "S4.u02"
+            ],
+            "kind": "reported_fact",
+            "text": "The company's press release reports Q1 FY27 revenue of 1,248 crore rupees, while a news article reports 1,428 crore rupees. What explains this discrepancy between the company's official filing and the secondary news report?"
+          }
+        },
+        {
+          "section": "open_questions",
+          "index": 1,
+          "claim": {
+            "cites": [
+              "S1.u01",
+              "S2.u02"
+            ],
+            "kind": "reported_fact",
+            "text": "A March 2024 news article reported promoter pledge at 35%, while the June 2026 exchange filing shows pledged shares at 4.1% of promoter holding. What explains the difference between the 2024 news report and the 2026 official filing?"
+          },
+          "code_errors": [],
+          "verification": {
+            "errors": [],
+            "kind": "reported_fact",
+            "diagnostics": [
+              {
+                "stage": "cited_evidence",
+                "answers": {
+                  "kind": {
+                    "choice": "reported_fact",
+                    "confidence": 0.95,
+                    "type": "choice"
+                  },
+                  "relation": {
+                    "choice": "supports",
+                    "confidence": 0.95,
+                    "type": "choice"
+                  }
+                }
+              }
+            ],
+            "unavailable": false,
+            "conflicts": []
+          },
+          "errors": [],
+          "accepted": true,
+          "final_claim": {
+            "cites": [
+              "S1.u01",
+              "S2.u02"
+            ],
+            "kind": "reported_fact",
+            "text": "A March 2024 news article reported promoter pledge at 35%, while the June 2026 exchange filing shows pledged shares at 4.1% of promoter holding. What explains the difference between the 2024 news report and the 2026 official filing?"
+          }
+        },
+        {
+          "section": "open_questions",
+          "index": 2,
+          "claim": {
+            "cites": [
+              "S5.u07"
+            ],
+            "kind": "management_view_or_forecast",
+            "text": "Management states that about two-thirds of contracts have price-variation clauses that reset with a lag of one to two quarters. How will this lag affect margins in the upcoming quarters?"
+          },
+          "code_errors": [],
+          "verification": {
+            "errors": [],
+            "kind": "reported_fact",
+            "diagnostics": [
+              {
+                "stage": "cited_evidence",
+                "answers": {
+                  "kind": {
+                    "choice": "reported_fact",
+                    "confidence": 0.95,
+                    "type": "choice"
+                  },
+                  "relation": {
+                    "choice": "supports",
+                    "confidence": 0.95,
+                    "type": "choice"
+                  }
+                }
+              }
+            ],
+            "unavailable": false,
+            "conflicts": []
+          },
+          "errors": [],
+          "accepted": true,
+          "final_claim": {
+            "cites": [
+              "S5.u07"
+            ],
+            "kind": "reported_fact",
+            "text": "Management states that about two-thirds of contracts have price-variation clauses that reset with a lag of one to two quarters. How will this lag affect margins in the upcoming quarters?"
+          }
+        }
+      ],
+      "failures": []
+    }
+  ],
+  "dropped": [],
+  "removals": {
+    "S6": [
+      {
+        "kind": "html_comment",
+        "count": 247
+      }
+    ]
+  },
+  "warnings": [],
+  "manual_supported_review": "pending",
+  "manual_trap_review": "pending",
+  "routes": {
+    "S1": {
+      "status": "evidence",
+      "reason": "Company identity and document screening passed",
+      "diagnostics": {
+        "hard_identifier": null,
+        "clean": {
+          "addresses_ai_tools": {
+            "noul": 0,
+            "type": "noul"
+          },
+          "promotional_stock_tip": {
+            "noul": 0,
+            "type": "noul"
+          },
+          "same_company": {
+            "confidence": 1.0,
+            "score": 2,
+            "type": "score"
+          },
+          "same_line_of_business": {
+            "noul": 1,
+            "type": "noul"
+          }
+        },
+        "clean_addresses_ai_tools": 0,
+        "raw_addresses_ai_tools": 0,
+        "raw_screen_reused": true
+      }
+    },
+    "S2": {
+      "status": "evidence",
+      "reason": "Company matched by ticker; document screening passed",
+      "diagnostics": {
+        "hard_identifier": "ticker",
+        "clean": {
+          "addresses_ai_tools": {
+            "noul": 0,
+            "type": "noul"
+          },
+          "promotional_stock_tip": {
+            "noul": 0,
+            "type": "noul"
+          }
+        },
+        "clean_addresses_ai_tools": 0,
+        "raw_addresses_ai_tools": 0,
+        "raw_screen_reused": true
+      }
+    },
+    "S3": {
+      "status": "evidence",
+      "reason": "Company matched by ticker; document screening passed",
+      "diagnostics": {
+        "hard_identifier": "ticker",
+        "clean": {
+          "addresses_ai_tools": {
+            "noul": 0,
+            "type": "noul"
+          },
+          "promotional_stock_tip": {
+            "noul": 0,
+            "type": "noul"
+          }
+        },
+        "clean_addresses_ai_tools": 0,
+        "raw_addresses_ai_tools": 0,
+        "raw_screen_reused": true
+      }
+    },
+    "S4": {
+      "status": "evidence",
+      "reason": "Company identity and document screening passed",
+      "diagnostics": {
+        "hard_identifier": null,
+        "clean": {
+          "addresses_ai_tools": {
+            "noul": 0,
+            "type": "noul"
+          },
+          "promotional_stock_tip": {
+            "noul": 0,
+            "type": "noul"
+          },
+          "same_company": {
+            "confidence": 1.0,
+            "score": 2,
+            "type": "score"
+          },
+          "same_line_of_business": {
+            "noul": 1,
+            "type": "noul"
+          }
+        },
+        "clean_addresses_ai_tools": 0,
+        "raw_addresses_ai_tools": 0,
+        "raw_screen_reused": true
+      }
+    },
+    "S5": {
+      "status": "evidence",
+      "reason": "Company matched by issuer_host; document screening passed",
+      "diagnostics": {
+        "hard_identifier": "issuer_host",
+        "clean": {
+          "addresses_ai_tools": {
+            "noul": 0,
+            "type": "noul"
+          },
+          "promotional_stock_tip": {
+            "noul": 0,
+            "type": "noul"
+          }
+        },
+        "clean_addresses_ai_tools": 0,
+        "raw_addresses_ai_tools": 0,
+        "raw_screen_reused": true
+      }
+    },
+    "S6": {
+      "status": "excluded",
+      "reason": "Promotional stock-tip content",
+      "diagnostics": {
+        "hard_identifier": "ticker",
+        "clean": {
+          "addresses_ai_tools": {
+            "noul": 0,
+            "type": "noul"
+          },
+          "promotional_stock_tip": {
+            "noul": 1,
+            "type": "noul"
+          }
+        },
+        "clean_addresses_ai_tools": 0,
+        "raw_addresses_ai_tools": 1,
+        "raw_screen_reused": false
+      }
+    },
+    "S7": {
+      "status": "excluded",
+      "reason": "Different company or business",
+      "diagnostics": {
+        "hard_identifier": null,
+        "clean": {
+          "addresses_ai_tools": {
+            "noul": 0,
+            "type": "noul"
+          },
+          "promotional_stock_tip": {
+            "noul": 0,
+            "type": "noul"
+          },
+          "same_company": {
+            "confidence": 0.9,
+            "score": 0,
+            "type": "score"
+          },
+          "same_line_of_business": {
+            "noul": 0,
+            "type": "noul"
+          }
+        },
+        "clean_addresses_ai_tools": 0,
+        "raw_addresses_ai_tools": 0,
+        "raw_screen_reused": true
+      }
+    },
+    "S8": {
+      "status": "evidence",
+      "reason": "Company matched by ticker; document screening passed",
+      "diagnostics": {
+        "hard_identifier": "ticker",
+        "clean": {
+          "addresses_ai_tools": {
+            "noul": 0,
+            "type": "noul"
+          },
+          "promotional_stock_tip": {
+            "noul": 0,
+            "type": "noul"
+          }
+        },
+        "clean_addresses_ai_tools": 0,
+        "raw_addresses_ai_tools": 0,
+        "raw_screen_reused": true
+      }
+    }
+  },
+  "unavailable": false,
+  "accepted": {
+    "snapshot": [
+      {
+        "cites": [
+          "S3.u01"
+        ],
+        "kind": "reported_fact",
+        "text": "Sarvottam Cables Ltd is a manufacturer of power cables, wires and conductors."
+      },
+      {
+        "cites": [
+          "S3.u02",
+          "S3.u03",
+          "S3.u04",
+          "S3.u05"
+        ],
+        "kind": "reported_fact",
+        "text": "For Q1 FY27, the company reported revenue of 1,248 crore rupees, EBITDA of 140 crore rupees, an EBITDA margin of 11.2%, and profit after tax of 82 crore rupees."
+      },
+      {
+        "cites": [
+          "S2.u01",
+          "S2.u02"
+        ],
+        "kind": "reported_fact",
+        "text": "As of June 2026, promoters held 58.2% of the company, with 4.1% of that holding pledged."
+      }
+    ],
+    "bull": [
+      {
+        "cites": [
+          "S3.u06"
+        ],
+        "kind": "reported_fact",
+        "text": "The company reported that its order book stood at 3,900 crore rupees as of 30 June 2026, up from 3,150 crore rupees a year ago."
+      },
+      {
+        "cites": [
+          "S3.u07"
+        ],
+        "kind": "reported_fact",
+        "text": "Exports contributed 21% of revenue in Q1 FY27, an increase from 16% in Q1 FY26."
+      },
+      {
+        "cites": [
+          "S5.u01"
+        ],
+        "kind": "management_view_or_forecast",
+        "text": "Management maintains its revenue growth guidance of 15 to 17 percent for the full year FY27."
+      },
+      {
+        "cites": [
+          "S3.u08"
+        ],
+        "kind": "management_view_or_forecast",
+        "text": "The company says the new Bharuch plant, which adds about 30% to cable capacity, is on track to begin commercial production in Q3 FY27."
+      }
+    ],
+    "bear": [
+      {
+        "cites": [
+          "S5.u11",
+          "S5.u12"
+        ],
+        "kind": "reported_fact",
+        "text": "The CFO stated on the earnings call that receivable days increased from 78 to 96 over the last year, mainly due to slower payments from two large state utility customers."
+      },
+      {
+        "cites": [
+          "S8.u01"
+        ],
+        "kind": "reported_fact",
+        "text": "The company disclosed that it received a GST demand order for 46.3 crore rupees, including interest and penalty, relating to input tax credit claimed for FY2020-21 and FY2021-22."
+      }
+    ],
+    "open_questions": [
+      {
+        "cites": [
+          "S3.u02",
+          "S4.u02"
+        ],
+        "kind": "reported_fact",
+        "text": "The company's press release reports Q1 FY27 revenue of 1,248 crore rupees, while a news article reports 1,428 crore rupees. What explains this discrepancy between the company's official filing and the secondary news report?"
+      },
+      {
+        "cites": [
+          "S1.u01",
+          "S2.u02"
+        ],
+        "kind": "reported_fact",
+        "text": "A March 2024 news article reported promoter pledge at 35%, while the June 2026 exchange filing shows pledged shares at 4.1% of promoter holding. What explains the difference between the 2024 news report and the 2026 official filing?"
+      },
+      {
+        "cites": [
+          "S5.u07"
+        ],
+        "kind": "reported_fact",
+        "text": "Management states that about two-thirds of contracts have price-variation clauses that reset with a lag of one to two quarters. How will this lag affect margins in the upcoming quarters?"
+      }
+    ]
+  },
+  "metrics": {
+    "cited_ids_valid": {
+      "k": 12,
+      "n": 12,
+      "low": 0.7575059933447592,
+      "high": 1.0
+    },
+    "numbers_matched": {
+      "k": 12,
+      "n": 12,
+      "low": 0.7575059933447592,
+      "high": 1.0
+    },
+    "accepted_claims": 12,
+    "dropped_claims": 0,
+    "system_open_questions": 0
+  },
+  "status": "completed",
+  "word_count": 338
+}

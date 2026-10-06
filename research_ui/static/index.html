@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light">
+  <meta name="theme-color" content="#183f35">
+  <meta name="author" content="keshav0479">
+  <title>Research desk · Company briefs</title>
+  <link rel="stylesheet" href="/static/app.css">
+  <script src="/static/app.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main-content">Skip to research</a>
+  <div class="workspace">
+    <header class="topbar">
+      <a class="brand" href="/" aria-label="Research desk home"><span class="brand-mark" aria-hidden="true">r<span>.</span></span><span>Research desk</span></a>
+      <button class="button secondary runs-toggle" id="runs-toggle" type="button" aria-expanded="false" aria-controls="run-drawer">Runs <span id="runs-count" class="count"></span></button>
+      <button class="button primary new-research-button" id="new-research-button" type="button"><span aria-hidden="true">＋</span> New research</button>
+    </header>
+    <div id="runs-backdrop" class="runs-backdrop" hidden></div>
+    <aside class="sidebar" id="run-drawer" role="dialog" aria-modal="true" aria-label="Saved runs" inert>
+      <div class="sidebar-section-heading"><h2>Saved runs</h2><button id="runs-close" class="text-button" type="button">Close</button></div>
+      <label class="search-label" for="history-filter"><span class="sr-only">Filter saved runs</span><input id="history-filter" type="search" placeholder="Find a company or run…" autocomplete="off"></label>
+      <div id="run-history" class="run-history" aria-label="Saved research runs"><p class="muted">Loading saved runs…</p></div>
+      <div class="sidebar-footer"><span class="local-dot" aria-hidden="true"></span><strong>Local workspace</strong><p>New research sends the chosen documents to the selected providers.</p><button id="connection-refresh" class="text-button">Refresh connection</button></div>
+    </aside>
+    <main id="main-content" class="main-content" tabindex="-1">
+      <div id="global-error" class="notice danger" role="alert" hidden></div>
+      <section id="job-panel" class="job-panel" aria-labelledby="job-title" hidden>
+        <div class="job-heading"><div><h2 id="job-title">Research is running</h2></div><span id="job-state" class="status-pill"></span></div>
+        <p class="muted small">Progress comes from the running agent. Provider waits can take time.</p>
+        <ol id="job-events" class="job-events" aria-live="polite" aria-relevant="additions text"></ol>
+        <p id="job-error" class="error-copy" hidden></p>
+        <button id="job-view" class="button secondary" hidden>Open saved result</button>
+      </section>
+      <section id="new-research" aria-labelledby="new-title" hidden>
+        <button id="back-to-report" class="text-button back-button">← Back to report</button>
+        <header class="page-header"><div><h1 id="new-title">New research</h1><p class="page-description">Ticker, evidence cutoff date and the documents the brief may use.</p></div></header>
+        <form id="research-form" class="research-form">
+          <div class="form-main paper">
+            <div class="form-section"><span class="step-label">Company and date</span><div class="form-row"><label>NSE ticker<input id="ticker" name="ticker" required maxlength="30" placeholder="e.g. SRVCABLE" autocomplete="off" spellcheck="false"></label><label>Research as of<input id="as-of" name="as_of" type="date" required></label></div><p class="field-help">This date determines which documents are old or future-dated.</p></div>
+            <fieldset class="form-section"><legend class="step-label">Documents</legend><label class="option-row"><input type="radio" name="pack" value="example" checked><span><strong>Supplied example pack</strong><small>The fictional company used in the saved demo.</small></span></label><label class="option-row"><input type="radio" name="pack" value="upload"><span><strong>My Markdown documents</strong><small>Use local .md files with source metadata.</small></span></label><div id="upload-area" hidden><label class="file-picker" for="documents"><span class="file-picker-symbol" aria-hidden="true">↥</span><strong>Choose Markdown files</strong><span id="file-limit-copy" class="small muted">Up to 24 documents. Markdown only.</span><input id="documents" type="file" multiple accept=".md,text/markdown"></label><ul id="file-list" class="file-list"></ul><details class="metadata-guide"><summary>What should each document contain?</summary><p class="small">Start with these metadata fields, then the source text. A type is a supplied label, not authenticated proof of origin.</p><pre>---
+source: Company investor relations
+url: https://company.example/results
+published: 2026-09-01
+type: official company filing
+---
+
+# Results announcement
+
+The source text goes here.</pre><p class="small muted">Supported types include official exchange filing, official company filing, official company transcript, news article, and blog post. Unknown types are treated as news-tier evidence and logged.</p></details></div></fieldset>
+          </div>
+          <aside class="form-aside paper"><span class="step-label">Models</span><div class="writer-summary"><span class="eyebrow">Writer</span><strong id="writer-model">Checking configuration…</strong><span id="writer-ready" class="small muted"></span></div><fieldset id="route-options" class="route-options"><legend>Decision provider</legend></fieldset><p class="field-help">Configured means credentials are present. It does not guarantee provider availability. Shared free quotas can be exhausted.</p><p id="run-readiness" class="notice small"></p><p id="form-error" class="error-copy" role="alert" hidden></p><button id="launch-run" class="button primary launch-button" type="submit" disabled>Generate research brief</button><p class="small muted submit-note">The selected documents will be sent to the writer and decision provider. Review the saved output before using it.</p></aside>
+        </form>
+      </section>
+      <section id="report-workspace" aria-labelledby="report-title">
+        <header class="page-header"><div class="report-heading"><div class="eyebrow-row"><span class="eyebrow" id="report-ticker">Research workspace</span><span id="report-status" class="status-pill neutral">Loading</span></div><h1 id="report-title">Research brief</h1><p class="page-description" id="report-description">Loading saved research…</p><p id="report-summary" class="report-summary"></p></div><div class="header-actions"><a id="export-brief" class="button secondary" hidden download>Export Markdown <span aria-hidden="true">↓</span></a></div></header>
+        <div id="saved-demo-note" class="demo-note" hidden><span><strong>Saved run</strong><span>Opening it makes no model calls.</span></span></div>
+        <div id="report-warnings" class="report-warnings"></div>
+        <nav class="tabs" role="tablist" aria-label="Research views"><button id="tab-brief" class="tab active" role="tab" data-tab="brief" aria-controls="panel-brief" aria-selected="true">Brief<span id="brief-count" class="tab-count"></span></button><button id="tab-sources" class="tab" role="tab" data-tab="sources" aria-controls="panel-sources" aria-selected="false" tabindex="-1">Sources<span id="sources-count" class="tab-count"></span></button><button id="tab-coverage" class="tab" role="tab" data-tab="coverage" aria-controls="panel-coverage" aria-selected="false" tabindex="-1">Coverage</button><button id="tab-details" class="tab" role="tab" data-tab="details" aria-controls="panel-details" aria-selected="false" tabindex="-1">Run details</button></nav>
+        <div class="research-layout" id="research-layout">
+          <div class="research-primary">
+            <section id="panel-brief" class="tab-panel paper report-paper" role="tabpanel" aria-labelledby="tab-brief"><div class="empty-state"><h2>Loading report</h2></div></section>
+            <section id="panel-sources" class="tab-panel" role="tabpanel" aria-labelledby="tab-sources" hidden></section>
+            <section id="panel-coverage" class="tab-panel" role="tabpanel" aria-labelledby="tab-coverage" hidden></section>
+            <section id="panel-details" class="tab-panel" role="tabpanel" aria-labelledby="tab-details" hidden></section>
+          </div>
+          <aside id="evidence-inspector" class="evidence-inspector paper" aria-labelledby="inspector-title"><div class="inspector-header"><h2 id="inspector-title" tabindex="-1">Evidence</h2></div><div id="inspector-content"><div class="inspector-empty"><p>Select a claim to see its source passages and check results.</p><span class="small muted">A passed check is not a guarantee of truth.</span></div></div></aside>
+        </div>
+        <footer class="workspace-footer"><span>Not investment advice.</span><a class="project-credit" href="https://github.com/keshav0479/research-brief-agent" target="_blank" rel="noopener noreferrer">Research desk by keshav0479 · Original project</a></footer>
+      </section>
+    </main>
+  </div>
+  <noscript><p class="notice danger">This local workspace needs JavaScript to load saved reports. The underlying Markdown run files remain available on disk.</p></noscript>
+</body>
+</html>

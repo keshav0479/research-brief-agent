@@ -1,0 +1,89 @@
+{
+  "bear": [
+    {
+      "cites": [
+        "S4.u02"
+      ],
+      "kind": "reported_fact",
+      "text": "A news report states that revenue from operations rose to ₹1,428 crore, a 35% increase from the year-ago period."
+    },
+    {
+      "cites": [
+        "S3.u04"
+      ],
+      "kind": "reported_fact",
+      "text": "The company reported that EBITDA margin for Q1 FY27 was 11.2%, compared to 12.9% in Q1 FY26."
+    },
+    {
+      "cites": [
+        "S5.u11"
+      ],
+      "kind": "reported_fact",
+      "text": "The CFO stated on the earnings call that receivable days increased from 78 to 96 over the last year."
+    }
+  ],
+  "bull": [
+    {
+      "cites": [
+        "S3.u06"
+      ],
+      "kind": "reported_fact",
+      "text": "The company reported that its order book stood at ₹3,900 crore as of 30 June 2026, up from ₹3,150 crore a year ago."
+    },
+    {
+      "cites": [
+        "S3.u08"
+      ],
+      "kind": "management_view_or_forecast",
+      "text": "Management states that the new Bharuch plant, which adds about 30% to cable capacity, is on track to begin commercial production in Q3 FY27."
+    },
+    {
+      "cites": [
+        "S3.u07"
+      ],
+      "kind": "reported_fact",
+      "text": "Exports contributed 21% of revenue in Q1 FY27, an increase from 16% in Q1 FY26."
+    }
+  ],
+  "open_questions": [
+    {
+      "cites": [
+        "S3.u02",
+        "S4.u02"
+      ],
+      "kind": "reported_fact",
+      "text": "The company's press release reports Q1 FY27 revenue of ₹1,248 crore, while a news article reports ₹1,428 crore. What explains this discrepancy between the company's filing and the secondary report?"
+    },
+    {
+      "cites": [
+        "S1.u01",
+        "S2.u02"
+      ],
+      "kind": "reported_fact",
+      "text": "A March 2024 news article reported promoter pledging at 35%, while the June 2026 exchange filing shows pledging at 4.1% of promoter holding. What explains the difference between these two reported figures?"
+    }
+  ],
+  "snapshot": [
+    {
+      "cites": [
+        "S3.u01"
+      ],
+      "kind": "reported_fact",
+      "text": "Sarvottam Cables Ltd is a manufacturer of power cables, wires and conductors."
+    },
+    {
+      "cites": [
+        "S3.u05"
+      ],
+      "kind": "reported_fact",
+      "text": "The company reported profit after tax of ₹82 crore for Q1 FY27, a 5.9% increase from ₹77 crore in Q1 FY26."
+    },
+    {
+      "cites": [
+        "S2.u01"
+      ],
+      "kind": "reported_fact",
+      "text": "The exchange filing shows that promoters and the promoter group held 58.2% of the company's shares in June 2026."
+    }
+  ]
+}

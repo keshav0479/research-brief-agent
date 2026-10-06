@@ -1,0 +1,1303 @@
+{
+  "purpose": "Development probe only. Selected after smoke-run failures; not held-out evaluation or a model benchmark. Synthetic expectations concern premise support, not calibration.",
+  "started_at_utc": "2026-10-05T16:42:37.607976+00:00",
+  "source_run": "smoke-d-01",
+  "url": "https://opencode.ai/zen/v1/systemone",
+  "requested_model": "jev-1.13-free",
+  "questions_sha256": "7f428bf54eec48a8b71df3cb6f027dd333fcdd077c97dd8ce7922be8c12b75f0",
+  "verifier_sha256": "c6b5ac6b6fca56ba4ff7ccf14fff0c3f6688e4fa6370a7fa3562b0d3c90abce6",
+  "questions": {
+    "_note": "Generic questions adapted from the reviewer probe. Thresholds are starting values from TypeSafe cookbooks and a small development probe, not calibrated probabilities.",
+    "triage": {
+      "same_company": {
+        "type": "score",
+        "instructions": "Is `document` about the same company as `target_company`?",
+        "criteria": [
+          "A different company or business: a different legal name, line of business, city or people.",
+          "Unclear: a similar name, or too little detail to tell whether it is the same company.",
+          "The same company as `target_company`."
+        ]
+      },
+      "same_line_of_business": {
+        "type": "noul",
+        "instructions": "Does `document` describe a business in the same line of work as `target_company.business`?"
+      },
+      "promotional_stock_tip": {
+        "type": "noul",
+        "instructions": "Is `document` promotional stock-tip content that urges readers to buy or sell a stock?"
+      },
+      "addresses_ai_tools": {
+        "type": "noul",
+        "instructions": "Does `document` contain text addressed to AI assistants or summarisation tools, telling them what to write or do?"
+      }
+    },
+    "verify": {
+      "relation": {
+        "type": "choice",
+        "instructions": "How does `source_document` relate to `claim`?",
+        "criteria": {
+          "supports": {
+            "what": "The document states the claim or directly implies it, with the same figure, unit, scope, time period, company, and with results described as results.",
+            "not_for": "Claims that change a figure, scope, period, company or direction, or that state as done something the document only expects or plans."
+          },
+          "contradicts": {
+            "what": "The document states something incompatible with the claim: a different figure, the opposite direction, or a statement the claim reverses.",
+            "not_for": "Claims the document simply does not mention."
+          },
+          "says_nothing": {
+            "what": "The document does not address what the claim asserts, or addresses only part of it, for example a forecast where the claim states a result, or a narrower scope than the claim.",
+            "not_for": "Claims the document clearly states or clearly denies."
+          }
+        }
+      }
+    },
+    "verify_open_questions": {
+      "relation": {
+        "type": "choice",
+        "instructions": "Does `source_document` justify the factual premises of the open question in `claim`? Check every explicit and implied premise, including attributions, figures, scope, timing and company. Do not require the source to answer the question: missing information is the purpose of an open question. A question mark does not excuse an unsupported assumption. When multiple sources are quoted as disagreeing, check that each source is represented accurately; their disagreement alone does not contradict that description.",
+        "criteria": {
+          "supports": {
+            "what": "Every factual premise is stated or directly implied by the cited source material, and the unanswered part asks about a relevant uncertainty without asserting its outcome.",
+            "not_for": "Questions that insert an unsupported event, forecast, causal explanation, figure, scope or time period, or turn a plan or management belief into a completed result."
+          },
+          "contradicts": {
+            "what": "The source explicitly denies a factual premise or gives an incompatible figure, scope, period, company or event. It is incompatible with what the question assumes, not merely unable to answer the question.",
+            "not_for": "Unanswered questions, accurate descriptions of disagreement between sources, or premises the source does not address."
+          },
+          "says_nothing": {
+            "what": "At least one factual premise is absent from the cited material or the uncertainty is unrelated to it. Partial support is not enough.",
+            "not_for": "A relevant unanswered question whose premises are all sourced."
+          }
+        }
+      }
+    },
+    "kinds": {
+      "kind": {
+        "type": "choice",
+        "instructions": "What kind of statement is `statement`? For an open question, classify its stated factual premise, not the outcome it asks about. If it has no factual premise, classify the author's question as a third-party view.",
+        "criteria": {
+          "reported_fact": {
+            "what": "A result, figure or event that has already happened, stated as fact.",
+            "not_for": "Forecasts, plans, guidance, beliefs, or anyone's opinion.",
+            "examples": [
+              "Net sales rose 7% to 410 million in the March quarter.",
+              "The board approved a dividend of 2 per share."
+            ]
+          },
+          "management_view_or_forecast": {
+            "what": "What a company or its management expects, plans, believes, guides or assesses.",
+            "not_for": "Completed results stated as fact; views of people outside the company.",
+            "examples": [
+              "We expect demand to stay firm next year.",
+              "The company believes the claim has no merit."
+            ]
+          },
+          "third_party_view": {
+            "what": "An opinion, recommendation, rating or general interpretation from someone outside the company, such as a journalist, analyst or blogger.",
+            "not_for": "Statements by the company; plain reported figures.",
+            "examples": [
+              "Analysts see limited upside from here.",
+              "Rising debt is often a warning sign for investors."
+            ]
+          }
+        }
+      }
+    },
+    "thresholds": {
+      "same_company_low": 0.5,
+      "same_company_high": 1.5,
+      "promotional": 0.5,
+      "ai_directed": 0.5,
+      "relation": 0.8,
+      "kind": 0.8
+    }
+  },
+  "cases": [
+    {
+      "id": "saved-bull-3",
+      "section": "bull",
+      "claim": {
+        "cites": [
+          "S3.u07"
+        ],
+        "kind": "reported_fact",
+        "text": "Exports contributed 21% of revenue in Q1 FY27, up from 16% in the same period last year."
+      },
+      "before": {
+        "errors": [
+          "Evidence support is unresolved after an order check."
+        ],
+        "kind": "reported_fact",
+        "diagnostics": [
+          {
+            "stage": "cited_evidence",
+            "answers": {
+              "relation": {
+                "type": "choice",
+                "choice": "supports",
+                "confidence": 0.79,
+                "probabilities": {
+                  "contradicts": 0.13,
+                  "supports": 0.86,
+                  "says_nothing": 0.01
+                }
+              },
+              "kind": {
+                "type": "choice",
+                "choice": "reported_fact",
+                "confidence": 1,
+                "probabilities": {
+                  "reported_fact": 1,
+                  "management_view_or_forecast": 0,
+                  "third_party_view": 0
+                }
+              }
+            },
+            "reversed_questions": [
+              "relation"
+            ],
+            "retry_answers": {
+              "relation": {
+                "type": "choice",
+                "choice": "supports",
+                "confidence": 0.54,
+                "probabilities": {
+                  "contradicts": 0.29,
+                  "supports": 0.69,
+                  "says_nothing": 0.02
+                }
+              }
+            }
+          }
+        ],
+        "unavailable": false,
+        "conflicts": []
+      },
+      "after": {
+        "errors": [
+          "Evidence support is unresolved after an order check."
+        ],
+        "kind": "reported_fact",
+        "diagnostics": [
+          {
+            "stage": "cited_evidence",
+            "answers": {
+              "relation": {
+                "type": "choice",
+                "choice": "supports",
+                "confidence": 0.76,
+                "probabilities": {
+                  "contradicts": 0.15,
+                  "supports": 0.84,
+                  "says_nothing": 0.01
+                }
+              },
+              "kind": {
+                "type": "choice",
+                "choice": "reported_fact",
+                "confidence": 1,
+                "probabilities": {
+                  "reported_fact": 1,
+                  "management_view_or_forecast": 0,
+                  "third_party_view": 0
+                }
+              }
+            },
+            "reversed_questions": [
+              "relation"
+            ],
+            "retry_answers": {
+              "relation": {
+                "type": "choice",
+                "choice": "supports",
+                "confidence": 0.5,
+                "probabilities": {
+                  "supports": 0.66,
+                  "says_nothing": 0.02,
+                  "contradicts": 0.32
+                }
+              }
+            }
+          }
+        ],
+        "unavailable": false,
+        "conflicts": []
+      },
+      "calls": [
+        {
+          "attempt": 1,
+          "requested_model": "jev-1.13-free",
+          "model": "jev-1.13-free",
+          "usage": {
+            "input_tokens": 1038,
+            "output_tokens": 88
+          },
+          "raw_response": {
+            "model": "jev-1.13-free",
+            "answers": {
+              "relation": {
+                "type": "choice",
+                "choice": "supports",
+                "confidence": 0.76,
+                "probabilities": {
+                  "contradicts": 0.15,
+                  "supports": 0.84,
+                  "says_nothing": 0.01
+                }
+              },
+              "kind": {
+                "type": "choice",
+                "choice": "reported_fact",
+                "confidence": 1,
+                "probabilities": {
+                  "reported_fact": 1,
+                  "management_view_or_forecast": 0,
+                  "third_party_view": 0
+                }
+              }
+            },
+            "usage": {
+              "input_tokens": 1038,
+              "output_tokens": 88
+            },
+            "cost": "0"
+          },
+          "status": "ok",
+          "elapsed_s": 1.6369,
+          "request_sha256": "86871bcfc562dadb2c5ef267d784d0404d691387450e5436c595508eb6e7de63"
+        },
+        {
+          "attempt": 1,
+          "requested_model": "jev-1.13-free",
+          "model": "jev-1.13-free",
+          "usage": {
+            "input_tokens": 700,
+            "output_tokens": 44
+          },
+          "raw_response": {
+            "model": "jev-1.13-free",
+            "answers": {
+              "relation": {
+                "type": "choice",
+                "choice": "supports",
+                "confidence": 0.5,
+                "probabilities": {
+                  "supports": 0.66,
+                  "says_nothing": 0.02,
+                  "contradicts": 0.32
+                }
+              }
+            },
+            "usage": {
+              "input_tokens": 700,
+              "output_tokens": 44
+            },
+            "cost": "0"
+          },
+          "status": "ok",
+          "elapsed_s": 1.1632,
+          "request_sha256": "d3899685fcdf9d9d5379b6d5df3098c16b98958f39643e1726d1b0ed478cba92"
+        }
+      ]
+    },
+    {
+      "id": "saved-open_questions-0",
+      "section": "open_questions",
+      "claim": {
+        "cites": [
+          "S3.u02",
+          "S4.u02"
+        ],
+        "kind": "reported_fact",
+        "text": "The company's press release reports Q1 FY27 revenue of ₹1,248 crore, while a news article reports ₹1,428 crore. Which figure is accurate?"
+      },
+      "before": {
+        "errors": [
+          "Evidence support is unresolved after an order check."
+        ],
+        "kind": "reported_fact",
+        "diagnostics": [
+          {
+            "stage": "cited_evidence",
+            "answers": {
+              "relation": {
+                "type": "choice",
+                "choice": "supports",
+                "confidence": 0.61,
+                "probabilities": {
+                  "supports": 0.73,
+                  "says_nothing": 0.02,
+                  "contradicts": 0.25
+                }
+              },
+              "kind": {
+                "type": "choice",
+                "choice": "reported_fact",
+                "confidence": 0.92,
+                "probabilities": {
+                  "third_party_view": 0.05,
+                  "management_view_or_forecast": 0,
+                  "reported_fact": 0.95
+                }
+              }
+            },
+            "reversed_questions": [
+              "relation"
+            ],
+            "retry_answers": {
+              "relation": {
+                "type": "choice",
+                "choice": "supports",
+                "confidence": 0.64,
+                "probabilities": {
+                  "supports": 0.76,
+                  "says_nothing": 0.03,
+                  "contradicts": 0.21
+                }
+              }
+            }
+          }
+        ],
+        "unavailable": false,
+        "conflicts": []
+      },
+      "after": {
+        "errors": [],
+        "kind": "reported_fact",
+        "diagnostics": [
+          {
+            "stage": "cited_evidence",
+            "answers": {
+              "relation": {
+                "type": "choice",
+                "choice": "supports",
+                "confidence": 0.86,
+                "probabilities": {
+                  "supports": 0.91,
+                  "says_nothing": 0.02,
+                  "contradicts": 0.07
+                }
+              },
+              "kind": {
+                "type": "choice",
+                "choice": "reported_fact",
+                "confidence": 0.86,
+                "probabilities": {
+                  "third_party_view": 0.09,
+                  "management_view_or_forecast": 0,
+                  "reported_fact": 0.91
+                }
+              }
+            }
+          }
+        ],
+        "unavailable": false,
+        "conflicts": []
+      },
+      "calls": [
+        {
+          "attempt": 1,
+          "requested_model": "jev-1.13-free",
+          "model": "jev-1.13-free",
+          "usage": {
+            "input_tokens": 1251,
+            "output_tokens": 88
+          },
+          "raw_response": {
+            "model": "jev-1.13-free",
+            "answers": {
+              "relation": {
+                "type": "choice",
+                "choice": "supports",
+                "confidence": 0.86,
+                "probabilities": {
+                  "supports": 0.91,
+                  "says_nothing": 0.02,
+                  "contradicts": 0.07
+                }
+              },
+              "kind": {
+                "type": "choice",
+                "choice": "reported_fact",
+                "confidence": 0.86,
+                "probabilities": {
+                  "third_party_view": 0.09,
+                  "management_view_or_forecast": 0,
+                  "reported_fact": 0.91
+                }
+              }
+            },
+            "usage": {
+              "input_tokens": 1251,
+              "output_tokens": 88
+            },
+            "cost": "0"
+          },
+          "status": "ok",
+          "elapsed_s": 1.1711,
+          "request_sha256": "ec5686b7cd9a5a5a6409ab9533ea15efae83b39728043e0cd20237147f3b9cbe"
+        }
+      ]
+    },
+    {
+      "id": "saved-open_questions-1",
+      "section": "open_questions",
+      "claim": {
+        "cites": [
+          "S8.u02",
+          "S8.u03"
+        ],
+        "kind": "management_view_or_forecast",
+        "text": "Management intends to appeal the GST demand and expects no material impact, but what is the likelihood of a successful appeal?"
+      },
+      "before": {
+        "errors": [
+          "Evidence support is unresolved after an order check."
+        ],
+        "kind": "management_view_or_forecast",
+        "diagnostics": [
+          {
+            "stage": "cited_evidence",
+            "answers": {
+              "relation": {
+                "type": "choice",
+                "choice": "supports",
+                "confidence": 0.71,
+                "probabilities": {
+                  "supports": 0.81,
+                  "contradicts": 0,
+                  "says_nothing": 0.19
+                }
+              },
+              "kind": {
+                "type": "choice",
+                "choice": "management_view_or_forecast",
+                "confidence": 0.95,
+                "probabilities": {
+                  "management_view_or_forecast": 0.97,
+                  "reported_fact": 0,
+                  "third_party_view": 0.03
+                }
+              }
+            },
+            "reversed_questions": [
+              "relation"
+            ],
+            "retry_answers": {
+              "relation": {
+                "type": "choice",
+                "choice": "supports",
+                "confidence": 0.72,
+                "probabilities": {
+                  "contradicts": 0,
+                  "supports": 0.8200000000000001,
+                  "says_nothing": 0.18
+                }
+              }
+            }
+          }
+        ],
+        "unavailable": false,
+        "conflicts": []
+      },
+      "after": {
+        "errors": [],
+        "kind": "management_view_or_forecast",
+        "diagnostics": [
+          {
+            "stage": "cited_evidence",
+            "answers": {
+              "relation": {
+                "type": "choice",
+                "choice": "supports",
+                "confidence": 0.99,
+                "probabilities": {
+                  "says_nothing": 0,
+                  "supports": 1,
+                  "contradicts": 0
+                }
+              },
+              "kind": {
+                "type": "choice",
+                "choice": "management_view_or_forecast",
+                "confidence": 0.94,
+                "probabilities": {
+                  "management_view_or_forecast": 0.97,
+                  "reported_fact": 0,
+                  "third_party_view": 0.03
+                }
+              }
+            }
+          }
+        ],
+        "unavailable": false,
+        "conflicts": []
+      },
+      "calls": [
+        {
+          "attempt": 1,
+          "requested_model": "jev-1.13-free",
+          "model": "jev-1.13-free",
+          "usage": {
+            "input_tokens": 1223,
+            "output_tokens": 92
+          },
+          "raw_response": {
+            "model": "jev-1.13-free",
+            "answers": {
+              "relation": {
+                "type": "choice",
+                "choice": "supports",
+                "confidence": 0.99,
+                "probabilities": {
+                  "says_nothing": 0,
+                  "supports": 1,
+                  "contradicts": 0
+                }
+              },
+              "kind": {
+                "type": "choice",
+                "choice": "management_view_or_forecast",
+                "confidence": 0.94,
+                "probabilities": {
+                  "management_view_or_forecast": 0.97,
+                  "reported_fact": 0,
+                  "third_party_view": 0.03
+                }
+              }
+            },
+            "usage": {
+              "input_tokens": 1223,
+              "output_tokens": 92
+            },
+            "cost": "0"
+          },
+          "status": "ok",
+          "elapsed_s": 1.2826,
+          "request_sha256": "f205c5ea6040d64b3c6c98f968b15b5824d87bc8aee5be91cd281d66710e1dce"
+        }
+      ]
+    },
+    {
+      "id": "saved-open_questions-2",
+      "section": "open_questions",
+      "claim": {
+        "cites": [
+          "S5.u07",
+          "S5.u10"
+        ],
+        "kind": "management_view_or_forecast",
+        "text": "Management expects to pass on higher copper costs over the next two quarters, but how effective will this be given the lag in price-variation clauses?"
+      },
+      "before": {
+        "errors": [
+          "Evidence support is unresolved after an order check."
+        ],
+        "kind": "management_view_or_forecast",
+        "diagnostics": [
+          {
+            "stage": "cited_evidence",
+            "answers": {
+              "relation": {
+                "type": "choice",
+                "choice": "says_nothing",
+                "confidence": 0.62,
+                "probabilities": {
+                  "says_nothing": 0.75,
+                  "supports": 0.24,
+                  "contradicts": 0.01
+                }
+              },
+              "kind": {
+                "type": "choice",
+                "choice": "management_view_or_forecast",
+                "confidence": 0.88,
+                "probabilities": {
+                  "third_party_view": 0.08,
+                  "reported_fact": 0,
+                  "management_view_or_forecast": 0.92
+                }
+              }
+            },
+            "reversed_questions": [
+              "relation"
+            ],
+            "retry_answers": {
+              "relation": {
+                "type": "choice",
+                "choice": "says_nothing",
+                "confidence": 0.7,
+                "probabilities": {
+                  "supports": 0.18,
+                  "contradicts": 0.02,
+                  "says_nothing": 0.8
+                }
+              }
+            }
+          }
+        ],
+        "unavailable": false,
+        "conflicts": []
+      },
+      "after": {
+        "errors": [
+          "Evidence support is unresolved after an order check."
+        ],
+        "kind": "management_view_or_forecast",
+        "diagnostics": [
+          {
+            "stage": "cited_evidence",
+            "answers": {
+              "relation": {
+                "type": "choice",
+                "choice": "says_nothing",
+                "confidence": 0.5,
+                "probabilities": {
+                  "contradicts": 0.03,
+                  "supports": 0.31,
+                  "says_nothing": 0.66
+                }
+              },
+              "kind": {
+                "type": "choice",
+                "choice": "management_view_or_forecast",
+                "confidence": 0.84,
+                "probabilities": {
+                  "third_party_view": 0.11,
+                  "management_view_or_forecast": 0.89,
+                  "reported_fact": 0
+                }
+              }
+            },
+            "reversed_questions": [
+              "relation"
+            ],
+            "retry_answers": {
+              "relation": {
+                "type": "choice",
+                "choice": "says_nothing",
+                "confidence": 0.58,
+                "probabilities": {
+                  "says_nothing": 0.72,
+                  "supports": 0.25,
+                  "contradicts": 0.03
+                }
+              }
+            }
+          }
+        ],
+        "unavailable": false,
+        "conflicts": []
+      },
+      "calls": [
+        {
+          "attempt": 1,
+          "requested_model": "jev-1.13-free",
+          "model": "jev-1.13-free",
+          "usage": {
+            "input_tokens": 1168,
+            "output_tokens": 96
+          },
+          "raw_response": {
+            "model": "jev-1.13-free",
+            "answers": {
+              "relation": {
+                "type": "choice",
+                "choice": "says_nothing",
+                "confidence": 0.5,
+                "probabilities": {
+                  "contradicts": 0.03,
+                  "supports": 0.31,
+                  "says_nothing": 0.66
+                }
+              },
+              "kind": {
+                "type": "choice",
+                "choice": "management_view_or_forecast",
+                "confidence": 0.84,
+                "probabilities": {
+                  "third_party_view": 0.11,
+                  "management_view_or_forecast": 0.89,
+                  "reported_fact": 0
+                }
+              }
+            },
+            "usage": {
+              "input_tokens": 1168,
+              "output_tokens": 96
+            },
+            "cost": "0"
+          },
+          "status": "ok",
+          "elapsed_s": 1.2692,
+          "request_sha256": "dad847f6459227d85508caed5ff917124955c37cfe2919d659bef62284aaf974"
+        },
+        {
+          "attempt": 1,
+          "requested_model": "jev-1.13-free",
+          "model": "jev-1.13-free",
+          "usage": {
+            "input_tokens": 830,
+            "output_tokens": 48
+          },
+          "raw_response": {
+            "model": "jev-1.13-free",
+            "answers": {
+              "relation": {
+                "type": "choice",
+                "choice": "says_nothing",
+                "confidence": 0.58,
+                "probabilities": {
+                  "says_nothing": 0.72,
+                  "supports": 0.25,
+                  "contradicts": 0.03
+                }
+              }
+            },
+            "usage": {
+              "input_tokens": 830,
+              "output_tokens": 48
+            },
+            "cost": "0"
+          },
+          "status": "ok",
+          "elapsed_s": 1.1975,
+          "request_sha256": "52c96adb758da0b94d5a756b8d450fed38c9f5ca38aafdf5e3f8e195665cb6cb"
+        }
+      ]
+    },
+    {
+      "id": "synthetic-missing-premise",
+      "section": "open_questions",
+      "claim": {
+        "text": "Management expects the proposed warehouse to reduce delivery times. How large will that improvement be?",
+        "kind": "management_view_or_forecast",
+        "cites": [
+          "T1.u01"
+        ]
+      },
+      "expected_acceptance": false,
+      "after": {
+        "errors": [
+          "Cited evidence relation: says_nothing."
+        ],
+        "kind": "management_view_or_forecast",
+        "diagnostics": [
+          {
+            "stage": "cited_evidence",
+            "answers": {
+              "relation": {
+                "type": "choice",
+                "choice": "says_nothing",
+                "confidence": 0.84,
+                "probabilities": {
+                  "says_nothing": 0.9,
+                  "supports": 0.08,
+                  "contradicts": 0.02
+                }
+              },
+              "kind": {
+                "type": "choice",
+                "choice": "management_view_or_forecast",
+                "confidence": 0.99,
+                "probabilities": {
+                  "reported_fact": 0,
+                  "third_party_view": 0,
+                  "management_view_or_forecast": 1
+                }
+              }
+            }
+          }
+        ],
+        "unavailable": false,
+        "conflicts": []
+      },
+      "calls": [
+        {
+          "request": {
+            "model": "jev-1.13-free",
+            "state": {
+              "claim": "Management expects the proposed warehouse to reduce delivery times. How large will that improvement be?",
+              "statement": "Management expects the proposed warehouse to reduce delivery times. How large will that improvement be?",
+              "source_document": "[T1.u01] Management is evaluating a proposed warehouse. No investment decision has been made."
+            },
+            "questions": {
+              "relation": {
+                "type": "choice",
+                "instructions": "Does `source_document` justify the factual premises of the open question in `claim`? Check every explicit and implied premise, including attributions, figures, scope, timing and company. Do not require the source to answer the question: missing information is the purpose of an open question. A question mark does not excuse an unsupported assumption. When multiple sources are quoted as disagreeing, check that each source is represented accurately; their disagreement alone does not contradict that description.",
+                "criteria": {
+                  "supports": {
+                    "what": "Every factual premise is stated or directly implied by the cited source material, and the unanswered part asks about a relevant uncertainty without asserting its outcome.",
+                    "not_for": "Questions that insert an unsupported event, forecast, causal explanation, figure, scope or time period, or turn a plan or management belief into a completed result."
+                  },
+                  "contradicts": {
+                    "what": "The source explicitly denies a factual premise or gives an incompatible figure, scope, period, company or event. It is incompatible with what the question assumes, not merely unable to answer the question.",
+                    "not_for": "Unanswered questions, accurate descriptions of disagreement between sources, or premises the source does not address."
+                  },
+                  "says_nothing": {
+                    "what": "At least one factual premise is absent from the cited material or the uncertainty is unrelated to it. Partial support is not enough.",
+                    "not_for": "A relevant unanswered question whose premises are all sourced."
+                  }
+                }
+              },
+              "kind": {
+                "type": "choice",
+                "instructions": "What kind of statement is `statement`? For an open question, classify its stated factual premise, not the outcome it asks about. If it has no factual premise, classify the author's question as a third-party view.",
+                "criteria": {
+                  "reported_fact": {
+                    "what": "A result, figure or event that has already happened, stated as fact.",
+                    "not_for": "Forecasts, plans, guidance, beliefs, or anyone's opinion.",
+                    "examples": [
+                      "Net sales rose 7% to 410 million in the March quarter.",
+                      "The board approved a dividend of 2 per share."
+                    ]
+                  },
+                  "management_view_or_forecast": {
+                    "what": "What a company or its management expects, plans, believes, guides or assesses.",
+                    "not_for": "Completed results stated as fact; views of people outside the company.",
+                    "examples": [
+                      "We expect demand to stay firm next year.",
+                      "The company believes the claim has no merit."
+                    ]
+                  },
+                  "third_party_view": {
+                    "what": "An opinion, recommendation, rating or general interpretation from someone outside the company, such as a journalist, analyst or blogger.",
+                    "not_for": "Statements by the company; plain reported figures.",
+                    "examples": [
+                      "Analysts see limited upside from here.",
+                      "Rising debt is often a warning sign for investors."
+                    ]
+                  }
+                }
+              }
+            }
+          },
+          "attempt": 1,
+          "requested_model": "jev-1.13-free",
+          "model": "jev-1.13-free",
+          "usage": {
+            "input_tokens": 1018,
+            "output_tokens": 96
+          },
+          "raw_response": {
+            "model": "jev-1.13-free",
+            "answers": {
+              "relation": {
+                "type": "choice",
+                "choice": "says_nothing",
+                "confidence": 0.84,
+                "probabilities": {
+                  "says_nothing": 0.9,
+                  "supports": 0.08,
+                  "contradicts": 0.02
+                }
+              },
+              "kind": {
+                "type": "choice",
+                "choice": "management_view_or_forecast",
+                "confidence": 0.99,
+                "probabilities": {
+                  "reported_fact": 0,
+                  "third_party_view": 0,
+                  "management_view_or_forecast": 1
+                }
+              }
+            },
+            "usage": {
+              "input_tokens": 1018,
+              "output_tokens": 96
+            },
+            "cost": "0"
+          },
+          "status": "ok",
+          "elapsed_s": 1.1303
+        }
+      ]
+    },
+    {
+      "id": "synthetic-valid-uncertainty",
+      "section": "open_questions",
+      "claim": {
+        "text": "Management is evaluating a proposed warehouse. What investment decision will it make?",
+        "kind": "management_view_or_forecast",
+        "cites": [
+          "T1.u01"
+        ]
+      },
+      "expected_acceptance": true,
+      "after": {
+        "errors": [
+          "Statement kind is unresolved after an order check."
+        ],
+        "kind": "management_view_or_forecast",
+        "diagnostics": [
+          {
+            "stage": "cited_evidence",
+            "answers": {
+              "relation": {
+                "type": "choice",
+                "choice": "supports",
+                "confidence": 0.93,
+                "probabilities": {
+                  "supports": 0.95,
+                  "says_nothing": 0.01,
+                  "contradicts": 0.04
+                }
+              },
+              "kind": {
+                "type": "choice",
+                "choice": "management_view_or_forecast",
+                "confidence": 0.5,
+                "probabilities": {
+                  "third_party_view": 0.07,
+                  "management_view_or_forecast": 0.67,
+                  "reported_fact": 0.26
+                }
+              }
+            },
+            "reversed_questions": [
+              "kind"
+            ],
+            "retry_answers": {
+              "kind": {
+                "type": "choice",
+                "choice": "management_view_or_forecast",
+                "confidence": 0.45,
+                "probabilities": {
+                  "reported_fact": 0.34,
+                  "management_view_or_forecast": 0.64,
+                  "third_party_view": 0.02
+                }
+              }
+            }
+          }
+        ],
+        "unavailable": false,
+        "conflicts": []
+      },
+      "calls": [
+        {
+          "request": {
+            "model": "jev-1.13-free",
+            "state": {
+              "claim": "Management is evaluating a proposed warehouse. What investment decision will it make?",
+              "statement": "Management is evaluating a proposed warehouse. What investment decision will it make?",
+              "source_document": "[T1.u01] Management is evaluating a proposed warehouse. No investment decision has been made."
+            },
+            "questions": {
+              "relation": {
+                "type": "choice",
+                "instructions": "Does `source_document` justify the factual premises of the open question in `claim`? Check every explicit and implied premise, including attributions, figures, scope, timing and company. Do not require the source to answer the question: missing information is the purpose of an open question. A question mark does not excuse an unsupported assumption. When multiple sources are quoted as disagreeing, check that each source is represented accurately; their disagreement alone does not contradict that description.",
+                "criteria": {
+                  "supports": {
+                    "what": "Every factual premise is stated or directly implied by the cited source material, and the unanswered part asks about a relevant uncertainty without asserting its outcome.",
+                    "not_for": "Questions that insert an unsupported event, forecast, causal explanation, figure, scope or time period, or turn a plan or management belief into a completed result."
+                  },
+                  "contradicts": {
+                    "what": "The source explicitly denies a factual premise or gives an incompatible figure, scope, period, company or event. It is incompatible with what the question assumes, not merely unable to answer the question.",
+                    "not_for": "Unanswered questions, accurate descriptions of disagreement between sources, or premises the source does not address."
+                  },
+                  "says_nothing": {
+                    "what": "At least one factual premise is absent from the cited material or the uncertainty is unrelated to it. Partial support is not enough.",
+                    "not_for": "A relevant unanswered question whose premises are all sourced."
+                  }
+                }
+              },
+              "kind": {
+                "type": "choice",
+                "instructions": "What kind of statement is `statement`? For an open question, classify its stated factual premise, not the outcome it asks about. If it has no factual premise, classify the author's question as a third-party view.",
+                "criteria": {
+                  "reported_fact": {
+                    "what": "A result, figure or event that has already happened, stated as fact.",
+                    "not_for": "Forecasts, plans, guidance, beliefs, or anyone's opinion.",
+                    "examples": [
+                      "Net sales rose 7% to 410 million in the March quarter.",
+                      "The board approved a dividend of 2 per share."
+                    ]
+                  },
+                  "management_view_or_forecast": {
+                    "what": "What a company or its management expects, plans, believes, guides or assesses.",
+                    "not_for": "Completed results stated as fact; views of people outside the company.",
+                    "examples": [
+                      "We expect demand to stay firm next year.",
+                      "The company believes the claim has no merit."
+                    ]
+                  },
+                  "third_party_view": {
+                    "what": "An opinion, recommendation, rating or general interpretation from someone outside the company, such as a journalist, analyst or blogger.",
+                    "not_for": "Statements by the company; plain reported figures.",
+                    "examples": [
+                      "Analysts see limited upside from here.",
+                      "Rising debt is often a warning sign for investors."
+                    ]
+                  }
+                }
+              }
+            }
+          },
+          "attempt": 1,
+          "requested_model": "jev-1.13-free",
+          "model": "jev-1.13-free",
+          "usage": {
+            "input_tokens": 1012,
+            "output_tokens": 92
+          },
+          "raw_response": {
+            "model": "jev-1.13-free",
+            "answers": {
+              "relation": {
+                "type": "choice",
+                "choice": "supports",
+                "confidence": 0.93,
+                "probabilities": {
+                  "supports": 0.95,
+                  "says_nothing": 0.01,
+                  "contradicts": 0.04
+                }
+              },
+              "kind": {
+                "type": "choice",
+                "choice": "management_view_or_forecast",
+                "confidence": 0.5,
+                "probabilities": {
+                  "third_party_view": 0.07,
+                  "management_view_or_forecast": 0.67,
+                  "reported_fact": 0.26
+                }
+              }
+            },
+            "usage": {
+              "input_tokens": 1012,
+              "output_tokens": 92
+            },
+            "cost": "0"
+          },
+          "status": "ok",
+          "elapsed_s": 1.1778
+        },
+        {
+          "request": {
+            "model": "jev-1.13-free",
+            "state": {
+              "claim": "Management is evaluating a proposed warehouse. What investment decision will it make?",
+              "statement": "Management is evaluating a proposed warehouse. What investment decision will it make?",
+              "source_document": "[T1.u01] Management is evaluating a proposed warehouse. No investment decision has been made."
+            },
+            "questions": {
+              "kind": {
+                "type": "choice",
+                "instructions": "What kind of statement is `statement`? For an open question, classify its stated factual premise, not the outcome it asks about. If it has no factual premise, classify the author's question as a third-party view.",
+                "criteria": {
+                  "third_party_view": {
+                    "what": "An opinion, recommendation, rating or general interpretation from someone outside the company, such as a journalist, analyst or blogger.",
+                    "not_for": "Statements by the company; plain reported figures.",
+                    "examples": [
+                      "Analysts see limited upside from here.",
+                      "Rising debt is often a warning sign for investors."
+                    ]
+                  },
+                  "management_view_or_forecast": {
+                    "what": "What a company or its management expects, plans, believes, guides or assesses.",
+                    "not_for": "Completed results stated as fact; views of people outside the company.",
+                    "examples": [
+                      "We expect demand to stay firm next year.",
+                      "The company believes the claim has no merit."
+                    ]
+                  },
+                  "reported_fact": {
+                    "what": "A result, figure or event that has already happened, stated as fact.",
+                    "not_for": "Forecasts, plans, guidance, beliefs, or anyone's opinion.",
+                    "examples": [
+                      "Net sales rose 7% to 410 million in the March quarter.",
+                      "The board approved a dividend of 2 per share."
+                    ]
+                  }
+                }
+              }
+            }
+          },
+          "attempt": 1,
+          "requested_model": "jev-1.13-free",
+          "model": "jev-1.13-free",
+          "usage": {
+            "input_tokens": 666,
+            "output_tokens": 51
+          },
+          "raw_response": {
+            "model": "jev-1.13-free",
+            "answers": {
+              "kind": {
+                "type": "choice",
+                "choice": "management_view_or_forecast",
+                "confidence": 0.45,
+                "probabilities": {
+                  "reported_fact": 0.34,
+                  "management_view_or_forecast": 0.64,
+                  "third_party_view": 0.02
+                }
+              }
+            },
+            "usage": {
+              "input_tokens": 666,
+              "output_tokens": 51
+            },
+            "cost": "0"
+          },
+          "status": "ok",
+          "elapsed_s": 1.2792
+        }
+      ]
+    },
+    {
+      "id": "synthetic-contradicted-premise",
+      "section": "open_questions",
+      "claim": {
+        "text": "Management has approved the new warehouse. When will construction begin?",
+        "kind": "management_view_or_forecast",
+        "cites": [
+          "T1.u01"
+        ]
+      },
+      "expected_acceptance": false,
+      "after": {
+        "errors": [
+          "Cited evidence relation: contradicts."
+        ],
+        "kind": "reported_fact",
+        "diagnostics": [
+          {
+            "stage": "cited_evidence",
+            "answers": {
+              "relation": {
+                "type": "choice",
+                "choice": "contradicts",
+                "confidence": 1,
+                "probabilities": {
+                  "supports": 0,
+                  "says_nothing": 0,
+                  "contradicts": 1
+                }
+              },
+              "kind": {
+                "type": "choice",
+                "choice": "reported_fact",
+                "confidence": 0.91,
+                "probabilities": {
+                  "reported_fact": 0.94,
+                  "management_view_or_forecast": 0.02,
+                  "third_party_view": 0.04
+                }
+              }
+            }
+          }
+        ],
+        "unavailable": false,
+        "conflicts": []
+      },
+      "calls": [
+        {
+          "request": {
+            "model": "jev-1.13-free",
+            "state": {
+              "claim": "Management has approved the new warehouse. When will construction begin?",
+              "statement": "Management has approved the new warehouse. When will construction begin?",
+              "source_document": "[T1.u01] Management is evaluating a proposed warehouse. No investment decision has been made."
+            },
+            "questions": {
+              "relation": {
+                "type": "choice",
+                "instructions": "Does `source_document` justify the factual premises of the open question in `claim`? Check every explicit and implied premise, including attributions, figures, scope, timing and company. Do not require the source to answer the question: missing information is the purpose of an open question. A question mark does not excuse an unsupported assumption. When multiple sources are quoted as disagreeing, check that each source is represented accurately; their disagreement alone does not contradict that description.",
+                "criteria": {
+                  "supports": {
+                    "what": "Every factual premise is stated or directly implied by the cited source material, and the unanswered part asks about a relevant uncertainty without asserting its outcome.",
+                    "not_for": "Questions that insert an unsupported event, forecast, causal explanation, figure, scope or time period, or turn a plan or management belief into a completed result."
+                  },
+                  "contradicts": {
+                    "what": "The source explicitly denies a factual premise or gives an incompatible figure, scope, period, company or event. It is incompatible with what the question assumes, not merely unable to answer the question.",
+                    "not_for": "Unanswered questions, accurate descriptions of disagreement between sources, or premises the source does not address."
+                  },
+                  "says_nothing": {
+                    "what": "At least one factual premise is absent from the cited material or the uncertainty is unrelated to it. Partial support is not enough.",
+                    "not_for": "A relevant unanswered question whose premises are all sourced."
+                  }
+                }
+              },
+              "kind": {
+                "type": "choice",
+                "instructions": "What kind of statement is `statement`? For an open question, classify its stated factual premise, not the outcome it asks about. If it has no factual premise, classify the author's question as a third-party view.",
+                "criteria": {
+                  "reported_fact": {
+                    "what": "A result, figure or event that has already happened, stated as fact.",
+                    "not_for": "Forecasts, plans, guidance, beliefs, or anyone's opinion.",
+                    "examples": [
+                      "Net sales rose 7% to 410 million in the March quarter.",
+                      "The board approved a dividend of 2 per share."
+                    ]
+                  },
+                  "management_view_or_forecast": {
+                    "what": "What a company or its management expects, plans, believes, guides or assesses.",
+                    "not_for": "Completed results stated as fact; views of people outside the company.",
+                    "examples": [
+                      "We expect demand to stay firm next year.",
+                      "The company believes the claim has no merit."
+                    ]
+                  },
+                  "third_party_view": {
+                    "what": "An opinion, recommendation, rating or general interpretation from someone outside the company, such as a journalist, analyst or blogger.",
+                    "not_for": "Statements by the company; plain reported figures.",
+                    "examples": [
+                      "Analysts see limited upside from here.",
+                      "Rising debt is often a warning sign for investors."
+                    ]
+                  }
+                }
+              }
+            }
+          },
+          "attempt": 1,
+          "requested_model": "jev-1.13-free",
+          "model": "jev-1.13-free",
+          "usage": {
+            "input_tokens": 1008,
+            "output_tokens": 90
+          },
+          "raw_response": {
+            "model": "jev-1.13-free",
+            "answers": {
+              "relation": {
+                "type": "choice",
+                "choice": "contradicts",
+                "confidence": 1,
+                "probabilities": {
+                  "supports": 0,
+                  "says_nothing": 0,
+                  "contradicts": 1
+                }
+              },
+              "kind": {
+                "type": "choice",
+                "choice": "reported_fact",
+                "confidence": 0.91,
+                "probabilities": {
+                  "reported_fact": 0.94,
+                  "management_view_or_forecast": 0.02,
+                  "third_party_view": 0.04
+                }
+              }
+            },
+            "usage": {
+              "input_tokens": 1008,
+              "output_tokens": 90
+            },
+            "cost": "0"
+          },
+          "status": "ok",
+          "elapsed_s": 1.1726
+        }
+      ]
+    }
+  ],
+  "finished_at_utc": "2026-10-05T16:42:50.116651+00:00",
+  "provider_calls": 10,
+  "artifact_note": "Requests containing supplied source passages were replaced with SHA-256 hashes after the probe. Provider responses, claims, questions and decisions are unchanged. The source run and cited unit IDs identify the passages. Invented synthetic controls retain their request text."
+}

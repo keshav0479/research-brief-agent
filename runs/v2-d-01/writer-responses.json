@@ -1,0 +1,124 @@
+[
+  {
+    "attempt": 1,
+    "requested_model": "qwen/qwen3.8-27b",
+    "model": "qwen/qwen3.8-27b",
+    "usage": {
+      "completion_tokens": 910,
+      "prompt_tokens": 3356,
+      "total_tokens": 4266,
+      "completion_tokens_details": null,
+      "prompt_tokens_details": null,
+      "queue_time": 0.063732704,
+      "prompt_time": 0.2305432,
+      "completion_time": 1.813117027,
+      "total_time": 2.043660227
+    },
+    "raw_response": {
+      "id": "chatcmpl-75ff11cf-9710-4d02-92ff-e7f17c672b6c",
+      "choices": [
+        {
+          "finish_reason": "stop",
+          "index": 0,
+          "logprobs": null,
+          "message": {
+            "content": "{\"bear\": [{\"cites\": [\"S4.u02\"], \"kind\": \"reported_fact\", \"text\": \"A news report dated August 2026 states revenue from operations rose to 1,428 crore rupees, a 35% increase from the year-ago period.\"}, {\"cites\": [\"S5.u11\", \"S5.u12\"], \"kind\": \"reported_fact\", \"text\": \"The CFO stated on the Q1 FY27 earnings call that receivable days increased from 78 to 96 over the last year, mainly due to slower payments from two large state utility customers.\"}, {\"cites\": [\"S8.u01\"], \"kind\": \"reported_fact\", \"text\": \"The company disclosed on 2 September 2026 that it received a GST demand order for 46.3 crore rupees, including interest and penalty, relating to input tax credit claimed for FY2020-21 and FY2021-22.\"}], \"bull\": [{\"cites\": [\"S3.u06\"], \"kind\": \"reported_fact\", \"text\": \"The company reported that its order book stood at 3,900 crore rupees as of 30 June 2026, up from 3,150 crore rupees a year ago.\"}, {\"cites\": [\"S3.u07\"], \"kind\": \"reported_fact\", \"text\": \"Exports contributed 21% of revenue in Q1 FY27, an increase from 16% in Q1 FY26.\"}, {\"cites\": [\"S3.u08\"], \"kind\": \"management_view_or_forecast\", \"text\": \"Management states that the new Bharuch plant, which adds about 30% to cable capacity, is on track to begin commercial production in Q3 FY27.\"}, {\"cites\": [\"S5.u03\"], \"kind\": \"management_view_or_forecast\", \"text\": \"Management notes that data-centre cables are about 9% of domestic revenue and expects this share to double in two years.\"}], \"open_questions\": [{\"cites\": [\"S3.u02\", \"S4.u02\"], \"kind\": \"reported_fact\", \"text\": \"The company's press release reports Q1 FY27 revenue of 1,248 crore rupees, while a news article reports 1,428 crore rupees. What explains this discrepancy in the reported revenue figures?\"}, {\"cites\": [\"S8.u02\", \"S8.u03\"], \"kind\": \"management_view_or_forecast\", \"text\": \"The company states it intends to appeal the 46.3 crore rupee GST demand and does not expect a material impact on its financial position. What is the current status of this appeal and the final outcome of the demand?\"}, {\"cites\": [\"S5.u07\"], \"kind\": \"management_view_or_forecast\", \"text\": \"Management states that about two-thirds of contracts have price-variation clauses that reset with a lag of one to two quarters. How will this lag affect margins in the upcoming quarters?\"}], \"snapshot\": [{\"cites\": [\"S3.u01\"], \"kind\": \"reported_fact\", \"text\": \"Sarvottam Cables Ltd is a manufacturer of power cables, wires and conductors.\"}, {\"cites\": [\"S3.u02\", \"S3.u05\"], \"kind\": \"reported_fact\", \"text\": \"For the quarter ended 30 June 2026, the company reported revenue from operations of 1,248 crore rupees and profit after tax of 82 crore rupees.\"}, {\"cites\": [\"S3.u04\"], \"kind\": \"reported_fact\", \"text\": \"EBITDA margin was 11.2% in Q1 FY27, down 170 basis points from 12.9% in Q1 FY26.\"}, {\"cites\": [\"S2.u01\"], \"kind\": \"reported_fact\", \"text\": \"As of 30 June 2026, promoters and the promoter group held 58.2% of the company's shares.\"}]}",
+            "refusal": null,
+            "role": "assistant",
+            "annotations": null,
+            "audio": null,
+            "function_call": null,
+            "tool_calls": null
+          }
+        }
+      ],
+      "created": 1791219020,
+      "model": "qwen/qwen3.8-27b",
+      "object": "chat.completion",
+      "metadata": null,
+      "moderation": null,
+      "service_tier": "on_demand",
+      "system_fingerprint": "fp_21e59ac2de",
+      "usage": {
+        "completion_tokens": 910,
+        "prompt_tokens": 3356,
+        "total_tokens": 4266,
+        "completion_tokens_details": null,
+        "prompt_tokens_details": null,
+        "queue_time": 0.063732704,
+        "prompt_time": 0.2305432,
+        "completion_time": 1.813117027,
+        "total_time": 2.043660227
+      },
+      "usage_breakdown": null,
+      "x_groq": {
+        "id": "req_01m46fjah4e6tbt04nrw2jy7wh",
+        "seed": 35367616
+      }
+    },
+    "status": "ok",
+    "elapsed_s": 2.3191,
+    "request_sha256": "d060b7303c5fe57ac5a1816fe3fb2c9ae39d3dd4e2f2f35a11153bd2ba4f38d6"
+  },
+  {
+    "attempt": 1,
+    "requested_model": "qwen/qwen3.8-27b",
+    "model": "qwen/qwen3.8-27b",
+    "usage": {
+      "completion_tokens": 853,
+      "prompt_tokens": 5035,
+      "total_tokens": 5888,
+      "completion_tokens_details": null,
+      "prompt_tokens_details": null,
+      "queue_time": 0.057072791,
+      "prompt_time": 0.372734055,
+      "completion_time": 1.675935545,
+      "total_time": 2.0486696
+    },
+    "raw_response": {
+      "id": "chatcmpl-1b7aa8fd-0685-4e42-80ec-e3d4d3c8eae2",
+      "choices": [
+        {
+          "finish_reason": "stop",
+          "index": 0,
+          "logprobs": null,
+          "message": {
+            "content": "{\"bear\": [{\"cites\": [\"S5.u11\", \"S5.u12\"], \"kind\": \"reported_fact\", \"text\": \"The CFO stated on the Q1 FY27 earnings call that receivable days increased from 78 to 96 over the last year, mainly due to slower payments from two large state utility customers.\"}, {\"cites\": [\"S8.u01\"], \"kind\": \"reported_fact\", \"text\": \"The company disclosed in September 2026 that it received a GST demand order for 46.3 crore rupees, including interest and penalty, relating to input tax credit claimed for FY2020-21 and FY2021-22.\"}], \"bull\": [{\"cites\": [\"S3.u06\"], \"kind\": \"reported_fact\", \"text\": \"The company reported that its order book stood at 3,900 crore rupees as of 30 June 2026, up from 3,150 crore rupees a year ago.\"}, {\"cites\": [\"S3.u07\"], \"kind\": \"reported_fact\", \"text\": \"Exports contributed 21% of revenue in Q1 FY27, an increase from 16% in Q1 FY26.\"}, {\"cites\": [\"S3.u08\"], \"kind\": \"management_view_or_forecast\", \"text\": \"Management states that the new Bharuch plant, which adds about 30% to cable capacity, is on track to begin commercial production in Q3 FY27.\"}, {\"cites\": [\"S5.u03\"], \"kind\": \"management_view_or_forecast\", \"text\": \"Management notes that data-centre cables are about 9% of domestic revenue and expects this share to double in two years.\"}], \"open_questions\": [{\"cites\": [\"S3.u02\", \"S4.u02\"], \"kind\": \"reported_fact\", \"text\": \"The company's press release reports Q1 FY27 revenue of 1,248 crore rupees, while a news article reports 1,428 crore rupees. What explains this discrepancy in the reported revenue figures?\"}, {\"cites\": [\"S8.u01\", \"S8.u02\", \"S8.u03\"], \"kind\": \"management_view_or_forecast\", \"text\": \"The company states it intends to appeal the 46.3 crore rupee GST demand and does not expect a material impact on its financial position. What is the current status of this appeal and the final outcome of the demand?\"}, {\"cites\": [\"S5.u07\"], \"kind\": \"management_view_or_forecast\", \"text\": \"Management states that about two-thirds of contracts have price-variation clauses that reset with a lag of one to two quarters. How will this lag affect margins in the upcoming quarters?\"}], \"snapshot\": [{\"cites\": [\"S3.u01\"], \"kind\": \"reported_fact\", \"text\": \"Sarvottam Cables Ltd is a manufacturer of power cables, wires and conductors.\"}, {\"cites\": [\"S3.u02\", \"S3.u05\"], \"kind\": \"reported_fact\", \"text\": \"For the quarter ended 30 June 2026, the company reported revenue from operations of 1,248 crore rupees and profit after tax of 82 crore rupees.\"}, {\"cites\": [\"S3.u04\"], \"kind\": \"reported_fact\", \"text\": \"EBITDA margin was 11.2% in Q1 FY27, down 170 basis points from 12.9% in Q1 FY26.\"}, {\"cites\": [\"S2.u01\"], \"kind\": \"reported_fact\", \"text\": \"As of 30 June 2026, promoters and the promoter group held 58.2% of the company's shares.\"}]}",
+            "refusal": null,
+            "role": "assistant",
+            "annotations": null,
+            "audio": null,
+            "function_call": null,
+            "tool_calls": null
+          }
+        }
+      ],
+      "created": 1791219039,
+      "model": "qwen/qwen3.8-27b",
+      "object": "chat.completion",
+      "metadata": null,
+      "moderation": null,
+      "service_tier": "on_demand",
+      "system_fingerprint": "fp_424cb89518",
+      "usage": {
+        "completion_tokens": 853,
+        "prompt_tokens": 5035,
+        "total_tokens": 5888,
+        "completion_tokens_details": null,
+        "prompt_tokens_details": null,
+        "queue_time": 0.057072791,
+        "prompt_time": 0.372734055,
+        "completion_time": 1.675935545,
+        "total_time": 2.0486696
+      },
+      "usage_breakdown": null,
+      "x_groq": {
+        "id": "req_01m46fjwtdehrs1sxcas90zjh1",
+        "seed": 957266294
+      }
+    },
+    "status": "ok",
+    "elapsed_s": 2.227,
+    "request_sha256": "3e3e2bfefe03f792651551c0d4d3c6989b98f0cb0bca5e112a4b755d8f7c5a24"
+  }
+]

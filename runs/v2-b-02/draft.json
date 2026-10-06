@@ -1,0 +1,106 @@
+{
+  "bear": [
+    {
+      "cites": [
+        "S3.u04",
+        "S4.u04"
+      ],
+      "kind": "reported_fact",
+      "text": "EBITDA margin contracted by 170 basis points to 11.2% in Q1 FY27, down from 12.9% in the prior year period."
+    },
+    {
+      "cites": [
+        "S5.u11",
+        "S5.u12"
+      ],
+      "kind": "management_view_or_forecast",
+      "text": "Management attributes the increase in receivable days from 78 to 96 over the last year mainly to slower payments from two large state utility customers."
+    },
+    {
+      "cites": [
+        "S8.u01"
+      ],
+      "kind": "reported_fact",
+      "text": "The company received a GST demand order for ₹46.3 crore, including interest and penalty, relating to input tax credits claimed for FY2020-21 and FY2021-22."
+    }
+  ],
+  "bull": [
+    {
+      "cites": [
+        "S3.u02"
+      ],
+      "kind": "reported_fact",
+      "text": "Revenue from operations increased 18.0% year-on-year to ₹1,248 crore in Q1 FY27."
+    },
+    {
+      "cites": [
+        "S3.u06"
+      ],
+      "kind": "reported_fact",
+      "text": "The order book stood at ₹3,900 crore as of 30 June 2026, up from ₹3,150 crore a year earlier."
+    },
+    {
+      "cites": [
+        "S3.u08"
+      ],
+      "kind": "management_view_or_forecast",
+      "text": "Management states the new Bharuch plant, which adds about 30% to cable capacity, is on track to begin commercial production in Q3 FY27."
+    },
+    {
+      "cites": [
+        "S3.u07"
+      ],
+      "kind": "reported_fact",
+      "text": "Exports contributed 21% of revenue in Q1 FY27, an increase from 16% in the same quarter of the previous year."
+    }
+  ],
+  "open_questions": [
+    {
+      "cites": [
+        "S3.u02",
+        "S4.u02"
+      ],
+      "kind": "reported_fact",
+      "text": "The company's press release reports Q1 FY27 revenue of ₹1,248 crore, while a news article reports ₹1,428 crore. What explains this discrepancy between the official filing and the secondary report?"
+    },
+    {
+      "cites": [
+        "S8.u02",
+        "S8.u03"
+      ],
+      "kind": "management_view_or_forecast",
+      "text": "Management intends to appeal the ₹46.3 crore GST demand and states it does not expect a material impact on financial position. What is the current status of this appeal?"
+    }
+  ],
+  "snapshot": [
+    {
+      "cites": [
+        "S3.u01"
+      ],
+      "kind": "reported_fact",
+      "text": "Sarvottam Cables Ltd is a manufacturer of power cables, wires and conductors listed on the NSE."
+    },
+    {
+      "cites": [
+        "S3.u02",
+        "S3.u05"
+      ],
+      "kind": "reported_fact",
+      "text": "For the quarter ended 30 June 2026, the company reported revenue of ₹1,248 crore and profit after tax of ₹82 crore."
+    },
+    {
+      "cites": [
+        "S2.u01"
+      ],
+      "kind": "reported_fact",
+      "text": "As of 30 June 2026, promoters and the promoter group held 58.2% of the company's shares."
+    },
+    {
+      "cites": [
+        "S2.u02"
+      ],
+      "kind": "reported_fact",
+      "text": "The share of promoter holdings pledged with lenders was 4.1% as of 30 June 2026, down from 11.5% in June 2025."
+    }
+  ]
+}

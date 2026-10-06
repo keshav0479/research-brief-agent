@@ -1,0 +1,47 @@
+[
+  {
+    "attempt": 1,
+    "requested_model": "qwen/qwen3.8-27b",
+    "model": null,
+    "usage": {},
+    "raw_response": null,
+    "status": "error",
+    "error_type": "RateLimitError",
+    "http_status": 429,
+    "provider_error_code": "rate_limit_exceeded",
+    "retry_reason": "minute_window_cooldown",
+    "retry_delay_s": 60,
+    "elapsed_s": 0.2096,
+    "request_sha256": "cf2a0ea6fd67cbfcdddbde9f9079abdb3125229e9ca4e9a2e9a9899a4523341f"
+  },
+  {
+    "attempt": 2,
+    "requested_model": "qwen/qwen3.8-27b",
+    "model": null,
+    "usage": {},
+    "raw_response": null,
+    "status": "error",
+    "error_type": "RateLimitError",
+    "http_status": 429,
+    "provider_error_code": "rate_limit_exceeded",
+    "retry_reason": "minute_window_cooldown",
+    "retry_delay_s": 60,
+    "elapsed_s": 0.1642,
+    "request_sha256": "cf2a0ea6fd67cbfcdddbde9f9079abdb3125229e9ca4e9a2e9a9899a4523341f"
+  },
+  {
+    "attempt": 3,
+    "requested_model": "qwen/qwen3.8-27b",
+    "model": null,
+    "usage": {},
+    "raw_response": null,
+    "status": "error",
+    "error_type": "RateLimitError",
+    "http_status": 429,
+    "provider_error_code": "rate_limit_exceeded",
+    "retry_reason": "attempt_limit_reached",
+    "retry_delay_s": 0,
+    "elapsed_s": 0.1387,
+    "request_sha256": "cf2a0ea6fd67cbfcdddbde9f9079abdb3125229e9ca4e9a2e9a9899a4523341f"
+  }
+]

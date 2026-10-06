@@ -1,0 +1,69 @@
+{
+  "note": "Offline replay of actual U+0015-bearing accepted claims. Original claims and raw responses remain unchanged.",
+  "results": {
+    "v6": [
+      {
+        "section": "snapshot",
+        "index": 1,
+        "errors": []
+      },
+      {
+        "section": "snapshot",
+        "index": 2,
+        "errors": []
+      },
+      {
+        "section": "bull",
+        "index": 0,
+        "errors": []
+      },
+      {
+        "section": "bear",
+        "index": 0,
+        "errors": []
+      },
+      {
+        "section": "open_questions",
+        "index": 0,
+        "errors": []
+      }
+    ],
+    "v6.1": [
+      {
+        "section": "snapshot",
+        "index": 1,
+        "errors": [
+          "Claim contains a nonprinting control character; use plain words or a valid currency symbol"
+        ]
+      },
+      {
+        "section": "snapshot",
+        "index": 2,
+        "errors": [
+          "Claim contains a nonprinting control character; use plain words or a valid currency symbol"
+        ]
+      },
+      {
+        "section": "bull",
+        "index": 0,
+        "errors": [
+          "Claim contains a nonprinting control character; use plain words or a valid currency symbol"
+        ]
+      },
+      {
+        "section": "bear",
+        "index": 0,
+        "errors": [
+          "Claim contains a nonprinting control character; use plain words or a valid currency symbol"
+        ]
+      },
+      {
+        "section": "open_questions",
+        "index": 0,
+        "errors": [
+          "Claim contains a nonprinting control character; use plain words or a valid currency symbol"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,44 @@
+[
+  {
+    "attempt": 1,
+    "requested_model": "qwen/qwen3.8-27b",
+    "model": null,
+    "usage": {},
+    "raw_response": null,
+    "status": "error",
+    "error_type": "RateLimitError",
+    "http_status": 429,
+    "retry_reason": "retry-after",
+    "retry_delay_s": 11.0,
+    "elapsed_s": 0.172,
+    "request_sha256": "1e556c2e2b2fbb8fc267570aa7f813af086a62b43da847d17045b412529032aa"
+  },
+  {
+    "attempt": 2,
+    "requested_model": "qwen/qwen3.8-27b",
+    "model": null,
+    "usage": {},
+    "raw_response": null,
+    "status": "error",
+    "error_type": "RateLimitError",
+    "http_status": 429,
+    "retry_reason": "token_reset",
+    "retry_delay_s": 11.377,
+    "elapsed_s": 0.1344,
+    "request_sha256": "1e556c2e2b2fbb8fc267570aa7f813af086a62b43da847d17045b412529032aa"
+  },
+  {
+    "attempt": 3,
+    "requested_model": "qwen/qwen3.8-27b",
+    "model": null,
+    "usage": {},
+    "raw_response": null,
+    "status": "error",
+    "error_type": "RateLimitError",
+    "http_status": 429,
+    "retry_reason": "attempt_limit_reached",
+    "retry_delay_s": 0,
+    "elapsed_s": 0.1137,
+    "request_sha256": "1e556c2e2b2fbb8fc267570aa7f813af086a62b43da847d17045b412529032aa"
+  }
+]

@@ -1,0 +1,34 @@
+# Research Brief: Sarvottam Cables Ltd (NSE: SRVCABLE)
+
+**As of:** 2026-09-23
+
+## Snapshot
+Sarvottam Cables is a manufacturer of power cables and conductors that reported 18% year-over-year revenue growth in Q1 FY27, driven by strong demand from power transmission and data-center projects. The company is expanding capacity with a new plant in Bharuch, Gujarat, which is expected to begin commercial production in Q3 FY27. While institutional ownership has increased, the company faces margin pressure from rising copper costs and a recent GST demand order of ₹46.3 crore.
+
+## Bull Case
+*   **Strong Order Book and Growth:** The order book stood at ₹3,900 crore as of June 30, 2026, up from ₹3,150 crore a year ago. Management maintains a full-year FY27 revenue growth guidance of 15% to 17%.
+*   **Capacity Expansion:** The new Bharuch plant, which adds approximately 30% to cable capacity, is on track for commercial production in Q3 FY27. This expansion is funded largely by internal accruals, with a manageable net debt-to-equity ratio of 0.35 times.
+*   **Diversification into Data Centers:** Exports contributed 21% of revenue in Q1 FY27, up from 16% in the prior year. Data-center cables now account for 9% of domestic revenue, with management projecting this segment could double in two years.
+*   **Institutional Accumulation:** Foreign Institutional Investor (FII) holdings rose to 11.8% in June 2026 from 9.2% in June 2025, while Domestic Institutional Investor (DII) holdings increased to 14.6% from 12.7% over the same period.
+
+## Bear Case
+*   **Margin Compression:** EBITDA margins contracted by 170 basis points to 11.2% in Q1 FY27 due to a 14% rise in copper prices. Although two-thirds of contracts have price-variation clauses, these reset with a lag of one to two quarters, creating a temporary margin squeeze.
+*   **Working Capital Strain:** Receivable days increased from 78 to 96 over the last year, primarily due to slower payments from two large state utility customers. While no defaults have been reported, this trend impacts cash flow efficiency.
+*   **Regulatory and Tax Risks:** The company received a GST demand order for ₹46.3 crore related to input tax credits for FY2020-21 and FY2021-22. While management believes it has a strong case and expects no material impact, the amount is significant relative to quarterly profits.
+*   **Governance and Pledging History:** Although current promoter pledging is low at 4.1% of promoter holdings as of June 2026, it was as high as 35% in early 2024. This history may still weigh on investor sentiment regarding governance stability.
+
+## Open Questions
+*   **Margin Recovery Timeline:** How quickly can the company pass on higher copper costs to customers given the one-to-two-quarter lag in price-variation clauses?
+*   **GST Appeal Outcome:** What is the likelihood of the company successfully appealing the ₹46.3 crore GST demand, and what are the potential cash flow implications if the appeal is unsuccessful?
+*   **Utility Payment Trends:** Will the increased receivable days from state utilities normalize, or does this indicate a broader trend of delayed payments in the power sector?
+*   **Bharuch Plant Execution:** Can the company achieve the targeted 30% capacity addition without significant cost overruns, given that 70% of the ₹620 crore capex is already spent?
+
+## Sources
+1.  **Sarvottam Cables Ltd, investor relations (company press release)**: Q1 FY27 results, order book, and capacity expansion details. (Published 2026-08-08)
+2.  **NSE shareholding pattern filing (summary)**: Shareholding data as of June 2026, including promoter pledging and institutional ownership. (Published 2026-07-15)
+3.  **Q1 FY27 earnings call transcript (excerpt)**: Management commentary on margins, receivables, capex, and guidance. (Published 2026-08-11)
+4.  **NSE corporate announcement (company disclosure)**: Details on the ₹46.3 crore GST demand order. (Published 2026-09-02)
+5.  **Business Daily Online (news article)**: Context on copper price impact and market reaction to Q1 results. (Published 2026-08-09)
+6.  **Market Watch India (news article)**: Historical context on promoter pledging levels in 2024. (Published 2024-03-18)
+
+*Note: A blog post from MultibaggerAlertsIndia claiming a "STRONG BUY" with 60% upside was excluded from this brief as it is not a reliable source and contains unverified claims. A local news article regarding a penalty for "Sarvottam Cable Network" in Nagpur was excluded as it refers to a different entity (a local cable TV operator) and not the listed manufacturer Sarvottam Cables Ltd.*

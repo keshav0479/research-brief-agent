@@ -1,0 +1,23 @@
+{
+  "elapsed_s": 2.637,
+  "writer_attempts": 1,
+  "jev_attempts": 0,
+  "usage": [
+    {
+      "provider": "writer",
+      "usage": {
+        "completion_tokens": 1082,
+        "prompt_tokens": 2335,
+        "total_tokens": 3417,
+        "completion_tokens_details": null,
+        "prompt_tokens_details": null,
+        "queue_time": 0.052859403,
+        "prompt_time": 0.177354792,
+        "completion_time": 2.109232279,
+        "total_time": 2.286587071
+      }
+    }
+  ],
+  "billed_cost_usd": null,
+  "cost_note": "Provider billing not returned. Free routes selected by default; no paid fallback was invoked."
+}

@@ -1,0 +1,122 @@
+{
+  "bear": [
+    {
+      "cites": [
+        "S4.u02",
+        "S3.u02"
+      ],
+      "kind": "reported_fact",
+      "text": "A news report dated August 2026 states revenue rose to 1,428 crore rupees, while the company's official release reports 1,248 crore rupees for the same quarter."
+    },
+    {
+      "cites": [
+        "S5.u11",
+        "S5.u12"
+      ],
+      "kind": "management_view_or_forecast",
+      "text": "Management states receivable days increased from 78 to 96 over the last year, attributing the delay to two large state utility customers."
+    },
+    {
+      "cites": [
+        "S8.u01"
+      ],
+      "kind": "reported_fact",
+      "text": "The company disclosed in September 2026 that it received a GST demand order for 46.3 crore rupees related to input tax credits claimed for FY2020-21 and FY2021-22."
+    },
+    {
+      "cites": [
+        "S3.u04",
+        "S5.u06"
+      ],
+      "kind": "reported_fact",
+      "text": "EBITDA margin contracted by 170 basis points to 11.2% in Q1 FY27, which management attributes mostly to rising copper prices."
+    }
+  ],
+  "bull": [
+    {
+      "cites": [
+        "S3.u06"
+      ],
+      "kind": "reported_fact",
+      "text": "The company's order book stood at 3,900 crore rupees as of June 2026, up from 3,150 crore rupees a year earlier."
+    },
+    {
+      "cites": [
+        "S3.u07"
+      ],
+      "kind": "reported_fact",
+      "text": "Exports contributed 21% of revenue in Q1 FY27, an increase from 16% in the same quarter of the previous year."
+    },
+    {
+      "cites": [
+        "S3.u08",
+        "S5.u02"
+      ],
+      "kind": "management_view_or_forecast",
+      "text": "Management expects the new Bharuch plant to begin commercial production in Q3 FY27 and contribute to results from the second half of the year."
+    },
+    {
+      "cites": [
+        "S2.u02"
+      ],
+      "kind": "reported_fact",
+      "text": "The share of promoter holdings pledged to lenders decreased to 4.1% in June 2026, down from 11.5% in June 2025."
+    }
+  ],
+  "open_questions": [
+    {
+      "cites": [
+        "S4.u02",
+        "S3.u02"
+      ],
+      "kind": "reported_fact",
+      "text": "The company's official release reports Q1 FY27 revenue of 1,248 crore rupees, while a news article reports 1,428 crore rupees. What explains this discrepancy in the reported figures?"
+    },
+    {
+      "cites": [
+        "S8.u01",
+        "S8.u02"
+      ],
+      "kind": "reported_fact",
+      "text": "The company states it intends to appeal a 46.3 crore rupee GST demand order. What is the expected timeline and outcome of this legal process?"
+    },
+    {
+      "cites": [
+        "S5.u07"
+      ],
+      "kind": "management_view_or_forecast",
+      "text": "Management notes that price-variation clauses in contracts reset with a lag of one to two quarters. How will this lag affect margins in the upcoming quarters?"
+    }
+  ],
+  "snapshot": [
+    {
+      "cites": [
+        "S3.u01"
+      ],
+      "kind": "reported_fact",
+      "text": "Sarvottam Cables Ltd is a manufacturer of power cables, wires and conductors listed on the NSE."
+    },
+    {
+      "cites": [
+        "S3.u02",
+        "S3.u05"
+      ],
+      "kind": "reported_fact",
+      "text": "For the quarter ended June 2026, the company reported revenue from operations of 1,248 crore rupees and profit after tax of 82 crore rupees."
+    },
+    {
+      "cites": [
+        "S2.u01"
+      ],
+      "kind": "reported_fact",
+      "text": "As of June 2026, promoters and the promoter group held 58.2% of the company's shares."
+    },
+    {
+      "cites": [
+        "S3.u03"
+      ],
+      "kind": "reported_fact",
+      "text": "EBITDA for the quarter ended June 2026 was 140 crore rupees, representing an 11.2% margin."
+    }
+  ]
+}

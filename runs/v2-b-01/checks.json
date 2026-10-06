@@ -1,0 +1,81 @@
+{
+  "arm": "B",
+  "profile": {
+    "ticker": "SRVCABLE",
+    "name": "Sarvottam Cables Ltd",
+    "business": "a manufacturer of power cables, wires and conductors"
+  },
+  "passes": [],
+  "dropped": [],
+  "removals": {
+    "S6": [
+      {
+        "kind": "html_comment",
+        "count": 247
+      }
+    ]
+  },
+  "warnings": [],
+  "manual_supported_review": "pending",
+  "manual_trap_review": "pending",
+  "routes": {
+    "S1": {
+      "status": "evidence",
+      "reason": "Entity not checked; semantic screening not run",
+      "diagnostics": {
+        "hard_identifier": null
+      }
+    },
+    "S2": {
+      "status": "evidence",
+      "reason": "Company matched by ticker; semantic screening not run",
+      "diagnostics": {
+        "hard_identifier": "ticker"
+      }
+    },
+    "S3": {
+      "status": "evidence",
+      "reason": "Company matched by ticker; semantic screening not run",
+      "diagnostics": {
+        "hard_identifier": "ticker"
+      }
+    },
+    "S4": {
+      "status": "evidence",
+      "reason": "Entity not checked; semantic screening not run",
+      "diagnostics": {
+        "hard_identifier": null
+      }
+    },
+    "S5": {
+      "status": "evidence",
+      "reason": "Company matched by issuer_host; semantic screening not run",
+      "diagnostics": {
+        "hard_identifier": "issuer_host"
+      }
+    },
+    "S6": {
+      "status": "evidence",
+      "reason": "Company matched by ticker; semantic screening not run",
+      "diagnostics": {
+        "hard_identifier": "ticker"
+      }
+    },
+    "S7": {
+      "status": "evidence",
+      "reason": "Entity not checked; semantic screening not run",
+      "diagnostics": {
+        "hard_identifier": null
+      }
+    },
+    "S8": {
+      "status": "evidence",
+      "reason": "Company matched by ticker; semantic screening not run",
+      "diagnostics": {
+        "hard_identifier": "ticker"
+      }
+    }
+  },
+  "status": "failed",
+  "error": "Provider error: RateLimitError (HTTP 429)"
+}

@@ -1,0 +1,119 @@
+{
+  "arm": "D",
+  "profile": {
+    "ticker": "SRVCABLE",
+    "name": "Sarvottam Cables Ltd",
+    "business": "a manufacturer of power cables, wires and conductors"
+  },
+  "passes": [],
+  "dropped": [],
+  "removals": {
+    "S6": [
+      {
+        "kind": "html_comment",
+        "count": 247
+      }
+    ]
+  },
+  "warnings": [
+    "No accepted claims in required section: snapshot",
+    "No accepted claims in required section: bull",
+    "No accepted claims in required section: bear",
+    "No accepted claims in required section: open_questions",
+    "Snapshot does not contain three or four items"
+  ],
+  "manual_supported_review": "pending",
+  "manual_trap_review": "pending",
+  "routes": {
+    "S1": {
+      "status": "unclear",
+      "reason": "Document screening unavailable",
+      "diagnostics": {
+        "hard_identifier": null,
+        "verifier_unavailable": true
+      }
+    },
+    "S2": {
+      "status": "unclear",
+      "reason": "Document screening unavailable",
+      "diagnostics": {
+        "hard_identifier": "ticker",
+        "verifier_unavailable": true
+      }
+    },
+    "S3": {
+      "status": "unclear",
+      "reason": "Document screening unavailable",
+      "diagnostics": {
+        "hard_identifier": "ticker",
+        "verifier_unavailable": true
+      }
+    },
+    "S4": {
+      "status": "unclear",
+      "reason": "Document screening unavailable",
+      "diagnostics": {
+        "hard_identifier": null,
+        "verifier_unavailable": true
+      }
+    },
+    "S5": {
+      "status": "unclear",
+      "reason": "Document screening unavailable",
+      "diagnostics": {
+        "hard_identifier": "issuer_host",
+        "verifier_unavailable": true
+      }
+    },
+    "S6": {
+      "status": "unclear",
+      "reason": "Document screening unavailable",
+      "diagnostics": {
+        "hard_identifier": "ticker",
+        "verifier_unavailable": true
+      }
+    },
+    "S7": {
+      "status": "unclear",
+      "reason": "Document screening unavailable",
+      "diagnostics": {
+        "hard_identifier": null,
+        "verifier_unavailable": true
+      }
+    },
+    "S8": {
+      "status": "unclear",
+      "reason": "Document screening unavailable",
+      "diagnostics": {
+        "hard_identifier": "ticker",
+        "verifier_unavailable": true
+      }
+    }
+  },
+  "unavailable": true,
+  "accepted": {
+    "snapshot": [],
+    "bull": [],
+    "bear": [],
+    "open_questions": []
+  },
+  "metrics": {
+    "cited_ids_valid": {
+      "k": 0,
+      "n": 0,
+      "low": null,
+      "high": null
+    },
+    "numbers_matched": {
+      "k": 0,
+      "n": 0,
+      "low": null,
+      "high": null
+    },
+    "accepted_claims": 0,
+    "dropped_claims": 0,
+    "system_open_questions": 9
+  },
+  "status": "verification_unavailable",
+  "word_count": 161
+}

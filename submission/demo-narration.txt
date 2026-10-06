@@ -1,0 +1,23 @@
+1. One company. Conflicting numbers.
+The issuer reports revenue of twelve hundred and forty-eight crore. A news article reports fourteen hundred and twenty-eight. Both are in the same document pack. Research Desk turns that conflicting evidence into a short company brief, while keeping the original passages available for inspection.
+
+2. From documents to a short brief
+The inputs are a ticker, company documents, and a research cutoff. Here is the saved assessment run for Sarvottam Cables, as of September twenty-third, twenty twenty-six. It produces a snapshot, bull case, bear case, open questions, and sources. Every retained claim can be opened for review.
+
+3. Check the sentence against its source
+Select the revenue question and the evidence appears beside it. The brief uses the issuer's result and keeps the conflicting article visible. It does not invent a reconciliation. That is the point of this interface: a reviewer can check the actual passage behind the sentence.
+
+4. Proud decision: a separate Jev check
+The design decision I am proud of is separating writing from evidence checking. Qwen drafts the claims. Code checks citations, numbers, and dates. Jev then answers narrow support questions against the cited evidence. Its decisions are recorded, so the writer's fluent answer is not the only thing being evaluated.
+
+5. One repair, with a visible record
+That separation gives the workflow a clear response to failures. The draft gets one repair opportunity. Remaining hard failures are logged and dropped, while uncertain statement types stay visible. Run details show the actual attempts and provider waits, making the route from draft to accepted brief inspectable.
+
+6. Screen identity and dates
+Source screening also matters. The similarly named cable television operator is a different company, and the promotional blog contains unreliable tips. The source view shows those exclusions. Dates stay attached to the evidence, so an older pledge story is not silently treated as the current ownership position.
+
+7. Limitation: support is not completeness
+One limitation is completeness. A claim can be supported while the brief still misses useful information. This candidate omits profit growth and the revenue guidance range. The Coverage view exposes possible gaps for review. Jev's support decision is therefore a checking signal, not a guarantee of a complete or correct report.
+
+8. An inspectable handoff
+The final handoff includes the exact generated Markdown, separate prompts, changed-design experiments, and preserved run records. Exporting does not rewrite the model's wording. The result is a brief a reader can trace, challenge, and review, with the design choices and remaining limitations visible alongside it.

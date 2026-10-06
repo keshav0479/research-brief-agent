@@ -1,0 +1,8 @@
+{
+  "elapsed_s": 40.194,
+  "writer_attempts": 3,
+  "jev_attempts": 0,
+  "usage": [],
+  "billed_cost_usd": null,
+  "cost_note": "Provider billing not returned. Free routes selected by default; no paid fallback was invoked."
+}

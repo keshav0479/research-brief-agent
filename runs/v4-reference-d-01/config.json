@@ -1,0 +1,62 @@
+{
+  "arm": "D",
+  "ticker": "SRVCABLE",
+  "as_of": "2026-09-23",
+  "writer_requested_model": "qwen/qwen3.8-27b",
+  "jev_requested_model": "jev-1.13.0",
+  "writer_base_url": "https://api.groq.com/openai/v1",
+  "jev_url": "https://api.typesafe.ai/v1/systemone",
+  "thresholds": {
+    "same_company_low": 0.5,
+    "same_company_high": 1.5,
+    "promotional": 0.5,
+    "ai_directed": 0.5,
+    "relation": 0.8,
+    "kind": 0.8
+  },
+  "pack_hashes": {
+    "marketwatchindia_2024-03-18.md": "d5f7b3174de80ae62db49bf70592b1161d982999fcf2f0ef92db8fdc82674f07",
+    "nse_shareholding_2026-07-15.md": "95513aaf420d46fef490c5e1c9d264f679790d7b71dbb7e1faf870f2e55f0a28",
+    "ir_press_release_2026-08-08.md": "7a3ddafe40703aa025ed0c5e91f308a2751d99866d669cabb9151929bb8228f4",
+    "businessdaily_2026-08-09.md": "8278619944f770490194b470c89c50283820c6abbb1b75872b240d6fb17dfdaf",
+    "ir_concall_2026-08-11.md": "40c744245b48e7807462116ad1f49c2131bcdd0e97306a9f726b16a1d6b250ba",
+    "multibaggeralerts_2026-08-12.md": "041368bf32b3758c0b4c2f2662036759ab789c833ca701ff3607ffd73629e1bd",
+    "nagpurcitytimes_2026-08-20.md": "83ee54ae56b8d0d21cccd3dcbface1b333fb687071898d5da034a02da95d5fe2",
+    "nse_announcement_2026-09-02.md": "9ebee20362a4fa7e45706fbe3a5018062bb2befc2fa43708fb93de0483f70c13"
+  },
+  "source_manifest": {
+    "brief_agent/__init__.py": "9eb751fdb01cf99c58671885d718b72d3d3c29d7ce83bdb34852bc5594bb9cfa",
+    "brief_agent/__main__.py": "935a1c1166b0c1ea35a82256345000bf2c73ded718d77773bc27a71ecce28f7d",
+    "brief_agent/checks.py": "87dc64ab807598e60b28cbf54cf0316632ca272639edd499a177a984e1221a9f",
+    "brief_agent/cli.py": "9a236151692945ac55180a73ac403b116c0bb4dca56f7a513c1a5319929850b3",
+    "brief_agent/clients.py": "eac64b60655eacf21bd118b415d0b7583d53231264798711d29f8bec8350e870",
+    "brief_agent/load.py": "cbfebd56aee50ed6075334e0c4ad8a19b5b232fbf908f6f5081456d081b7538b",
+    "brief_agent/pipeline.py": "dddd449be103ce8380173e6c83f441971497ba3a4cdbf8083b9edc4292c92ed5",
+    "brief_agent/render.py": "b112be41610d069755697fe5c61938a38243a8b58a72716b41326f5a56fc6ace",
+    "brief_agent/triage.py": "9e2d1bec87ee605206117d7104c6cbbf73c3b65d467b95d1caa3b2d9eb6026ac",
+    "brief_agent/verify.py": "d2b9b193084d125c27907f2f0fb81f275d37d33fd28c54b67de706e06d7191cb",
+    "brief_agent/writer.py": "6d2adeb1913b6d95f74ad1e92bd632817e042676b1b57cb377e986a95c052703",
+    "prompts/jev_questions.json": "a4c45e4bd9ab8dde23d5dc644e42fc237c0cf5f1234838d8602aae2e4c7373c8",
+    "prompts/naive.md": "cb7fda89eb4f85827877696c39e49d2832ed6fdea8382b513db2970d3a705f3f",
+    "prompts/repair.md": "13b9674499f061e6a76405b95a94237d61a020f8975644fec4f032d237022766",
+    "prompts/system.md": "a82e09bccd4b7d7774bcf8e153436ae48ab1af778a438017396354c7adbf6504",
+    "requirements.txt": "62375ae24b06f88ccfe605e10a7659d8f6f1af306092f08d1eed5059ada004ea"
+  },
+  "git": {
+    "commit": null,
+    "has_uncommitted_changes": true
+  },
+  "manual_edits_to_brief": false,
+  "writer_settings": {
+    "temperature": 0.2,
+    "max_tokens": 2500,
+    "reasoning_effort": "none"
+  },
+  "design": "C uses the writer for the same triage and claim decisions used by D; B has no semantic decider.",
+  "returned_models": {
+    "writer": [],
+    "jev": [
+      "jev-1.13.0"
+    ]
+  }
+}

@@ -1,0 +1,2623 @@
+{
+  "arm": "D",
+  "profile": {
+    "ticker": "SRVCABLE",
+    "name": "Sarvottam Cables Ltd",
+    "business": "a manufacturer of power cables, wires and conductors"
+  },
+  "passes": [
+    {
+      "stage": "draft",
+      "results": [
+        {
+          "section": "snapshot",
+          "index": 0,
+          "claim": {
+            "cites": [
+              "S3.u01"
+            ],
+            "kind": "reported_fact",
+            "text": "Sarvottam Cables Ltd is a manufacturer of power cables, wires and conductors listed on the NSE."
+          },
+          "code_errors": [],
+          "verification": {
+            "errors": [],
+            "kind": "reported_fact",
+            "kind_confirmed": true,
+            "diagnostics": [
+              {
+                "stage": "cited_evidence",
+                "answers": {
+                  "relation": {
+                    "type": "choice",
+                    "choice": "supports",
+                    "confidence": 1,
+                    "probabilities": {
+                      "says_nothing": 0,
+                      "supports": 1,
+                      "contradicts": 0
+                    }
+                  },
+                  "kind": {
+                    "type": "choice",
+                    "choice": "reported_fact",
+                    "confidence": 1,
+                    "probabilities": {
+                      "reported_fact": 1,
+                      "third_party_view": 0,
+                      "management_view_or_forecast": 0
+                    }
+                  }
+                }
+              }
+            ],
+            "unavailable": false,
+            "conflicts": []
+          },
+          "errors": [],
+          "accepted": true,
+          "final_claim": {
+            "cites": [
+              "S3.u01"
+            ],
+            "kind": "reported_fact",
+            "text": "Sarvottam Cables Ltd is a manufacturer of power cables, wires and conductors listed on the NSE."
+          }
+        },
+        {
+          "section": "snapshot",
+          "index": 1,
+          "claim": {
+            "cites": [
+              "S3.u02",
+              "S3.u05"
+            ],
+            "kind": "reported_fact",
+            "text": "For the quarter ended June 2026, the company reported revenue from operations of 1,248 crore rupees and profit after tax of 82 crore rupees."
+          },
+          "code_errors": [],
+          "verification": {
+            "errors": [],
+            "kind": "reported_fact",
+            "kind_confirmed": true,
+            "diagnostics": [
+              {
+                "stage": "cited_evidence",
+                "answers": {
+                  "relation": {
+                    "type": "choice",
+                    "choice": "supports",
+                    "confidence": 0.94,
+                    "probabilities": {
+                      "supports": 0.96,
+                      "contradicts": 0.02,
+                      "says_nothing": 0.02
+                    }
+                  },
+                  "kind": {
+                    "type": "choice",
+                    "choice": "reported_fact",
+                    "confidence": 1,
+                    "probabilities": {
+                      "reported_fact": 1,
+                      "third_party_view": 0,
+                      "management_view_or_forecast": 0
+                    }
+                  }
+                }
+              }
+            ],
+            "unavailable": false,
+            "conflicts": []
+          },
+          "errors": [],
+          "accepted": true,
+          "final_claim": {
+            "cites": [
+              "S3.u02",
+              "S3.u05"
+            ],
+            "kind": "reported_fact",
+            "text": "For the quarter ended June 2026, the company reported revenue from operations of 1,248 crore rupees and profit after tax of 82 crore rupees."
+          }
+        },
+        {
+          "section": "snapshot",
+          "index": 2,
+          "claim": {
+            "cites": [
+              "S2.u01"
+            ],
+            "kind": "reported_fact",
+            "text": "As of June 2026, promoters and the promoter group held 58.2% of the company's shares."
+          },
+          "code_errors": [],
+          "verification": {
+            "errors": [],
+            "kind": "reported_fact",
+            "kind_confirmed": true,
+            "diagnostics": [
+              {
+                "stage": "cited_evidence",
+                "answers": {
+                  "kind": {
+                    "type": "choice",
+                    "choice": "reported_fact",
+                    "confidence": 1,
+                    "probabilities": {
+                      "management_view_or_forecast": 0,
+                      "third_party_view": 0,
+                      "reported_fact": 1
+                    }
+                  },
+                  "relation": {
+                    "type": "choice",
+                    "choice": "supports",
+                    "confidence": 1,
+                    "probabilities": {
+                      "says_nothing": 0,
+                      "contradicts": 0,
+                      "supports": 1
+                    }
+                  }
+                }
+              }
+            ],
+            "unavailable": false,
+            "conflicts": []
+          },
+          "errors": [],
+          "accepted": true,
+          "final_claim": {
+            "cites": [
+              "S2.u01"
+            ],
+            "kind": "reported_fact",
+            "text": "As of June 2026, promoters and the promoter group held 58.2% of the company's shares."
+          }
+        },
+        {
+          "section": "snapshot",
+          "index": 3,
+          "claim": {
+            "cites": [
+              "S3.u03"
+            ],
+            "kind": "reported_fact",
+            "text": "EBITDA for the quarter ended June 2026 was 140 crore rupees, representing an 11.2% margin."
+          },
+          "code_errors": [
+            "Number 11.2 (percent) is not supported by the cited quotes"
+          ],
+          "verification": null,
+          "errors": [
+            "Number 11.2 (percent) is not supported by the cited quotes"
+          ],
+          "accepted": false,
+          "final_claim": {
+            "cites": [
+              "S3.u03"
+            ],
+            "kind": "reported_fact",
+            "text": "EBITDA for the quarter ended June 2026 was 140 crore rupees, representing an 11.2% margin."
+          }
+        },
+        {
+          "section": "bull",
+          "index": 0,
+          "claim": {
+            "cites": [
+              "S3.u06"
+            ],
+            "kind": "reported_fact",
+            "text": "The company's order book stood at 3,900 crore rupees as of June 2026, up from 3,150 crore rupees a year earlier."
+          },
+          "code_errors": [],
+          "verification": {
+            "errors": [],
+            "kind": "reported_fact",
+            "kind_confirmed": true,
+            "diagnostics": [
+              {
+                "stage": "cited_evidence",
+                "answers": {
+                  "relation": {
+                    "type": "choice",
+                    "choice": "supports",
+                    "confidence": 1,
+                    "probabilities": {
+                      "supports": 1,
+                      "says_nothing": 0,
+                      "contradicts": 0
+                    }
+                  },
+                  "kind": {
+                    "type": "choice",
+                    "choice": "reported_fact",
+                    "confidence": 1,
+                    "probabilities": {
+                      "third_party_view": 0,
+                      "management_view_or_forecast": 0,
+                      "reported_fact": 1
+                    }
+                  }
+                }
+              }
+            ],
+            "unavailable": false,
+            "conflicts": []
+          },
+          "errors": [],
+          "accepted": true,
+          "final_claim": {
+            "cites": [
+              "S3.u06"
+            ],
+            "kind": "reported_fact",
+            "text": "The company's order book stood at 3,900 crore rupees as of June 2026, up from 3,150 crore rupees a year earlier."
+          }
+        },
+        {
+          "section": "bull",
+          "index": 1,
+          "claim": {
+            "cites": [
+              "S3.u07"
+            ],
+            "kind": "reported_fact",
+            "text": "Exports contributed 21% of revenue in Q1 FY27, an increase from 16% in the same quarter of the previous year."
+          },
+          "code_errors": [],
+          "verification": {
+            "errors": [],
+            "kind": "reported_fact",
+            "kind_confirmed": true,
+            "diagnostics": [
+              {
+                "stage": "cited_evidence",
+                "answers": {
+                  "relation": {
+                    "type": "choice",
+                    "choice": "supports",
+                    "confidence": 1,
+                    "probabilities": {
+                      "supports": 1,
+                      "says_nothing": 0,
+                      "contradicts": 0
+                    }
+                  },
+                  "kind": {
+                    "type": "choice",
+                    "choice": "reported_fact",
+                    "confidence": 1,
+                    "probabilities": {
+                      "third_party_view": 0,
+                      "management_view_or_forecast": 0,
+                      "reported_fact": 1
+                    }
+                  }
+                }
+              }
+            ],
+            "unavailable": false,
+            "conflicts": []
+          },
+          "errors": [],
+          "accepted": true,
+          "final_claim": {
+            "cites": [
+              "S3.u07"
+            ],
+            "kind": "reported_fact",
+            "text": "Exports contributed 21% of revenue in Q1 FY27, an increase from 16% in the same quarter of the previous year."
+          }
+        },
+        {
+          "section": "bull",
+          "index": 2,
+          "claim": {
+            "cites": [
+              "S3.u08",
+              "S5.u02"
+            ],
+            "kind": "management_view_or_forecast",
+            "text": "Management expects the new Bharuch plant to begin commercial production in Q3 FY27 and contribute to results from the second half of the year."
+          },
+          "code_errors": [],
+          "verification": {
+            "errors": [],
+            "kind": "management_view_or_forecast",
+            "kind_confirmed": true,
+            "diagnostics": [
+              {
+                "stage": "cited_evidence",
+                "answers": {
+                  "relation": {
+                    "type": "choice",
+                    "choice": "supports",
+                    "confidence": 0.98,
+                    "probabilities": {
+                      "says_nothing": 0.01,
+                      "contradicts": 0,
+                      "supports": 0.99
+                    }
+                  },
+                  "kind": {
+                    "type": "choice",
+                    "choice": "management_view_or_forecast",
+                    "confidence": 1,
+                    "probabilities": {
+                      "reported_fact": 0,
+                      "management_view_or_forecast": 1,
+                      "third_party_view": 0
+                    }
+                  }
+                }
+              }
+            ],
+            "unavailable": false,
+            "conflicts": []
+          },
+          "errors": [],
+          "accepted": true,
+          "final_claim": {
+            "cites": [
+              "S3.u08",
+              "S5.u02"
+            ],
+            "kind": "management_view_or_forecast",
+            "text": "Management expects the new Bharuch plant to begin commercial production in Q3 FY27 and contribute to results from the second half of the year."
+          }
+        },
+        {
+          "section": "bull",
+          "index": 3,
+          "claim": {
+            "cites": [
+              "S2.u02"
+            ],
+            "kind": "reported_fact",
+            "text": "The share of promoter holdings pledged to lenders decreased to 4.1% in June 2026, down from 11.5% in June 2025."
+          },
+          "code_errors": [],
+          "verification": {
+            "errors": [],
+            "kind": "reported_fact",
+            "kind_confirmed": true,
+            "diagnostics": [
+              {
+                "stage": "cited_evidence",
+                "answers": {
+                  "relation": {
+                    "type": "choice",
+                    "choice": "supports",
+                    "confidence": 0.97,
+                    "probabilities": {
+                      "says_nothing": 0.02,
+                      "contradicts": 0,
+                      "supports": 0.98
+                    }
+                  },
+                  "kind": {
+                    "type": "choice",
+                    "choice": "reported_fact",
+                    "confidence": 1,
+                    "probabilities": {
+                      "management_view_or_forecast": 0,
+                      "reported_fact": 1,
+                      "third_party_view": 0
+                    }
+                  }
+                }
+              }
+            ],
+            "unavailable": false,
+            "conflicts": []
+          },
+          "errors": [],
+          "accepted": true,
+          "final_claim": {
+            "cites": [
+              "S2.u02"
+            ],
+            "kind": "reported_fact",
+            "text": "The share of promoter holdings pledged to lenders decreased to 4.1% in June 2026, down from 11.5% in June 2025."
+          }
+        },
+        {
+          "section": "bear",
+          "index": 0,
+          "claim": {
+            "cites": [
+              "S4.u02",
+              "S3.u02"
+            ],
+            "kind": "reported_fact",
+            "text": "A news report dated August 2026 states revenue rose to 1,428 crore rupees, while the company's official release reports 1,248 crore rupees for the same quarter."
+          },
+          "code_errors": [],
+          "verification": {
+            "errors": [],
+            "kind": "reported_fact",
+            "kind_confirmed": true,
+            "diagnostics": [
+              {
+                "stage": "cited_evidence",
+                "answers": {
+                  "relation": {
+                    "type": "choice",
+                    "choice": "supports",
+                    "confidence": 0.83,
+                    "probabilities": {
+                      "supports": 0.88,
+                      "contradicts": 0.11,
+                      "says_nothing": 0.01
+                    }
+                  },
+                  "kind": {
+                    "type": "choice",
+                    "choice": "reported_fact",
+                    "confidence": 0.92,
+                    "probabilities": {
+                      "management_view_or_forecast": 0,
+                      "reported_fact": 0.95,
+                      "third_party_view": 0.05
+                    }
+                  }
+                }
+              }
+            ],
+            "unavailable": false,
+            "conflicts": []
+          },
+          "errors": [],
+          "accepted": true,
+          "final_claim": {
+            "cites": [
+              "S4.u02",
+              "S3.u02"
+            ],
+            "kind": "reported_fact",
+            "text": "A news report dated August 2026 states revenue rose to 1,428 crore rupees, while the company's official release reports 1,248 crore rupees for the same quarter."
+          }
+        },
+        {
+          "section": "bear",
+          "index": 1,
+          "claim": {
+            "cites": [
+              "S5.u11",
+              "S5.u12"
+            ],
+            "kind": "management_view_or_forecast",
+            "text": "Management states receivable days increased from 78 to 96 over the last year, attributing the delay to two large state utility customers."
+          },
+          "code_errors": [],
+          "verification": {
+            "errors": [
+              "Verification unavailable; claim cannot be accepted."
+            ],
+            "kind": "management_view_or_forecast",
+            "kind_confirmed": false,
+            "diagnostics": [
+              {
+                "stage": "provider_failure",
+                "error": "retry_wait_exceeds_60s_bound",
+                "http_status": 429
+              }
+            ],
+            "unavailable": true,
+            "conflicts": []
+          },
+          "errors": [
+            "Verification unavailable; claim cannot be accepted."
+          ],
+          "accepted": false,
+          "final_claim": {
+            "cites": [
+              "S5.u11",
+              "S5.u12"
+            ],
+            "kind": "management_view_or_forecast",
+            "text": "Management states receivable days increased from 78 to 96 over the last year, attributing the delay to two large state utility customers."
+          }
+        },
+        {
+          "section": "bear",
+          "index": 2,
+          "claim": {
+            "cites": [
+              "S8.u01"
+            ],
+            "kind": "reported_fact",
+            "text": "The company disclosed in September 2026 that it received a GST demand order for 46.3 crore rupees related to input tax credits claimed for FY2020-21 and FY2021-22."
+          },
+          "code_errors": [],
+          "verification": {
+            "errors": [
+              "Verification unavailable; claim cannot be accepted."
+            ],
+            "kind": "reported_fact",
+            "kind_confirmed": false,
+            "diagnostics": [
+              {
+                "stage": "provider_failure",
+                "error": "retry_wait_exceeds_60s_bound",
+                "http_status": 429
+              }
+            ],
+            "unavailable": true,
+            "conflicts": []
+          },
+          "errors": [
+            "Verification unavailable; claim cannot be accepted."
+          ],
+          "accepted": false,
+          "final_claim": {
+            "cites": [
+              "S8.u01"
+            ],
+            "kind": "reported_fact",
+            "text": "The company disclosed in September 2026 that it received a GST demand order for 46.3 crore rupees related to input tax credits claimed for FY2020-21 and FY2021-22."
+          }
+        },
+        {
+          "section": "bear",
+          "index": 3,
+          "claim": {
+            "cites": [
+              "S3.u04",
+              "S5.u06"
+            ],
+            "kind": "reported_fact",
+            "text": "EBITDA margin contracted by 170 basis points to 11.2% in Q1 FY27, which management attributes mostly to rising copper prices."
+          },
+          "code_errors": [],
+          "verification": {
+            "errors": [
+              "Verification unavailable; claim cannot be accepted."
+            ],
+            "kind": "reported_fact",
+            "kind_confirmed": false,
+            "diagnostics": [
+              {
+                "stage": "provider_failure",
+                "error": "retry_wait_exceeds_60s_bound",
+                "http_status": 429
+              }
+            ],
+            "unavailable": true,
+            "conflicts": []
+          },
+          "errors": [
+            "Verification unavailable; claim cannot be accepted."
+          ],
+          "accepted": false,
+          "final_claim": {
+            "cites": [
+              "S3.u04",
+              "S5.u06"
+            ],
+            "kind": "reported_fact",
+            "text": "EBITDA margin contracted by 170 basis points to 11.2% in Q1 FY27, which management attributes mostly to rising copper prices."
+          }
+        },
+        {
+          "section": "open_questions",
+          "index": 0,
+          "claim": {
+            "cites": [
+              "S4.u02",
+              "S3.u02"
+            ],
+            "kind": "reported_fact",
+            "text": "The company's official release reports Q1 FY27 revenue of 1,248 crore rupees, while a news article reports 1,428 crore rupees. What explains this discrepancy in the reported figures?"
+          },
+          "code_errors": [],
+          "verification": {
+            "errors": [
+              "Verification unavailable; claim cannot be accepted."
+            ],
+            "kind": "reported_fact",
+            "kind_confirmed": false,
+            "diagnostics": [
+              {
+                "stage": "provider_failure",
+                "error": "retry_wait_exceeds_60s_bound",
+                "http_status": 429
+              }
+            ],
+            "unavailable": true,
+            "conflicts": []
+          },
+          "errors": [
+            "Verification unavailable; claim cannot be accepted."
+          ],
+          "accepted": false,
+          "final_claim": {
+            "cites": [
+              "S4.u02",
+              "S3.u02"
+            ],
+            "kind": "reported_fact",
+            "text": "The company's official release reports Q1 FY27 revenue of 1,248 crore rupees, while a news article reports 1,428 crore rupees. What explains this discrepancy in the reported figures?"
+          }
+        },
+        {
+          "section": "open_questions",
+          "index": 1,
+          "claim": {
+            "cites": [
+              "S8.u01",
+              "S8.u02"
+            ],
+            "kind": "reported_fact",
+            "text": "The company states it intends to appeal a 46.3 crore rupee GST demand order. What is the expected timeline and outcome of this legal process?"
+          },
+          "code_errors": [],
+          "verification": {
+            "errors": [
+              "Verification unavailable; claim cannot be accepted."
+            ],
+            "kind": "reported_fact",
+            "kind_confirmed": false,
+            "diagnostics": [
+              {
+                "stage": "provider_failure",
+                "error": "retry_wait_exceeds_60s_bound",
+                "http_status": 429
+              }
+            ],
+            "unavailable": true,
+            "conflicts": []
+          },
+          "errors": [
+            "Verification unavailable; claim cannot be accepted."
+          ],
+          "accepted": false,
+          "final_claim": {
+            "cites": [
+              "S8.u01",
+              "S8.u02"
+            ],
+            "kind": "reported_fact",
+            "text": "The company states it intends to appeal a 46.3 crore rupee GST demand order. What is the expected timeline and outcome of this legal process?"
+          }
+        },
+        {
+          "section": "open_questions",
+          "index": 2,
+          "claim": {
+            "cites": [
+              "S5.u07"
+            ],
+            "kind": "management_view_or_forecast",
+            "text": "Management notes that price-variation clauses in contracts reset with a lag of one to two quarters. How will this lag affect margins in the upcoming quarters?"
+          },
+          "code_errors": [],
+          "verification": {
+            "errors": [
+              "Verification unavailable; claim cannot be accepted."
+            ],
+            "kind": "management_view_or_forecast",
+            "kind_confirmed": false,
+            "diagnostics": [
+              {
+                "stage": "provider_failure",
+                "error": "retry_wait_exceeds_60s_bound",
+                "http_status": 429
+              }
+            ],
+            "unavailable": true,
+            "conflicts": []
+          },
+          "errors": [
+            "Verification unavailable; claim cannot be accepted."
+          ],
+          "accepted": false,
+          "final_claim": {
+            "cites": [
+              "S5.u07"
+            ],
+            "kind": "management_view_or_forecast",
+            "text": "Management notes that price-variation clauses in contracts reset with a lag of one to two quarters. How will this lag affect margins in the upcoming quarters?"
+          }
+        }
+      ],
+      "failures": [
+        {
+          "section": "snapshot",
+          "index": 3,
+          "claim": {
+            "cites": [
+              "S3.u03"
+            ],
+            "kind": "reported_fact",
+            "text": "EBITDA for the quarter ended June 2026 was 140 crore rupees, representing an 11.2% margin."
+          },
+          "code_errors": [
+            "Number 11.2 (percent) is not supported by the cited quotes"
+          ],
+          "verification": null,
+          "errors": [
+            "Number 11.2 (percent) is not supported by the cited quotes"
+          ],
+          "accepted": false,
+          "final_claim": {
+            "cites": [
+              "S3.u03"
+            ],
+            "kind": "reported_fact",
+            "text": "EBITDA for the quarter ended June 2026 was 140 crore rupees, representing an 11.2% margin."
+          }
+        },
+        {
+          "section": "bear",
+          "index": 1,
+          "claim": {
+            "cites": [
+              "S5.u11",
+              "S5.u12"
+            ],
+            "kind": "management_view_or_forecast",
+            "text": "Management states receivable days increased from 78 to 96 over the last year, attributing the delay to two large state utility customers."
+          },
+          "code_errors": [],
+          "verification": {
+            "errors": [
+              "Verification unavailable; claim cannot be accepted."
+            ],
+            "kind": "management_view_or_forecast",
+            "kind_confirmed": false,
+            "diagnostics": [
+              {
+                "stage": "provider_failure",
+                "error": "retry_wait_exceeds_60s_bound",
+                "http_status": 429
+              }
+            ],
+            "unavailable": true,
+            "conflicts": []
+          },
+          "errors": [
+            "Verification unavailable; claim cannot be accepted."
+          ],
+          "accepted": false,
+          "final_claim": {
+            "cites": [
+              "S5.u11",
+              "S5.u12"
+            ],
+            "kind": "management_view_or_forecast",
+            "text": "Management states receivable days increased from 78 to 96 over the last year, attributing the delay to two large state utility customers."
+          }
+        },
+        {
+          "section": "bear",
+          "index": 2,
+          "claim": {
+            "cites": [
+              "S8.u01"
+            ],
+            "kind": "reported_fact",
+            "text": "The company disclosed in September 2026 that it received a GST demand order for 46.3 crore rupees related to input tax credits claimed for FY2020-21 and FY2021-22."
+          },
+          "code_errors": [],
+          "verification": {
+            "errors": [
+              "Verification unavailable; claim cannot be accepted."
+            ],
+            "kind": "reported_fact",
+            "kind_confirmed": false,
+            "diagnostics": [
+              {
+                "stage": "provider_failure",
+                "error": "retry_wait_exceeds_60s_bound",
+                "http_status": 429
+              }
+            ],
+            "unavailable": true,
+            "conflicts": []
+          },
+          "errors": [
+            "Verification unavailable; claim cannot be accepted."
+          ],
+          "accepted": false,
+          "final_claim": {
+            "cites": [
+              "S8.u01"
+            ],
+            "kind": "reported_fact",
+            "text": "The company disclosed in September 2026 that it received a GST demand order for 46.3 crore rupees related to input tax credits claimed for FY2020-21 and FY2021-22."
+          }
+        },
+        {
+          "section": "bear",
+          "index": 3,
+          "claim": {
+            "cites": [
+              "S3.u04",
+              "S5.u06"
+            ],
+            "kind": "reported_fact",
+            "text": "EBITDA margin contracted by 170 basis points to 11.2% in Q1 FY27, which management attributes mostly to rising copper prices."
+          },
+          "code_errors": [],
+          "verification": {
+            "errors": [
+              "Verification unavailable; claim cannot be accepted."
+            ],
+            "kind": "reported_fact",
+            "kind_confirmed": false,
+            "diagnostics": [
+              {
+                "stage": "provider_failure",
+                "error": "retry_wait_exceeds_60s_bound",
+                "http_status": 429
+              }
+            ],
+            "unavailable": true,
+            "conflicts": []
+          },
+          "errors": [
+            "Verification unavailable; claim cannot be accepted."
+          ],
+          "accepted": false,
+          "final_claim": {
+            "cites": [
+              "S3.u04",
+              "S5.u06"
+            ],
+            "kind": "reported_fact",
+            "text": "EBITDA margin contracted by 170 basis points to 11.2% in Q1 FY27, which management attributes mostly to rising copper prices."
+          }
+        },
+        {
+          "section": "open_questions",
+          "index": 0,
+          "claim": {
+            "cites": [
+              "S4.u02",
+              "S3.u02"
+            ],
+            "kind": "reported_fact",
+            "text": "The company's official release reports Q1 FY27 revenue of 1,248 crore rupees, while a news article reports 1,428 crore rupees. What explains this discrepancy in the reported figures?"
+          },
+          "code_errors": [],
+          "verification": {
+            "errors": [
+              "Verification unavailable; claim cannot be accepted."
+            ],
+            "kind": "reported_fact",
+            "kind_confirmed": false,
+            "diagnostics": [
+              {
+                "stage": "provider_failure",
+                "error": "retry_wait_exceeds_60s_bound",
+                "http_status": 429
+              }
+            ],
+            "unavailable": true,
+            "conflicts": []
+          },
+          "errors": [
+            "Verification unavailable; claim cannot be accepted."
+          ],
+          "accepted": false,
+          "final_claim": {
+            "cites": [
+              "S4.u02",
+              "S3.u02"
+            ],
+            "kind": "reported_fact",
+            "text": "The company's official release reports Q1 FY27 revenue of 1,248 crore rupees, while a news article reports 1,428 crore rupees. What explains this discrepancy in the reported figures?"
+          }
+        },
+        {
+          "section": "open_questions",
+          "index": 1,
+          "claim": {
+            "cites": [
+              "S8.u01",
+              "S8.u02"
+            ],
+            "kind": "reported_fact",
+            "text": "The company states it intends to appeal a 46.3 crore rupee GST demand order. What is the expected timeline and outcome of this legal process?"
+          },
+          "code_errors": [],
+          "verification": {
+            "errors": [
+              "Verification unavailable; claim cannot be accepted."
+            ],
+            "kind": "reported_fact",
+            "kind_confirmed": false,
+            "diagnostics": [
+              {
+                "stage": "provider_failure",
+                "error": "retry_wait_exceeds_60s_bound",
+                "http_status": 429
+              }
+            ],
+            "unavailable": true,
+            "conflicts": []
+          },
+          "errors": [
+            "Verification unavailable; claim cannot be accepted."
+          ],
+          "accepted": false,
+          "final_claim": {
+            "cites": [
+              "S8.u01",
+              "S8.u02"
+            ],
+            "kind": "reported_fact",
+            "text": "The company states it intends to appeal a 46.3 crore rupee GST demand order. What is the expected timeline and outcome of this legal process?"
+          }
+        },
+        {
+          "section": "open_questions",
+          "index": 2,
+          "claim": {
+            "cites": [
+              "S5.u07"
+            ],
+            "kind": "management_view_or_forecast",
+            "text": "Management notes that price-variation clauses in contracts reset with a lag of one to two quarters. How will this lag affect margins in the upcoming quarters?"
+          },
+          "code_errors": [],
+          "verification": {
+            "errors": [
+              "Verification unavailable; claim cannot be accepted."
+            ],
+            "kind": "management_view_or_forecast",
+            "kind_confirmed": false,
+            "diagnostics": [
+              {
+                "stage": "provider_failure",
+                "error": "retry_wait_exceeds_60s_bound",
+                "http_status": 429
+              }
+            ],
+            "unavailable": true,
+            "conflicts": []
+          },
+          "errors": [
+            "Verification unavailable; claim cannot be accepted."
+          ],
+          "accepted": false,
+          "final_claim": {
+            "cites": [
+              "S5.u07"
+            ],
+            "kind": "management_view_or_forecast",
+            "text": "Management notes that price-variation clauses in contracts reset with a lag of one to two quarters. How will this lag affect margins in the upcoming quarters?"
+          }
+        }
+      ]
+    },
+    {
+      "stage": "repair",
+      "results": [
+        {
+          "section": "snapshot",
+          "index": 0,
+          "claim": {
+            "cites": [
+              "S3.u01"
+            ],
+            "kind": "reported_fact",
+            "text": "Sarvottam Cables Ltd is a manufacturer of power cables, wires and conductors listed on the NSE."
+          },
+          "code_errors": [],
+          "verification": {
+            "errors": [],
+            "kind": "reported_fact",
+            "kind_confirmed": true,
+            "diagnostics": [
+              {
+                "stage": "cited_evidence",
+                "answers": {
+                  "relation": {
+                    "type": "choice",
+                    "choice": "supports",
+                    "confidence": 1,
+                    "probabilities": {
+                      "says_nothing": 0,
+                      "supports": 1,
+                      "contradicts": 0
+                    }
+                  },
+                  "kind": {
+                    "type": "choice",
+                    "choice": "reported_fact",
+                    "confidence": 1,
+                    "probabilities": {
+                      "reported_fact": 1,
+                      "third_party_view": 0,
+                      "management_view_or_forecast": 0
+                    }
+                  }
+                }
+              }
+            ],
+            "unavailable": false,
+            "conflicts": []
+          },
+          "errors": [],
+          "accepted": true,
+          "final_claim": {
+            "cites": [
+              "S3.u01"
+            ],
+            "kind": "reported_fact",
+            "text": "Sarvottam Cables Ltd is a manufacturer of power cables, wires and conductors listed on the NSE."
+          }
+        },
+        {
+          "section": "snapshot",
+          "index": 1,
+          "claim": {
+            "cites": [
+              "S3.u02",
+              "S3.u05"
+            ],
+            "kind": "reported_fact",
+            "text": "For the quarter ended June 2026, the company reported revenue from operations of 1,248 crore rupees and profit after tax of 82 crore rupees."
+          },
+          "code_errors": [],
+          "verification": {
+            "errors": [],
+            "kind": "reported_fact",
+            "kind_confirmed": true,
+            "diagnostics": [
+              {
+                "stage": "cited_evidence",
+                "answers": {
+                  "relation": {
+                    "type": "choice",
+                    "choice": "supports",
+                    "confidence": 0.94,
+                    "probabilities": {
+                      "supports": 0.96,
+                      "contradicts": 0.02,
+                      "says_nothing": 0.02
+                    }
+                  },
+                  "kind": {
+                    "type": "choice",
+                    "choice": "reported_fact",
+                    "confidence": 1,
+                    "probabilities": {
+                      "reported_fact": 1,
+                      "third_party_view": 0,
+                      "management_view_or_forecast": 0
+                    }
+                  }
+                }
+              }
+            ],
+            "unavailable": false,
+            "conflicts": []
+          },
+          "errors": [],
+          "accepted": true,
+          "final_claim": {
+            "cites": [
+              "S3.u02",
+              "S3.u05"
+            ],
+            "kind": "reported_fact",
+            "text": "For the quarter ended June 2026, the company reported revenue from operations of 1,248 crore rupees and profit after tax of 82 crore rupees."
+          }
+        },
+        {
+          "section": "snapshot",
+          "index": 2,
+          "claim": {
+            "cites": [
+              "S2.u01"
+            ],
+            "kind": "reported_fact",
+            "text": "As of June 2026, promoters and the promoter group held 58.2% of the company's shares."
+          },
+          "code_errors": [],
+          "verification": {
+            "errors": [],
+            "kind": "reported_fact",
+            "kind_confirmed": true,
+            "diagnostics": [
+              {
+                "stage": "cited_evidence",
+                "answers": {
+                  "kind": {
+                    "type": "choice",
+                    "choice": "reported_fact",
+                    "confidence": 1,
+                    "probabilities": {
+                      "management_view_or_forecast": 0,
+                      "third_party_view": 0,
+                      "reported_fact": 1
+                    }
+                  },
+                  "relation": {
+                    "type": "choice",
+                    "choice": "supports",
+                    "confidence": 1,
+                    "probabilities": {
+                      "says_nothing": 0,
+                      "contradicts": 0,
+                      "supports": 1
+                    }
+                  }
+                }
+              }
+            ],
+            "unavailable": false,
+            "conflicts": []
+          },
+          "errors": [],
+          "accepted": true,
+          "final_claim": {
+            "cites": [
+              "S2.u01"
+            ],
+            "kind": "reported_fact",
+            "text": "As of June 2026, promoters and the promoter group held 58.2% of the company's shares."
+          }
+        },
+        {
+          "section": "snapshot",
+          "index": 3,
+          "claim": {
+            "cites": [
+              "S3.u03",
+              "S3.u04"
+            ],
+            "kind": "reported_fact",
+            "text": "EBITDA for the quarter ended June 2026 was 140 crore rupees, representing an 11.2% margin."
+          },
+          "code_errors": [],
+          "verification": {
+            "errors": [
+              "Verification unavailable; claim cannot be accepted."
+            ],
+            "kind": "reported_fact",
+            "kind_confirmed": false,
+            "diagnostics": [
+              {
+                "stage": "provider_failure",
+                "error": "retry_wait_exceeds_60s_bound",
+                "http_status": 429
+              }
+            ],
+            "unavailable": true,
+            "conflicts": []
+          },
+          "errors": [
+            "Verification unavailable; claim cannot be accepted."
+          ],
+          "accepted": false,
+          "final_claim": {
+            "cites": [
+              "S3.u03",
+              "S3.u04"
+            ],
+            "kind": "reported_fact",
+            "text": "EBITDA for the quarter ended June 2026 was 140 crore rupees, representing an 11.2% margin."
+          }
+        },
+        {
+          "section": "bull",
+          "index": 0,
+          "claim": {
+            "cites": [
+              "S3.u06"
+            ],
+            "kind": "reported_fact",
+            "text": "The company's order book stood at 3,900 crore rupees as of June 2026, up from 3,150 crore rupees a year earlier."
+          },
+          "code_errors": [],
+          "verification": {
+            "errors": [],
+            "kind": "reported_fact",
+            "kind_confirmed": true,
+            "diagnostics": [
+              {
+                "stage": "cited_evidence",
+                "answers": {
+                  "relation": {
+                    "type": "choice",
+                    "choice": "supports",
+                    "confidence": 1,
+                    "probabilities": {
+                      "supports": 1,
+                      "says_nothing": 0,
+                      "contradicts": 0
+                    }
+                  },
+                  "kind": {
+                    "type": "choice",
+                    "choice": "reported_fact",
+                    "confidence": 1,
+                    "probabilities": {
+                      "third_party_view": 0,
+                      "management_view_or_forecast": 0,
+                      "reported_fact": 1
+                    }
+                  }
+                }
+              }
+            ],
+            "unavailable": false,
+            "conflicts": []
+          },
+          "errors": [],
+          "accepted": true,
+          "final_claim": {
+            "cites": [
+              "S3.u06"
+            ],
+            "kind": "reported_fact",
+            "text": "The company's order book stood at 3,900 crore rupees as of June 2026, up from 3,150 crore rupees a year earlier."
+          }
+        },
+        {
+          "section": "bull",
+          "index": 1,
+          "claim": {
+            "cites": [
+              "S3.u07"
+            ],
+            "kind": "reported_fact",
+            "text": "Exports contributed 21% of revenue in Q1 FY27, an increase from 16% in the same quarter of the previous year."
+          },
+          "code_errors": [],
+          "verification": {
+            "errors": [],
+            "kind": "reported_fact",
+            "kind_confirmed": true,
+            "diagnostics": [
+              {
+                "stage": "cited_evidence",
+                "answers": {
+                  "relation": {
+                    "type": "choice",
+                    "choice": "supports",
+                    "confidence": 1,
+                    "probabilities": {
+                      "supports": 1,
+                      "says_nothing": 0,
+                      "contradicts": 0
+                    }
+                  },
+                  "kind": {
+                    "type": "choice",
+                    "choice": "reported_fact",
+                    "confidence": 1,
+                    "probabilities": {
+                      "third_party_view": 0,
+                      "management_view_or_forecast": 0,
+                      "reported_fact": 1
+                    }
+                  }
+                }
+              }
+            ],
+            "unavailable": false,
+            "conflicts": []
+          },
+          "errors": [],
+          "accepted": true,
+          "final_claim": {
+            "cites": [
+              "S3.u07"
+            ],
+            "kind": "reported_fact",
+            "text": "Exports contributed 21% of revenue in Q1 FY27, an increase from 16% in the same quarter of the previous year."
+          }
+        },
+        {
+          "section": "bull",
+          "index": 2,
+          "claim": {
+            "cites": [
+              "S3.u08",
+              "S5.u02"
+            ],
+            "kind": "management_view_or_forecast",
+            "text": "Management expects the new Bharuch plant to begin commercial production in Q3 FY27 and contribute to results from the second half of the year."
+          },
+          "code_errors": [],
+          "verification": {
+            "errors": [],
+            "kind": "management_view_or_forecast",
+            "kind_confirmed": true,
+            "diagnostics": [
+              {
+                "stage": "cited_evidence",
+                "answers": {
+                  "relation": {
+                    "type": "choice",
+                    "choice": "supports",
+                    "confidence": 0.98,
+                    "probabilities": {
+                      "says_nothing": 0.01,
+                      "contradicts": 0,
+                      "supports": 0.99
+                    }
+                  },
+                  "kind": {
+                    "type": "choice",
+                    "choice": "management_view_or_forecast",
+                    "confidence": 1,
+                    "probabilities": {
+                      "reported_fact": 0,
+                      "management_view_or_forecast": 1,
+                      "third_party_view": 0
+                    }
+                  }
+                }
+              }
+            ],
+            "unavailable": false,
+            "conflicts": []
+          },
+          "errors": [],
+          "accepted": true,
+          "final_claim": {
+            "cites": [
+              "S3.u08",
+              "S5.u02"
+            ],
+            "kind": "management_view_or_forecast",
+            "text": "Management expects the new Bharuch plant to begin commercial production in Q3 FY27 and contribute to results from the second half of the year."
+          }
+        },
+        {
+          "section": "bull",
+          "index": 3,
+          "claim": {
+            "cites": [
+              "S2.u02"
+            ],
+            "kind": "reported_fact",
+            "text": "The share of promoter holdings pledged to lenders decreased to 4.1% in June 2026, down from 11.5% in June 2025."
+          },
+          "code_errors": [],
+          "verification": {
+            "errors": [],
+            "kind": "reported_fact",
+            "kind_confirmed": true,
+            "diagnostics": [
+              {
+                "stage": "cited_evidence",
+                "answers": {
+                  "relation": {
+                    "type": "choice",
+                    "choice": "supports",
+                    "confidence": 0.97,
+                    "probabilities": {
+                      "says_nothing": 0.02,
+                      "contradicts": 0,
+                      "supports": 0.98
+                    }
+                  },
+                  "kind": {
+                    "type": "choice",
+                    "choice": "reported_fact",
+                    "confidence": 1,
+                    "probabilities": {
+                      "management_view_or_forecast": 0,
+                      "reported_fact": 1,
+                      "third_party_view": 0
+                    }
+                  }
+                }
+              }
+            ],
+            "unavailable": false,
+            "conflicts": []
+          },
+          "errors": [],
+          "accepted": true,
+          "final_claim": {
+            "cites": [
+              "S2.u02"
+            ],
+            "kind": "reported_fact",
+            "text": "The share of promoter holdings pledged to lenders decreased to 4.1% in June 2026, down from 11.5% in June 2025."
+          }
+        },
+        {
+          "section": "bear",
+          "index": 0,
+          "claim": {
+            "cites": [
+              "S4.u02",
+              "S3.u02"
+            ],
+            "kind": "reported_fact",
+            "text": "A news report dated August 2026 states revenue rose to 1,428 crore rupees, while the company's official release reports 1,248 crore rupees for the same quarter."
+          },
+          "code_errors": [],
+          "verification": {
+            "errors": [],
+            "kind": "reported_fact",
+            "kind_confirmed": true,
+            "diagnostics": [
+              {
+                "stage": "cited_evidence",
+                "answers": {
+                  "relation": {
+                    "type": "choice",
+                    "choice": "supports",
+                    "confidence": 0.83,
+                    "probabilities": {
+                      "supports": 0.88,
+                      "contradicts": 0.11,
+                      "says_nothing": 0.01
+                    }
+                  },
+                  "kind": {
+                    "type": "choice",
+                    "choice": "reported_fact",
+                    "confidence": 0.92,
+                    "probabilities": {
+                      "management_view_or_forecast": 0,
+                      "reported_fact": 0.95,
+                      "third_party_view": 0.05
+                    }
+                  }
+                }
+              }
+            ],
+            "unavailable": false,
+            "conflicts": []
+          },
+          "errors": [],
+          "accepted": true,
+          "final_claim": {
+            "cites": [
+              "S4.u02",
+              "S3.u02"
+            ],
+            "kind": "reported_fact",
+            "text": "A news report dated August 2026 states revenue rose to 1,428 crore rupees, while the company's official release reports 1,248 crore rupees for the same quarter."
+          }
+        },
+        {
+          "section": "bear",
+          "index": 1,
+          "claim": {
+            "cites": [
+              "S5.u11",
+              "S5.u12"
+            ],
+            "kind": "management_view_or_forecast",
+            "text": "The CFO stated that receivable days increased from 78 to 96 over the last year, mainly due to two large state utility customers."
+          },
+          "code_errors": [],
+          "verification": {
+            "errors": [
+              "Verification unavailable; claim cannot be accepted."
+            ],
+            "kind": "management_view_or_forecast",
+            "kind_confirmed": false,
+            "diagnostics": [
+              {
+                "stage": "provider_failure",
+                "error": "retry_wait_exceeds_60s_bound",
+                "http_status": 429
+              }
+            ],
+            "unavailable": true,
+            "conflicts": []
+          },
+          "errors": [
+            "Verification unavailable; claim cannot be accepted."
+          ],
+          "accepted": false,
+          "final_claim": {
+            "cites": [
+              "S5.u11",
+              "S5.u12"
+            ],
+            "kind": "management_view_or_forecast",
+            "text": "The CFO stated that receivable days increased from 78 to 96 over the last year, mainly due to two large state utility customers."
+          }
+        },
+        {
+          "section": "bear",
+          "index": 2,
+          "claim": {
+            "cites": [
+              "S8.u01"
+            ],
+            "kind": "reported_fact",
+            "text": "The company disclosed in September 2026 that it received a GST demand order for 46.3 crore rupees related to input tax credits claimed for FY2020-21 and FY2021-22."
+          },
+          "code_errors": [],
+          "verification": {
+            "errors": [
+              "Verification unavailable; claim cannot be accepted."
+            ],
+            "kind": "reported_fact",
+            "kind_confirmed": false,
+            "diagnostics": [
+              {
+                "stage": "provider_failure",
+                "error": "retry_wait_exceeds_60s_bound",
+                "http_status": 429
+              }
+            ],
+            "unavailable": true,
+            "conflicts": []
+          },
+          "errors": [
+            "Verification unavailable; claim cannot be accepted."
+          ],
+          "accepted": false,
+          "final_claim": {
+            "cites": [
+              "S8.u01"
+            ],
+            "kind": "reported_fact",
+            "text": "The company disclosed in September 2026 that it received a GST demand order for 46.3 crore rupees related to input tax credits claimed for FY2020-21 and FY2021-22."
+          }
+        },
+        {
+          "section": "bear",
+          "index": 3,
+          "claim": {
+            "cites": [
+              "S3.u04",
+              "S5.u06"
+            ],
+            "kind": "reported_fact",
+            "text": "EBITDA margin contracted by 170 basis points to 11.2% in Q1 FY27, which management attributes mostly to rising copper prices."
+          },
+          "code_errors": [],
+          "verification": {
+            "errors": [
+              "Verification unavailable; claim cannot be accepted."
+            ],
+            "kind": "reported_fact",
+            "kind_confirmed": false,
+            "diagnostics": [
+              {
+                "stage": "provider_failure",
+                "error": "retry_wait_exceeds_60s_bound",
+                "http_status": 429
+              }
+            ],
+            "unavailable": true,
+            "conflicts": []
+          },
+          "errors": [
+            "Verification unavailable; claim cannot be accepted."
+          ],
+          "accepted": false,
+          "final_claim": {
+            "cites": [
+              "S3.u04",
+              "S5.u06"
+            ],
+            "kind": "reported_fact",
+            "text": "EBITDA margin contracted by 170 basis points to 11.2% in Q1 FY27, which management attributes mostly to rising copper prices."
+          }
+        },
+        {
+          "section": "open_questions",
+          "index": 0,
+          "claim": {
+            "cites": [
+              "S4.u02",
+              "S3.u02"
+            ],
+            "kind": "reported_fact",
+            "text": "The company's official release reports Q1 FY27 revenue of 1,248 crore rupees, while a news article reports 1,428 crore rupees. What explains this discrepancy in the reported figures?"
+          },
+          "code_errors": [],
+          "verification": {
+            "errors": [
+              "Verification unavailable; claim cannot be accepted."
+            ],
+            "kind": "reported_fact",
+            "kind_confirmed": false,
+            "diagnostics": [
+              {
+                "stage": "provider_failure",
+                "error": "retry_wait_exceeds_60s_bound",
+                "http_status": 429
+              }
+            ],
+            "unavailable": true,
+            "conflicts": []
+          },
+          "errors": [
+            "Verification unavailable; claim cannot be accepted."
+          ],
+          "accepted": false,
+          "final_claim": {
+            "cites": [
+              "S4.u02",
+              "S3.u02"
+            ],
+            "kind": "reported_fact",
+            "text": "The company's official release reports Q1 FY27 revenue of 1,248 crore rupees, while a news article reports 1,428 crore rupees. What explains this discrepancy in the reported figures?"
+          }
+        },
+        {
+          "section": "open_questions",
+          "index": 1,
+          "claim": {
+            "cites": [
+              "S8.u01",
+              "S8.u02"
+            ],
+            "kind": "reported_fact",
+            "text": "The company states it intends to appeal a 46.3 crore rupee GST demand order. What is the expected timeline and outcome of this legal process?"
+          },
+          "code_errors": [],
+          "verification": {
+            "errors": [
+              "Verification unavailable; claim cannot be accepted."
+            ],
+            "kind": "reported_fact",
+            "kind_confirmed": false,
+            "diagnostics": [
+              {
+                "stage": "provider_failure",
+                "error": "retry_wait_exceeds_60s_bound",
+                "http_status": 429
+              }
+            ],
+            "unavailable": true,
+            "conflicts": []
+          },
+          "errors": [
+            "Verification unavailable; claim cannot be accepted."
+          ],
+          "accepted": false,
+          "final_claim": {
+            "cites": [
+              "S8.u01",
+              "S8.u02"
+            ],
+            "kind": "reported_fact",
+            "text": "The company states it intends to appeal a 46.3 crore rupee GST demand order. What is the expected timeline and outcome of this legal process?"
+          }
+        },
+        {
+          "section": "open_questions",
+          "index": 2,
+          "claim": {
+            "cites": [
+              "S5.u07"
+            ],
+            "kind": "management_view_or_forecast",
+            "text": "Management notes that price-variation clauses in contracts reset with a lag of one to two quarters. How will this lag affect margins in the upcoming quarters?"
+          },
+          "code_errors": [],
+          "verification": {
+            "errors": [
+              "Verification unavailable; claim cannot be accepted."
+            ],
+            "kind": "management_view_or_forecast",
+            "kind_confirmed": false,
+            "diagnostics": [
+              {
+                "stage": "provider_failure",
+                "error": "retry_wait_exceeds_60s_bound",
+                "http_status": 429
+              }
+            ],
+            "unavailable": true,
+            "conflicts": []
+          },
+          "errors": [
+            "Verification unavailable; claim cannot be accepted."
+          ],
+          "accepted": false,
+          "final_claim": {
+            "cites": [
+              "S5.u07"
+            ],
+            "kind": "management_view_or_forecast",
+            "text": "Management notes that price-variation clauses in contracts reset with a lag of one to two quarters. How will this lag affect margins in the upcoming quarters?"
+          }
+        }
+      ],
+      "failures": [
+        {
+          "section": "snapshot",
+          "index": 3,
+          "claim": {
+            "cites": [
+              "S3.u03",
+              "S3.u04"
+            ],
+            "kind": "reported_fact",
+            "text": "EBITDA for the quarter ended June 2026 was 140 crore rupees, representing an 11.2% margin."
+          },
+          "code_errors": [],
+          "verification": {
+            "errors": [
+              "Verification unavailable; claim cannot be accepted."
+            ],
+            "kind": "reported_fact",
+            "kind_confirmed": false,
+            "diagnostics": [
+              {
+                "stage": "provider_failure",
+                "error": "retry_wait_exceeds_60s_bound",
+                "http_status": 429
+              }
+            ],
+            "unavailable": true,
+            "conflicts": []
+          },
+          "errors": [
+            "Verification unavailable; claim cannot be accepted."
+          ],
+          "accepted": false,
+          "final_claim": {
+            "cites": [
+              "S3.u03",
+              "S3.u04"
+            ],
+            "kind": "reported_fact",
+            "text": "EBITDA for the quarter ended June 2026 was 140 crore rupees, representing an 11.2% margin."
+          }
+        },
+        {
+          "section": "bear",
+          "index": 1,
+          "claim": {
+            "cites": [
+              "S5.u11",
+              "S5.u12"
+            ],
+            "kind": "management_view_or_forecast",
+            "text": "The CFO stated that receivable days increased from 78 to 96 over the last year, mainly due to two large state utility customers."
+          },
+          "code_errors": [],
+          "verification": {
+            "errors": [
+              "Verification unavailable; claim cannot be accepted."
+            ],
+            "kind": "management_view_or_forecast",
+            "kind_confirmed": false,
+            "diagnostics": [
+              {
+                "stage": "provider_failure",
+                "error": "retry_wait_exceeds_60s_bound",
+                "http_status": 429
+              }
+            ],
+            "unavailable": true,
+            "conflicts": []
+          },
+          "errors": [
+            "Verification unavailable; claim cannot be accepted."
+          ],
+          "accepted": false,
+          "final_claim": {
+            "cites": [
+              "S5.u11",
+              "S5.u12"
+            ],
+            "kind": "management_view_or_forecast",
+            "text": "The CFO stated that receivable days increased from 78 to 96 over the last year, mainly due to two large state utility customers."
+          }
+        },
+        {
+          "section": "bear",
+          "index": 2,
+          "claim": {
+            "cites": [
+              "S8.u01"
+            ],
+            "kind": "reported_fact",
+            "text": "The company disclosed in September 2026 that it received a GST demand order for 46.3 crore rupees related to input tax credits claimed for FY2020-21 and FY2021-22."
+          },
+          "code_errors": [],
+          "verification": {
+            "errors": [
+              "Verification unavailable; claim cannot be accepted."
+            ],
+            "kind": "reported_fact",
+            "kind_confirmed": false,
+            "diagnostics": [
+              {
+                "stage": "provider_failure",
+                "error": "retry_wait_exceeds_60s_bound",
+                "http_status": 429
+              }
+            ],
+            "unavailable": true,
+            "conflicts": []
+          },
+          "errors": [
+            "Verification unavailable; claim cannot be accepted."
+          ],
+          "accepted": false,
+          "final_claim": {
+            "cites": [
+              "S8.u01"
+            ],
+            "kind": "reported_fact",
+            "text": "The company disclosed in September 2026 that it received a GST demand order for 46.3 crore rupees related to input tax credits claimed for FY2020-21 and FY2021-22."
+          }
+        },
+        {
+          "section": "bear",
+          "index": 3,
+          "claim": {
+            "cites": [
+              "S3.u04",
+              "S5.u06"
+            ],
+            "kind": "reported_fact",
+            "text": "EBITDA margin contracted by 170 basis points to 11.2% in Q1 FY27, which management attributes mostly to rising copper prices."
+          },
+          "code_errors": [],
+          "verification": {
+            "errors": [
+              "Verification unavailable; claim cannot be accepted."
+            ],
+            "kind": "reported_fact",
+            "kind_confirmed": false,
+            "diagnostics": [
+              {
+                "stage": "provider_failure",
+                "error": "retry_wait_exceeds_60s_bound",
+                "http_status": 429
+              }
+            ],
+            "unavailable": true,
+            "conflicts": []
+          },
+          "errors": [
+            "Verification unavailable; claim cannot be accepted."
+          ],
+          "accepted": false,
+          "final_claim": {
+            "cites": [
+              "S3.u04",
+              "S5.u06"
+            ],
+            "kind": "reported_fact",
+            "text": "EBITDA margin contracted by 170 basis points to 11.2% in Q1 FY27, which management attributes mostly to rising copper prices."
+          }
+        },
+        {
+          "section": "open_questions",
+          "index": 0,
+          "claim": {
+            "cites": [
+              "S4.u02",
+              "S3.u02"
+            ],
+            "kind": "reported_fact",
+            "text": "The company's official release reports Q1 FY27 revenue of 1,248 crore rupees, while a news article reports 1,428 crore rupees. What explains this discrepancy in the reported figures?"
+          },
+          "code_errors": [],
+          "verification": {
+            "errors": [
+              "Verification unavailable; claim cannot be accepted."
+            ],
+            "kind": "reported_fact",
+            "kind_confirmed": false,
+            "diagnostics": [
+              {
+                "stage": "provider_failure",
+                "error": "retry_wait_exceeds_60s_bound",
+                "http_status": 429
+              }
+            ],
+            "unavailable": true,
+            "conflicts": []
+          },
+          "errors": [
+            "Verification unavailable; claim cannot be accepted."
+          ],
+          "accepted": false,
+          "final_claim": {
+            "cites": [
+              "S4.u02",
+              "S3.u02"
+            ],
+            "kind": "reported_fact",
+            "text": "The company's official release reports Q1 FY27 revenue of 1,248 crore rupees, while a news article reports 1,428 crore rupees. What explains this discrepancy in the reported figures?"
+          }
+        },
+        {
+          "section": "open_questions",
+          "index": 1,
+          "claim": {
+            "cites": [
+              "S8.u01",
+              "S8.u02"
+            ],
+            "kind": "reported_fact",
+            "text": "The company states it intends to appeal a 46.3 crore rupee GST demand order. What is the expected timeline and outcome of this legal process?"
+          },
+          "code_errors": [],
+          "verification": {
+            "errors": [
+              "Verification unavailable; claim cannot be accepted."
+            ],
+            "kind": "reported_fact",
+            "kind_confirmed": false,
+            "diagnostics": [
+              {
+                "stage": "provider_failure",
+                "error": "retry_wait_exceeds_60s_bound",
+                "http_status": 429
+              }
+            ],
+            "unavailable": true,
+            "conflicts": []
+          },
+          "errors": [
+            "Verification unavailable; claim cannot be accepted."
+          ],
+          "accepted": false,
+          "final_claim": {
+            "cites": [
+              "S8.u01",
+              "S8.u02"
+            ],
+            "kind": "reported_fact",
+            "text": "The company states it intends to appeal a 46.3 crore rupee GST demand order. What is the expected timeline and outcome of this legal process?"
+          }
+        },
+        {
+          "section": "open_questions",
+          "index": 2,
+          "claim": {
+            "cites": [
+              "S5.u07"
+            ],
+            "kind": "management_view_or_forecast",
+            "text": "Management notes that price-variation clauses in contracts reset with a lag of one to two quarters. How will this lag affect margins in the upcoming quarters?"
+          },
+          "code_errors": [],
+          "verification": {
+            "errors": [
+              "Verification unavailable; claim cannot be accepted."
+            ],
+            "kind": "management_view_or_forecast",
+            "kind_confirmed": false,
+            "diagnostics": [
+              {
+                "stage": "provider_failure",
+                "error": "retry_wait_exceeds_60s_bound",
+                "http_status": 429
+              }
+            ],
+            "unavailable": true,
+            "conflicts": []
+          },
+          "errors": [
+            "Verification unavailable; claim cannot be accepted."
+          ],
+          "accepted": false,
+          "final_claim": {
+            "cites": [
+              "S5.u07"
+            ],
+            "kind": "management_view_or_forecast",
+            "text": "Management notes that price-variation clauses in contracts reset with a lag of one to two quarters. How will this lag affect margins in the upcoming quarters?"
+          }
+        }
+      ]
+    }
+  ],
+  "dropped": [
+    {
+      "section": "snapshot",
+      "index": 3,
+      "claim": {
+        "cites": [
+          "S3.u03",
+          "S3.u04"
+        ],
+        "kind": "reported_fact",
+        "text": "EBITDA for the quarter ended June 2026 was 140 crore rupees, representing an 11.2% margin."
+      },
+      "code_errors": [],
+      "verification": {
+        "errors": [
+          "Verification unavailable; claim cannot be accepted."
+        ],
+        "kind": "reported_fact",
+        "kind_confirmed": false,
+        "diagnostics": [
+          {
+            "stage": "provider_failure",
+            "error": "retry_wait_exceeds_60s_bound",
+            "http_status": 429
+          }
+        ],
+        "unavailable": true,
+        "conflicts": []
+      },
+      "errors": [
+        "Verification unavailable; claim cannot be accepted."
+      ],
+      "accepted": false,
+      "final_claim": {
+        "cites": [
+          "S3.u03",
+          "S3.u04"
+        ],
+        "kind": "reported_fact",
+        "text": "EBITDA for the quarter ended June 2026 was 140 crore rupees, representing an 11.2% margin."
+      }
+    },
+    {
+      "section": "bear",
+      "index": 1,
+      "claim": {
+        "cites": [
+          "S5.u11",
+          "S5.u12"
+        ],
+        "kind": "management_view_or_forecast",
+        "text": "The CFO stated that receivable days increased from 78 to 96 over the last year, mainly due to two large state utility customers."
+      },
+      "code_errors": [],
+      "verification": {
+        "errors": [
+          "Verification unavailable; claim cannot be accepted."
+        ],
+        "kind": "management_view_or_forecast",
+        "kind_confirmed": false,
+        "diagnostics": [
+          {
+            "stage": "provider_failure",
+            "error": "retry_wait_exceeds_60s_bound",
+            "http_status": 429
+          }
+        ],
+        "unavailable": true,
+        "conflicts": []
+      },
+      "errors": [
+        "Verification unavailable; claim cannot be accepted."
+      ],
+      "accepted": false,
+      "final_claim": {
+        "cites": [
+          "S5.u11",
+          "S5.u12"
+        ],
+        "kind": "management_view_or_forecast",
+        "text": "The CFO stated that receivable days increased from 78 to 96 over the last year, mainly due to two large state utility customers."
+      }
+    },
+    {
+      "section": "bear",
+      "index": 2,
+      "claim": {
+        "cites": [
+          "S8.u01"
+        ],
+        "kind": "reported_fact",
+        "text": "The company disclosed in September 2026 that it received a GST demand order for 46.3 crore rupees related to input tax credits claimed for FY2020-21 and FY2021-22."
+      },
+      "code_errors": [],
+      "verification": {
+        "errors": [
+          "Verification unavailable; claim cannot be accepted."
+        ],
+        "kind": "reported_fact",
+        "kind_confirmed": false,
+        "diagnostics": [
+          {
+            "stage": "provider_failure",
+            "error": "retry_wait_exceeds_60s_bound",
+            "http_status": 429
+          }
+        ],
+        "unavailable": true,
+        "conflicts": []
+      },
+      "errors": [
+        "Verification unavailable; claim cannot be accepted."
+      ],
+      "accepted": false,
+      "final_claim": {
+        "cites": [
+          "S8.u01"
+        ],
+        "kind": "reported_fact",
+        "text": "The company disclosed in September 2026 that it received a GST demand order for 46.3 crore rupees related to input tax credits claimed for FY2020-21 and FY2021-22."
+      }
+    },
+    {
+      "section": "bear",
+      "index": 3,
+      "claim": {
+        "cites": [
+          "S3.u04",
+          "S5.u06"
+        ],
+        "kind": "reported_fact",
+        "text": "EBITDA margin contracted by 170 basis points to 11.2% in Q1 FY27, which management attributes mostly to rising copper prices."
+      },
+      "code_errors": [],
+      "verification": {
+        "errors": [
+          "Verification unavailable; claim cannot be accepted."
+        ],
+        "kind": "reported_fact",
+        "kind_confirmed": false,
+        "diagnostics": [
+          {
+            "stage": "provider_failure",
+            "error": "retry_wait_exceeds_60s_bound",
+            "http_status": 429
+          }
+        ],
+        "unavailable": true,
+        "conflicts": []
+      },
+      "errors": [
+        "Verification unavailable; claim cannot be accepted."
+      ],
+      "accepted": false,
+      "final_claim": {
+        "cites": [
+          "S3.u04",
+          "S5.u06"
+        ],
+        "kind": "reported_fact",
+        "text": "EBITDA margin contracted by 170 basis points to 11.2% in Q1 FY27, which management attributes mostly to rising copper prices."
+      }
+    },
+    {
+      "section": "open_questions",
+      "index": 0,
+      "claim": {
+        "cites": [
+          "S4.u02",
+          "S3.u02"
+        ],
+        "kind": "reported_fact",
+        "text": "The company's official release reports Q1 FY27 revenue of 1,248 crore rupees, while a news article reports 1,428 crore rupees. What explains this discrepancy in the reported figures?"
+      },
+      "code_errors": [],
+      "verification": {
+        "errors": [
+          "Verification unavailable; claim cannot be accepted."
+        ],
+        "kind": "reported_fact",
+        "kind_confirmed": false,
+        "diagnostics": [
+          {
+            "stage": "provider_failure",
+            "error": "retry_wait_exceeds_60s_bound",
+            "http_status": 429
+          }
+        ],
+        "unavailable": true,
+        "conflicts": []
+      },
+      "errors": [
+        "Verification unavailable; claim cannot be accepted."
+      ],
+      "accepted": false,
+      "final_claim": {
+        "cites": [
+          "S4.u02",
+          "S3.u02"
+        ],
+        "kind": "reported_fact",
+        "text": "The company's official release reports Q1 FY27 revenue of 1,248 crore rupees, while a news article reports 1,428 crore rupees. What explains this discrepancy in the reported figures?"
+      }
+    },
+    {
+      "section": "open_questions",
+      "index": 1,
+      "claim": {
+        "cites": [
+          "S8.u01",
+          "S8.u02"
+        ],
+        "kind": "reported_fact",
+        "text": "The company states it intends to appeal a 46.3 crore rupee GST demand order. What is the expected timeline and outcome of this legal process?"
+      },
+      "code_errors": [],
+      "verification": {
+        "errors": [
+          "Verification unavailable; claim cannot be accepted."
+        ],
+        "kind": "reported_fact",
+        "kind_confirmed": false,
+        "diagnostics": [
+          {
+            "stage": "provider_failure",
+            "error": "retry_wait_exceeds_60s_bound",
+            "http_status": 429
+          }
+        ],
+        "unavailable": true,
+        "conflicts": []
+      },
+      "errors": [
+        "Verification unavailable; claim cannot be accepted."
+      ],
+      "accepted": false,
+      "final_claim": {
+        "cites": [
+          "S8.u01",
+          "S8.u02"
+        ],
+        "kind": "reported_fact",
+        "text": "The company states it intends to appeal a 46.3 crore rupee GST demand order. What is the expected timeline and outcome of this legal process?"
+      }
+    },
+    {
+      "section": "open_questions",
+      "index": 2,
+      "claim": {
+        "cites": [
+          "S5.u07"
+        ],
+        "kind": "management_view_or_forecast",
+        "text": "Management notes that price-variation clauses in contracts reset with a lag of one to two quarters. How will this lag affect margins in the upcoming quarters?"
+      },
+      "code_errors": [],
+      "verification": {
+        "errors": [
+          "Verification unavailable; claim cannot be accepted."
+        ],
+        "kind": "management_view_or_forecast",
+        "kind_confirmed": false,
+        "diagnostics": [
+          {
+            "stage": "provider_failure",
+            "error": "retry_wait_exceeds_60s_bound",
+            "http_status": 429
+          }
+        ],
+        "unavailable": true,
+        "conflicts": []
+      },
+      "errors": [
+        "Verification unavailable; claim cannot be accepted."
+      ],
+      "accepted": false,
+      "final_claim": {
+        "cites": [
+          "S5.u07"
+        ],
+        "kind": "management_view_or_forecast",
+        "text": "Management notes that price-variation clauses in contracts reset with a lag of one to two quarters. How will this lag affect margins in the upcoming quarters?"
+      }
+    }
+  ],
+  "removals": {
+    "S6": [
+      {
+        "kind": "html_comment",
+        "count": 247
+      }
+    ]
+  },
+  "warnings": [
+    "No accepted claims in required section: open_questions"
+  ],
+  "manual_supported_review": "pending",
+  "manual_trap_review": "pending",
+  "routes": {
+    "S1": {
+      "status": "evidence",
+      "reason": "Company identity and document screening passed",
+      "diagnostics": {
+        "hard_identifier": null,
+        "clean": {
+          "promotional_stock_tip": {
+            "type": "noul",
+            "noul": 0.04
+          },
+          "addresses_ai_tools": {
+            "type": "noul",
+            "noul": 0.01
+          },
+          "same_company": {
+            "type": "score",
+            "score": 2,
+            "confidence": 0.99,
+            "legend": {
+              "0": "A different company or business: a different legal name, line of business, city or people.",
+              "1": "Unclear: a similar name, or too little detail to tell whether it is the same company.",
+              "2": "The same company as `target_company`."
+            },
+            "probabilities": {
+              "0": 0,
+              "1": 0,
+              "2": 1
+            }
+          },
+          "same_line_of_business": {
+            "type": "noul",
+            "noul": 0.89
+          }
+        },
+        "clean_addresses_ai_tools": 0.01,
+        "raw_addresses_ai_tools": 0.01,
+        "raw_screen_reused": true
+      }
+    },
+    "S2": {
+      "status": "evidence",
+      "reason": "Company matched by ticker; document screening passed",
+      "diagnostics": {
+        "hard_identifier": "ticker",
+        "clean": {
+          "promotional_stock_tip": {
+            "type": "noul",
+            "noul": 0.03
+          },
+          "addresses_ai_tools": {
+            "type": "noul",
+            "noul": 0.01
+          }
+        },
+        "clean_addresses_ai_tools": 0.01,
+        "raw_addresses_ai_tools": 0.01,
+        "raw_screen_reused": true
+      }
+    },
+    "S3": {
+      "status": "evidence",
+      "reason": "Company matched by ticker; document screening passed",
+      "diagnostics": {
+        "hard_identifier": "ticker",
+        "clean": {
+          "promotional_stock_tip": {
+            "type": "noul",
+            "noul": 0.03
+          },
+          "addresses_ai_tools": {
+            "type": "noul",
+            "noul": 0.01
+          }
+        },
+        "clean_addresses_ai_tools": 0.01,
+        "raw_addresses_ai_tools": 0.01,
+        "raw_screen_reused": true
+      }
+    },
+    "S4": {
+      "status": "evidence",
+      "reason": "Company identity and document screening passed",
+      "diagnostics": {
+        "hard_identifier": null,
+        "clean": {
+          "promotional_stock_tip": {
+            "type": "noul",
+            "noul": 0.03
+          },
+          "addresses_ai_tools": {
+            "type": "noul",
+            "noul": 0.01
+          },
+          "same_company": {
+            "type": "score",
+            "score": 2,
+            "confidence": 1,
+            "legend": {
+              "0": "A different company or business: a different legal name, line of business, city or people.",
+              "1": "Unclear: a similar name, or too little detail to tell whether it is the same company.",
+              "2": "The same company as `target_company`."
+            },
+            "probabilities": {
+              "0": 0,
+              "1": 0,
+              "2": 1
+            }
+          },
+          "same_line_of_business": {
+            "type": "noul",
+            "noul": 0.99
+          }
+        },
+        "clean_addresses_ai_tools": 0.01,
+        "raw_addresses_ai_tools": 0.01,
+        "raw_screen_reused": true
+      }
+    },
+    "S5": {
+      "status": "evidence",
+      "reason": "Company matched by issuer_host; document screening passed",
+      "diagnostics": {
+        "hard_identifier": "issuer_host",
+        "clean": {
+          "promotional_stock_tip": {
+            "type": "noul",
+            "noul": 0.02
+          },
+          "addresses_ai_tools": {
+            "type": "noul",
+            "noul": 0.01
+          }
+        },
+        "clean_addresses_ai_tools": 0.01,
+        "raw_addresses_ai_tools": 0.01,
+        "raw_screen_reused": true
+      }
+    },
+    "S6": {
+      "status": "excluded",
+      "reason": "Promotional stock-tip content",
+      "diagnostics": {
+        "hard_identifier": "ticker",
+        "clean": {
+          "promotional_stock_tip": {
+            "type": "noul",
+            "noul": 0.99
+          },
+          "addresses_ai_tools": {
+            "type": "noul",
+            "noul": 0.02
+          }
+        },
+        "clean_addresses_ai_tools": 0.02,
+        "raw_addresses_ai_tools": 0.99,
+        "raw_screen_reused": false
+      }
+    },
+    "S7": {
+      "status": "excluded",
+      "reason": "Different company or business",
+      "diagnostics": {
+        "hard_identifier": null,
+        "clean": {
+          "promotional_stock_tip": {
+            "type": "noul",
+            "noul": 0.02
+          },
+          "addresses_ai_tools": {
+            "type": "noul",
+            "noul": 0.01
+          },
+          "same_company": {
+            "type": "score",
+            "score": 0.24,
+            "confidence": 0.64,
+            "legend": {
+              "0": "A different company or business: a different legal name, line of business, city or people.",
+              "1": "Unclear: a similar name, or too little detail to tell whether it is the same company.",
+              "2": "The same company as `target_company`."
+            },
+            "probabilities": {
+              "0": 0.76,
+              "1": 0.23,
+              "2": 0.01
+            }
+          },
+          "same_line_of_business": {
+            "type": "noul",
+            "noul": 0.12
+          }
+        },
+        "clean_addresses_ai_tools": 0.01,
+        "raw_addresses_ai_tools": 0.01,
+        "raw_screen_reused": true
+      }
+    },
+    "S8": {
+      "status": "evidence",
+      "reason": "Company matched by ticker; document screening passed",
+      "diagnostics": {
+        "hard_identifier": "ticker",
+        "clean": {
+          "promotional_stock_tip": {
+            "type": "noul",
+            "noul": 0.01
+          },
+          "addresses_ai_tools": {
+            "type": "noul",
+            "noul": 0.01
+          }
+        },
+        "clean_addresses_ai_tools": 0.01,
+        "raw_addresses_ai_tools": 0.01,
+        "raw_screen_reused": true
+      }
+    }
+  },
+  "unavailable": true,
+  "accepted": {
+    "snapshot": [
+      {
+        "cites": [
+          "S3.u01"
+        ],
+        "kind": "reported_fact",
+        "text": "Sarvottam Cables Ltd is a manufacturer of power cables, wires and conductors listed on the NSE."
+      },
+      {
+        "cites": [
+          "S3.u02",
+          "S3.u05"
+        ],
+        "kind": "reported_fact",
+        "text": "For the quarter ended June 2026, the company reported revenue from operations of 1,248 crore rupees and profit after tax of 82 crore rupees."
+      },
+      {
+        "cites": [
+          "S2.u01"
+        ],
+        "kind": "reported_fact",
+        "text": "As of June 2026, promoters and the promoter group held 58.2% of the company's shares."
+      }
+    ],
+    "bull": [
+      {
+        "cites": [
+          "S3.u06"
+        ],
+        "kind": "reported_fact",
+        "text": "The company's order book stood at 3,900 crore rupees as of June 2026, up from 3,150 crore rupees a year earlier."
+      },
+      {
+        "cites": [
+          "S3.u07"
+        ],
+        "kind": "reported_fact",
+        "text": "Exports contributed 21% of revenue in Q1 FY27, an increase from 16% in the same quarter of the previous year."
+      },
+      {
+        "cites": [
+          "S3.u08",
+          "S5.u02"
+        ],
+        "kind": "management_view_or_forecast",
+        "text": "Management expects the new Bharuch plant to begin commercial production in Q3 FY27 and contribute to results from the second half of the year."
+      },
+      {
+        "cites": [
+          "S2.u02"
+        ],
+        "kind": "reported_fact",
+        "text": "The share of promoter holdings pledged to lenders decreased to 4.1% in June 2026, down from 11.5% in June 2025."
+      }
+    ],
+    "bear": [
+      {
+        "cites": [
+          "S4.u02",
+          "S3.u02"
+        ],
+        "kind": "reported_fact",
+        "text": "A news report dated August 2026 states revenue rose to 1,428 crore rupees, while the company's official release reports 1,248 crore rupees for the same quarter."
+      }
+    ],
+    "open_questions": []
+  },
+  "metrics": {
+    "cited_ids_valid": {
+      "k": 15,
+      "n": 15,
+      "low": 0.7961166989641515,
+      "high": 1.0
+    },
+    "numbers_matched": {
+      "k": 15,
+      "n": 15,
+      "low": 0.7961166989641515,
+      "high": 1.0
+    },
+    "accepted_claims": 8,
+    "dropped_claims": 7,
+    "system_open_questions": 5
+  },
+  "status": "verification_unavailable",
+  "word_count": 297
+}

@@ -1,0 +1,8 @@
+{
+  "mode": "Offline deterministic validation and render only; no model requests or semantic decisions rerun.",
+  "historical_run": "v6-reference-d-02",
+  "current_runtime_version": "v6.1",
+  "claim_count": 12,
+  "validation_errors": [],
+  "render_byte_identical": true
+}

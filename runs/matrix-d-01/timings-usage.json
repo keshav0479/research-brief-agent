@@ -1,0 +1,240 @@
+{
+  "elapsed_s": 40.971,
+  "writer_attempts": 2,
+  "jev_attempts": 29,
+  "usage": [
+    {
+      "provider": "writer",
+      "usage": {
+        "completion_tokens": 938,
+        "prompt_tokens": 3244,
+        "total_tokens": 4182,
+        "completion_tokens_details": null,
+        "prompt_tokens_details": null,
+        "queue_time": 0.061395978,
+        "prompt_time": 0.223999998,
+        "completion_time": 2.021940469,
+        "total_time": 2.245940467
+      }
+    },
+    {
+      "provider": "writer",
+      "usage": {
+        "completion_tokens": 938,
+        "prompt_tokens": 4923,
+        "total_tokens": 5861,
+        "completion_tokens_details": null,
+        "prompt_tokens_details": null,
+        "queue_time": 0.064162956,
+        "prompt_time": 0.348852805,
+        "completion_time": 1.945177264,
+        "total_time": 2.294030069
+      }
+    },
+    {
+      "provider": "jev",
+      "usage": {
+        "input_tokens": 591,
+        "output_tokens": 75
+      }
+    },
+    {
+      "provider": "jev",
+      "usage": {
+        "input_tokens": 573,
+        "output_tokens": 42
+      }
+    },
+    {
+      "provider": "jev",
+      "usage": {
+        "input_tokens": 761,
+        "output_tokens": 42
+      }
+    },
+    {
+      "provider": "jev",
+      "usage": {
+        "input_tokens": 696,
+        "output_tokens": 75
+      }
+    },
+    {
+      "provider": "jev",
+      "usage": {
+        "input_tokens": 697,
+        "output_tokens": 42
+      }
+    },
+    {
+      "provider": "jev",
+      "usage": {
+        "input_tokens": 500,
+        "output_tokens": 42
+      }
+    },
+    {
+      "provider": "jev",
+      "usage": {
+        "input_tokens": 530,
+        "output_tokens": 22
+      }
+    },
+    {
+      "provider": "jev",
+      "usage": {
+        "input_tokens": 612,
+        "output_tokens": 75
+      }
+    },
+    {
+      "provider": "jev",
+      "usage": {
+        "input_tokens": 506,
+        "output_tokens": 42
+      }
+    },
+    {
+      "provider": "jev",
+      "usage": {
+        "input_tokens": 1081,
+        "output_tokens": 88
+      }
+    },
+    {
+      "provider": "jev",
+      "usage": {
+        "input_tokens": 1146,
+        "output_tokens": 88
+      }
+    },
+    {
+      "provider": "jev",
+      "usage": {
+        "input_tokens": 1154,
+        "output_tokens": 88
+      }
+    },
+    {
+      "provider": "jev",
+      "usage": {
+        "input_tokens": 1042,
+        "output_tokens": 88
+      }
+    },
+    {
+      "provider": "jev",
+      "usage": {
+        "input_tokens": 704,
+        "output_tokens": 44
+      }
+    },
+    {
+      "provider": "jev",
+      "usage": {
+        "input_tokens": 1041,
+        "output_tokens": 92
+      }
+    },
+    {
+      "provider": "jev",
+      "usage": {
+        "input_tokens": 703,
+        "output_tokens": 48
+      }
+    },
+    {
+      "provider": "jev",
+      "usage": {
+        "input_tokens": 1100,
+        "output_tokens": 88
+      }
+    },
+    {
+      "provider": "jev",
+      "usage": {
+        "input_tokens": 1100,
+        "output_tokens": 88
+      }
+    },
+    {
+      "provider": "jev",
+      "usage": {
+        "input_tokens": 980,
+        "output_tokens": 92
+      }
+    },
+    {
+      "provider": "jev",
+      "usage": {
+        "input_tokens": 642,
+        "output_tokens": 44
+      }
+    },
+    {
+      "provider": "jev",
+      "usage": {
+        "input_tokens": 1153,
+        "output_tokens": 92
+      }
+    },
+    {
+      "provider": "jev",
+      "usage": {
+        "input_tokens": 1169,
+        "output_tokens": 88
+      }
+    },
+    {
+      "provider": "jev",
+      "usage": {
+        "input_tokens": 1073,
+        "output_tokens": 88
+      }
+    },
+    {
+      "provider": "jev",
+      "usage": {
+        "input_tokens": 1098,
+        "output_tokens": 88
+      }
+    },
+    {
+      "provider": "jev",
+      "usage": {
+        "input_tokens": 760,
+        "output_tokens": 44
+      }
+    },
+    {
+      "provider": "jev",
+      "usage": {
+        "input_tokens": 1162,
+        "output_tokens": 89
+      }
+    },
+    {
+      "provider": "jev",
+      "usage": {
+        "input_tokens": 1162,
+        "output_tokens": 93
+      }
+    },
+    {
+      "provider": "jev",
+      "usage": {
+        "input_tokens": 1154,
+        "output_tokens": 88
+      }
+    },
+    {
+      "provider": "jev",
+      "usage": {
+        "input_tokens": 808,
+        "output_tokens": 47
+      }
+    }
+  ],
+  "billed_cost_usd": null,
+  "cost_note": "Provider billing not returned. Free routes selected by default; no paid fallback was invoked."
+}

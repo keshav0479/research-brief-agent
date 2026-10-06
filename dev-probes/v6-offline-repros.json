@@ -1,0 +1,43 @@
+{
+  "note": "Offline validation on the supplied development pack. No model calls or human labels. Both versions used identical inputs; v5 imports its preserved runtime snapshot.",
+  "results": {
+    "v5": {
+      "title_date": [
+        "Number 30 (scalar) is not supported by the cited quotes"
+      ],
+      "publication_date": [
+        "Number 2 (scalar) is not supported by the cited quotes"
+      ],
+      "wrong_day": [
+        "Number 3 (scalar) is not supported by the cited quotes"
+      ],
+      "wrong_amount": [
+        "Number 1,428 (rupees) is not supported by the cited quotes"
+      ],
+      "factual_hold": [
+        "Claim contains an advice word"
+      ],
+      "noun_decrease": [
+        "Number 170 (bps) is not supported by the cited quotes"
+      ],
+      "noun_increase_wrong_sign": [
+        "Number 170 (bps) is not supported by the cited quotes"
+      ]
+    },
+    "v6": {
+      "title_date": [],
+      "publication_date": [],
+      "wrong_day": [
+        "Date 3 September 2026 is not found in the cited source"
+      ],
+      "wrong_amount": [
+        "Number 1,428 (rupees) is not supported by the cited quotes"
+      ],
+      "factual_hold": [],
+      "noun_decrease": [],
+      "noun_increase_wrong_sign": [
+        "Number 170 (bps) is not supported by the cited quotes"
+      ]
+    }
+  }
+}

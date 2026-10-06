@@ -1,0 +1,14 @@
+[
+  {
+    "attempt": 1,
+    "requested_model": "qwen/qwen3.8-27b",
+    "model": null,
+    "usage": {},
+    "raw_response": null,
+    "status": "error",
+    "error_type": "BadRequestError",
+    "http_status": 400,
+    "elapsed_s": 0.5238,
+    "request_sha256": "d060b7303c5fe57ac5a1816fe3fb2c9ae39d3dd4e2f2f35a11153bd2ba4f38d6"
+  }
+]
